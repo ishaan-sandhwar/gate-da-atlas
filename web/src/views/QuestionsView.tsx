@@ -157,6 +157,16 @@ export function QuestionsView({ questionId }: { questionId?: string }) {
   const shown = current ?? visible[0];
 
   const detailRef = useRef<HTMLDivElement>(null);
+  const listRef = useRef<HTMLElement>(null);
+
+  // Keep the shown question's row visible inside the scrolling list (for example after opening a #q- link).
+  useEffect(() => {
+    const list = listRef.current;
+    const row = list?.querySelector<HTMLElement>('[aria-current="true"]');
+    if (!list || !row) return;
+    const top = row.offsetTop - list.offsetTop;
+    if (top < list.scrollTop || top + row.offsetHeight > list.scrollTop + list.clientHeight) list.scrollTop = top - 8;
+  }, [shown?.id]);
 
   // Bring a newly chosen question into view when its top is off screen (below the sticky header).
   useEffect(() => {
@@ -215,7 +225,7 @@ export function QuestionsView({ questionId }: { questionId?: string }) {
         )}
       </div>
       <div className={`qview ${current ? 'qview--detail' : 'qview--list'}`}>
-        <nav className="qlist" aria-label="Question list">
+        <nav className="qlist" aria-label="Question list" ref={listRef}>
           {visible.length === 0 && <p className="empty">No question matches these filters. Clear a filter to see more.</p>}
           {visible.map((q) => (
             <a key={q.id} className="qrow" href={`#q-${q.id}`} aria-current={shown?.id === q.id ? 'true' : undefined}>

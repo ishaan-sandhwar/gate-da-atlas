@@ -14,7 +14,9 @@ function check(q: Question, picked: string[], typed: string): Verdict {
     const value = Number(typed.trim());
     if (typed.trim() === '' || Number.isNaN(value)) return { correct: false, text: 'Type a number first.' };
     const correct = value >= answer.low && value <= answer.high;
-    return { correct, text: correct ? `Correct. Accepted range: ${answerText(q)}.` : `Not in the accepted range (${answerText(q)}).` };
+    const exact = answer.low === answer.high;
+    if (correct) return { correct, text: exact ? `Correct: the key's answer is ${answer.low}.` : `Correct. The key accepts ${answerText(q)}.` };
+    return { correct, text: exact ? `Not quite. The key's answer is ${answer.low}.` : `Not in the accepted range (${answerText(q)}).` };
   }
   if (picked.length === 0) return { correct: false, text: 'Pick an option first.' };
   const key = [...answer.options].sort().join(',');
