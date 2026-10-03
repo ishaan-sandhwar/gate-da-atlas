@@ -1,0 +1,114 @@
+/*
+ * Survey-sheet design tokens.
+ * Layout concept: a printed survey map: cool paper, navy ink, hairline rules; the syllabus map is the one loud element.
+ * Palettes checked with the colour-vision validator on both surfaces (map ramp: ordinal; planner phases: categorical).
+ */
+:root {
+  --paper: #f2f4f3;
+  --paper-raised: #fafbfb;
+  --paper-sunk: #e6eae8;
+  --ink: #1c2733;
+  --ink-2: #44525f;
+  --ink-3: #66737e;
+  --rule: #c9d1cf;
+  --rule-strong: #9eaaa8;
+  --accent: #0f5c57;
+  --accent-hover: #0a4743;
+  --on-accent: #ffffff;
+  --focus: #b06a00;
+
+  /* marks per item: 1-2, 3-4, 5-8, 9+ (validated ordinal ramp) */
+  --ramp-1: #6bb5a6;
+  --ramp-2: #3a9a88;
+  --ramp-3: #1f7b6c;
+  --ramp-4: #0f5c57;
+  --on-ramp: #ffffff;
+  --hatch: #8c6a43;
+  --hatch-bg: #f2f4f3;
+
+  /* planner phases (validated categorical trio) */
+  --phase-learn: #00897b;
+  --phase-revise: #b07a2a;
+  --phase-mock: #4a3aa7;
+
+  --good: #0b7a0b;
+  --bad: #b3261e;
+  --good-bg: #e2f1e2;
+  --bad-bg: #f7e1df;
+
+  --font-display: "Barlow Semi Condensed", "Arial Narrow", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, -apple-system, sans-serif;
+
+  --step--1: 0.8125rem;
+  --step-0: 1rem;
+  --step-1: 1.1875rem;
+  --step-2: 1.5rem;
+  --step-3: 2rem;
+  --step-4: clamp(2.25rem, 4.5vw, 3.25rem);
+
+  --radius: 4px;
+  --gutter: clamp(16px, 3vw, 32px);
+  --max: 1240px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #141a1f;
+    --paper-raised: #1a2228;
+    --paper-sunk: #0f1418;
+    --ink: #e4ebe9;
+    --ink-2: #b5c1bf;
+    --ink-3: #8d9a98;
+    --rule: #2b363c;
+    --rule-strong: #46535a;
+    --accent: #5cc2b2;
+    --accent-hover: #7fd3c5;
+    --on-accent: #0b1a18;
+    --focus: #f0b45a;
+    --ramp-1: #2b6b61;
+    --ramp-2: #358f7e;
+    --ramp-3: #4fb39e;
+    --ramp-4: #8ad8c6;
+    --on-ramp: #0b1a18;
+    --hatch: #b8946a;
+    --hatch-bg: #141a1f;
+    --phase-learn: #169a87;
+    --phase-revise: #b98a36;
+    --phase-mock: #9085e9;
+    --good: #5cc45c;
+    --bad: #f08a80;
+    --good-bg: #183020;
+    --bad-bg: #3a1d1b;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --paper: #141a1f;
+  --paper-raised: #1a2228;
+  --paper-sunk: #0f1418;
+  --ink: #e4ebe9;
+  --ink-2: #b5c1bf;
+  --ink-3: #8d9a98;
+  --rule: #2b363c;
+  --rule-strong: #46535a;
+  --accent: #5cc2b2;
+  --accent-hover: #7fd3c5;
+  --on-accent: #0b1a18;
+  --focus: #f0b45a;
+  --ramp-1: #2b6b61;
+  --ramp-2: #358f7e;
+  --ramp-3: #4fb39e;
+  --ramp-4: #8ad8c6;
+  --on-ramp: #0b1a18;
+  --hatch: #b8946a;
+  --hatch-bg: #141a1f;
+  --phase-learn: #169a87;
+  --phase-revise: #b98a36;
+  --phase-mock: #9085e9;
+  --good: #5cc45c;
+  --bad: #f08a80;
+  --good-bg: #183020;
+  --bad-bg: #3a1d1b;
+  color-scheme: dark;
+}

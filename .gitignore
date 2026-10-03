@@ -6,3 +6,5 @@ __pycache__/
 .env
 data/interim/
 plans/
+web/public/crops/
+web/src/data/

@@ -1,0 +1,3866 @@
+{
+ "units": [
+  {
+   "id": "DA.PS:Probability foundations",
+   "part": "DA",
+   "section_id": "DA.PS",
+   "section_title": "Probability and Statistics",
+   "title": "Probability foundations",
+   "items": [
+    "DA.PS.01",
+    "DA.PS.02",
+    "DA.PS.03",
+    "DA.PS.04",
+    "DA.PS.05",
+    "DA.PS.06",
+    "DA.PS.07",
+    "DA.PS.08"
+   ],
+   "hours": 18.0,
+   "prereqs": [],
+   "expected_marks": 3.8304383788254754,
+   "questions": [
+    "DA2026-Q19",
+    "DA2026-Q20",
+    "DA2026-Q33",
+    "DA2026-Q57",
+    "DA2026-Q64",
+    "DA2025-Q31",
+    "DA2025-Q35",
+    "DA2025-Q45",
+    "DA2024-Q12",
+    "DA2024-Q56",
+    "DA2024-Q58"
+   ]
+  },
+  {
+   "id": "DA.PS:Random variables & expectation",
+   "part": "DA",
+   "section_id": "DA.PS",
+   "section_title": "Probability and Statistics",
+   "title": "Random variables & expectation",
+   "items": [
+    "DA.PS.09",
+    "DA.PS.12",
+    "DA.PS.13",
+    "DA.PS.17",
+    "DA.PS.25",
+    "DA.PS.26"
+   ],
+   "hours": 16.0,
+   "prereqs": [
+    "DA.PS:Probability foundations"
+   ],
+   "expected_marks": 3.930521091811414,
+   "questions": [
+    "DA2026-Q28",
+    "DA2026-Q44",
+    "DA2026-Q54",
+    "DA2026-Q63",
+    "DA2025-Q11",
+    "DA2025-Q19",
+    "DA2025-Q39",
+    "DA2025-Q41",
+    "DA2024-Q36",
+    "DA2024-Q59"
+   ]
+  },
+  {
+   "id": "DA.PS:Descriptive statistics",
+   "part": "DA",
+   "section_id": "DA.PS",
+   "section_title": "Probability and Statistics",
+   "title": "Descriptive statistics",
+   "items": [
+    "DA.PS.10",
+    "DA.PS.11"
+   ],
+   "hours": 6.0,
+   "prereqs": [],
+   "expected_marks": 2.438378825475599,
+   "questions": [
+    "DA2026-Q62",
+    "DA2026-Q63",
+    "DA2025-Q19",
+    "DA2025-Q20",
+    "DA2024-Q27",
+    "DA2024-Q34",
+    "DA2024-Q65"
+   ]
+  },
+  {
+   "id": "DA.PS:Distributions",
+   "part": "DA",
+   "section_id": "DA.PS",
+   "section_title": "Probability and Statistics",
+   "title": "Distributions",
+   "items": [
+    "DA.PS.14",
+    "DA.PS.15",
+    "DA.PS.16",
+    "DA.PS.18",
+    "DA.PS.19",
+    "DA.PS.20",
+    "DA.PS.21",
+    "DA.PS.22",
+    "DA.PS.23",
+    "DA.PS.24"
+   ],
+   "hours": 22.0,
+   "prereqs": [
+    "DA.PS:Random variables & expectation"
+   ],
+   "expected_marks": 6.550868486352357,
+   "questions": [
+    "DA2026-Q28",
+    "DA2026-Q34",
+    "DA2026-Q44",
+    "DA2026-Q45",
+    "DA2026-Q53",
+    "DA2026-Q63",
+    "DA2026-Q64",
+    "DA2025-Q19",
+    "DA2025-Q20",
+    "DA2025-Q21",
+    "DA2025-Q36",
+    "DA2025-Q40",
+    "DA2025-Q41",
+    "DA2025-Q54",
+    "DA2025-Q61",
+    "DA2024-Q11",
+    "DA2024-Q56",
+    "DA2024-Q57"
+   ]
+  },
+  {
+   "id": "DA.PS:Statistical inference",
+   "part": "DA",
+   "section_id": "DA.PS",
+   "section_title": "Probability and Statistics",
+   "title": "Statistical inference",
+   "items": [
+    "DA.PS.27",
+    "DA.PS.28",
+    "DA.PS.29",
+    "DA.PS.30",
+    "DA.PS.31"
+   ],
+   "hours": 16.0,
+   "prereqs": [
+    "DA.PS:Distributions"
+   ],
+   "expected_marks": 1.5831265508684862,
+   "questions": [
+    "DA2026-Q45",
+    "DA2025-Q40"
+   ]
+  },
+  {
+   "id": "DA.LA:Vector spaces",
+   "part": "DA",
+   "section_id": "DA.LA",
+   "section_title": "Linear Algebra",
+   "title": "Vector spaces",
+   "items": [
+    "DA.LA.01",
+    "DA.LA.02",
+    "DA.LA.03",
+    "DA.LA.16"
+   ],
+   "hours": 10.0,
+   "prereqs": [],
+   "expected_marks": 1.5555555555555556,
+   "questions": [
+    "DA2026-Q22",
+    "DA2025-Q25",
+    "DA2025-Q38",
+    "DA2024-Q47"
+   ]
+  },
+  {
+   "id": "DA.LA:Matrices",
+   "part": "DA",
+   "section_id": "DA.LA",
+   "section_title": "Linear Algebra",
+   "title": "Matrices",
+   "items": [
+    "DA.LA.04",
+    "DA.LA.05",
+    "DA.LA.06",
+    "DA.LA.07",
+    "DA.LA.08",
+    "DA.LA.09",
+    "DA.LA.13"
+   ],
+   "hours": 14.0,
+   "prereqs": [],
+   "expected_marks": 4.472222222222222,
+   "questions": [
+    "DA2026-Q21",
+    "DA2026-Q52",
+    "DA2026-Q65",
+    "DA2025-Q38",
+    "DA2025-Q50",
+    "DA2025-Q52",
+    "DA2024-Q35",
+    "DA2024-Q49"
+   ]
+  },
+  {
+   "id": "DA.LA:Linear systems",
+   "part": "DA",
+   "section_id": "DA.LA",
+   "section_title": "Linear Algebra",
+   "title": "Linear systems",
+   "items": [
+    "DA.LA.10",
+    "DA.LA.11",
+    "DA.LA.14",
+    "DA.LA.15"
+   ],
+   "hours": 10.0,
+   "prereqs": [
+    "DA.LA:Matrices"
+   ],
+   "expected_marks": 2.0555555555555554,
+   "questions": [
+    "DA2025-Q12",
+    "DA2025-Q13",
+    "DA2025-Q28",
+    "DA2025-Q37",
+    "DA2025-Q52",
+    "DA2024-Q48",
+    "DA2024-Q49"
+   ]
+  },
+  {
+   "id": "DA.LA:Eigenvalues & decompositions",
+   "part": "DA",
+   "section_id": "DA.LA",
+   "section_title": "Linear Algebra",
+   "title": "Eigenvalues & decompositions",
+   "items": [
+    "DA.LA.12",
+    "DA.LA.17",
+    "DA.LA.18"
+   ],
+   "hours": 16.0,
+   "prereqs": [
+    "DA.LA:Matrices"
+   ],
+   "expected_marks": 1.9166666666666665,
+   "questions": [
+    "DA2026-Q21",
+    "DA2026-Q46",
+    "DA2026-Q65",
+    "DA2025-Q13",
+    "DA2025-Q28",
+    "DA2025-Q37",
+    "DA2025-Q50",
+    "DA2025-Q60",
+    "DA2024-Q13",
+    "DA2024-Q22",
+    "DA2024-Q61"
+   ]
+  },
+  {
+   "id": "DA.CO:Calculus",
+   "part": "DA",
+   "section_id": "DA.CO",
+   "section_title": "Calculus and Optimization",
+   "title": "Calculus",
+   "items": [
+    "DA.CO.01",
+    "DA.CO.02",
+    "DA.CO.03",
+    "DA.CO.04"
+   ],
+   "hours": 16.0,
+   "prereqs": [],
+   "expected_marks": 4.506944444444444,
+   "questions": [
+    "DA2026-Q27",
+    "DA2026-Q35",
+    "DA2026-Q45",
+    "DA2025-Q14",
+    "DA2025-Q24",
+    "DA2025-Q32",
+    "DA2025-Q48",
+    "DA2025-Q51",
+    "DA2025-Q59",
+    "DA2024-Q33",
+    "DA2024-Q37",
+    "DA2024-Q60"
+   ]
+  },
+  {
+   "id": "DA.CO:Optimization",
+   "part": "DA",
+   "section_id": "DA.CO",
+   "section_title": "Calculus and Optimization",
+   "title": "Optimization",
+   "items": [
+    "DA.CO.05",
+    "DA.CO.06"
+   ],
+   "hours": 8.0,
+   "prereqs": [
+    "DA.CO:Calculus"
+   ],
+   "expected_marks": 2.8263888888888884,
+   "questions": [
+    "DA2026-Q27",
+    "DA2026-Q29",
+    "DA2025-Q49",
+    "DA2025-Q51",
+    "DA2024-Q15",
+    "DA2024-Q50"
+   ]
+  },
+  {
+   "id": "DA.PD:Python programming",
+   "part": "DA",
+   "section_id": "DA.PD",
+   "section_title": "Programming, Data Structures and Algorithms",
+   "title": "Python programming",
+   "items": [
+    "DA.PD.01"
+   ],
+   "hours": 20.0,
+   "prereqs": [],
+   "expected_marks": 4.586206896551724,
+   "questions": [
+    "DA2026-Q16",
+    "DA2026-Q39",
+    "DA2026-Q50",
+    "DA2026-Q58",
+    "DA2025-Q23",
+    "DA2025-Q47",
+    "DA2025-Q63",
+    "DA2025-Q64",
+    "DA2024-Q38",
+    "DA2024-Q39",
+    "DA2024-Q41"
+   ]
+  },
+  {
+   "id": "DA.PD:Data structures",
+   "part": "DA",
+   "section_id": "DA.PD",
+   "section_title": "Programming, Data Structures and Algorithms",
+   "title": "Data structures",
+   "items": [
+    "DA.PD.02",
+    "DA.PD.03",
+    "DA.PD.04",
+    "DA.PD.05",
+    "DA.PD.06"
+   ],
+   "hours": 16.0,
+   "prereqs": [],
+   "expected_marks": 3.6206896551724137,
+   "questions": [
+    "DA2026-Q25",
+    "DA2026-Q39",
+    "DA2025-Q18",
+    "DA2025-Q27",
+    "DA2025-Q64",
+    "DA2024-Q16",
+    "DA2024-Q21",
+    "DA2024-Q28",
+    "DA2024-Q32",
+    "DA2024-Q38",
+    "DA2024-Q52"
+   ]
+  },
+  {
+   "id": "DA.PD:Searching & sorting",
+   "part": "DA",
+   "section_id": "DA.PD",
+   "section_title": "Programming, Data Structures and Algorithms",
+   "title": "Searching & sorting",
+   "items": [
+    "DA.PD.07",
+    "DA.PD.08",
+    "DA.PD.09",
+    "DA.PD.10",
+    "DA.PD.11",
+    "DA.PD.12",
+    "DA.PD.13"
+   ],
+   "hours": 14.0,
+   "prereqs": [],
+   "expected_marks": 4.793103448275862,
+   "questions": [
+    "DA2026-Q15",
+    "DA2026-Q31",
+    "DA2026-Q49",
+    "DA2026-Q58",
+    "DA2025-Q27",
+    "DA2025-Q29",
+    "DA2024-Q30",
+    "DA2024-Q40",
+    "DA2024-Q45"
+   ]
+  },
+  {
+   "id": "DA.PD:Graphs",
+   "part": "DA",
+   "section_id": "DA.PD",
+   "section_title": "Programming, Data Structures and Algorithms",
+   "title": "Graphs",
+   "items": [
+    "DA.PD.14",
+    "DA.PD.15",
+    "DA.PD.16"
+   ],
+   "hours": 14.0,
+   "prereqs": [
+    "DA.PD:Data structures"
+   ],
+   "expected_marks": 3.0,
+   "questions": [
+    "DA2026-Q40",
+    "DA2025-Q58",
+    "DA2025-Q65",
+    "DA2024-Q14",
+    "DA2024-Q44",
+    "DA2024-Q51"
+   ]
+  },
+  {
+   "id": "DA.DB:Relational databases",
+   "part": "DA",
+   "section_id": "DA.DB",
+   "section_title": "Database Management and Warehousing",
+   "title": "Relational databases",
+   "items": [
+    "DA.DB.01",
+    "DA.DB.02",
+    "DA.DB.03",
+    "DA.DB.04",
+    "DA.DB.05",
+    "DA.DB.06"
+   ],
+   "hours": 26.0,
+   "prereqs": [],
+   "expected_marks": 7.5,
+   "questions": [
+    "DA2026-Q17",
+    "DA2026-Q26",
+    "DA2026-Q42",
+    "DA2026-Q51",
+    "DA2026-Q59",
+    "DA2026-Q60",
+    "DA2026-Q61",
+    "DA2025-Q16",
+    "DA2025-Q17",
+    "DA2025-Q33",
+    "DA2025-Q46",
+    "DA2025-Q56",
+    "DA2025-Q57",
+    "DA2025-Q62",
+    "DA2024-Q26",
+    "DA2024-Q31",
+    "DA2024-Q46",
+    "DA2024-Q55"
+   ]
+  },
+  {
+   "id": "DA.DB:Storage & indexing",
+   "part": "DA",
+   "section_id": "DA.DB",
+   "section_title": "Database Management and Warehousing",
+   "title": "Storage & indexing",
+   "items": [
+    "DA.DB.07",
+    "DA.DB.08"
+   ],
+   "hours": 8.0,
+   "prereqs": [
+    "DA.DB:Relational databases"
+   ],
+   "expected_marks": 1.6304347826086956,
+   "questions": [
+    "DA2026-Q32",
+    "DA2026-Q41",
+    "DA2024-Q55"
+   ]
+  },
+  {
+   "id": "DA.DB:Data preprocessing",
+   "part": "DA",
+   "section_id": "DA.DB",
+   "section_title": "Database Management and Warehousing",
+   "title": "Data preprocessing",
+   "items": [
+    "DA.DB.09",
+    "DA.DB.10",
+    "DA.DB.11",
+    "DA.DB.12",
+    "DA.DB.13"
+   ],
+   "hours": 6.0,
+   "prereqs": [],
+   "expected_marks": 1.076086956521739,
+   "questions": [
+    "DA2024-Q27"
+   ]
+  },
+  {
+   "id": "DA.DB:Data warehousing",
+   "part": "DA",
+   "section_id": "DA.DB",
+   "section_title": "Database Management and Warehousing",
+   "title": "Data warehousing",
+   "items": [
+    "DA.DB.14",
+    "DA.DB.15",
+    "DA.DB.16"
+   ],
+   "hours": 8.0,
+   "prereqs": [
+    "DA.DB:Relational databases"
+   ],
+   "expected_marks": 1.7934782608695652,
+   "questions": [
+    "DA2026-Q18",
+    "DA2026-Q43",
+    "DA2025-Q46"
+   ]
+  },
+  {
+   "id": "DA.ML:Supervised learning setup",
+   "part": "DA",
+   "section_id": "DA.ML",
+   "section_title": "Machine Learning",
+   "title": "Supervised learning setup",
+   "items": [
+    "DA.ML.01"
+   ],
+   "hours": 3.0,
+   "prereqs": [],
+   "expected_marks": 1.1777777777777778,
+   "questions": [
+    "DA2026-Q47",
+    "DA2025-Q22",
+    "DA2025-Q55",
+    "DA2024-Q53"
+   ]
+  },
+  {
+   "id": "DA.ML:Regression",
+   "part": "DA",
+   "section_id": "DA.ML",
+   "section_title": "Machine Learning",
+   "title": "Regression",
+   "items": [
+    "DA.ML.02",
+    "DA.ML.03",
+    "DA.ML.04"
+   ],
+   "hours": 10.0,
+   "prereqs": [
+    "DA.LA:Linear systems"
+   ],
+   "expected_marks": 1.6666666666666667,
+   "questions": [
+    "DA2026-Q37",
+    "DA2026-Q55",
+    "DA2025-Q34"
+   ]
+  },
+  {
+   "id": "DA.ML:Classification",
+   "part": "DA",
+   "section_id": "DA.ML",
+   "section_title": "Machine Learning",
+   "title": "Classification",
+   "items": [
+    "DA.ML.05",
+    "DA.ML.06",
+    "DA.ML.07",
+    "DA.ML.08",
+    "DA.ML.09",
+    "DA.ML.10"
+   ],
+   "hours": 20.0,
+   "prereqs": [
+    "DA.PS:Probability foundations"
+   ],
+   "expected_marks": 4.4,
+   "questions": [
+    "DA2026-Q23",
+    "DA2025-Q35",
+    "DA2025-Q53",
+    "DA2025-Q55",
+    "DA2024-Q17",
+    "DA2024-Q18",
+    "DA2024-Q20",
+    "DA2024-Q22",
+    "DA2024-Q62",
+    "DA2024-Q63"
+   ]
+  },
+  {
+   "id": "DA.ML:Model evaluation & selection",
+   "part": "DA",
+   "section_id": "DA.ML",
+   "section_title": "Machine Learning",
+   "title": "Model evaluation & selection",
+   "items": [
+    "DA.ML.11",
+    "DA.ML.12",
+    "DA.ML.13"
+   ],
+   "hours": 6.0,
+   "prereqs": [
+    "DA.ML:Supervised learning setup"
+   ],
+   "expected_marks": 0.6,
+   "questions": [
+    "DA2026-Q12",
+    "DA2026-Q37"
+   ]
+  },
+  {
+   "id": "DA.ML:Neural networks",
+   "part": "DA",
+   "section_id": "DA.ML",
+   "section_title": "Machine Learning",
+   "title": "Neural networks",
+   "items": [
+    "DA.ML.14",
+    "DA.ML.15"
+   ],
+   "hours": 10.0,
+   "prereqs": [
+    "DA.CO:Calculus"
+   ],
+   "expected_marks": 2.0888888888888886,
+   "questions": [
+    "DA2026-Q56",
+    "DA2025-Q22",
+    "DA2025-Q42",
+    "DA2025-Q48",
+    "DA2024-Q43"
+   ]
+  },
+  {
+   "id": "DA.ML:Clustering",
+   "part": "DA",
+   "section_id": "DA.ML",
+   "section_title": "Machine Learning",
+   "title": "Clustering",
+   "items": [
+    "DA.ML.16",
+    "DA.ML.17",
+    "DA.ML.18",
+    "DA.ML.19",
+    "DA.ML.20",
+    "DA.ML.21",
+    "DA.ML.22"
+   ],
+   "hours": 10.0,
+   "prereqs": [],
+   "expected_marks": 2.377777777777778,
+   "questions": [
+    "DA2026-Q23",
+    "DA2026-Q36",
+    "DA2025-Q30",
+    "DA2024-Q19",
+    "DA2024-Q42"
+   ]
+  },
+  {
+   "id": "DA.ML:Dimensionality reduction",
+   "part": "DA",
+   "section_id": "DA.ML",
+   "section_title": "Machine Learning",
+   "title": "Dimensionality reduction",
+   "items": [
+    "DA.ML.23",
+    "DA.ML.24"
+   ],
+   "hours": 6.0,
+   "prereqs": [
+    "DA.LA:Eigenvalues & decompositions"
+   ],
+   "expected_marks": 1.0222222222222221,
+   "questions": [
+    "DA2026-Q11",
+    "DA2025-Q60",
+    "DA2024-Q18"
+   ]
+  },
+  {
+   "id": "DA.AI:Search",
+   "part": "DA",
+   "section_id": "DA.AI",
+   "section_title": "AI",
+   "title": "Search",
+   "items": [
+    "DA.AI.01",
+    "DA.AI.02",
+    "DA.AI.03"
+   ],
+   "hours": 12.0,
+   "prereqs": [
+    "DA.PD:Graphs"
+   ],
+   "expected_marks": 3.235294117647059,
+   "questions": [
+    "DA2026-Q13",
+    "DA2026-Q30",
+    "DA2025-Q43",
+    "DA2025-Q44",
+    "DA2024-Q23",
+    "DA2024-Q25",
+    "DA2024-Q44"
+   ]
+  },
+  {
+   "id": "DA.AI:Logic",
+   "part": "DA",
+   "section_id": "DA.AI",
+   "section_title": "AI",
+   "title": "Logic",
+   "items": [
+    "DA.AI.04",
+    "DA.AI.05"
+   ],
+   "hours": 12.0,
+   "prereqs": [],
+   "expected_marks": 2.9411764705882355,
+   "questions": [
+    "DA2026-Q14",
+    "DA2026-Q24",
+    "DA2026-Q38",
+    "DA2026-Q48",
+    "DA2025-Q15",
+    "DA2024-Q29",
+    "DA2024-Q54"
+   ]
+  },
+  {
+   "id": "DA.AI:Reasoning under uncertainty",
+   "part": "DA",
+   "section_id": "DA.AI",
+   "section_title": "AI",
+   "title": "Reasoning under uncertainty",
+   "items": [
+    "DA.AI.06",
+    "DA.AI.07",
+    "DA.AI.08"
+   ],
+   "hours": 12.0,
+   "prereqs": [
+    "DA.PS:Probability foundations"
+   ],
+   "expected_marks": 1.8235294117647058,
+   "questions": [
+    "DA2026-Q23",
+    "DA2025-Q26",
+    "DA2024-Q24",
+    "DA2024-Q64"
+   ]
+  },
+  {
+   "id": "GA.VA:Verbal Aptitude",
+   "part": "GA",
+   "section_id": "GA.VA",
+   "section_title": "Verbal Aptitude",
+   "title": "Verbal Aptitude",
+   "items": [
+    "GA.VA.01",
+    "GA.VA.02",
+    "GA.VA.03",
+    "GA.VA.04"
+   ],
+   "hours": 8.0,
+   "prereqs": [],
+   "expected_marks": 2.3333333333333335,
+   "questions": [
+    "DA2026-Q01",
+    "DA2026-Q05",
+    "DA2026-Q06",
+    "DA2025-Q01",
+    "DA2025-Q02",
+    "DA2025-Q06",
+    "DA2024-Q01",
+    "DA2024-Q06"
+   ]
+  },
+  {
+   "id": "GA.QA:Quantitative Aptitude",
+   "part": "GA",
+   "section_id": "GA.QA",
+   "section_title": "Quantitative Aptitude",
+   "title": "Quantitative Aptitude",
+   "items": [
+    "GA.QA.01",
+    "GA.QA.02",
+    "GA.QA.03",
+    "GA.QA.04",
+    "GA.QA.05",
+    "GA.QA.06",
+    "GA.QA.07",
+    "GA.QA.08"
+   ],
+   "hours": 16.0,
+   "prereqs": [],
+   "expected_marks": 6.666666666666667,
+   "questions": [
+    "DA2026-Q04",
+    "DA2026-Q07",
+    "DA2026-Q10",
+    "DA2025-Q03",
+    "DA2025-Q05",
+    "DA2025-Q08",
+    "DA2025-Q09",
+    "DA2025-Q10",
+    "DA2024-Q03",
+    "DA2024-Q04",
+    "DA2024-Q05",
+    "DA2024-Q07",
+    "DA2024-Q08",
+    "DA2024-Q10"
+   ]
+  },
+  {
+   "id": "GA.AA:Analytical Aptitude",
+   "part": "GA",
+   "section_id": "GA.AA",
+   "section_title": "Analytical Aptitude",
+   "title": "Analytical Aptitude",
+   "items": [
+    "GA.AA.01",
+    "GA.AA.02",
+    "GA.AA.03"
+   ],
+   "hours": 8.0,
+   "prereqs": [],
+   "expected_marks": 4.0,
+   "questions": [
+    "DA2026-Q01",
+    "DA2026-Q02",
+    "DA2026-Q05",
+    "DA2026-Q08",
+    "DA2026-Q09",
+    "DA2025-Q01",
+    "DA2025-Q04",
+    "DA2025-Q07",
+    "DA2024-Q01",
+    "DA2024-Q06"
+   ]
+  },
+  {
+   "id": "GA.SA:Spatial Aptitude",
+   "part": "GA",
+   "section_id": "GA.SA",
+   "section_title": "Spatial Aptitude",
+   "title": "Spatial Aptitude",
+   "items": [
+    "GA.SA.01",
+    "GA.SA.02"
+   ],
+   "hours": 5.0,
+   "prereqs": [],
+   "expected_marks": 2.0,
+   "questions": [
+    "DA2026-Q03",
+    "DA2025-Q04",
+    "DA2025-Q08",
+    "DA2024-Q02",
+    "DA2024-Q09",
+    "DA2024-Q10"
+   ]
+  }
+ ],
+ "cases": [
+  {
+   "profile": {
+    "name": "Sample plan: GATE DA 2027",
+    "exam_date": "2027-02-06",
+    "start_date": "2026-10-05",
+    "hours_per_day": 3.0,
+    "study_days_per_week": 6,
+    "final_weeks": 4,
+    "reserve_papers_for_mocks": [
+     2026
+    ],
+    "ratings": {
+     "default": "basic",
+     "DA.LA": "good",
+     "DA.PD:Python programming": "strong",
+     "DA.ML": "okay",
+     "DA.DB": "weak",
+     "DA.AI": "not_started",
+     "GA": "okay"
+    },
+    "progress": [],
+    "mocks": []
+   },
+   "mastery": {
+    "DA.PS:Probability foundations": 0.35,
+    "DA.PS:Random variables & expectation": 0.35,
+    "DA.PS:Descriptive statistics": 0.35,
+    "DA.PS:Distributions": 0.35,
+    "DA.PS:Statistical inference": 0.35,
+    "DA.LA:Vector spaces": 0.7,
+    "DA.LA:Matrices": 0.7,
+    "DA.LA:Linear systems": 0.7,
+    "DA.LA:Eigenvalues & decompositions": 0.7,
+    "DA.CO:Calculus": 0.35,
+    "DA.CO:Optimization": 0.35,
+    "DA.PD:Python programming": 0.85,
+    "DA.PD:Data structures": 0.35,
+    "DA.PD:Searching & sorting": 0.35,
+    "DA.PD:Graphs": 0.35,
+    "DA.DB:Relational databases": 0.2,
+    "DA.DB:Storage & indexing": 0.2,
+    "DA.DB:Data preprocessing": 0.2,
+    "DA.DB:Data warehousing": 0.2,
+    "DA.ML:Supervised learning setup": 0.5,
+    "DA.ML:Regression": 0.5,
+    "DA.ML:Classification": 0.5,
+    "DA.ML:Model evaluation & selection": 0.5,
+    "DA.ML:Neural networks": 0.5,
+    "DA.ML:Clustering": 0.5,
+    "DA.ML:Dimensionality reduction": 0.5,
+    "DA.AI:Search": 0.05,
+    "DA.AI:Logic": 0.05,
+    "DA.AI:Reasoning under uncertainty": 0.05,
+    "GA.VA:Verbal Aptitude": 0.5,
+    "GA.QA:Quantitative Aptitude": 0.5,
+    "GA.AA:Analytical Aptitude": 0.5,
+    "GA.SA:Spatial Aptitude": 0.5
+   },
+   "hours": {
+    "DA.PS:Probability foundations": 10.5,
+    "DA.PS:Random variables & expectation": 10.5,
+    "DA.PS:Descriptive statistics": 5.5,
+    "DA.PS:Distributions": 16.5,
+    "DA.PS:Statistical inference": 3.0,
+    "DA.LA:Vector spaces": 0.5,
+    "DA.LA:Matrices": 5.5,
+    "DA.LA:Linear systems": 1.5,
+    "DA.LA:Eigenvalues & decompositions": 0.0,
+    "DA.CO:Calculus": 11.5,
+    "DA.CO:Optimization": 6.5,
+    "DA.PD:Python programming": 0.0,
+    "DA.PD:Data structures": 9.5,
+    "DA.PD:Searching & sorting": 11.5,
+    "DA.PD:Graphs": 8.0,
+    "DA.DB:Relational databases": 21.5,
+    "DA.DB:Storage & indexing": 5.5,
+    "DA.DB:Data preprocessing": 3.5,
+    "DA.DB:Data warehousing": 5.5,
+    "DA.ML:Supervised learning setup": 2.5,
+    "DA.ML:Regression": 3.0,
+    "DA.ML:Classification": 9.0,
+    "DA.ML:Model evaluation & selection": 0.5,
+    "DA.ML:Neural networks": 4.5,
+    "DA.ML:Clustering": 5.0,
+    "DA.ML:Dimensionality reduction": 2.0,
+    "DA.AI:Search": 10.5,
+    "DA.AI:Logic": 10.0,
+    "DA.AI:Reasoning under uncertainty": 7.0,
+    "GA.VA:Verbal Aptitude": 5.0,
+    "GA.QA:Quantitative Aptitude": 12.5,
+    "GA.AA:Analytical Aptitude": 7.0,
+    "GA.SA:Spatial Aptitude": 4.0
+   },
+   "lambda": 0.08732052509610798,
+   "weeks": [
+    {
+     "index": 0,
+     "start": "2026-10-05",
+     "end": "2026-10-11",
+     "capacity": 18.0,
+     "phase": "learn",
+     "learning": {
+      "DA.PS:Descriptive statistics": 5.5,
+      "GA.AA:Analytical Aptitude": 6.5,
+      "DA.AI:Logic": 6.0
+     },
+     "revision": {},
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.PS:Descriptive statistics": [
+       "DA2025-Q19",
+       "DA2025-Q20",
+       "DA2024-Q27",
+       "DA2024-Q34",
+       "DA2024-Q65"
+      ]
+     },
+     "finished": [
+      "DA.PS:Descriptive statistics"
+     ]
+    },
+    {
+     "index": 1,
+     "start": "2026-10-12",
+     "end": "2026-10-18",
+     "capacity": 18.0,
+     "phase": "learn",
+     "learning": {
+      "GA.AA:Analytical Aptitude": 0.5,
+      "DA.AI:Logic": 4.0,
+      "DA.DB:Relational databases": 8.0,
+      "DA.PD:Searching & sorting": 2.5,
+      "GA.QA:Quantitative Aptitude": 2.5
+     },
+     "revision": {
+      "DA.PS:Descriptive statistics": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "GA.AA:Analytical Aptitude": [
+       "DA2025-Q01",
+       "DA2025-Q04",
+       "DA2025-Q07",
+       "DA2024-Q01",
+       "DA2024-Q06"
+      ],
+      "DA.AI:Logic": [
+       "DA2025-Q15",
+       "DA2024-Q29",
+       "DA2024-Q54"
+      ]
+     },
+     "finished": [
+      "GA.AA:Analytical Aptitude",
+      "DA.AI:Logic"
+     ]
+    },
+    {
+     "index": 2,
+     "start": "2026-10-19",
+     "end": "2026-10-25",
+     "capacity": 18.0,
+     "phase": "learn",
+     "learning": {
+      "DA.DB:Relational databases": 6.0,
+      "DA.PD:Searching & sorting": 5.5,
+      "GA.QA:Quantitative Aptitude": 5.5
+     },
+     "revision": {
+      "GA.AA:Analytical Aptitude": 0.5,
+      "DA.AI:Logic": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 3,
+     "start": "2026-10-26",
+     "end": "2026-11-01",
+     "capacity": 18.0,
+     "phase": "learn",
+     "learning": {
+      "DA.DB:Relational databases": 7.0,
+      "DA.PD:Searching & sorting": 3.5,
+      "GA.QA:Quantitative Aptitude": 4.5,
+      "GA.SA:Spatial Aptitude": 1.5,
+      "DA.ML:Supervised learning setup": 1.0
+     },
+     "revision": {
+      "DA.PS:Descriptive statistics": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.PD:Searching & sorting": [
+       "DA2025-Q27",
+       "DA2025-Q29",
+       "DA2024-Q30",
+       "DA2024-Q40",
+       "DA2024-Q45"
+      ],
+      "GA.QA:Quantitative Aptitude": [
+       "DA2025-Q03",
+       "DA2025-Q05",
+       "DA2025-Q08",
+       "DA2025-Q09",
+       "DA2025-Q10",
+       "DA2024-Q03"
+      ]
+     },
+     "finished": [
+      "DA.PD:Searching & sorting",
+      "GA.QA:Quantitative Aptitude"
+     ]
+    },
+    {
+     "index": 4,
+     "start": "2026-11-02",
+     "end": "2026-11-08",
+     "capacity": 18.0,
+     "phase": "learn",
+     "learning": {
+      "DA.DB:Relational databases": 0.5,
+      "GA.SA:Spatial Aptitude": 2.5,
+      "DA.ML:Supervised learning setup": 1.5,
+      "DA.CO:Calculus": 4.0,
+      "DA.DB:Data warehousing": 4.0,
+      "DA.PD:Data structures": 3.5
+     },
+     "revision": {
+      "GA.AA:Analytical Aptitude": 0.5,
+      "DA.AI:Logic": 0.5,
+      "DA.PD:Searching & sorting": 0.5,
+      "GA.QA:Quantitative Aptitude": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.DB:Relational databases": [
+       "DA2025-Q16",
+       "DA2025-Q17",
+       "DA2025-Q33",
+       "DA2025-Q46",
+       "DA2025-Q56",
+       "DA2025-Q57"
+      ],
+      "GA.SA:Spatial Aptitude": [
+       "DA2025-Q04",
+       "DA2025-Q08",
+       "DA2024-Q02",
+       "DA2024-Q09",
+       "DA2024-Q10"
+      ],
+      "DA.ML:Supervised learning setup": [
+       "DA2025-Q22",
+       "DA2025-Q55",
+       "DA2024-Q53"
+      ]
+     },
+     "finished": [
+      "DA.DB:Relational databases",
+      "GA.SA:Spatial Aptitude",
+      "DA.ML:Supervised learning setup"
+     ]
+    },
+    {
+     "index": 5,
+     "start": "2026-11-09",
+     "end": "2026-11-15",
+     "capacity": 18.0,
+     "phase": "learn",
+     "learning": {
+      "DA.CO:Calculus": 7.0,
+      "DA.DB:Data warehousing": 1.5,
+      "DA.PD:Data structures": 6.0,
+      "DA.DB:Storage & indexing": 1.5
+     },
+     "revision": {
+      "DA.DB:Relational databases": 1.0,
+      "GA.SA:Spatial Aptitude": 0.5,
+      "DA.ML:Supervised learning setup": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.DB:Data warehousing": [
+       "DA2025-Q46"
+      ],
+      "DA.PD:Data structures": [
+       "DA2025-Q18",
+       "DA2025-Q27",
+       "DA2025-Q64",
+       "DA2024-Q16",
+       "DA2024-Q21",
+       "DA2024-Q28"
+      ]
+     },
+     "finished": [
+      "DA.DB:Data warehousing",
+      "DA.PD:Data structures"
+     ]
+    },
+    {
+     "index": 6,
+     "start": "2026-11-16",
+     "end": "2026-11-22",
+     "capacity": 18.0,
+     "phase": "learn",
+     "learning": {
+      "DA.CO:Calculus": 0.5,
+      "DA.DB:Storage & indexing": 4.0,
+      "GA.VA:Verbal Aptitude": 5.0,
+      "DA.CO:Optimization": 2.5,
+      "DA.DB:Data preprocessing": 2.0,
+      "DA.PD:Graphs": 2.0
+     },
+     "revision": {
+      "DA.PD:Searching & sorting": 0.5,
+      "GA.QA:Quantitative Aptitude": 0.5,
+      "DA.DB:Data warehousing": 0.5,
+      "DA.PD:Data structures": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.CO:Calculus": [
+       "DA2025-Q14",
+       "DA2025-Q24",
+       "DA2025-Q32",
+       "DA2025-Q48",
+       "DA2025-Q51",
+       "DA2025-Q59"
+      ],
+      "DA.DB:Storage & indexing": [
+       "DA2024-Q55"
+      ],
+      "GA.VA:Verbal Aptitude": [
+       "DA2025-Q01",
+       "DA2025-Q02",
+       "DA2025-Q06",
+       "DA2024-Q01",
+       "DA2024-Q06"
+      ]
+     },
+     "finished": [
+      "DA.CO:Calculus",
+      "DA.DB:Storage & indexing",
+      "GA.VA:Verbal Aptitude"
+     ]
+    },
+    {
+     "index": 7,
+     "start": "2026-11-23",
+     "end": "2026-11-29",
+     "capacity": 18.0,
+     "phase": "learn",
+     "learning": {
+      "DA.CO:Optimization": 4.0,
+      "DA.DB:Data preprocessing": 1.5,
+      "DA.PD:Graphs": 6.0,
+      "DA.PS:Probability foundations": 1.5,
+      "DA.ML:Clustering": 1.0
+     },
+     "revision": {
+      "DA.PS:Descriptive statistics": 0.5,
+      "DA.DB:Relational databases": 1.0,
+      "GA.SA:Spatial Aptitude": 0.5,
+      "DA.ML:Supervised learning setup": 0.5,
+      "DA.CO:Calculus": 0.5,
+      "DA.DB:Storage & indexing": 0.5,
+      "GA.VA:Verbal Aptitude": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.CO:Optimization": [
+       "DA2025-Q49",
+       "DA2025-Q51",
+       "DA2024-Q15",
+       "DA2024-Q50"
+      ],
+      "DA.DB:Data preprocessing": [
+       "DA2024-Q27"
+      ],
+      "DA.PD:Graphs": [
+       "DA2025-Q58",
+       "DA2025-Q65",
+       "DA2024-Q14",
+       "DA2024-Q44",
+       "DA2024-Q51"
+      ]
+     },
+     "finished": [
+      "DA.CO:Optimization",
+      "DA.DB:Data preprocessing",
+      "DA.PD:Graphs"
+     ]
+    },
+    {
+     "index": 8,
+     "start": "2026-11-30",
+     "end": "2026-12-06",
+     "capacity": 18.0,
+     "phase": "learn",
+     "learning": {
+      "DA.PS:Probability foundations": 5.0,
+      "DA.ML:Clustering": 4.0,
+      "DA.AI:Search": 5.0,
+      "DA.ML:Neural networks": 0.5
+     },
+     "revision": {
+      "GA.AA:Analytical Aptitude": 0.5,
+      "DA.AI:Logic": 0.5,
+      "DA.DB:Data warehousing": 0.5,
+      "DA.PD:Data structures": 0.5,
+      "DA.CO:Optimization": 0.5,
+      "DA.DB:Data preprocessing": 0.5,
+      "DA.PD:Graphs": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.ML:Clustering": [
+       "DA2025-Q30",
+       "DA2024-Q19",
+       "DA2024-Q42"
+      ]
+     },
+     "finished": [
+      "DA.ML:Clustering"
+     ]
+    },
+    {
+     "index": 9,
+     "start": "2026-12-07",
+     "end": "2026-12-13",
+     "capacity": 18.0,
+     "phase": "learn",
+     "learning": {
+      "DA.PS:Probability foundations": 4.0,
+      "DA.AI:Search": 5.5,
+      "DA.ML:Neural networks": 4.0,
+      "DA.PS:Random variables & expectation": 1.5,
+      "DA.ML:Classification": 1.0
+     },
+     "revision": {
+      "DA.CO:Calculus": 0.5,
+      "DA.DB:Storage & indexing": 0.5,
+      "GA.VA:Verbal Aptitude": 0.5,
+      "DA.ML:Clustering": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.PS:Probability foundations": [
+       "DA2025-Q31",
+       "DA2025-Q35",
+       "DA2025-Q45",
+       "DA2024-Q12",
+       "DA2024-Q56",
+       "DA2024-Q58"
+      ],
+      "DA.ML:Neural networks": [
+       "DA2025-Q22",
+       "DA2025-Q42",
+       "DA2025-Q48",
+       "DA2024-Q43"
+      ],
+      "DA.AI:Search": [
+       "DA2025-Q43",
+       "DA2025-Q44",
+       "DA2024-Q23",
+       "DA2024-Q25",
+       "DA2024-Q44"
+      ]
+     },
+     "finished": [
+      "DA.PS:Probability foundations",
+      "DA.ML:Neural networks",
+      "DA.AI:Search"
+     ]
+    },
+    {
+     "index": 10,
+     "start": "2026-12-14",
+     "end": "2026-12-20",
+     "capacity": 18.0,
+     "phase": "learn",
+     "learning": {
+      "DA.PS:Random variables & expectation": 5.0,
+      "DA.ML:Classification": 4.5,
+      "DA.AI:Reasoning under uncertainty": 4.5
+     },
+     "revision": {
+      "DA.PD:Searching & sorting": 0.5,
+      "GA.QA:Quantitative Aptitude": 0.5,
+      "DA.CO:Optimization": 0.5,
+      "DA.DB:Data preprocessing": 0.5,
+      "DA.PD:Graphs": 0.5,
+      "DA.PS:Probability foundations": 0.5,
+      "DA.ML:Neural networks": 0.5,
+      "DA.AI:Search": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 11,
+     "start": "2026-12-21",
+     "end": "2026-12-27",
+     "capacity": 18.0,
+     "phase": "learn",
+     "learning": {
+      "DA.PS:Random variables & expectation": 4.0,
+      "DA.ML:Classification": 3.5,
+      "DA.AI:Reasoning under uncertainty": 2.5,
+      "DA.PS:Distributions": 2.0,
+      "DA.LA:Matrices": 2.0,
+      "DA.ML:Dimensionality reduction": 1.5
+     },
+     "revision": {
+      "DA.DB:Relational databases": 1.0,
+      "GA.SA:Spatial Aptitude": 0.5,
+      "DA.ML:Supervised learning setup": 0.5,
+      "DA.ML:Clustering": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.PS:Random variables & expectation": [
+       "DA2025-Q11",
+       "DA2025-Q19",
+       "DA2025-Q39",
+       "DA2025-Q41",
+       "DA2024-Q36",
+       "DA2024-Q59"
+      ],
+      "DA.ML:Classification": [
+       "DA2025-Q35",
+       "DA2025-Q53",
+       "DA2025-Q55",
+       "DA2024-Q17",
+       "DA2024-Q18",
+       "DA2024-Q20"
+      ],
+      "DA.AI:Reasoning under uncertainty": [
+       "DA2025-Q26",
+       "DA2024-Q24",
+       "DA2024-Q64"
+      ]
+     },
+     "finished": [
+      "DA.PS:Random variables & expectation",
+      "DA.ML:Classification",
+      "DA.AI:Reasoning under uncertainty"
+     ]
+    },
+    {
+     "index": 12,
+     "start": "2026-12-28",
+     "end": "2027-01-03",
+     "capacity": 18.0,
+     "phase": "learn",
+     "learning": {
+      "DA.PS:Distributions": 7.0,
+      "DA.LA:Matrices": 3.5,
+      "DA.ML:Dimensionality reduction": 0.5,
+      "DA.LA:Linear systems": 1.5,
+      "DA.ML:Model evaluation & selection": 0.5,
+      "DA.ML:Regression": 0.5,
+      "DA.LA:Vector spaces": 0.5
+     },
+     "revision": {
+      "DA.DB:Data warehousing": 0.5,
+      "DA.PD:Data structures": 0.5,
+      "DA.PS:Probability foundations": 0.5,
+      "DA.ML:Neural networks": 0.5,
+      "DA.AI:Search": 0.5,
+      "DA.PS:Random variables & expectation": 0.5,
+      "DA.ML:Classification": 0.5,
+      "DA.AI:Reasoning under uncertainty": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.LA:Matrices": [
+       "DA2025-Q38",
+       "DA2025-Q50",
+       "DA2025-Q52",
+       "DA2024-Q35",
+       "DA2024-Q49"
+      ],
+      "DA.ML:Dimensionality reduction": [
+       "DA2025-Q60",
+       "DA2024-Q18"
+      ],
+      "DA.LA:Linear systems": [
+       "DA2025-Q12",
+       "DA2025-Q13",
+       "DA2025-Q28",
+       "DA2025-Q37",
+       "DA2025-Q52",
+       "DA2024-Q48"
+      ],
+      "DA.ML:Model evaluation & selection": [],
+      "DA.LA:Vector spaces": [
+       "DA2025-Q25",
+       "DA2025-Q38",
+       "DA2024-Q47"
+      ]
+     },
+     "finished": [
+      "DA.LA:Matrices",
+      "DA.ML:Dimensionality reduction",
+      "DA.LA:Linear systems",
+      "DA.ML:Model evaluation & selection",
+      "DA.LA:Vector spaces"
+     ]
+    },
+    {
+     "index": 13,
+     "start": "2027-01-04",
+     "end": "2027-01-10",
+     "capacity": 18.0,
+     "phase": "learn",
+     "learning": {
+      "DA.PS:Distributions": 7.5,
+      "DA.ML:Regression": 2.5,
+      "DA.PS:Statistical inference": 3.0
+     },
+     "revision": {
+      "DA.CO:Calculus": 0.5,
+      "DA.DB:Storage & indexing": 0.5,
+      "GA.VA:Verbal Aptitude": 0.5,
+      "DA.LA:Matrices": 0.5,
+      "DA.ML:Dimensionality reduction": 0.5,
+      "DA.LA:Linear systems": 0.5,
+      "DA.ML:Model evaluation & selection": 0.5,
+      "DA.LA:Vector spaces": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.ML:Regression": [
+       "DA2025-Q34"
+      ],
+      "DA.PS:Distributions": [
+       "DA2025-Q19",
+       "DA2025-Q20",
+       "DA2025-Q21",
+       "DA2025-Q36",
+       "DA2025-Q40",
+       "DA2025-Q41"
+      ],
+      "DA.PS:Statistical inference": [
+       "DA2025-Q40"
+      ]
+     },
+     "finished": [
+      "DA.ML:Regression",
+      "DA.PS:Distributions",
+      "DA.PS:Statistical inference"
+     ]
+    },
+    {
+     "index": 14,
+     "start": "2027-01-11",
+     "end": "2027-01-17",
+     "capacity": 18.0,
+     "phase": "final",
+     "learning": {},
+     "revision": {},
+     "targeted": {
+      "DA.PS:Distributions": 5.0,
+      "DA.PS:Statistical inference": 2.0,
+      "DA.ML:Regression": 1.5,
+      "DA.ML:Classification": 1.5,
+      "DA.PS:Random variables & expectation": 1.5,
+      "DA.LA:Matrices": 1.5
+     },
+     "mocks": [
+      {
+       "name": "GATE DA 2026 (official paper from this dataset)",
+       "hours": 5.0
+      }
+     ],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 15,
+     "start": "2027-01-18",
+     "end": "2027-01-24",
+     "capacity": 18.0,
+     "phase": "final",
+     "learning": {},
+     "revision": {},
+     "targeted": {
+      "DA.AI:Reasoning under uncertainty": 4.0,
+      "DA.LA:Linear systems": 2.0,
+      "DA.LA:Vector spaces": 2.0,
+      "DA.PS:Probability foundations": 2.0,
+      "DA.ML:Dimensionality reduction": 1.5,
+      "DA.ML:Model evaluation & selection": 1.5
+     },
+     "mocks": [
+      {
+       "name": "Full-length mock test (external)",
+       "hours": 5.0
+      }
+     ],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 16,
+     "start": "2027-01-25",
+     "end": "2027-01-31",
+     "capacity": 18.0,
+     "phase": "final",
+     "learning": {},
+     "revision": {},
+     "targeted": {
+      "DA.DB:Relational databases": 3.0,
+      "DA.PD:Graphs": 1.0,
+      "DA.AI:Search": 1.0,
+      "DA.ML:Clustering": 1.0,
+      "DA.ML:Neural networks": 1.0,
+      "DA.CO:Optimization": 1.0
+     },
+     "mocks": [
+      {
+       "name": "Full-length mock test (external)",
+       "hours": 5.0
+      },
+      {
+       "name": "Full-length mock test (external)",
+       "hours": 5.0
+      }
+     ],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 17,
+     "start": "2027-02-01",
+     "end": "2027-02-05",
+     "capacity": 12.86,
+     "phase": "final",
+     "learning": {},
+     "revision": {},
+     "targeted": {
+      "DA.DB:Relational databases": 2.5,
+      "DA.ML:Classification": 1.0,
+      "DA.DB:Data preprocessing": 1.0,
+      "DA.PD:Data structures": 1.0,
+      "GA.QA:Quantitative Aptitude": 1.0,
+      "DA.CO:Calculus": 1.0
+     },
+     "mocks": [
+      {
+       "name": "Full-length mock test (external)",
+       "hours": 5.0
+      }
+     ],
+     "practice": {},
+     "finished": []
+    }
+   ],
+   "notes": []
+  },
+  {
+   "profile": {
+    "name": "weak, 2 h/day",
+    "exam_date": "2027-02-13",
+    "start_date": "2026-11-02",
+    "hours_per_day": 2.0,
+    "study_days_per_week": 5,
+    "final_weeks": 4,
+    "reserve_papers_for_mocks": [
+     2026
+    ],
+    "ratings": {
+     "default": "weak",
+     "GA": "okay"
+    },
+    "progress": [],
+    "mocks": []
+   },
+   "mastery": {
+    "DA.PS:Probability foundations": 0.2,
+    "DA.PS:Random variables & expectation": 0.2,
+    "DA.PS:Descriptive statistics": 0.2,
+    "DA.PS:Distributions": 0.2,
+    "DA.PS:Statistical inference": 0.2,
+    "DA.LA:Vector spaces": 0.2,
+    "DA.LA:Matrices": 0.2,
+    "DA.LA:Linear systems": 0.2,
+    "DA.LA:Eigenvalues & decompositions": 0.2,
+    "DA.CO:Calculus": 0.2,
+    "DA.CO:Optimization": 0.2,
+    "DA.PD:Python programming": 0.2,
+    "DA.PD:Data structures": 0.2,
+    "DA.PD:Searching & sorting": 0.2,
+    "DA.PD:Graphs": 0.2,
+    "DA.DB:Relational databases": 0.2,
+    "DA.DB:Storage & indexing": 0.2,
+    "DA.DB:Data preprocessing": 0.2,
+    "DA.DB:Data warehousing": 0.2,
+    "DA.ML:Supervised learning setup": 0.2,
+    "DA.ML:Regression": 0.2,
+    "DA.ML:Classification": 0.2,
+    "DA.ML:Model evaluation & selection": 0.2,
+    "DA.ML:Neural networks": 0.2,
+    "DA.ML:Clustering": 0.2,
+    "DA.ML:Dimensionality reduction": 0.2,
+    "DA.AI:Search": 0.2,
+    "DA.AI:Logic": 0.2,
+    "DA.AI:Reasoning under uncertainty": 0.2,
+    "GA.VA:Verbal Aptitude": 0.5,
+    "GA.QA:Quantitative Aptitude": 0.5,
+    "GA.AA:Analytical Aptitude": 0.5,
+    "GA.SA:Spatial Aptitude": 0.5
+   },
+   "hours": {
+    "DA.PS:Probability foundations": 4.0,
+    "DA.PS:Random variables & expectation": 4.5,
+    "DA.PS:Descriptive statistics": 3.5,
+    "DA.PS:Distributions": 8.5,
+    "DA.PS:Statistical inference": 0.0,
+    "DA.LA:Vector spaces": 0.5,
+    "DA.LA:Matrices": 6.0,
+    "DA.LA:Linear systems": 2.0,
+    "DA.LA:Eigenvalues & decompositions": 0.0,
+    "DA.CO:Calculus": 6.0,
+    "DA.CO:Optimization": 4.0,
+    "DA.PD:Python programming": 5.0,
+    "DA.PD:Data structures": 4.0,
+    "DA.PD:Searching & sorting": 6.5,
+    "DA.PD:Graphs": 3.0,
+    "DA.DB:Relational databases": 9.5,
+    "DA.DB:Storage & indexing": 1.5,
+    "DA.DB:Data preprocessing": 1.0,
+    "DA.DB:Data warehousing": 2.0,
+    "DA.ML:Supervised learning setup": 1.5,
+    "DA.ML:Regression": 1.0,
+    "DA.ML:Classification": 5.0,
+    "DA.ML:Model evaluation & selection": 0.0,
+    "DA.ML:Neural networks": 2.0,
+    "DA.ML:Clustering": 3.0,
+    "DA.ML:Dimensionality reduction": 0.5,
+    "DA.AI:Search": 4.0,
+    "DA.AI:Logic": 3.5,
+    "DA.AI:Reasoning under uncertainty": 0.5,
+    "GA.VA:Verbal Aptitude": 1.0,
+    "GA.QA:Quantitative Aptitude": 5.0,
+    "GA.AA:Analytical Aptitude": 3.5,
+    "GA.SA:Spatial Aptitude": 1.5
+   },
+   "lambda": 0.2180730169606921,
+   "weeks": [
+    {
+     "index": 0,
+     "start": "2026-11-02",
+     "end": "2026-11-08",
+     "capacity": 10.0,
+     "phase": "learn",
+     "learning": {
+      "DA.PS:Descriptive statistics": 3.5,
+      "DA.ML:Supervised learning setup": 1.5,
+      "DA.PD:Searching & sorting": 4.0,
+      "DA.LA:Matrices": 1.0
+     },
+     "revision": {},
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.ML:Supervised learning setup": [
+       "DA2025-Q22",
+       "DA2025-Q55",
+       "DA2024-Q53"
+      ],
+      "DA.PS:Descriptive statistics": [
+       "DA2025-Q19",
+       "DA2025-Q20",
+       "DA2024-Q27",
+       "DA2024-Q34",
+       "DA2024-Q65"
+      ]
+     },
+     "finished": [
+      "DA.ML:Supervised learning setup",
+      "DA.PS:Descriptive statistics"
+     ]
+    },
+    {
+     "index": 1,
+     "start": "2026-11-09",
+     "end": "2026-11-15",
+     "capacity": 10.0,
+     "phase": "learn",
+     "learning": {
+      "DA.PD:Searching & sorting": 2.5,
+      "DA.LA:Matrices": 3.5,
+      "GA.AA:Analytical Aptitude": 3.0
+     },
+     "revision": {
+      "DA.ML:Supervised learning setup": 0.5,
+      "DA.PS:Descriptive statistics": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.PD:Searching & sorting": [
+       "DA2025-Q27",
+       "DA2025-Q29",
+       "DA2024-Q30",
+       "DA2024-Q40",
+       "DA2024-Q45"
+      ]
+     },
+     "finished": [
+      "DA.PD:Searching & sorting"
+     ]
+    },
+    {
+     "index": 2,
+     "start": "2026-11-16",
+     "end": "2026-11-22",
+     "capacity": 10.0,
+     "phase": "learn",
+     "learning": {
+      "DA.LA:Matrices": 1.5,
+      "GA.AA:Analytical Aptitude": 0.5,
+      "DA.DB:Relational databases": 4.5,
+      "DA.CO:Calculus": 1.5,
+      "GA.QA:Quantitative Aptitude": 1.5
+     },
+     "revision": {
+      "DA.PD:Searching & sorting": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.LA:Matrices": [
+       "DA2025-Q38",
+       "DA2025-Q50",
+       "DA2025-Q52",
+       "DA2024-Q35",
+       "DA2024-Q49"
+      ],
+      "GA.AA:Analytical Aptitude": [
+       "DA2025-Q01",
+       "DA2025-Q04",
+       "DA2025-Q07",
+       "DA2024-Q01",
+       "DA2024-Q06"
+      ]
+     },
+     "finished": [
+      "DA.LA:Matrices",
+      "GA.AA:Analytical Aptitude"
+     ]
+    },
+    {
+     "index": 3,
+     "start": "2026-11-23",
+     "end": "2026-11-29",
+     "capacity": 10.0,
+     "phase": "learn",
+     "learning": {
+      "DA.DB:Relational databases": 3.0,
+      "DA.CO:Calculus": 2.5,
+      "GA.QA:Quantitative Aptitude": 2.5
+     },
+     "revision": {
+      "DA.ML:Supervised learning setup": 0.5,
+      "DA.PS:Descriptive statistics": 0.5,
+      "DA.LA:Matrices": 0.5,
+      "GA.AA:Analytical Aptitude": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 4,
+     "start": "2026-11-30",
+     "end": "2026-12-06",
+     "capacity": 10.0,
+     "phase": "learn",
+     "learning": {
+      "DA.DB:Relational databases": 2.0,
+      "DA.CO:Calculus": 2.0,
+      "GA.QA:Quantitative Aptitude": 1.0,
+      "DA.CO:Optimization": 1.5,
+      "GA.SA:Spatial Aptitude": 1.5,
+      "DA.AI:Logic": 1.5
+     },
+     "revision": {
+      "DA.PD:Searching & sorting": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.DB:Relational databases": [
+       "DA2025-Q16",
+       "DA2025-Q17",
+       "DA2025-Q33",
+       "DA2025-Q46",
+       "DA2025-Q56",
+       "DA2025-Q57"
+      ],
+      "DA.CO:Calculus": [
+       "DA2025-Q14",
+       "DA2025-Q24",
+       "DA2025-Q32",
+       "DA2025-Q48",
+       "DA2025-Q51",
+       "DA2025-Q59"
+      ],
+      "GA.QA:Quantitative Aptitude": [
+       "DA2025-Q03",
+       "DA2025-Q05",
+       "DA2025-Q08",
+       "DA2025-Q09",
+       "DA2025-Q10",
+       "DA2024-Q03"
+      ],
+      "GA.SA:Spatial Aptitude": [
+       "DA2025-Q04",
+       "DA2025-Q08",
+       "DA2024-Q02",
+       "DA2024-Q09",
+       "DA2024-Q10"
+      ]
+     },
+     "finished": [
+      "DA.DB:Relational databases",
+      "DA.CO:Calculus",
+      "GA.QA:Quantitative Aptitude",
+      "GA.SA:Spatial Aptitude"
+     ]
+    },
+    {
+     "index": 5,
+     "start": "2026-12-07",
+     "end": "2026-12-13",
+     "capacity": 10.0,
+     "phase": "learn",
+     "learning": {
+      "DA.CO:Optimization": 2.5,
+      "DA.AI:Logic": 2.0,
+      "DA.ML:Clustering": 2.5
+     },
+     "revision": {
+      "DA.LA:Matrices": 0.5,
+      "GA.AA:Analytical Aptitude": 0.5,
+      "DA.DB:Relational databases": 0.5,
+      "DA.CO:Calculus": 0.5,
+      "GA.QA:Quantitative Aptitude": 0.5,
+      "GA.SA:Spatial Aptitude": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.AI:Logic": [
+       "DA2025-Q15",
+       "DA2024-Q29",
+       "DA2024-Q54"
+      ],
+      "DA.CO:Optimization": [
+       "DA2025-Q49",
+       "DA2025-Q51",
+       "DA2024-Q15",
+       "DA2024-Q50"
+      ]
+     },
+     "finished": [
+      "DA.AI:Logic",
+      "DA.CO:Optimization"
+     ]
+    },
+    {
+     "index": 6,
+     "start": "2026-12-14",
+     "end": "2026-12-20",
+     "capacity": 10.0,
+     "phase": "learn",
+     "learning": {
+      "DA.ML:Clustering": 0.5,
+      "DA.PD:Python programming": 4.5,
+      "DA.DB:Data warehousing": 2.0,
+      "DA.PS:Probability foundations": 1.0,
+      "DA.ML:Neural networks": 1.0
+     },
+     "revision": {
+      "DA.AI:Logic": 0.5,
+      "DA.CO:Optimization": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.ML:Clustering": [
+       "DA2025-Q30",
+       "DA2024-Q19",
+       "DA2024-Q42"
+      ],
+      "DA.DB:Data warehousing": [
+       "DA2025-Q46"
+      ]
+     },
+     "finished": [
+      "DA.ML:Clustering",
+      "DA.DB:Data warehousing"
+     ]
+    },
+    {
+     "index": 7,
+     "start": "2026-12-21",
+     "end": "2026-12-27",
+     "capacity": 10.0,
+     "phase": "learn",
+     "learning": {
+      "DA.PD:Python programming": 0.5,
+      "DA.PS:Probability foundations": 3.0,
+      "DA.ML:Neural networks": 1.0,
+      "DA.PD:Data structures": 1.0,
+      "DA.LA:Linear systems": 0.5
+     },
+     "revision": {
+      "DA.ML:Supervised learning setup": 0.5,
+      "DA.PS:Descriptive statistics": 0.5,
+      "DA.DB:Relational databases": 0.5,
+      "DA.CO:Calculus": 0.5,
+      "GA.QA:Quantitative Aptitude": 0.5,
+      "GA.SA:Spatial Aptitude": 0.5,
+      "DA.ML:Clustering": 0.5,
+      "DA.DB:Data warehousing": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.PD:Python programming": [
+       "DA2025-Q23",
+       "DA2025-Q47",
+       "DA2025-Q63",
+       "DA2025-Q64",
+       "DA2024-Q38",
+       "DA2024-Q39"
+      ],
+      "DA.ML:Neural networks": [
+       "DA2025-Q22",
+       "DA2025-Q42",
+       "DA2025-Q48",
+       "DA2024-Q43"
+      ],
+      "DA.PS:Probability foundations": [
+       "DA2025-Q31",
+       "DA2025-Q35",
+       "DA2025-Q45",
+       "DA2024-Q12",
+       "DA2024-Q56",
+       "DA2024-Q58"
+      ]
+     },
+     "finished": [
+      "DA.PD:Python programming",
+      "DA.ML:Neural networks",
+      "DA.PS:Probability foundations"
+     ]
+    },
+    {
+     "index": 8,
+     "start": "2026-12-28",
+     "end": "2027-01-03",
+     "capacity": 10.0,
+     "phase": "learn",
+     "learning": {
+      "DA.PD:Data structures": 2.5,
+      "DA.LA:Linear systems": 1.5,
+      "DA.PS:Random variables & expectation": 2.5,
+      "DA.ML:Classification": 0.5
+     },
+     "revision": {
+      "DA.PD:Searching & sorting": 0.5,
+      "DA.AI:Logic": 0.5,
+      "DA.CO:Optimization": 0.5,
+      "DA.PD:Python programming": 0.5,
+      "DA.ML:Neural networks": 0.5,
+      "DA.PS:Probability foundations": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.LA:Linear systems": [
+       "DA2025-Q12",
+       "DA2025-Q13",
+       "DA2025-Q28",
+       "DA2025-Q37",
+       "DA2025-Q52",
+       "DA2024-Q48"
+      ]
+     },
+     "finished": [
+      "DA.LA:Linear systems"
+     ]
+    },
+    {
+     "index": 9,
+     "start": "2027-01-04",
+     "end": "2027-01-10",
+     "capacity": 10.0,
+     "phase": "learn",
+     "learning": {
+      "DA.PD:Data structures": 0.5,
+      "DA.PS:Random variables & expectation": 2.0,
+      "DA.ML:Classification": 3.5,
+      "DA.PD:Graphs": 1.0,
+      "DA.PS:Distributions": 0.5
+     },
+     "revision": {
+      "DA.LA:Matrices": 0.5,
+      "GA.AA:Analytical Aptitude": 0.5,
+      "DA.ML:Clustering": 0.5,
+      "DA.DB:Data warehousing": 0.5,
+      "DA.LA:Linear systems": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.PD:Data structures": [
+       "DA2025-Q18",
+       "DA2025-Q27",
+       "DA2025-Q64",
+       "DA2024-Q16",
+       "DA2024-Q21",
+       "DA2024-Q28"
+      ],
+      "DA.PS:Random variables & expectation": [
+       "DA2025-Q11",
+       "DA2025-Q19",
+       "DA2025-Q39",
+       "DA2025-Q41",
+       "DA2024-Q36",
+       "DA2024-Q59"
+      ]
+     },
+     "finished": [
+      "DA.PD:Data structures",
+      "DA.PS:Random variables & expectation"
+     ]
+    },
+    {
+     "index": 10,
+     "start": "2027-01-11",
+     "end": "2027-01-17",
+     "capacity": 10.0,
+     "phase": "learn",
+     "learning": {
+      "DA.ML:Classification": 1.0,
+      "DA.PD:Graphs": 2.0,
+      "DA.PS:Distributions": 3.5,
+      "DA.AI:Search": 0.5,
+      "DA.DB:Storage & indexing": 0.5
+     },
+     "revision": {
+      "DA.PD:Python programming": 0.5,
+      "DA.ML:Neural networks": 0.5,
+      "DA.PS:Probability foundations": 0.5,
+      "DA.PD:Data structures": 0.5,
+      "DA.PS:Random variables & expectation": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.ML:Classification": [
+       "DA2025-Q35",
+       "DA2025-Q53",
+       "DA2025-Q55",
+       "DA2024-Q17",
+       "DA2024-Q18",
+       "DA2024-Q20"
+      ],
+      "DA.PD:Graphs": [
+       "DA2025-Q58",
+       "DA2025-Q65",
+       "DA2024-Q14",
+       "DA2024-Q44",
+       "DA2024-Q51"
+      ]
+     },
+     "finished": [
+      "DA.ML:Classification",
+      "DA.PD:Graphs"
+     ]
+    },
+    {
+     "index": 11,
+     "start": "2027-01-18",
+     "end": "2027-01-24",
+     "capacity": 10.0,
+     "phase": "learn",
+     "learning": {
+      "DA.PS:Distributions": 2.5,
+      "DA.AI:Search": 2.5,
+      "DA.DB:Storage & indexing": 1.0,
+      "GA.VA:Verbal Aptitude": 0.5
+     },
+     "revision": {
+      "DA.DB:Relational databases": 0.5,
+      "DA.CO:Calculus": 0.5,
+      "GA.QA:Quantitative Aptitude": 0.5,
+      "GA.SA:Spatial Aptitude": 0.5,
+      "DA.LA:Linear systems": 0.5,
+      "DA.ML:Classification": 0.5,
+      "DA.PD:Graphs": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.DB:Storage & indexing": [
+       "DA2024-Q55"
+      ]
+     },
+     "finished": [
+      "DA.DB:Storage & indexing"
+     ]
+    },
+    {
+     "index": 12,
+     "start": "2027-01-25",
+     "end": "2027-01-31",
+     "capacity": 10.0,
+     "phase": "final",
+     "learning": {
+      "DA.PS:Distributions": 2.0,
+      "DA.AI:Search": 1.0,
+      "GA.VA:Verbal Aptitude": 0.5,
+      "DA.DB:Data preprocessing": 1.0,
+      "DA.ML:Dimensionality reduction": 0.5
+     },
+     "revision": {},
+     "targeted": {},
+     "mocks": [
+      {
+       "name": "GATE DA 2026 (official paper from this dataset)",
+       "hours": 5.0
+      }
+     ],
+     "practice": {
+      "DA.AI:Search": [
+       "DA2025-Q43",
+       "DA2025-Q44",
+       "DA2024-Q23",
+       "DA2024-Q25",
+       "DA2024-Q44"
+      ],
+      "GA.VA:Verbal Aptitude": [
+       "DA2025-Q01",
+       "DA2025-Q02",
+       "DA2025-Q06",
+       "DA2024-Q01",
+       "DA2024-Q06"
+      ],
+      "DA.PS:Distributions": [
+       "DA2025-Q19",
+       "DA2025-Q20",
+       "DA2025-Q21",
+       "DA2025-Q36",
+       "DA2025-Q40",
+       "DA2025-Q41"
+      ],
+      "DA.ML:Dimensionality reduction": [
+       "DA2025-Q60",
+       "DA2024-Q18"
+      ],
+      "DA.DB:Data preprocessing": [
+       "DA2024-Q27"
+      ]
+     },
+     "finished": [
+      "DA.AI:Search",
+      "GA.VA:Verbal Aptitude",
+      "DA.PS:Distributions",
+      "DA.ML:Dimensionality reduction",
+      "DA.DB:Data preprocessing"
+     ]
+    },
+    {
+     "index": 13,
+     "start": "2027-02-01",
+     "end": "2027-02-07",
+     "capacity": 10.0,
+     "phase": "final",
+     "learning": {},
+     "revision": {},
+     "targeted": {},
+     "mocks": [
+      {
+       "name": "Full-length mock test (external)",
+       "hours": 5.0
+      },
+      {
+       "name": "Full-length mock test (external)",
+       "hours": 5.0
+      }
+     ],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 14,
+     "start": "2027-02-08",
+     "end": "2027-02-12",
+     "capacity": 7.14,
+     "phase": "final",
+     "learning": {
+      "DA.ML:Regression": 1.0,
+      "DA.LA:Vector spaces": 0.5,
+      "DA.AI:Reasoning under uncertainty": 0.5
+     },
+     "revision": {},
+     "targeted": {},
+     "mocks": [
+      {
+       "name": "Full-length mock test (external)",
+       "hours": 5.0
+      }
+     ],
+     "practice": {
+      "DA.LA:Vector spaces": [
+       "DA2025-Q25",
+       "DA2025-Q38",
+       "DA2024-Q47"
+      ],
+      "DA.AI:Reasoning under uncertainty": [
+       "DA2025-Q26",
+       "DA2024-Q24",
+       "DA2024-Q64"
+      ],
+      "DA.ML:Regression": [
+       "DA2025-Q34"
+      ]
+     },
+     "finished": [
+      "DA.LA:Vector spaces",
+      "DA.AI:Reasoning under uncertainty",
+      "DA.ML:Regression"
+     ]
+    }
+   ],
+   "notes": [
+    "8 unit(s) spill into the mock phase: DA.AI:Reasoning under uncertainty, DA.AI:Search, DA.DB:Data preprocessing, DA.LA:Vector spaces, DA.ML:Dimensionality reduction, DA.ML:Regression, DA.PS:Distributions, GA.VA:Verbal Aptitude"
+   ]
+  },
+  {
+   "profile": {
+    "name": "after a mock",
+    "exam_date": "2027-02-06",
+    "start_date": "2026-12-21",
+    "hours_per_day": 4.0,
+    "study_days_per_week": 6,
+    "final_weeks": 4,
+    "reserve_papers_for_mocks": [
+     2025,
+     2026
+    ],
+    "ratings": {
+     "default": "basic",
+     "DA.LA": "good",
+     "DA.PD:Python programming": "strong"
+    },
+    "progress": [
+     {
+      "unit": "DA.DB:Relational databases",
+      "hours": 20
+     }
+    ],
+    "mocks": [
+     {
+      "date": "2026-12-20",
+      "results": {
+       "DA.PS": [
+        3,
+        10
+       ],
+       "DA.DB": [
+        8,
+        10
+       ]
+      }
+     }
+    ]
+   },
+   "mastery": {
+    "DA.PS:Probability foundations": 0.3396458435809149,
+    "DA.PS:Random variables & expectation": 0.33943248532289627,
+    "DA.PS:Descriptive statistics": 0.3428723404255319,
+    "DA.PS:Distributions": 0.3345626072041166,
+    "DA.PS:Statistical inference": 0.3451287793952967,
+    "DA.LA:Vector spaces": 0.7,
+    "DA.LA:Matrices": 0.7,
+    "DA.LA:Linear systems": 0.7,
+    "DA.LA:Eigenvalues & decompositions": 0.7,
+    "DA.CO:Calculus": 0.35,
+    "DA.CO:Optimization": 0.35,
+    "DA.PD:Python programming": 0.85,
+    "DA.PD:Data structures": 0.35,
+    "DA.PD:Searching & sorting": 0.35,
+    "DA.PD:Graphs": 0.35,
+    "DA.DB:Relational databases": 0.8339299581630297,
+    "DA.DB:Storage & indexing": 0.41533101045296167,
+    "DA.DB:Data preprocessing": 0.3953573610262676,
+    "DA.DB:Data warehousing": 0.420835718374356,
+    "DA.ML:Supervised learning setup": 0.35,
+    "DA.ML:Regression": 0.35,
+    "DA.ML:Classification": 0.35,
+    "DA.ML:Model evaluation & selection": 0.35,
+    "DA.ML:Neural networks": 0.35,
+    "DA.ML:Clustering": 0.35,
+    "DA.ML:Dimensionality reduction": 0.35,
+    "DA.AI:Search": 0.35,
+    "DA.AI:Logic": 0.35,
+    "DA.AI:Reasoning under uncertainty": 0.35,
+    "GA.VA:Verbal Aptitude": 0.35,
+    "GA.QA:Quantitative Aptitude": 0.35,
+    "GA.AA:Analytical Aptitude": 0.35,
+    "GA.SA:Spatial Aptitude": 0.35
+   },
+   "hours": {
+    "DA.PS:Probability foundations": 6.5,
+    "DA.PS:Random variables & expectation": 7.0,
+    "DA.PS:Descriptive statistics": 4.0,
+    "DA.PS:Distributions": 11.5,
+    "DA.PS:Statistical inference": 0.0,
+    "DA.LA:Vector spaces": 0.0,
+    "DA.LA:Matrices": 2.0,
+    "DA.LA:Linear systems": 0.0,
+    "DA.LA:Eigenvalues & decompositions": 0.0,
+    "DA.CO:Calculus": 7.5,
+    "DA.CO:Optimization": 5.0,
+    "DA.PD:Python programming": 0.0,
+    "DA.PD:Data structures": 6.0,
+    "DA.PD:Searching & sorting": 8.0,
+    "DA.PD:Graphs": 5.0,
+    "DA.DB:Relational databases": 0.0,
+    "DA.DB:Storage & indexing": 2.0,
+    "DA.DB:Data preprocessing": 1.5,
+    "DA.DB:Data warehousing": 2.5,
+    "DA.ML:Supervised learning setup": 2.0,
+    "DA.ML:Regression": 2.0,
+    "DA.ML:Classification": 7.0,
+    "DA.ML:Model evaluation & selection": 0.0,
+    "DA.ML:Neural networks": 3.5,
+    "DA.ML:Clustering": 4.0,
+    "DA.ML:Dimensionality reduction": 1.5,
+    "DA.AI:Search": 5.5,
+    "DA.AI:Logic": 5.0,
+    "DA.AI:Reasoning under uncertainty": 2.0,
+    "GA.VA:Verbal Aptitude": 4.0,
+    "GA.QA:Quantitative Aptitude": 11.0,
+    "GA.AA:Analytical Aptitude": 6.0,
+    "GA.SA:Spatial Aptitude": 3.5
+   },
+   "lambda": 0.13934883967115272,
+   "weeks": [
+    {
+     "index": 0,
+     "start": "2026-12-21",
+     "end": "2026-12-27",
+     "capacity": 24.0,
+     "phase": "learn",
+     "learning": {
+      "GA.AA:Analytical Aptitude": 6.0,
+      "GA.QA:Quantitative Aptitude": 10.0,
+      "DA.PS:Descriptive statistics": 4.0,
+      "GA.SA:Spatial Aptitude": 2.0,
+      "DA.ML:Supervised learning setup": 2.0
+     },
+     "revision": {},
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "GA.AA:Analytical Aptitude": [
+       "DA2024-Q01",
+       "DA2024-Q06"
+      ],
+      "DA.PS:Descriptive statistics": [
+       "DA2024-Q27",
+       "DA2024-Q34",
+       "DA2024-Q65"
+      ],
+      "DA.ML:Supervised learning setup": [
+       "DA2024-Q53"
+      ]
+     },
+     "finished": [
+      "GA.AA:Analytical Aptitude",
+      "DA.PS:Descriptive statistics",
+      "DA.ML:Supervised learning setup"
+     ]
+    },
+    {
+     "index": 1,
+     "start": "2026-12-28",
+     "end": "2027-01-03",
+     "capacity": 24.0,
+     "phase": "learn",
+     "learning": {
+      "GA.QA:Quantitative Aptitude": 1.0,
+      "GA.SA:Spatial Aptitude": 1.5,
+      "DA.PD:Searching & sorting": 8.0,
+      "GA.VA:Verbal Aptitude": 4.0,
+      "DA.CO:Calculus": 5.5,
+      "DA.AI:Logic": 1.5,
+      "DA.ML:Clustering": 1.0
+     },
+     "revision": {
+      "GA.AA:Analytical Aptitude": 0.5,
+      "DA.PS:Descriptive statistics": 0.5,
+      "DA.ML:Supervised learning setup": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "GA.QA:Quantitative Aptitude": [
+       "DA2024-Q03",
+       "DA2024-Q04",
+       "DA2024-Q05",
+       "DA2024-Q07",
+       "DA2024-Q08",
+       "DA2024-Q10"
+      ],
+      "GA.SA:Spatial Aptitude": [
+       "DA2024-Q02",
+       "DA2024-Q09",
+       "DA2024-Q10"
+      ],
+      "DA.PD:Searching & sorting": [
+       "DA2024-Q30",
+       "DA2024-Q40",
+       "DA2024-Q45"
+      ],
+      "GA.VA:Verbal Aptitude": [
+       "DA2024-Q01",
+       "DA2024-Q06"
+      ]
+     },
+     "finished": [
+      "GA.QA:Quantitative Aptitude",
+      "GA.SA:Spatial Aptitude",
+      "DA.PD:Searching & sorting",
+      "GA.VA:Verbal Aptitude"
+     ]
+    },
+    {
+     "index": 2,
+     "start": "2027-01-04",
+     "end": "2027-01-10",
+     "capacity": 24.0,
+     "phase": "learn",
+     "learning": {
+      "DA.CO:Calculus": 2.0,
+      "DA.AI:Logic": 3.5,
+      "DA.ML:Clustering": 3.0,
+      "DA.CO:Optimization": 4.5,
+      "DA.PD:Data structures": 4.5,
+      "DA.PS:Probability foundations": 4.5
+     },
+     "revision": {
+      "GA.QA:Quantitative Aptitude": 0.5,
+      "GA.SA:Spatial Aptitude": 0.5,
+      "DA.PD:Searching & sorting": 0.5,
+      "GA.VA:Verbal Aptitude": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.CO:Calculus": [
+       "DA2024-Q33",
+       "DA2024-Q37",
+       "DA2024-Q60"
+      ],
+      "DA.AI:Logic": [
+       "DA2024-Q29",
+       "DA2024-Q54"
+      ],
+      "DA.ML:Clustering": [
+       "DA2024-Q19",
+       "DA2024-Q42"
+      ]
+     },
+     "finished": [
+      "DA.CO:Calculus",
+      "DA.AI:Logic",
+      "DA.ML:Clustering"
+     ]
+    },
+    {
+     "index": 3,
+     "start": "2027-01-11",
+     "end": "2027-01-17",
+     "capacity": 24.0,
+     "phase": "learn",
+     "learning": {
+      "DA.CO:Optimization": 0.5,
+      "DA.PD:Data structures": 1.5,
+      "DA.PS:Probability foundations": 2.0,
+      "DA.PS:Random variables & expectation": 6.0,
+      "DA.ML:Classification": 6.0,
+      "DA.PD:Graphs": 5.0
+     },
+     "revision": {
+      "GA.AA:Analytical Aptitude": 0.5,
+      "DA.PS:Descriptive statistics": 0.5,
+      "DA.ML:Supervised learning setup": 0.5,
+      "DA.CO:Calculus": 0.5,
+      "DA.AI:Logic": 0.5,
+      "DA.ML:Clustering": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.CO:Optimization": [
+       "DA2024-Q15",
+       "DA2024-Q50"
+      ],
+      "DA.PD:Data structures": [
+       "DA2024-Q16",
+       "DA2024-Q21",
+       "DA2024-Q28",
+       "DA2024-Q32",
+       "DA2024-Q38",
+       "DA2024-Q52"
+      ],
+      "DA.PS:Probability foundations": [
+       "DA2024-Q12",
+       "DA2024-Q56",
+       "DA2024-Q58"
+      ],
+      "DA.PD:Graphs": [
+       "DA2024-Q14",
+       "DA2024-Q44",
+       "DA2024-Q51"
+      ]
+     },
+     "finished": [
+      "DA.CO:Optimization",
+      "DA.PD:Data structures",
+      "DA.PS:Probability foundations",
+      "DA.PD:Graphs"
+     ]
+    },
+    {
+     "index": 4,
+     "start": "2027-01-18",
+     "end": "2027-01-24",
+     "capacity": 24.0,
+     "phase": "learn",
+     "learning": {
+      "DA.PS:Random variables & expectation": 1.0,
+      "DA.ML:Classification": 1.0,
+      "DA.AI:Search": 5.5,
+      "DA.PS:Distributions": 5.0,
+      "DA.ML:Neural networks": 3.5,
+      "DA.DB:Data warehousing": 2.5,
+      "DA.DB:Storage & indexing": 1.0,
+      "DA.ML:Dimensionality reduction": 0.5
+     },
+     "revision": {
+      "GA.QA:Quantitative Aptitude": 0.5,
+      "GA.SA:Spatial Aptitude": 0.5,
+      "DA.PD:Searching & sorting": 0.5,
+      "GA.VA:Verbal Aptitude": 0.5,
+      "DA.CO:Optimization": 0.5,
+      "DA.PD:Data structures": 0.5,
+      "DA.PS:Probability foundations": 0.5,
+      "DA.PD:Graphs": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.PS:Random variables & expectation": [
+       "DA2024-Q36",
+       "DA2024-Q59"
+      ],
+      "DA.ML:Classification": [
+       "DA2024-Q17",
+       "DA2024-Q18",
+       "DA2024-Q20",
+       "DA2024-Q22",
+       "DA2024-Q62",
+       "DA2024-Q63"
+      ],
+      "DA.AI:Search": [
+       "DA2024-Q23",
+       "DA2024-Q25",
+       "DA2024-Q44"
+      ],
+      "DA.ML:Neural networks": [
+       "DA2024-Q43"
+      ],
+      "DA.DB:Data warehousing": []
+     },
+     "finished": [
+      "DA.PS:Random variables & expectation",
+      "DA.ML:Classification",
+      "DA.AI:Search",
+      "DA.ML:Neural networks",
+      "DA.DB:Data warehousing"
+     ]
+    },
+    {
+     "index": 5,
+     "start": "2027-01-25",
+     "end": "2027-01-31",
+     "capacity": 24.0,
+     "phase": "learn",
+     "learning": {
+      "DA.PS:Distributions": 6.5,
+      "DA.DB:Storage & indexing": 1.0,
+      "DA.ML:Dimensionality reduction": 1.0,
+      "DA.DB:Data preprocessing": 1.5,
+      "DA.ML:Regression": 2.0,
+      "DA.AI:Reasoning under uncertainty": 2.0,
+      "DA.LA:Matrices": 2.0
+     },
+     "revision": {
+      "DA.CO:Calculus": 0.5,
+      "DA.AI:Logic": 0.5,
+      "DA.ML:Clustering": 0.5,
+      "DA.PS:Random variables & expectation": 0.5,
+      "DA.ML:Classification": 0.5,
+      "DA.AI:Search": 0.5,
+      "DA.ML:Neural networks": 0.5,
+      "DA.DB:Data warehousing": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.PS:Distributions": [
+       "DA2024-Q11",
+       "DA2024-Q56",
+       "DA2024-Q57"
+      ],
+      "DA.DB:Storage & indexing": [
+       "DA2024-Q55"
+      ],
+      "DA.ML:Dimensionality reduction": [
+       "DA2024-Q18"
+      ],
+      "DA.DB:Data preprocessing": [
+       "DA2024-Q27"
+      ],
+      "DA.ML:Regression": [],
+      "DA.AI:Reasoning under uncertainty": [
+       "DA2024-Q24",
+       "DA2024-Q64"
+      ],
+      "DA.LA:Matrices": [
+       "DA2024-Q35",
+       "DA2024-Q49"
+      ]
+     },
+     "finished": [
+      "DA.PS:Distributions",
+      "DA.DB:Storage & indexing",
+      "DA.ML:Dimensionality reduction",
+      "DA.DB:Data preprocessing",
+      "DA.ML:Regression",
+      "DA.AI:Reasoning under uncertainty",
+      "DA.LA:Matrices"
+     ]
+    },
+    {
+     "index": 6,
+     "start": "2027-02-01",
+     "end": "2027-02-05",
+     "capacity": 17.14,
+     "phase": "final",
+     "learning": {},
+     "revision": {},
+     "targeted": {
+      "DA.PS:Distributions": 4.0,
+      "DA.LA:Matrices": 2.0,
+      "DA.ML:Classification": 1.5,
+      "DA.AI:Reasoning under uncertainty": 1.5,
+      "DA.PS:Probability foundations": 1.5,
+      "DA.ML:Regression": 1.5
+     },
+     "mocks": [
+      {
+       "name": "GATE DA 2025 (official paper from this dataset)",
+       "hours": 5.0
+      }
+     ],
+     "practice": {},
+     "finished": []
+    }
+   ],
+   "notes": [
+    "DA.DB:Relational databases: +20h studied",
+    "2026-12-20: DA.PS 3/10",
+    "2026-12-20: DA.DB 8/10"
+   ]
+  },
+  {
+   "profile": {
+    "name": "lots of time",
+    "exam_date": "2027-02-06",
+    "start_date": "2026-06-01",
+    "hours_per_day": 6.0,
+    "study_days_per_week": 7,
+    "final_weeks": 4,
+    "reserve_papers_for_mocks": [
+     2026
+    ],
+    "ratings": {
+     "default": "okay"
+    },
+    "progress": [],
+    "mocks": []
+   },
+   "mastery": {
+    "DA.PS:Probability foundations": 0.5,
+    "DA.PS:Random variables & expectation": 0.5,
+    "DA.PS:Descriptive statistics": 0.5,
+    "DA.PS:Distributions": 0.5,
+    "DA.PS:Statistical inference": 0.5,
+    "DA.LA:Vector spaces": 0.5,
+    "DA.LA:Matrices": 0.5,
+    "DA.LA:Linear systems": 0.5,
+    "DA.LA:Eigenvalues & decompositions": 0.5,
+    "DA.CO:Calculus": 0.5,
+    "DA.CO:Optimization": 0.5,
+    "DA.PD:Python programming": 0.5,
+    "DA.PD:Data structures": 0.5,
+    "DA.PD:Searching & sorting": 0.5,
+    "DA.PD:Graphs": 0.5,
+    "DA.DB:Relational databases": 0.5,
+    "DA.DB:Storage & indexing": 0.5,
+    "DA.DB:Data preprocessing": 0.5,
+    "DA.DB:Data warehousing": 0.5,
+    "DA.ML:Supervised learning setup": 0.5,
+    "DA.ML:Regression": 0.5,
+    "DA.ML:Classification": 0.5,
+    "DA.ML:Model evaluation & selection": 0.5,
+    "DA.ML:Neural networks": 0.5,
+    "DA.ML:Clustering": 0.5,
+    "DA.ML:Dimensionality reduction": 0.5,
+    "DA.AI:Search": 0.5,
+    "DA.AI:Logic": 0.5,
+    "DA.AI:Reasoning under uncertainty": 0.5,
+    "GA.VA:Verbal Aptitude": 0.5,
+    "GA.QA:Quantitative Aptitude": 0.5,
+    "GA.AA:Analytical Aptitude": 0.5,
+    "GA.SA:Spatial Aptitude": 0.5
+   },
+   "hours": {
+    "DA.PS:Probability foundations": 20.5,
+    "DA.PS:Random variables & expectation": 18.5,
+    "DA.PS:Descriptive statistics": 7.0,
+    "DA.PS:Distributions": 25.5,
+    "DA.PS:Statistical inference": 18.5,
+    "DA.LA:Vector spaces": 11.5,
+    "DA.LA:Matrices": 16.0,
+    "DA.LA:Linear systems": 11.5,
+    "DA.LA:Eigenvalues & decompositions": 18.5,
+    "DA.CO:Calculus": 18.5,
+    "DA.CO:Optimization": 9.0,
+    "DA.PD:Python programming": 23.0,
+    "DA.PD:Data structures": 18.5,
+    "DA.PD:Searching & sorting": 16.0,
+    "DA.PD:Graphs": 16.0,
+    "DA.DB:Relational databases": 30.0,
+    "DA.DB:Storage & indexing": 9.0,
+    "DA.DB:Data preprocessing": 7.0,
+    "DA.DB:Data warehousing": 9.0,
+    "DA.ML:Supervised learning setup": 3.5,
+    "DA.ML:Regression": 11.5,
+    "DA.ML:Classification": 23.0,
+    "DA.ML:Model evaluation & selection": 7.0,
+    "DA.ML:Neural networks": 11.5,
+    "DA.ML:Clustering": 11.5,
+    "DA.ML:Dimensionality reduction": 7.0,
+    "DA.AI:Search": 14.0,
+    "DA.AI:Logic": 14.0,
+    "DA.AI:Reasoning under uncertainty": 14.0,
+    "GA.VA:Verbal Aptitude": 9.0,
+    "GA.QA:Quantitative Aptitude": 18.5,
+    "GA.AA:Analytical Aptitude": 9.0,
+    "GA.SA:Spatial Aptitude": 6.0
+   },
+   "lambda": 0.0,
+   "weeks": [
+    {
+     "index": 0,
+     "start": "2026-06-01",
+     "end": "2026-06-07",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {
+      "GA.AA:Analytical Aptitude": 9.0,
+      "GA.QA:Quantitative Aptitude": 18.5,
+      "DA.PS:Descriptive statistics": 7.0,
+      "GA.SA:Spatial Aptitude": 4.0,
+      "DA.ML:Supervised learning setup": 3.5
+     },
+     "revision": {},
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "GA.AA:Analytical Aptitude": [
+       "DA2025-Q01",
+       "DA2025-Q04",
+       "DA2025-Q07",
+       "DA2024-Q01",
+       "DA2024-Q06"
+      ],
+      "DA.PS:Descriptive statistics": [
+       "DA2025-Q19",
+       "DA2025-Q20",
+       "DA2024-Q27",
+       "DA2024-Q34",
+       "DA2024-Q65"
+      ],
+      "DA.ML:Supervised learning setup": [
+       "DA2025-Q22",
+       "DA2025-Q55",
+       "DA2024-Q53"
+      ],
+      "GA.QA:Quantitative Aptitude": [
+       "DA2025-Q03",
+       "DA2025-Q05",
+       "DA2025-Q08",
+       "DA2025-Q09",
+       "DA2025-Q10",
+       "DA2024-Q03"
+      ]
+     },
+     "finished": [
+      "GA.AA:Analytical Aptitude",
+      "DA.PS:Descriptive statistics",
+      "DA.ML:Supervised learning setup",
+      "GA.QA:Quantitative Aptitude"
+     ]
+    },
+    {
+     "index": 1,
+     "start": "2026-06-08",
+     "end": "2026-06-14",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {
+      "GA.SA:Spatial Aptitude": 2.0,
+      "DA.PD:Searching & sorting": 16.0,
+      "DA.LA:Matrices": 16.0,
+      "GA.VA:Verbal Aptitude": 4.5,
+      "DA.DB:Relational databases": 0.5,
+      "DA.CO:Calculus": 0.5
+     },
+     "revision": {
+      "GA.AA:Analytical Aptitude": 0.5,
+      "DA.PS:Descriptive statistics": 0.5,
+      "DA.ML:Supervised learning setup": 0.5,
+      "GA.QA:Quantitative Aptitude": 1.0
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "GA.SA:Spatial Aptitude": [
+       "DA2025-Q04",
+       "DA2025-Q08",
+       "DA2024-Q02",
+       "DA2024-Q09",
+       "DA2024-Q10"
+      ],
+      "DA.PD:Searching & sorting": [
+       "DA2025-Q27",
+       "DA2025-Q29",
+       "DA2024-Q30",
+       "DA2024-Q40",
+       "DA2024-Q45"
+      ],
+      "DA.LA:Matrices": [
+       "DA2025-Q38",
+       "DA2025-Q50",
+       "DA2025-Q52",
+       "DA2024-Q35",
+       "DA2024-Q49"
+      ]
+     },
+     "finished": [
+      "GA.SA:Spatial Aptitude",
+      "DA.PD:Searching & sorting",
+      "DA.LA:Matrices"
+     ]
+    },
+    {
+     "index": 2,
+     "start": "2026-06-15",
+     "end": "2026-06-21",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {
+      "GA.VA:Verbal Aptitude": 4.5,
+      "DA.DB:Relational databases": 16.0,
+      "DA.CO:Calculus": 16.0,
+      "DA.AI:Logic": 3.0
+     },
+     "revision": {
+      "GA.SA:Spatial Aptitude": 0.5,
+      "DA.PD:Searching & sorting": 1.0,
+      "DA.LA:Matrices": 1.0
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "GA.VA:Verbal Aptitude": [
+       "DA2025-Q01",
+       "DA2025-Q02",
+       "DA2025-Q06",
+       "DA2024-Q01",
+       "DA2024-Q06"
+      ]
+     },
+     "finished": [
+      "GA.VA:Verbal Aptitude"
+     ]
+    },
+    {
+     "index": 3,
+     "start": "2026-06-22",
+     "end": "2026-06-28",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {
+      "DA.DB:Relational databases": 13.5,
+      "DA.CO:Calculus": 2.0,
+      "DA.AI:Logic": 11.0,
+      "DA.CO:Optimization": 5.5,
+      "DA.ML:Clustering": 5.5,
+      "DA.PD:Python programming": 1.5
+     },
+     "revision": {
+      "GA.AA:Analytical Aptitude": 0.5,
+      "DA.PS:Descriptive statistics": 0.5,
+      "DA.ML:Supervised learning setup": 0.5,
+      "GA.QA:Quantitative Aptitude": 1.0,
+      "GA.VA:Verbal Aptitude": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.CO:Calculus": [
+       "DA2025-Q14",
+       "DA2025-Q24",
+       "DA2025-Q32",
+       "DA2025-Q48",
+       "DA2025-Q51",
+       "DA2025-Q59"
+      ],
+      "DA.AI:Logic": [
+       "DA2025-Q15",
+       "DA2024-Q29",
+       "DA2024-Q54"
+      ],
+      "DA.DB:Relational databases": [
+       "DA2025-Q16",
+       "DA2025-Q17",
+       "DA2025-Q33",
+       "DA2025-Q46",
+       "DA2025-Q56",
+       "DA2025-Q57"
+      ]
+     },
+     "finished": [
+      "DA.CO:Calculus",
+      "DA.AI:Logic",
+      "DA.DB:Relational databases"
+     ]
+    },
+    {
+     "index": 4,
+     "start": "2026-06-29",
+     "end": "2026-07-05",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {
+      "DA.CO:Optimization": 3.5,
+      "DA.ML:Clustering": 6.0,
+      "DA.PD:Python programming": 17.0,
+      "DA.DB:Data warehousing": 5.0,
+      "DA.PS:Probability foundations": 5.0
+     },
+     "revision": {
+      "GA.SA:Spatial Aptitude": 0.5,
+      "DA.PD:Searching & sorting": 1.0,
+      "DA.LA:Matrices": 1.0,
+      "DA.CO:Calculus": 1.0,
+      "DA.AI:Logic": 0.5,
+      "DA.DB:Relational databases": 1.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.CO:Optimization": [
+       "DA2025-Q49",
+       "DA2025-Q51",
+       "DA2024-Q15",
+       "DA2024-Q50"
+      ],
+      "DA.ML:Clustering": [
+       "DA2025-Q30",
+       "DA2024-Q19",
+       "DA2024-Q42"
+      ]
+     },
+     "finished": [
+      "DA.CO:Optimization",
+      "DA.ML:Clustering"
+     ]
+    },
+    {
+     "index": 5,
+     "start": "2026-07-06",
+     "end": "2026-07-12",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {
+      "DA.PD:Python programming": 4.5,
+      "DA.DB:Data warehousing": 4.0,
+      "DA.PS:Probability foundations": 15.5,
+      "DA.PD:Data structures": 7.5,
+      "DA.ML:Neural networks": 7.5,
+      "DA.PS:Random variables & expectation": 1.5
+     },
+     "revision": {
+      "GA.VA:Verbal Aptitude": 0.5,
+      "DA.CO:Optimization": 0.5,
+      "DA.ML:Clustering": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.PD:Python programming": [
+       "DA2025-Q23",
+       "DA2025-Q47",
+       "DA2025-Q63",
+       "DA2025-Q64",
+       "DA2024-Q38",
+       "DA2024-Q39"
+      ],
+      "DA.DB:Data warehousing": [
+       "DA2025-Q46"
+      ],
+      "DA.PS:Probability foundations": [
+       "DA2025-Q31",
+       "DA2025-Q35",
+       "DA2025-Q45",
+       "DA2024-Q12",
+       "DA2024-Q56",
+       "DA2024-Q58"
+      ]
+     },
+     "finished": [
+      "DA.PD:Python programming",
+      "DA.DB:Data warehousing",
+      "DA.PS:Probability foundations"
+     ]
+    },
+    {
+     "index": 6,
+     "start": "2026-07-13",
+     "end": "2026-07-19",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {
+      "DA.PD:Data structures": 11.0,
+      "DA.ML:Neural networks": 4.0,
+      "DA.PS:Random variables & expectation": 15.5,
+      "DA.PD:Graphs": 3.0,
+      "DA.ML:Classification": 3.0
+     },
+     "revision": {
+      "DA.CO:Calculus": 1.0,
+      "DA.AI:Logic": 0.5,
+      "DA.DB:Relational databases": 1.5,
+      "DA.PD:Python programming": 1.0,
+      "DA.DB:Data warehousing": 0.5,
+      "DA.PS:Probability foundations": 1.0
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.PD:Data structures": [
+       "DA2025-Q18",
+       "DA2025-Q27",
+       "DA2025-Q64",
+       "DA2024-Q16",
+       "DA2024-Q21",
+       "DA2024-Q28"
+      ],
+      "DA.ML:Neural networks": [
+       "DA2025-Q22",
+       "DA2025-Q42",
+       "DA2025-Q48",
+       "DA2024-Q43"
+      ]
+     },
+     "finished": [
+      "DA.PD:Data structures",
+      "DA.ML:Neural networks"
+     ]
+    },
+    {
+     "index": 7,
+     "start": "2026-07-20",
+     "end": "2026-07-26",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {
+      "DA.PS:Random variables & expectation": 1.5,
+      "DA.PD:Graphs": 13.0,
+      "DA.ML:Classification": 17.0,
+      "DA.PS:Distributions": 4.5,
+      "DA.AI:Search": 1.0
+     },
+     "revision": {
+      "GA.AA:Analytical Aptitude": 0.5,
+      "DA.PS:Descriptive statistics": 0.5,
+      "DA.ML:Supervised learning setup": 0.5,
+      "GA.QA:Quantitative Aptitude": 1.0,
+      "DA.CO:Optimization": 0.5,
+      "DA.ML:Clustering": 0.5,
+      "DA.PD:Data structures": 1.0,
+      "DA.ML:Neural networks": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.PS:Random variables & expectation": [
+       "DA2025-Q11",
+       "DA2025-Q19",
+       "DA2025-Q39",
+       "DA2025-Q41",
+       "DA2024-Q36",
+       "DA2024-Q59"
+      ],
+      "DA.PD:Graphs": [
+       "DA2025-Q58",
+       "DA2025-Q65",
+       "DA2024-Q14",
+       "DA2024-Q44",
+       "DA2024-Q51"
+      ]
+     },
+     "finished": [
+      "DA.PS:Random variables & expectation",
+      "DA.PD:Graphs"
+     ]
+    },
+    {
+     "index": 8,
+     "start": "2026-07-27",
+     "end": "2026-08-02",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {
+      "DA.ML:Classification": 3.0,
+      "DA.PS:Distributions": 15.0,
+      "DA.AI:Search": 13.0,
+      "DA.LA:Linear systems": 3.5,
+      "DA.DB:Storage & indexing": 0.5
+     },
+     "revision": {
+      "GA.SA:Spatial Aptitude": 0.5,
+      "DA.PD:Searching & sorting": 1.0,
+      "DA.LA:Matrices": 1.0,
+      "DA.PD:Python programming": 1.0,
+      "DA.DB:Data warehousing": 0.5,
+      "DA.PS:Probability foundations": 1.0,
+      "DA.PS:Random variables & expectation": 1.0,
+      "DA.PD:Graphs": 1.0
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.ML:Classification": [
+       "DA2025-Q35",
+       "DA2025-Q53",
+       "DA2025-Q55",
+       "DA2024-Q17",
+       "DA2024-Q18",
+       "DA2024-Q20"
+      ],
+      "DA.AI:Search": [
+       "DA2025-Q43",
+       "DA2025-Q44",
+       "DA2024-Q23",
+       "DA2024-Q25",
+       "DA2024-Q44"
+      ]
+     },
+     "finished": [
+      "DA.ML:Classification",
+      "DA.AI:Search"
+     ]
+    },
+    {
+     "index": 9,
+     "start": "2026-08-03",
+     "end": "2026-08-09",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {
+      "DA.PS:Distributions": 6.0,
+      "DA.LA:Linear systems": 8.0,
+      "DA.DB:Storage & indexing": 8.5,
+      "DA.DB:Data preprocessing": 5.5,
+      "DA.ML:Regression": 5.5,
+      "DA.LA:Vector spaces": 5.0
+     },
+     "revision": {
+      "GA.VA:Verbal Aptitude": 0.5,
+      "DA.PD:Data structures": 1.0,
+      "DA.ML:Neural networks": 0.5,
+      "DA.ML:Classification": 1.0,
+      "DA.AI:Search": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.PS:Distributions": [
+       "DA2025-Q19",
+       "DA2025-Q20",
+       "DA2025-Q21",
+       "DA2025-Q36",
+       "DA2025-Q40",
+       "DA2025-Q41"
+      ],
+      "DA.LA:Linear systems": [
+       "DA2025-Q12",
+       "DA2025-Q13",
+       "DA2025-Q28",
+       "DA2025-Q37",
+       "DA2025-Q52",
+       "DA2024-Q48"
+      ],
+      "DA.DB:Storage & indexing": [
+       "DA2024-Q55"
+      ]
+     },
+     "finished": [
+      "DA.PS:Distributions",
+      "DA.LA:Linear systems",
+      "DA.DB:Storage & indexing"
+     ]
+    },
+    {
+     "index": 10,
+     "start": "2026-08-10",
+     "end": "2026-08-16",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {
+      "DA.DB:Data preprocessing": 1.5,
+      "DA.ML:Regression": 6.0,
+      "DA.LA:Vector spaces": 6.5,
+      "DA.AI:Reasoning under uncertainty": 7.0,
+      "DA.LA:Eigenvalues & decompositions": 7.0,
+      "DA.ML:Model evaluation & selection": 6.5
+     },
+     "revision": {
+      "DA.CO:Calculus": 1.0,
+      "DA.AI:Logic": 0.5,
+      "DA.DB:Relational databases": 1.5,
+      "DA.PS:Random variables & expectation": 1.0,
+      "DA.PD:Graphs": 1.0,
+      "DA.PS:Distributions": 1.5,
+      "DA.LA:Linear systems": 0.5,
+      "DA.DB:Storage & indexing": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.DB:Data preprocessing": [
+       "DA2024-Q27"
+      ],
+      "DA.ML:Regression": [
+       "DA2025-Q34"
+      ],
+      "DA.LA:Vector spaces": [
+       "DA2025-Q25",
+       "DA2025-Q38",
+       "DA2024-Q47"
+      ]
+     },
+     "finished": [
+      "DA.DB:Data preprocessing",
+      "DA.ML:Regression",
+      "DA.LA:Vector spaces"
+     ]
+    },
+    {
+     "index": 11,
+     "start": "2026-08-17",
+     "end": "2026-08-23",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {
+      "DA.AI:Reasoning under uncertainty": 7.0,
+      "DA.LA:Eigenvalues & decompositions": 11.5,
+      "DA.ML:Model evaluation & selection": 0.5,
+      "DA.ML:Dimensionality reduction": 7.0,
+      "DA.PS:Statistical inference": 12.0
+     },
+     "revision": {
+      "DA.CO:Optimization": 0.5,
+      "DA.ML:Clustering": 0.5,
+      "DA.ML:Classification": 1.0,
+      "DA.AI:Search": 0.5,
+      "DA.DB:Data preprocessing": 0.5,
+      "DA.ML:Regression": 0.5,
+      "DA.LA:Vector spaces": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.AI:Reasoning under uncertainty": [
+       "DA2025-Q26",
+       "DA2024-Q24",
+       "DA2024-Q64"
+      ],
+      "DA.LA:Eigenvalues & decompositions": [
+       "DA2025-Q13",
+       "DA2025-Q28",
+       "DA2025-Q37",
+       "DA2025-Q50",
+       "DA2025-Q60",
+       "DA2024-Q13"
+      ],
+      "DA.ML:Model evaluation & selection": [],
+      "DA.ML:Dimensionality reduction": [
+       "DA2025-Q60",
+       "DA2024-Q18"
+      ]
+     },
+     "finished": [
+      "DA.AI:Reasoning under uncertainty",
+      "DA.LA:Eigenvalues & decompositions",
+      "DA.ML:Model evaluation & selection",
+      "DA.ML:Dimensionality reduction"
+     ]
+    },
+    {
+     "index": 12,
+     "start": "2026-08-24",
+     "end": "2026-08-30",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {
+      "DA.PS:Statistical inference": 6.5
+     },
+     "revision": {
+      "DA.PD:Python programming": 1.0,
+      "DA.DB:Data warehousing": 0.5,
+      "DA.PS:Probability foundations": 1.0,
+      "DA.PS:Distributions": 1.5,
+      "DA.LA:Linear systems": 0.5,
+      "DA.DB:Storage & indexing": 0.5,
+      "DA.AI:Reasoning under uncertainty": 0.5,
+      "DA.LA:Eigenvalues & decompositions": 1.0,
+      "DA.ML:Model evaluation & selection": 0.5,
+      "DA.ML:Dimensionality reduction": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {
+      "DA.PS:Statistical inference": [
+       "DA2025-Q40"
+      ]
+     },
+     "finished": [
+      "DA.PS:Statistical inference"
+     ]
+    },
+    {
+     "index": 13,
+     "start": "2026-08-31",
+     "end": "2026-09-06",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {},
+     "revision": {
+      "DA.PD:Data structures": 1.0,
+      "DA.ML:Neural networks": 0.5,
+      "DA.DB:Data preprocessing": 0.5,
+      "DA.ML:Regression": 0.5,
+      "DA.LA:Vector spaces": 0.5,
+      "DA.PS:Statistical inference": 1.0
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 14,
+     "start": "2026-09-07",
+     "end": "2026-09-13",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {},
+     "revision": {
+      "DA.PS:Random variables & expectation": 1.0,
+      "DA.PD:Graphs": 1.0,
+      "DA.AI:Reasoning under uncertainty": 0.5,
+      "DA.LA:Eigenvalues & decompositions": 1.0,
+      "DA.ML:Model evaluation & selection": 0.5,
+      "DA.ML:Dimensionality reduction": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 15,
+     "start": "2026-09-14",
+     "end": "2026-09-20",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {},
+     "revision": {
+      "DA.ML:Classification": 1.0,
+      "DA.AI:Search": 0.5,
+      "DA.PS:Statistical inference": 1.0
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 16,
+     "start": "2026-09-21",
+     "end": "2026-09-27",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {},
+     "revision": {
+      "DA.PS:Distributions": 1.5,
+      "DA.LA:Linear systems": 0.5,
+      "DA.DB:Storage & indexing": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 17,
+     "start": "2026-09-28",
+     "end": "2026-10-04",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {},
+     "revision": {
+      "DA.DB:Data preprocessing": 0.5,
+      "DA.ML:Regression": 0.5,
+      "DA.LA:Vector spaces": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 18,
+     "start": "2026-10-05",
+     "end": "2026-10-11",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {},
+     "revision": {
+      "DA.AI:Reasoning under uncertainty": 0.5,
+      "DA.LA:Eigenvalues & decompositions": 1.0,
+      "DA.ML:Model evaluation & selection": 0.5,
+      "DA.ML:Dimensionality reduction": 0.5
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 19,
+     "start": "2026-10-12",
+     "end": "2026-10-18",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {},
+     "revision": {
+      "DA.PS:Statistical inference": 1.0
+     },
+     "targeted": {},
+     "mocks": [],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 20,
+     "start": "2026-10-19",
+     "end": "2026-10-25",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {},
+     "revision": {},
+     "targeted": {},
+     "mocks": [],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 21,
+     "start": "2026-10-26",
+     "end": "2026-11-01",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {},
+     "revision": {},
+     "targeted": {},
+     "mocks": [],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 22,
+     "start": "2026-11-02",
+     "end": "2026-11-08",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {},
+     "revision": {},
+     "targeted": {},
+     "mocks": [],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 23,
+     "start": "2026-11-09",
+     "end": "2026-11-15",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {},
+     "revision": {},
+     "targeted": {},
+     "mocks": [],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 24,
+     "start": "2026-11-16",
+     "end": "2026-11-22",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {},
+     "revision": {},
+     "targeted": {},
+     "mocks": [],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 25,
+     "start": "2026-11-23",
+     "end": "2026-11-29",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {},
+     "revision": {},
+     "targeted": {},
+     "mocks": [],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 26,
+     "start": "2026-11-30",
+     "end": "2026-12-06",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {},
+     "revision": {},
+     "targeted": {},
+     "mocks": [],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 27,
+     "start": "2026-12-07",
+     "end": "2026-12-13",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {},
+     "revision": {},
+     "targeted": {},
+     "mocks": [],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 28,
+     "start": "2026-12-14",
+     "end": "2026-12-20",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {},
+     "revision": {},
+     "targeted": {},
+     "mocks": [],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 29,
+     "start": "2026-12-21",
+     "end": "2026-12-27",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {},
+     "revision": {},
+     "targeted": {},
+     "mocks": [],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 30,
+     "start": "2026-12-28",
+     "end": "2027-01-03",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {},
+     "revision": {},
+     "targeted": {},
+     "mocks": [],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 31,
+     "start": "2027-01-04",
+     "end": "2027-01-10",
+     "capacity": 42.0,
+     "phase": "learn",
+     "learning": {},
+     "revision": {},
+     "targeted": {},
+     "mocks": [],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 32,
+     "start": "2027-01-11",
+     "end": "2027-01-17",
+     "capacity": 42.0,
+     "phase": "final",
+     "learning": {},
+     "revision": {},
+     "targeted": {
+      "DA.DB:Relational databases": 9.5,
+      "GA.QA:Quantitative Aptitude": 7.0,
+      "DA.PS:Distributions": 6.5,
+      "DA.PD:Searching & sorting": 5.0,
+      "DA.PD:Python programming": 4.5,
+      "DA.LA:Matrices": 4.5
+     },
+     "mocks": [
+      {
+       "name": "GATE DA 2026 (official paper from this dataset)",
+       "hours": 5.0
+      }
+     ],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 33,
+     "start": "2027-01-18",
+     "end": "2027-01-24",
+     "capacity": 42.0,
+     "phase": "final",
+     "learning": {},
+     "revision": {},
+     "targeted": {
+      "DA.CO:Calculus": 8.5,
+      "DA.ML:Classification": 6.5,
+      "GA.AA:Analytical Aptitude": 6.0,
+      "DA.PS:Probability foundations": 5.5,
+      "DA.PS:Random variables & expectation": 5.5,
+      "DA.DB:Relational databases": 5.0
+     },
+     "mocks": [
+      {
+       "name": "Full-length mock test (external)",
+       "hours": 5.0
+      }
+     ],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 34,
+     "start": "2027-01-25",
+     "end": "2027-01-31",
+     "capacity": 42.0,
+     "phase": "final",
+     "learning": {},
+     "revision": {},
+     "targeted": {
+      "DA.PD:Data structures": 7.5,
+      "DA.PS:Distributions": 5.5,
+      "DA.AI:Search": 5.0,
+      "DA.PD:Graphs": 5.0,
+      "DA.CO:Optimization": 4.5,
+      "DA.PD:Python programming": 4.5
+     },
+     "mocks": [
+      {
+       "name": "Full-length mock test (external)",
+       "hours": 5.0
+      },
+      {
+       "name": "Full-length mock test (external)",
+       "hours": 5.0
+      }
+     ],
+     "practice": {},
+     "finished": []
+    },
+    {
+     "index": 35,
+     "start": "2027-02-01",
+     "end": "2027-02-05",
+     "capacity": 30.0,
+     "phase": "final",
+     "learning": {},
+     "revision": {},
+     "targeted": {
+      "DA.AI:Logic": 5.5,
+      "GA.QA:Quantitative Aptitude": 4.5,
+      "GA.VA:Verbal Aptitude": 4.0,
+      "DA.DB:Relational databases": 4.0,
+      "DA.LA:Matrices": 3.5,
+      "DA.PD:Searching & sorting": 3.5
+     },
+     "mocks": [
+      {
+       "name": "Full-length mock test (external)",
+       "hours": 5.0
+      }
+     ],
+     "practice": {},
+     "finished": []
+    }
+   ],
+   "notes": [
+    "There is more time than the plan needs; spare hours are left for extra practice and mocks."
+   ]
+  }
+ ]
+}

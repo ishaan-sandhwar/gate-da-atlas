@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <pattern id="hatch" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="4" height="4" fill="#f2f4f3"/>
+      <line x1="0" y1="0" x2="0" y2="4" stroke="#8c6a43" stroke-width="1.4"/>
+    </pattern>
+  </defs>
+  <rect x="2" y="2" width="13" height="13" rx="2" fill="#0f5c57"/>
+  <rect x="17" y="2" width="13" height="13" rx="2" fill="#3a9a88"/>
+  <rect x="2" y="17" width="13" height="13" rx="2" fill="#6bb5a6"/>
+  <rect x="17.5" y="17.5" width="12" height="12" rx="2" fill="url(#hatch)" stroke="#8c6a43"/>
+</svg>

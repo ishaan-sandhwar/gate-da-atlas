@@ -121,6 +121,14 @@ def plan(profile_path: str, out_dir: str | None) -> int:
     return 0
 
 
+def export_web() -> int:
+    """Export JSON data, crops and planner fixtures for the web atlas."""
+    from gate_atlas.web_export import export_web as run_export
+
+    run_export()
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     """Parse arguments and run one pipeline command."""
     from gate_atlas.tagging.llm import DEFAULT_MODEL
@@ -142,6 +150,7 @@ def main(argv: list[str] | None = None) -> int:
     planner = commands.add_parser("plan", help="adaptive weekly study plan from a profile TOML")
     planner.add_argument("--profile", required=True, help="profile TOML (see examples/profile_gate2027.toml)")
     planner.add_argument("--out", default=None, help="output folder (default plans/<profile name>)")
+    commands.add_parser("export-web", help="write web/public data, crops and planner fixtures")
     args = parser.parse_args(argv)
 
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
@@ -167,6 +176,8 @@ def main(argv: list[str] | None = None) -> int:
         return analyze()
     elif args.command == "plan":
         return plan(args.profile, args.out)
+    elif args.command == "export-web":
+        return export_web()
     return 0
 
 

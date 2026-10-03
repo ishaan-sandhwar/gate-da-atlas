@@ -12,7 +12,7 @@ analysis (weightage, trends, never-asked topics) and an adaptive study planner b
 | 2 | Syllabus tags for every question; ML, LLM and hybrid taggers with evaluation | **done** |
 | 3 | Analysis: weightage, trends, topics never asked, Bayesian forecast per item | **done** |
 | 4 | Adaptive study planner (exam date + daily hours + weak topics → weekly plan) | **done** |
-| 5 | Web "atlas" to explore the data and run the planner | planned |
+| 5 | Web atlas: explore the data, practise the questions, run the planner in the browser | **done** |
 
 ## Quick start
 
@@ -31,6 +31,17 @@ python -m gate_atlas evaluate-tags    # score every tagger -> data/processed/TAG
 python -m gate_atlas analyze          # weightage, coverage, forecast -> data/processed/ANALYSIS.md
 python -m gate_atlas plan --profile examples/profile_gate2027.toml   # weekly plan -> plans/<name>/
 pytest                                # unit tests + dataset invariants
+```
+
+The web atlas needs Node.js 20.19+ or 22.12+:
+
+```bash
+python -m gate_atlas export-web       # JSON, question crops and planner fixtures for web/
+cd web
+npm install
+npm run dev                           # local preview at http://localhost:5173
+npm test                              # the TypeScript planner must reproduce the Python plans
+npm run build                         # static site in web/dist; relative paths, so it runs from any folder
 ```
 
 `build` exits with a non-zero status if any validation check fails. Only `tag-llm` needs a key:
@@ -122,6 +133,25 @@ Log mocks and study hours in the profile and re-run whenever things change.
 - Adaptivity: logging 20 h of database study plus one mock (DB 8/10, PS 3/10) moves DB mastery from
   0.20 to 0.82. In a 100 h budget, this shifts Probability & Statistics from 20.7 h to 24.1 h and
   databases from 19.3 h to 6.6 h.
+
+## What Phase 5 adds
+
+A static web app over the same data. Every number on it is read from the exported JSON; the only
+computation in the browser is the planner, a line-by-line port of the Python one.
+
+| View | What it does |
+|---|---|
+| Map | Every syllabus item as a tile, shaded by the marks it carried (all papers or one paper) and hatched when never asked. An item shows its official wording, marks per paper, forecast and its questions. |
+| Questions | Filters (paper, part, section, type, marks, text quality, search). Each question shows the official crop, its tags and why, the AI tagger's choice, five similar questions, and a practice box checked against the official key. |
+| Trends | Section marks per paper, how much of each section has been asked, topics never asked with their forecast chance, the forecast with 80% intervals, question types, topics asked together. |
+| Planner | The Phase 4 planner in the browser. Ratings, mock results and logged hours replan instantly; the profile stays in the browser; the plan copies out as Markdown. |
+| Method | Sources and checksums, validation, tagger scores, forecast backtest, the planner's maths and the limits. |
+
+| Path | Contents |
+|---|---|
+| `src/gate_atlas/web_export.py` | `export-web`: writes `web/src/data/*.json` and `web/public/crops/` (both git-ignored), and the planner fixtures |
+| `web/src/planner/` | TypeScript planner; `planner.test.ts` compares it with the Python plans of four profiles |
+| `web/src/planner/fixtures/plans.json` | Those Python plans (committed; `test_web_export.py` fails if they go stale) |
 
 ### Phase 1 numbers
 
@@ -422,6 +452,31 @@ section results are split across the section's units by expected marks. Re-runni
 `study_hours.toml` and the profile to match yourself. The "marks secured" figure compares plans with
 each other; it is not a score prediction.
 
+## Methodology — Phase 5: web atlas
+
+### 18. From the pipeline to the page
+
+* `export-web` turns the processed data into two JSON files that the app imports at build time, so
+  the first screen needs no network request. Question crops are copied as they are.
+* Routes are plain hash tokens (`#map`, `#item-DA.PS.08`, `#questions`, `#q-DA2025-Q31`, `#trends`,
+  `#planner`, `#method`), so any view can be linked and the site needs no server.
+* **Similar questions** are the five nearest questions of the same part by cosine similarity of the
+  Phase 2 embeddings (`bge-small-en-v1.5`).
+* **Practice checking** follows GATE's rules and uses only the official key: one letter for MCQ, the
+  exact set for MSQ (no partial marks), an inclusive range for NAT. 2024 Q59 shows its marks-to-all
+  status.
+* **Planner parity.** The TypeScript port reproduces Python's half-to-even rounding and stable
+  ordering. `planner.test.ts` requires mastery to match to 12 decimals, hours exactly, λ to 9 decimals,
+  and every week (dates, capacity, learning, revision, mocks, practice) for four profiles: the example,
+  a weak 2 h/day student, a replan after a mock, and a student with more time than the plan needs.
+* **Design.** The syllabus map is the centre of the site. Colours are design tokens with separate light
+  and dark values; the marks ramp and the year ramp were checked with a colour-vision-deficiency
+  validator on both surfaces. Never asked is shown by a hatch as well as colour. Charts are hand-built
+  SVG with hover details and a table view where it matters. The layout works from 390 px phones up,
+  with visible keyboard focus and reduced-motion support.
+* **Storage.** The planner profile and the theme choice are kept in the browser's `localStorage`.
+  Nothing is sent anywhere.
+
 ## Record schema (`questions.jsonl`)
 
 ```json
@@ -479,6 +534,12 @@ src/gate_atlas/
     allocate.py         learning curve, Bayesian mastery updates, KKT hour allocation
     schedule.py         weekly calendar: prerequisites, spaced revision, mock phase, PYQs
     render.py           plan.md and plan.json
+  web_export.py         static JSON, crops and planner fixtures for the web atlas
+web/                    the web atlas (Vite + React + TypeScript, strict)
+  src/views/            Map, Questions, Trends, Planner, Method
+  src/components/       syllabus map, item panel, practice box, SVG charts
+  src/planner/          TypeScript planner and its parity tests against the Python fixtures
+  src/styles/           design tokens (light and dark) and layout
 examples/               sample profile and the plan generated from it
 tests/                  unit tests and dataset invariants
 ```
