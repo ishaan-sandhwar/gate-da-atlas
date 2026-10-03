@@ -703,7 +703,10 @@ tests/                  unit tests and dataset invariants
 Built by Ishaan Sandhwar, with Claude Code (Anthropic) as an AI pair programmer; Claude also wrote the reference tags
 (see [Methodology](#methodology-phase-2)).
 
-The question papers, answer keys and syllabi are published by the GATE organising institutes (IISc Bengaluru,
-IIT Roorkee, IIT Guwahati, IIT Madras) and remain theirs. This repository redistributes them only for study and
-research, with links to the originals in `MANIFEST.json`. A licence for the code and derived data has not been chosen
-yet.
+- **Code** is under the [MIT licence](LICENSE).
+- **The project's own data and analysis** (syllabus items, reference tags, tagger outputs, analysis, forecast, plans
+  and README images) are under [CC BY 4.0](DATA_LICENSE.md): reuse them freely, with credit.
+- **The official question papers, answer keys and syllabi**, and everything copied from them (question text, options,
+  keys, crops), belong to the GATE organising institutes (IISc Bengaluru, IIT Roorkee, IIT Guwahati, IIT Madras) and
+  are not covered by either licence. They are included only for study and research, with links to the originals in
+  `MANIFEST.json`. [`DATA_LICENSE.md`](DATA_LICENSE.md) lists exactly what is covered and what is not.
