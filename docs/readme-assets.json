@@ -26,7 +26,7 @@
       ]},
       {"pill": "195 questions  ·  136 syllabus items with their official phrases", "color": "#34d399"},
       {"band": "Phase 2: syllabus tags", "band_color": "#a78bfa", "steps": [
-        {"n": 4, "title": "Reference", "kind": "model", "lines": ["One annotator (Claude) tags every question; frozen before any tagger runs"]},
+        {"n": 4, "title": "Reference", "kind": "model", "lines": ["One AI annotator tags every question; frozen before any tagger runs"]},
         {"n": 5, "title": "ML", "kind": "model", "lines": ["bge-small embeddings, few-shot kNN with nested cross-validation"]},
         {"n": 6, "title": "LLM", "kind": "model", "lines": ["gpt-oss-120b on Groq, strict JSON schema; hybrid mode picks from the ML top 15"]},
         {"n": 7, "title": "Evaluate", "kind": "det", "lines": ["Accuracy, Cohen's kappa and McNemar tests against the reference"]}

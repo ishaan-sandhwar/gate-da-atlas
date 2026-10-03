@@ -47,9 +47,9 @@
 <circle cx="90" cy="482" r="14" fill="#a78bfa"/>
 <text x="90" y="488" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15" font-weight="800" fill="#0b1220">4</text>
 <text x="112" y="489" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="20" font-weight="700" fill="#ffffff">Reference</text>
-<text x="76" y="520" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">One annotator (Claude) tags</text>
-<text x="76" y="541" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">every question; frozen before</text>
-<text x="76" y="562" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">any tagger runs</text>
+<text x="76" y="520" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">One AI annotator tags every</text>
+<text x="76" y="541" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">question; frozen before any</text>
+<text x="76" y="562" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">tagger runs</text>
 <path d="M 314 522.5 L 330 522.5" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#ah)"/>
 <rect x="330" y="452" width="260" height="141" rx="12" fill="#111b2e"/>
 <rect x="330" y="452" width="260" height="141" rx="12" fill="none" stroke="#a78bfa" stroke-opacity="0.75" stroke-width="1.5"/>

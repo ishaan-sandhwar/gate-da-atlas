@@ -187,8 +187,8 @@ export function MethodView() {
           or dropped. The syllabus text is identical in the 2024, 2025, 2026 and 2027 editions.
         </p>
         <p>
-          Every question has one main item (what it mainly tests) and up to three items it also needs. These reference tags were written by Claude, the
-          AI assistant that built this dataset, from the question text and images, before any automatic tagger ran. They are one annotator&rsquo;s
+          Every question has one main item (what it mainly tests) and up to three items it also needs. These reference tags were written by an AI assistant
+          that is not one of the taggers scored below, from the question text and images, before any automatic tagger ran. They are one annotator&rsquo;s
           judgement, not ground truth.
         </p>
         <p>Four automatic taggers were then scored against the reference tags:</p>

@@ -114,8 +114,8 @@ the embeddings gets 92.7% of DA questions right, against 78.2% for TF-IDF and 20
 common section.
 
 > [!NOTE]
-> The reference tags were written by one annotator (Claude, the AI assistant that built this repository), from the
-> text of clean questions and the crops of flagged ones, and frozen before any tagger ran. They are a careful
+> The reference tags were written by one annotator, an AI assistant that is not one of the taggers evaluated here,
+> from the text of clean questions and the crops of flagged ones, and frozen before any tagger ran. They are a careful
 > judgement, not ground truth. [`tag_disagreements.csv`](data/processed/tag_disagreements.csv) lists every place the
 > LLM disagrees, for a human to review.
 
@@ -416,8 +416,8 @@ genuinely needs). GA questions take GA items, DA questions take DA items. Each t
 - `confidence`: `high`, `medium` or `low`;
 - `rationale`: one line.
 
-The reference tags were written by Claude (the AI assistant that built this repository): clean questions from their
-verified text, flagged questions from their crops. `reference_tags.csv` was complete **before any tagger was run**, so
+The reference tags were written by an AI assistant that is not one of the taggers evaluated below: clean questions
+from their verified text, flagged questions from their crops. `reference_tags.csv` was complete **before any tagger was run**, so
 no model output could influence it. They are a single annotator's judgement, not ground truth.
 `tag_disagreements.csv` lists every place where the LLM disagrees, so a human can review them. Totals: 183 `direct`,
 10 `indirect`, 2 `outside` (2026 Q35, an infinite double series, and 2026 Q47, precision/recall); 151 high, 43 medium,
@@ -700,8 +700,7 @@ tests/                  unit tests and dataset invariants
 
 ## 👥 Credits and licence
 
-Built by Ishaan Sandhwar, with Claude Code (Anthropic) as an AI pair programmer; Claude also wrote the reference tags
-(see [Methodology](#methodology-phase-2)).
+Built by Ishaan Sandhwar.
 
 - **Code** is under the [MIT licence](LICENSE).
 - **The project's own data and analysis** (syllabus items, reference tags, tagger outputs, analysis, forecast, plans
