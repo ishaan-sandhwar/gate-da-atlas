@@ -1,0 +1,27 @@
+part,section_id,section_title,cluster,item_id,label,forecast_p_asked,forecast_expected_marks
+DA,DA.PS,Probability and Statistics,Probability foundations,DA.PS.02,Probability axioms,0.2456,0.4719
+DA,DA.PS,Probability and Statistics,Distributions,DA.PS.14,Discrete uniform distribution,0.2456,0.4719
+DA,DA.PS,Probability and Statistics,Random variables & expectation,DA.PS.17,Continuous random variables & PDFs,0.2456,0.4719
+DA,DA.PS,Probability and Statistics,Statistical inference,DA.PS.28,Confidence intervals,0.2456,0.4719
+DA,DA.PS,Probability and Statistics,Statistical inference,DA.PS.29,z-test,0.2456,0.4719
+DA,DA.PS,Probability and Statistics,Statistical inference,DA.PS.30,t-test,0.2456,0.4719
+DA,DA.PS,Probability and Statistics,Statistical inference,DA.PS.31,Chi-squared test,0.2456,0.4719
+DA,DA.LA,Linear Algebra,Matrices,DA.LA.04,Matrices (general),0.2413,0.451
+DA,DA.LA,Linear Algebra,Matrices,DA.LA.08,Partitioned matrices & properties,0.2413,0.451
+DA,DA.LA,Linear Algebra,Vector spaces,DA.LA.16,Projections,0.2413,0.451
+DA,DA.LA,Linear Algebra,Eigenvalues & decompositions,DA.LA.17,LU decomposition,0.2413,0.451
+DA,DA.PD,"Programming, Data Structures and Algorithms",Searching & sorting,DA.PD.07,Linear search,0.3435,0.6864
+DA,DA.PD,"Programming, Data Structures and Algorithms",Searching & sorting,DA.PD.12,Merge sort,0.3435,0.6864
+DA,DA.DB,Database Management and Warehousing,Storage & indexing,DA.DB.07,File organization,0.2921,0.5641
+DA,DA.DB,Database Management and Warehousing,Data preprocessing,DA.DB.09,Data (attribute) types,0.2921,0.5641
+DA,DA.DB,Database Management and Warehousing,Data preprocessing,DA.DB.11,Discretization,0.2921,0.5641
+DA,DA.DB,Database Management and Warehousing,Data preprocessing,DA.DB.12,Sampling,0.2921,0.5641
+DA,DA.DB,Database Management and Warehousing,Data preprocessing,DA.DB.13,Compression,0.2921,0.5641
+DA,DA.DB,Database Management and Warehousing,Data warehousing,DA.DB.16,Measures: categorization & computation,0.2921,0.5641
+DA,DA.ML,Machine Learning,Regression,DA.ML.03,Multiple linear regression,0.2443,0.446
+DA,DA.ML,Machine Learning,Model evaluation & selection,DA.ML.13,k-fold cross-validation,0.2443,0.446
+DA,DA.ML,Machine Learning,Clustering,DA.ML.16,Clustering algorithms (general),0.2443,0.446
+DA,DA.ML,Machine Learning,Clustering,DA.ML.19,Top-down (divisive) clustering,0.2443,0.446
+DA,DA.ML,Machine Learning,Dimensionality reduction,DA.ML.23,Dimensionality reduction (general),0.2443,0.446
+GA,GA.VA,Verbal Aptitude,Verbal Aptitude,GA.VA.04,Narrative sequencing,0.3124,0.6555
+GA,GA.QA,Quantitative Aptitude,Quantitative Aptitude,GA.QA.02,Ratios,0.4296,0.8639

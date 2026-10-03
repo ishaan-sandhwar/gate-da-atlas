@@ -10,7 +10,7 @@ analysis (weightage, trends, never-asked topics) and an adaptive study planner b
 |---|---|---|
 | 1 | Official sources, syllabus items, question dataset, validation | **done** |
 | 2 | Syllabus tags for every question; ML, LLM and hybrid taggers with evaluation | **done** |
-| 3 | Analysis: weightage, year-on-year trends, topics never asked | planned |
+| 3 | Analysis: weightage, trends, topics never asked, Bayesian forecast per item | **done** |
 | 4 | Adaptive study planner (exam date + daily hours + weak topics → weekly plan) | planned |
 | 5 | Web "atlas" to explore the data and run the planner | planned |
 
@@ -28,6 +28,7 @@ python -m gate_atlas build            # rebuild data/processed from data/raw, at
 python -m gate_atlas tag-ml           # ML taggers (downloads BAAI/bge-small-en-v1.5 once)
 python -m gate_atlas tag-llm          # LLM tagger on Groq; add --mode hybrid --parts DA for ML+LLM
 python -m gate_atlas evaluate-tags    # score every tagger -> data/processed/TAGGING.md
+python -m gate_atlas analyze          # weightage, coverage, forecast -> data/processed/ANALYSIS.md
 pytest                                # unit tests + dataset invariants
 ```
 
@@ -74,6 +75,28 @@ On the same 165 DA questions the full-list LLM gets 65.4%, so retrieval by ML li
 10 points (exact McNemar test: 36 vs 19 discordant questions, p = 0.03). The DA section classifier
 (sentence embeddings + logistic regression, 5-fold stratified CV) reaches 92.7% accuracy and 0.924
 macro-F1, against 78.2% for TF-IDF and 20.6% for the majority class.
+
+## What Phase 3 adds
+
+| File | Contents |
+|---|---|
+| `data/processed/ANALYSIS.md` | The analysis report: findings, tables and charts (light/dark) |
+| `data/processed/analysis/section_weightage.csv`, `cluster_weightage.csv` | Marks and questions per year, mean, share, trend, under both attribution schemes |
+| `data/processed/analysis/item_weightage.csv` | Every syllabus item: marks per year, secondary use, coverage status, forecast |
+| `data/processed/analysis/never_asked.csv` | Items never asked in 2024–2026, with their forecast chance of appearing |
+| `data/processed/analysis/type_mix.csv`, `cooccurrence.csv`, `yearly_coverage.csv` | Question types by section, concepts tagged together, items touched per paper |
+| `data/processed/analysis/analysis.json` | Everything above in one file, for the web atlas |
+
+### Phase 3 headlines
+
+- Probability & Statistics (18.3 marks a paper), Programming/DS/Algorithms (16) and Machine Learning
+  (13.3) carry 56% of the 85 DA marks.
+- Rising: Probability & Statistics 15 → 19 → 21 and Databases 7 → 11 → 18. Falling: Programming/DS
+  20 → 14 → 14.
+- 24 of 119 DA syllabus items have never been asked (for example LU decomposition, z/t/chi-squared
+  tests, merge sort, k-fold cross-validation). Each paper touches only half the DA syllabus.
+- A Bayesian forecast beats both naive baselines in a leave-one-paper-out backtest, but only
+  slightly. Which section a topic belongs to matters more than its own history.
 
 ### Phase 1 numbers
 
@@ -264,6 +287,57 @@ test. Findings:
 * The few-shot blend is not significantly better than zero-shot (20 vs 19 discordant, p = 1.0). With
   ~1.4 labelled questions per item, there are too few neighbours to help.
 
+## Methodology — Phase 3: analysis
+
+### 11. Attribution and trends
+
+* **Primary attribution** (default): a question's marks go to its primary item, then roll up to the
+  item's cluster and section.
+* **Shared attribution** (sensitivity): the primary item has weight 1 and each secondary item 0.5,
+  normalised to 1. Both schemes conserve marks (every paper sums to 85 DA + 15 GA), and
+  `test_analysis.py` checks this.
+* **Trend labels** describe three points, not a forecast. A section is `rising` or `falling` only if
+  its marks move monotonically with a least-squares slope of at least 2 marks a year. It is `mixed`
+  if it is non-monotonic with a range of 4 marks or more, and `stable` otherwise.
+* **Tag sensitivity:** section marks are recomputed with the LLM's primary items instead of the
+  reference tags. The largest change in any section-paper cell is 4 marks (mean 0.94), so
+  section-level conclusions do not hinge on tagging choices.
+
+### 12. Bayesian forecast per syllabus item
+
+For each part (DA, GA), the yearly count of questions whose primary is item *i* is
+`Poisson(λᵢ)`, with `λᵢ ~ Gamma(shape a, rate a/μₛ)`. Here `μₛ` is the item's section rate
+(questions per item per paper, plus a 0.5-question pseudo-count), and the shape `a` is shared and
+fitted by maximum marginal likelihood (the 3-year totals are negative binomial). The posterior
+`Gamma(a + yᵢ, a/μₛ + 3)` gives:
+
+* the expected questions and marks in the next paper (marks per question = the section's average);
+* `P(asked at least once) = 1 − (b'/(b'+1))^a'`;
+* an 80% credible interval.
+
+A never-asked item is pulled up towards its section, so it gets a non-zero chance; a frequent
+item is pulled down. DA's fitted shape is 4.1. For GA the fit runs to the bound: items within a GA
+section are indistinguishable.
+
+**Backtest.** Each paper is held out in turn and predicted from the other two, with years treated
+as exchangeable. Proper scores are used: Brier and log loss for "asked or not", RMSE for counts.
+
+| DA, leave one paper out | Brier | Log loss | Count RMSE |
+|---|---|---|---|
+| Section rate only (complete pooling) | 0.234 | 0.661 | 0.654 |
+| Item's own history (no pooling) | 0.265 | 2.683 | 0.674 |
+| Empirical Bayes (partial pooling) | **0.227** | **0.646** | **0.637** |
+
+Partial pooling wins on every score, by a small margin. With three papers, a topic's section
+explains most of what is asked next.
+
+### 13. Charts
+
+Charts are static PNGs in light and dark variants, switched with `<picture>` by the reader's
+colour scheme. Palettes (an ordinal blue ramp for years; blue/orange for asked/never asked) were
+checked with a colour-vision-deficiency validator on both surfaces. Every chart has its table
+beside it in `ANALYSIS.md`.
+
 ## Record schema (`questions.jsonl`)
 
 ```json
@@ -309,6 +383,12 @@ src/gate_atlas/
     ml.py               embeddings, few-shot kNN blend (nested CV), section classifiers
     llm.py              Groq tagger: batching, strict schema, caching, rate-limit pacing
     evaluate.py         metrics, McNemar tests, agreement analysis, TAGGING.md
+  analysis/
+    weightage.py        attribution schemes, section/cluster/item tables, trends, coverage
+    forecast.py         empirical-Bayes Gamma-Poisson forecast and leave-one-paper-out backtest
+    charts.py           light/dark static charts
+    report.py           ANALYSIS.md generator (every number comes from the tables)
+    run.py              runs the analysis and writes data/processed/analysis
 tests/                  unit tests and dataset invariants
 ```
 

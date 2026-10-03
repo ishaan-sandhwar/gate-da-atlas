@@ -1,0 +1,67 @@
+scheme,part,id,section_id,title,items,marks_2024,marks_2025,marks_2026,questions_2024,questions_2025,questions_2026,marks_total,marks_mean,marks_min,marks_max,share_of_part,trend_marks_per_year,trend
+primary,DA,DA.DB:Relational databases,DA.DB,Relational databases,6,4.0,9.0,12.0,3.0,6.0,7.0,25.0,8.333,4.0,12.0,0.098,4.0,rising
+primary,DA,DA.PS:Distributions,DA.PS,Distributions,10,5.0,9.0,6.0,3.0,5.0,4.0,20.0,6.667,5.0,9.0,0.0784,0.5,mixed
+primary,DA,DA.PD:Python programming,DA.PD,Python programming,1,6.0,5.0,5.0,3.0,3.0,3.0,16.0,5.333,5.0,6.0,0.0627,-0.5,stable
+primary,DA,DA.LA:Matrices,DA.LA,Matrices,7,3.0,6.0,5.0,2.0,3.0,3.0,14.0,4.667,3.0,6.0,0.0549,1.0,stable
+primary,DA,DA.ML:Classification,DA.ML,Classification,6,8.0,5.0,1.0,6.0,3.0,1.0,14.0,4.667,1.0,8.0,0.0549,-3.5,falling
+primary,DA,DA.CO:Calculus,DA.CO,Calculus,4,5.0,7.0,1.0,3.0,5.0,1.0,13.0,4.333,1.0,7.0,0.051,-2.0,mixed
+primary,DA,DA.PD:Searching & sorting,DA.PD,Searching & sorting,7,5.0,2.0,6.0,3.0,2.0,4.0,13.0,4.333,2.0,6.0,0.051,0.5,mixed
+primary,DA,DA.PS:Random variables & expectation,DA.PS,Random variables & expectation,6,4.0,4.0,4.0,2.0,3.0,2.0,12.0,4.0,4.0,4.0,0.0471,-0.0,stable
+primary,DA,DA.PS:Probability foundations,DA.PS,Probability foundations,8,3.0,3.0,5.0,2.0,2.0,4.0,11.0,3.667,3.0,5.0,0.0431,1.0,stable
+primary,DA,DA.PD:Data structures,DA.PD,Data structures,5,6.0,3.0,1.0,5.0,2.0,1.0,10.0,3.333,1.0,6.0,0.0392,-2.5,falling
+primary,DA,DA.AI:Search,DA.AI,Search,3,4.0,4.0,2.0,3.0,2.0,2.0,10.0,3.333,2.0,4.0,0.0392,-1.0,stable
+primary,DA,DA.AI:Logic,DA.AI,Logic,2,3.0,1.0,6.0,2.0,1.0,4.0,10.0,3.333,1.0,6.0,0.0392,1.5,mixed
+primary,DA,DA.CO:Optimization,DA.CO,Optimization,2,3.0,4.0,2.0,2.0,2.0,2.0,9.0,3.0,2.0,4.0,0.0353,-0.5,stable
+primary,DA,DA.PD:Graphs,DA.PD,Graphs,3,3.0,4.0,2.0,2.0,2.0,1.0,9.0,3.0,2.0,4.0,0.0353,-0.5,stable
+primary,DA,DA.PS:Descriptive statistics,DA.PS,Descriptive statistics,2,3.0,1.0,4.0,2.0,1.0,2.0,8.0,2.667,1.0,4.0,0.0314,0.5,stable
+primary,DA,DA.ML:Neural networks,DA.ML,Neural networks,2,2.0,3.0,2.0,1.0,2.0,1.0,7.0,2.333,2.0,3.0,0.0275,-0.0,stable
+primary,DA,DA.LA:Linear systems,DA.LA,Linear systems,4,2.0,4.0,0.0,1.0,3.0,0.0,6.0,2.0,0.0,4.0,0.0235,-1.0,mixed
+primary,DA,DA.LA:Eigenvalues & decompositions,DA.LA,Eigenvalues & decompositions,3,3.0,1.0,2.0,2.0,1.0,1.0,6.0,2.0,1.0,3.0,0.0235,-0.5,stable
+primary,DA,DA.ML:Clustering,DA.ML,Clustering,7,3.0,1.0,2.0,2.0,1.0,1.0,6.0,2.0,1.0,3.0,0.0235,-0.5,stable
+primary,DA,DA.DB:Storage & indexing,DA.DB,Storage & indexing,2,2.0,0.0,3.0,1.0,0.0,2.0,5.0,1.667,0.0,3.0,0.0196,0.5,stable
+primary,DA,DA.DB:Data warehousing,DA.DB,Data warehousing,3,0.0,2.0,3.0,0.0,1.0,2.0,5.0,1.667,0.0,3.0,0.0196,1.5,stable
+primary,DA,DA.ML:Regression,DA.ML,Regression,3,0.0,1.0,4.0,0.0,1.0,2.0,5.0,1.667,0.0,4.0,0.0196,2.0,mixed
+primary,DA,DA.PS:Statistical inference,DA.PS,Statistical inference,5,0.0,2.0,2.0,0.0,1.0,1.0,4.0,1.333,0.0,2.0,0.0157,1.0,stable
+primary,DA,DA.LA:Vector spaces,DA.LA,Vector spaces,4,2.0,1.0,1.0,1.0,1.0,1.0,4.0,1.333,1.0,2.0,0.0157,-0.5,stable
+primary,DA,DA.ML:Supervised learning setup,DA.ML,Supervised learning setup,1,2.0,0.0,2.0,1.0,0.0,1.0,4.0,1.333,0.0,2.0,0.0157,0.0,stable
+primary,DA,DA.AI:Reasoning under uncertainty,DA.AI,Reasoning under uncertainty,3,3.0,1.0,0.0,2.0,1.0,0.0,4.0,1.333,0.0,3.0,0.0157,-1.5,stable
+primary,DA,DA.ML:Dimensionality reduction,DA.ML,Dimensionality reduction,2,0.0,2.0,1.0,0.0,1.0,1.0,3.0,1.0,0.0,2.0,0.0118,0.5,stable
+primary,DA,DA.DB:Data preprocessing,DA.DB,Data preprocessing,5,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.333,0.0,1.0,0.0039,-0.5,stable
+primary,DA,DA.ML:Model evaluation & selection,DA.ML,Model evaluation & selection,3,0.0,0.0,1.0,0.0,0.0,1.0,1.0,0.333,0.0,1.0,0.0039,0.5,stable
+primary,GA,GA.QA:Quantitative Aptitude,GA.QA,Quantitative Aptitude,8,7.0,8.0,5.0,5.0,5.0,3.0,20.0,6.667,5.0,8.0,0.4444,-1.0,stable
+primary,GA,GA.AA:Analytical Aptitude,GA.AA,Analytical Aptitude,3,1.0,4.0,7.0,1.0,3.0,5.0,12.0,4.0,1.0,7.0,0.2667,3.0,rising
+primary,GA,GA.VA:Verbal Aptitude,GA.VA,Verbal Aptitude,4,2.0,3.0,2.0,1.0,2.0,1.0,7.0,2.333,2.0,3.0,0.1556,-0.0,stable
+primary,GA,GA.SA:Spatial Aptitude,GA.SA,Spatial Aptitude,2,5.0,0.0,1.0,3.0,0.0,1.0,6.0,2.0,0.0,5.0,0.1333,-2.0,mixed
+shared,DA,DA.DB:Relational databases,DA.DB,Relational databases,6,4.667,9.667,12.0,3.333,6.333,7.0,26.334,8.778,4.667,12.0,0.1033,3.67,rising
+shared,DA,DA.PS:Distributions,DA.PS,Distributions,10,4.333,9.917,7.25,2.667,5.75,4.5,21.5,7.167,4.333,9.917,0.0843,1.46,mixed
+shared,DA,DA.PD:Python programming,DA.PD,Python programming,1,5.333,5.667,5.0,2.667,3.333,3.0,16.0,5.333,5.0,5.667,0.0627,-0.17,stable
+shared,DA,DA.CO:Calculus,DA.CO,Calculus,4,5.0,7.0,1.833,3.0,5.0,1.583,13.833,4.611,1.833,7.0,0.0542,-1.58,mixed
+shared,DA,DA.PS:Probability foundations,DA.PS,Probability foundations,8,3.667,3.333,5.5,2.333,2.333,4.25,12.5,4.167,3.333,5.5,0.049,0.92,stable
+shared,DA,DA.ML:Classification,DA.ML,Classification,6,7.417,4.0,0.6,5.417,2.333,0.6,12.017,4.006,0.6,7.417,0.0471,-3.41,falling
+shared,DA,DA.PD:Searching & sorting,DA.PD,Searching & sorting,7,5.0,1.667,5.333,3.0,1.667,3.667,12.0,4.0,1.667,5.333,0.0471,0.17,stable
+shared,DA,DA.PS:Random variables & expectation,DA.PS,Random variables & expectation,6,4.0,4.167,3.75,2.0,2.833,2.0,11.917,3.972,3.75,4.167,0.0467,-0.13,stable
+shared,DA,DA.PD:Data structures,DA.PD,Data structures,5,6.667,2.667,1.667,5.333,2.0,1.333,11.001,3.667,1.667,6.667,0.0431,-2.5,falling
+shared,DA,DA.LA:Matrices,DA.LA,Matrices,7,2.5,3.667,4.167,1.75,1.833,2.417,10.334,3.445,2.5,4.167,0.0405,0.83,stable
+shared,DA,DA.AI:Logic,DA.AI,Logic,2,3.0,1.0,6.0,2.0,1.0,4.0,10.0,3.333,1.0,6.0,0.0392,1.5,mixed
+shared,DA,DA.PD:Graphs,DA.PD,Graphs,3,3.667,4.0,2.0,2.333,2.0,1.0,9.667,3.222,2.0,4.0,0.0379,-0.83,stable
+shared,DA,DA.LA:Eigenvalues & decompositions,DA.LA,Eigenvalues & decompositions,3,3.333,3.25,2.833,2.333,2.083,1.583,9.416,3.139,2.833,3.333,0.0369,-0.25,stable
+shared,DA,DA.AI:Search,DA.AI,Search,3,3.333,4.0,2.0,2.667,2.0,2.0,9.333,3.111,2.0,4.0,0.0366,-0.67,stable
+shared,DA,DA.CO:Optimization,DA.CO,Optimization,2,3.0,3.333,1.667,2.0,1.667,1.667,8.0,2.667,1.667,3.333,0.0314,-0.67,stable
+shared,DA,DA.ML:Neural networks,DA.ML,Neural networks,2,2.0,3.333,2.0,1.0,2.0,1.0,7.333,2.444,2.0,3.333,0.0288,-0.0,stable
+shared,DA,DA.PS:Descriptive statistics,DA.PS,Descriptive statistics,2,3.333,0.917,3.0,2.333,0.917,1.5,7.25,2.417,0.917,3.333,0.0284,-0.17,stable
+shared,DA,DA.LA:Linear systems,DA.LA,Linear systems,4,2.5,4.083,0.0,1.25,3.083,0.0,6.583,2.194,0.0,4.083,0.0258,-1.25,mixed
+shared,DA,DA.ML:Clustering,DA.ML,Clustering,7,3.0,1.0,2.2,2.0,1.0,1.2,6.2,2.067,1.0,3.0,0.0243,-0.4,stable
+shared,DA,DA.ML:Supervised learning setup,DA.ML,Supervised learning setup,1,2.0,1.0,2.0,1.0,0.667,1.0,5.0,1.667,1.0,2.0,0.0196,0.0,stable
+shared,DA,DA.LA:Vector spaces,DA.LA,Vector spaces,4,2.0,1.667,1.0,1.0,1.333,1.0,4.667,1.556,1.0,2.0,0.0183,-0.5,stable
+shared,DA,DA.DB:Storage & indexing,DA.DB,Storage & indexing,2,1.333,0.0,3.0,0.667,0.0,2.0,4.333,1.444,0.0,3.0,0.017,0.83,stable
+shared,DA,DA.DB:Data warehousing,DA.DB,Data warehousing,3,0.0,1.333,3.0,0.0,0.667,2.0,4.333,1.444,0.0,3.0,0.017,1.5,stable
+shared,DA,DA.ML:Regression,DA.ML,Regression,3,0.0,1.0,3.333,0.0,1.0,1.667,4.333,1.444,0.0,3.333,0.017,1.67,stable
+shared,DA,DA.AI:Reasoning under uncertainty,DA.AI,Reasoning under uncertainty,3,3.0,1.0,0.2,2.0,1.0,0.2,4.2,1.4,0.2,3.0,0.0165,-1.4,stable
+shared,DA,DA.ML:Dimensionality reduction,DA.ML,Dimensionality reduction,2,0.25,1.333,1.0,0.25,0.667,1.0,2.583,0.861,0.25,1.333,0.0101,0.37,stable
+shared,DA,DA.PS:Statistical inference,DA.PS,Statistical inference,5,0.0,1.0,1.0,0.0,0.5,0.5,2.0,0.667,0.0,1.0,0.0078,0.5,stable
+shared,DA,DA.ML:Model evaluation & selection,DA.ML,Model evaluation & selection,3,0.0,0.0,1.667,0.0,0.0,1.333,1.667,0.556,0.0,1.667,0.0065,0.83,stable
+shared,DA,DA.DB:Data preprocessing,DA.DB,Data preprocessing,5,0.667,0.0,0.0,0.667,0.0,0.0,0.667,0.222,0.0,0.667,0.0026,-0.33,stable
+shared,GA,GA.QA:Quantitative Aptitude,GA.QA,Quantitative Aptitude,8,7.667,7.333,5.0,5.333,4.667,3.0,20.0,6.667,5.0,7.667,0.4444,-1.33,stable
+shared,GA,GA.AA:Analytical Aptitude,GA.AA,Analytical Aptitude,3,1.333,3.333,6.333,1.0,2.333,4.333,10.999,3.666,1.333,6.333,0.2444,2.5,rising
+shared,GA,GA.VA:Verbal Aptitude,GA.VA,Verbal Aptitude,4,1.667,3.333,2.667,1.0,2.333,1.667,7.667,2.556,1.667,3.333,0.1704,0.5,stable
+shared,GA,GA.SA:Spatial Aptitude,GA.SA,Spatial Aptitude,2,4.333,1.0,1.0,2.667,0.667,1.0,6.333,2.111,1.0,4.333,0.1407,-1.67,stable

@@ -1,0 +1,137 @@
+part,section_id,section_title,cluster,item_id,label,primary_marks_2024,primary_marks_2025,primary_marks_2026,primary_questions,primary_marks_total,shared_marks_total,secondary_uses,years_touched,first_year,last_year,status,forecast_expected_questions,forecast_p_asked,forecast_rate_low,forecast_rate_high,forecast_expected_marks
+DA,DA.PS,Probability and Statistics,Probability foundations,DA.PS.01,Counting: permutations & combinations,0.0,0.0,3.0,3.0,3.0,2.667,0,1,2026,2026,asked,0.5053,0.3862,0.2825,0.7585,0.8174
+DA,DA.PS,Probability and Statistics,Probability foundations,DA.PS.02,Probability axioms,0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.2917,0.2456,0.1289,0.4849,0.4719
+DA,DA.PS,Probability and Statistics,Probability foundations,DA.PS.03,Sample space,0.0,0.0,0.0,0.0,0.0,0.333,1,1,2024,2024,only_secondary,0.2917,0.2456,0.1289,0.4849,0.4719
+DA,DA.PS,Probability and Statistics,Probability foundations,DA.PS.04,Events,0.0,0.0,0.0,0.0,0.0,1.0,2,2,2025,2026,only_secondary,0.2917,0.2456,0.1289,0.4849,0.4719
+DA,DA.PS,Probability and Statistics,Probability foundations,DA.PS.05,Independent events,0.0,2.0,0.0,1.0,2.0,1.833,1,2,2025,2026,asked,0.3629,0.2957,0.1781,0.5781,0.5871
+DA,DA.PS,Probability and Statistics,Probability foundations,DA.PS.06,Mutually exclusive events,1.0,0.0,0.0,1.0,1.0,0.667,0,1,2024,2024,asked,0.3629,0.2957,0.1781,0.5781,0.5871
+DA,DA.PS,Probability and Statistics,Probability foundations,DA.PS.07,"Marginal, conditional & joint probability",0.0,0.0,0.0,0.0,0.0,1.333,2,1,2024,2024,only_secondary,0.2917,0.2456,0.1289,0.4849,0.4719
+DA,DA.PS,Probability and Statistics,Probability foundations,DA.PS.08,Bayes' theorem,2.0,1.0,2.0,3.0,5.0,4.667,1,3,2024,2026,asked,0.5053,0.3862,0.2825,0.7585,0.8174
+DA,DA.PS,Probability and Statistics,Random variables & expectation,DA.PS.09,Conditional expectation & variance,4.0,1.0,0.0,3.0,5.0,4.167,1,3,2024,2026,asked,0.5053,0.3862,0.2825,0.7585,0.8174
+DA,DA.PS,Probability and Statistics,Descriptive statistics,DA.PS.10,"Mean, median, mode & standard deviation",1.0,0.0,2.0,2.0,3.0,3.583,2,3,2024,2026,asked,0.4341,0.3425,0.2295,0.6691,0.7023
+DA,DA.PS,Probability and Statistics,Descriptive statistics,DA.PS.11,Correlation & covariance,2.0,1.0,2.0,3.0,5.0,3.667,0,3,2024,2026,asked,0.5053,0.3862,0.2825,0.7585,0.8174
+DA,DA.PS,Probability and Statistics,Random variables & expectation,DA.PS.12,Random variables,0.0,0.0,2.0,1.0,2.0,1.0,0,1,2026,2026,asked,0.3629,0.2957,0.1781,0.5781,0.5871
+DA,DA.PS,Probability and Statistics,Random variables & expectation,DA.PS.13,Discrete random variables & PMFs,0.0,0.0,0.0,0.0,0.0,2.0,3,3,2024,2026,only_secondary,0.2917,0.2456,0.1289,0.4849,0.4719
+DA,DA.PS,Probability and Statistics,Distributions,DA.PS.14,Discrete uniform distribution,0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.2917,0.2456,0.1289,0.4849,0.4719
+DA,DA.PS,Probability and Statistics,Distributions,DA.PS.15,Bernoulli distribution,0.0,2.0,0.0,1.0,2.0,2.833,3,2,2025,2026,asked,0.3629,0.2957,0.1781,0.5781,0.5871
+DA,DA.PS,Probability and Statistics,Distributions,DA.PS.16,Binomial distribution,0.0,2.0,2.0,2.0,4.0,4.167,2,2,2025,2026,asked,0.4341,0.3425,0.2295,0.6691,0.7023
+DA,DA.PS,Probability and Statistics,Random variables & expectation,DA.PS.17,Continuous random variables & PDFs,0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.2917,0.2456,0.1289,0.4849,0.4719
+DA,DA.PS,Probability and Statistics,Distributions,DA.PS.18,Continuous uniform distribution,2.0,0.0,0.0,1.0,2.0,2.083,2,3,2024,2026,asked,0.3629,0.2957,0.1781,0.5781,0.5871
+DA,DA.PS,Probability and Statistics,Distributions,DA.PS.19,Exponential distribution,2.0,3.0,1.0,4.0,6.0,5.833,1,3,2024,2026,asked,0.5765,0.427,0.3368,0.8466,0.9326
+DA,DA.PS,Probability and Statistics,Distributions,DA.PS.20,Poisson distribution,1.0,0.0,0.0,1.0,1.0,1.167,1,2,2024,2026,asked,0.3629,0.2957,0.1781,0.5781,0.5871
+DA,DA.PS,Probability and Statistics,Distributions,DA.PS.21,Normal distribution,0.0,0.0,0.0,0.0,0.0,0.5,1,1,2026,2026,only_secondary,0.2917,0.2456,0.1289,0.4849,0.4719
+DA,DA.PS,Probability and Statistics,Distributions,DA.PS.22,Standard normal distribution,0.0,0.0,0.0,0.0,0.0,2.083,5,3,2024,2026,only_secondary,0.2917,0.2456,0.1289,0.4849,0.4719
+DA,DA.PS,Probability and Statistics,Distributions,DA.PS.23,t-distribution,0.0,0.0,1.0,1.0,1.0,0.5,0,1,2026,2026,asked,0.3629,0.2957,0.1781,0.5781,0.5871
+DA,DA.PS,Probability and Statistics,Distributions,DA.PS.24,Chi-squared distribution,0.0,2.0,2.0,2.0,4.0,2.333,0,2,2025,2026,asked,0.4341,0.3425,0.2295,0.6691,0.7023
+DA,DA.PS,Probability and Statistics,Random variables & expectation,DA.PS.25,Cumulative distribution function (CDF),0.0,3.0,2.0,3.0,5.0,4.083,1,2,2025,2026,asked,0.5053,0.3862,0.2825,0.7585,0.8174
+DA,DA.PS,Probability and Statistics,Random variables & expectation,DA.PS.26,Conditional PDF,0.0,0.0,0.0,0.0,0.0,0.667,1,1,2024,2024,only_secondary,0.2917,0.2456,0.1289,0.4849,0.4719
+DA,DA.PS,Probability and Statistics,Statistical inference,DA.PS.27,Central limit theorem,0.0,2.0,2.0,2.0,4.0,2.0,0,2,2025,2026,asked,0.4341,0.3425,0.2295,0.6691,0.7023
+DA,DA.PS,Probability and Statistics,Statistical inference,DA.PS.28,Confidence intervals,0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.2917,0.2456,0.1289,0.4849,0.4719
+DA,DA.PS,Probability and Statistics,Statistical inference,DA.PS.29,z-test,0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.2917,0.2456,0.1289,0.4849,0.4719
+DA,DA.PS,Probability and Statistics,Statistical inference,DA.PS.30,t-test,0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.2917,0.2456,0.1289,0.4849,0.4719
+DA,DA.PS,Probability and Statistics,Statistical inference,DA.PS.31,Chi-squared test,0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.2917,0.2456,0.1289,0.4849,0.4719
+DA,DA.LA,Linear Algebra,Vector spaces,DA.LA.01,Vector spaces,0.0,0.0,0.0,0.0,0.0,0.333,1,1,2025,2025,only_secondary,0.2856,0.2413,0.1262,0.4747,0.451
+DA,DA.LA,Linear Algebra,Vector spaces,DA.LA.02,Subspaces,2.0,0.0,1.0,2.0,3.0,3.0,0,2,2024,2026,asked,0.425,0.3369,0.2247,0.6551,0.6711
+DA,DA.LA,Linear Algebra,Vector spaces,DA.LA.03,Linear dependence & independence,0.0,1.0,0.0,1.0,1.0,1.333,1,1,2025,2025,asked,0.3553,0.2907,0.1744,0.566,0.561
+DA,DA.LA,Linear Algebra,Matrices,DA.LA.04,Matrices (general),0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.2856,0.2413,0.1262,0.4747,0.451
+DA,DA.LA,Linear Algebra,Matrices,DA.LA.05,Projection matrix,2.0,2.0,2.0,3.0,6.0,3.833,1,3,2024,2026,asked,0.4947,0.3801,0.2766,0.7426,0.7811
+DA,DA.LA,Linear Algebra,Matrices,DA.LA.06,Orthogonal matrix,0.0,2.0,1.0,2.0,3.0,2.0,0,2,2025,2026,asked,0.425,0.3369,0.2247,0.6551,0.6711
+DA,DA.LA,Linear Algebra,Matrices,DA.LA.07,Idempotent matrix,0.0,0.0,0.0,0.0,0.0,1.167,2,2,2024,2026,only_secondary,0.2856,0.2413,0.1262,0.4747,0.451
+DA,DA.LA,Linear Algebra,Matrices,DA.LA.08,Partitioned matrices & properties,0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.2856,0.2413,0.1262,0.4747,0.451
+DA,DA.LA,Linear Algebra,Matrices,DA.LA.09,Quadratic forms,0.0,2.0,2.0,2.0,4.0,2.333,0,2,2025,2026,asked,0.425,0.3369,0.2247,0.6551,0.6711
+DA,DA.LA,Linear Algebra,Linear systems,DA.LA.10,Systems of linear equations,2.0,1.0,0.0,2.0,3.0,1.833,0,2,2024,2025,asked,0.425,0.3369,0.2247,0.6551,0.6711
+DA,DA.LA,Linear Algebra,Linear systems,DA.LA.11,Gaussian elimination,0.0,1.0,0.0,1.0,1.0,1.0,0,1,2025,2025,asked,0.3553,0.2907,0.1744,0.566,0.561
+DA,DA.LA,Linear Algebra,Eigenvalues & decompositions,DA.LA.12,Eigenvalues & eigenvectors,1.0,1.0,2.0,3.0,4.0,7.583,8,3,2024,2026,asked,0.4947,0.3801,0.2766,0.7426,0.7811
+DA,DA.LA,Linear Algebra,Matrices,DA.LA.13,Determinant,1.0,0.0,0.0,1.0,1.0,1.0,0,1,2024,2024,asked,0.3553,0.2907,0.1744,0.566,0.561
+DA,DA.LA,Linear Algebra,Linear systems,DA.LA.14,Rank,0.0,2.0,0.0,1.0,2.0,3.0,3,2,2024,2025,asked,0.3553,0.2907,0.1744,0.566,0.561
+DA,DA.LA,Linear Algebra,Linear systems,DA.LA.15,Nullity,0.0,0.0,0.0,0.0,0.0,0.75,2,2,2024,2025,only_secondary,0.2856,0.2413,0.1262,0.4747,0.451
+DA,DA.LA,Linear Algebra,Vector spaces,DA.LA.16,Projections,0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.2856,0.2413,0.1262,0.4747,0.451
+DA,DA.LA,Linear Algebra,Eigenvalues & decompositions,DA.LA.17,LU decomposition,0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.2856,0.2413,0.1262,0.4747,0.451
+DA,DA.LA,Linear Algebra,Eigenvalues & decompositions,DA.LA.18,Singular value decomposition (SVD),2.0,0.0,0.0,1.0,2.0,1.833,1,2,2024,2025,asked,0.3553,0.2907,0.1744,0.566,0.561
+DA,DA.CO,Calculus and Optimization,Calculus,DA.CO.01,Functions of a single variable,1.0,0.0,0.0,1.0,1.0,1.667,2,3,2024,2026,asked,0.657,0.461,0.3224,1.0466,0.9637
+DA,DA.CO,Calculus and Optimization,Calculus,DA.CO.02,Limits,2.0,1.0,0.0,2.0,3.0,2.833,1,3,2024,2026,asked,0.7859,0.5225,0.4155,1.2114,1.1527
+DA,DA.CO,Calculus and Optimization,Calculus,DA.CO.03,Continuity & differentiability,2.0,5.0,0.0,4.0,7.0,7.0,1,2,2024,2025,asked,1.0437,0.6253,0.6098,1.5326,1.5308
+DA,DA.CO,Calculus and Optimization,Calculus,DA.CO.04,Taylor series,0.0,1.0,1.0,2.0,2.0,2.333,1,3,2024,2026,asked,0.7859,0.5225,0.4155,1.2114,1.1527
+DA,DA.CO,Calculus and Optimization,Optimization,DA.CO.05,Maxima & minima,3.0,4.0,1.0,5.0,8.0,7.0,0,3,2024,2026,asked,1.1726,0.6681,0.7101,1.6902,1.7198
+DA,DA.CO,Calculus and Optimization,Optimization,DA.CO.06,Single-variable optimization,0.0,0.0,1.0,1.0,1.0,1.0,0,1,2026,2026,asked,0.657,0.461,0.3224,1.0466,0.9637
+DA,DA.PD,"Programming, Data Structures and Algorithms",Python programming,DA.PD.01,Programming in Python,6.0,5.0,5.0,9.0,16.0,16.0,2,3,2024,2026,asked,1.4169,0.7396,0.944,1.936,2.1939
+DA,DA.PD,"Programming, Data Structures and Algorithms",Data structures,DA.PD.02,Stacks,1.0,2.0,0.0,2.0,3.0,2.5,1,3,2024,2026,asked,0.6596,0.4655,0.3487,1.0167,1.0214
+DA,DA.PD,"Programming, Data Structures and Algorithms",Data structures,DA.PD.03,Queues,1.0,0.0,0.0,1.0,1.0,1.25,1,1,2024,2024,asked,0.5515,0.4076,0.2706,0.8784,0.8539
+DA,DA.PD,"Programming, Data Structures and Algorithms",Data structures,DA.PD.04,Linked lists,0.0,0.0,0.0,0.0,0.0,0.333,1,1,2025,2025,only_secondary,0.4433,0.3435,0.1958,0.7368,0.6864
+DA,DA.PD,"Programming, Data Structures and Algorithms",Data structures,DA.PD.05,Trees,3.0,0.0,1.0,3.0,4.0,4.667,1,2,2024,2026,asked,0.7678,0.5176,0.4293,1.1525,1.1889
+DA,DA.PD,"Programming, Data Structures and Algorithms",Data structures,DA.PD.06,Hash tables,1.0,1.0,0.0,2.0,2.0,2.25,1,2,2024,2025,asked,0.6596,0.4655,0.3487,1.0167,1.0214
+DA,DA.PD,"Programming, Data Structures and Algorithms",Searching & sorting,DA.PD.07,Linear search,0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.4433,0.3435,0.1958,0.7368,0.6864
+DA,DA.PD,"Programming, Data Structures and Algorithms",Searching & sorting,DA.PD.08,Binary search,2.0,1.0,1.0,3.0,4.0,3.667,0,3,2024,2026,asked,0.7678,0.5176,0.4293,1.1525,1.1889
+DA,DA.PD,"Programming, Data Structures and Algorithms",Searching & sorting,DA.PD.09,Selection sort,2.0,0.0,0.0,1.0,2.0,1.0,0,1,2024,2024,asked,0.5515,0.4076,0.2706,0.8784,0.8539
+DA,DA.PD,"Programming, Data Structures and Algorithms",Searching & sorting,DA.PD.10,Bubble sort,0.0,0.0,4.0,2.0,4.0,3.167,1,2,2024,2026,asked,0.6596,0.4655,0.3487,1.0167,1.0214
+DA,DA.PD,"Programming, Data Structures and Algorithms",Searching & sorting,DA.PD.11,Insertion sort,0.0,1.0,0.0,1.0,1.0,2.167,2,3,2024,2026,asked,0.5515,0.4076,0.2706,0.8784,0.8539
+DA,DA.PD,"Programming, Data Structures and Algorithms",Searching & sorting,DA.PD.12,Merge sort,0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.4433,0.3435,0.1958,0.7368,0.6864
+DA,DA.PD,"Programming, Data Structures and Algorithms",Searching & sorting,DA.PD.13,Quicksort,1.0,0.0,1.0,2.0,2.0,2.0,0,2,2024,2026,asked,0.6596,0.4655,0.3487,1.0167,1.0214
+DA,DA.PD,"Programming, Data Structures and Algorithms",Graphs,DA.PD.14,Graph theory basics,0.0,0.0,0.0,0.0,0.0,2.333,4,3,2024,2026,only_secondary,0.4433,0.3435,0.1958,0.7368,0.6864
+DA,DA.PD,"Programming, Data Structures and Algorithms",Graphs,DA.PD.15,Graph traversals (BFS/DFS),3.0,2.0,2.0,4.0,7.0,6.0,1,3,2024,2026,asked,0.876,0.5647,0.5118,1.2863,1.3564
+DA,DA.PD,"Programming, Data Structures and Algorithms",Graphs,DA.PD.16,Shortest paths,0.0,2.0,0.0,1.0,2.0,1.333,0,1,2025,2025,asked,0.5515,0.4076,0.2706,0.8784,0.8539
+DA,DA.DB,Database Management and Warehousing,Relational databases,DA.DB.01,ER model,0.0,0.0,2.0,1.0,2.0,1.333,0,1,2026,2026,asked,0.4484,0.3493,0.22,0.7142,0.7018
+DA,DA.DB,Database Management and Warehousing,Relational databases,DA.DB.02,Relational algebra,1.0,3.0,2.0,4.0,6.0,6.333,1,3,2024,2026,asked,0.7122,0.4947,0.4161,1.0459,1.1148
+DA,DA.DB,Database Management and Warehousing,Relational databases,DA.DB.03,Tuple relational calculus,0.0,0.0,2.0,1.0,2.0,2.0,0,1,2026,2026,asked,0.4484,0.3493,0.22,0.7142,0.7018
+DA,DA.DB,Database Management and Warehousing,Relational databases,DA.DB.04,SQL,1.0,1.0,4.0,4.0,6.0,8.0,3,3,2024,2026,asked,0.7122,0.4947,0.4161,1.0459,1.1148
+DA,DA.DB,Database Management and Warehousing,Relational databases,DA.DB.05,Integrity constraints & keys,0.0,2.0,1.0,2.0,3.0,3.333,2,2,2025,2026,asked,0.5363,0.4019,0.2835,0.8266,0.8394
+DA,DA.DB,Database Management and Warehousing,Relational databases,DA.DB.06,Normal forms,2.0,3.0,1.0,4.0,6.0,5.333,1,3,2024,2026,asked,0.7122,0.4947,0.4161,1.0459,1.1148
+DA,DA.DB,Database Management and Warehousing,Storage & indexing,DA.DB.07,File organization,0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.3604,0.2921,0.1592,0.599,0.5641
+DA,DA.DB,Database Management and Warehousing,Storage & indexing,DA.DB.08,Indexing (incl. B/B+ trees),2.0,0.0,3.0,3.0,5.0,4.333,0,2,2024,2026,asked,0.6243,0.4503,0.349,0.937,0.9771
+DA,DA.DB,Database Management and Warehousing,Data preprocessing,DA.DB.09,Data (attribute) types,0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.3604,0.2921,0.1592,0.599,0.5641
+DA,DA.DB,Database Management and Warehousing,Data preprocessing,DA.DB.10,Data normalization (scaling),1.0,0.0,0.0,1.0,1.0,0.667,0,1,2024,2024,asked,0.4484,0.3493,0.22,0.7142,0.7018
+DA,DA.DB,Database Management and Warehousing,Data preprocessing,DA.DB.11,Discretization,0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.3604,0.2921,0.1592,0.599,0.5641
+DA,DA.DB,Database Management and Warehousing,Data preprocessing,DA.DB.12,Sampling,0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.3604,0.2921,0.1592,0.599,0.5641
+DA,DA.DB,Database Management and Warehousing,Data preprocessing,DA.DB.13,Compression,0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.3604,0.2921,0.1592,0.599,0.5641
+DA,DA.DB,Database Management and Warehousing,Data warehousing,DA.DB.14,Multidimensional schemas (star/snowflake),0.0,2.0,0.0,1.0,2.0,2.333,2,2,2025,2026,asked,0.4484,0.3493,0.22,0.7142,0.7018
+DA,DA.DB,Database Management and Warehousing,Data warehousing,DA.DB.15,Concept hierarchies,0.0,0.0,3.0,2.0,3.0,2.0,0,1,2026,2026,asked,0.5363,0.4019,0.2835,0.8266,0.8394
+DA,DA.DB,Database Management and Warehousing,Data warehousing,DA.DB.16,Measures: categorization & computation,0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.3604,0.2921,0.1592,0.599,0.5641
+DA,DA.ML,Machine Learning,Supervised learning setup,DA.ML.01,Regression vs classification problems,2.0,0.0,2.0,2.0,4.0,5.0,2,3,2024,2026,asked,0.4314,0.3409,0.2281,0.665,0.6638
+DA,DA.ML,Machine Learning,Regression,DA.ML.02,Simple linear regression,0.0,1.0,0.0,1.0,1.0,1.0,0,1,2025,2025,asked,0.3607,0.2943,0.177,0.5745,0.5549
+DA,DA.ML,Machine Learning,Regression,DA.ML.03,Multiple linear regression,0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.2899,0.2443,0.1281,0.4819,0.446
+DA,DA.ML,Machine Learning,Regression,DA.ML.04,Ridge regression,0.0,0.0,4.0,2.0,4.0,3.333,0,1,2026,2026,asked,0.4314,0.3409,0.2281,0.665,0.6638
+DA,DA.ML,Machine Learning,Classification,DA.ML.05,Logistic regression,0.0,0.0,0.0,0.0,0.0,0.25,1,1,2024,2024,only_secondary,0.2899,0.2443,0.1281,0.4819,0.446
+DA,DA.ML,Machine Learning,Classification,DA.ML.06,k-nearest neighbours,2.0,0.0,0.0,1.0,2.0,2.0,0,1,2024,2024,asked,0.3607,0.2943,0.177,0.5745,0.5549
+DA,DA.ML,Machine Learning,Classification,DA.ML.07,Naive Bayes classifier,2.0,1.0,0.0,3.0,3.0,2.367,1,3,2024,2026,asked,0.5022,0.3844,0.2808,0.7538,0.7726
+DA,DA.ML,Machine Learning,Classification,DA.ML.08,Linear discriminant analysis (LDA),1.0,2.0,1.0,3.0,4.0,2.4,0,3,2024,2026,asked,0.5022,0.3844,0.2808,0.7538,0.7726
+DA,DA.ML,Machine Learning,Classification,DA.ML.09,Support vector machines,1.0,2.0,0.0,2.0,3.0,3.0,0,2,2024,2025,asked,0.4314,0.3409,0.2281,0.665,0.6638
+DA,DA.ML,Machine Learning,Classification,DA.ML.10,Decision trees,2.0,0.0,0.0,1.0,2.0,2.0,0,1,2024,2024,asked,0.3607,0.2943,0.177,0.5745,0.5549
+DA,DA.ML,Machine Learning,Model evaluation & selection,DA.ML.11,Bias-variance trade-off,0.0,0.0,0.0,0.0,0.0,0.667,1,1,2026,2026,only_secondary,0.2899,0.2443,0.1281,0.4819,0.446
+DA,DA.ML,Machine Learning,Model evaluation & selection,DA.ML.12,Leave-one-out cross-validation,0.0,0.0,1.0,1.0,1.0,1.0,0,1,2026,2026,asked,0.3607,0.2943,0.177,0.5745,0.5549
+DA,DA.ML,Machine Learning,Model evaluation & selection,DA.ML.13,k-fold cross-validation,0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.2899,0.2443,0.1281,0.4819,0.446
+DA,DA.ML,Machine Learning,Neural networks,DA.ML.14,Multi-layer perceptron,0.0,1.0,2.0,2.0,3.0,3.333,2,3,2024,2026,asked,0.4314,0.3409,0.2281,0.665,0.6638
+DA,DA.ML,Machine Learning,Neural networks,DA.ML.15,Feed-forward neural networks,2.0,2.0,0.0,2.0,4.0,4.0,2,3,2024,2026,asked,0.4314,0.3409,0.2281,0.665,0.6638
+DA,DA.ML,Machine Learning,Clustering,DA.ML.16,Clustering algorithms (general),0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.2899,0.2443,0.1281,0.4819,0.446
+DA,DA.ML,Machine Learning,Clustering,DA.ML.17,k-means / k-medoids,1.0,0.0,0.0,1.0,1.0,1.2,1,2,2024,2026,asked,0.3607,0.2943,0.177,0.5745,0.5549
+DA,DA.ML,Machine Learning,Clustering,DA.ML.18,Hierarchical clustering,0.0,0.0,0.0,0.0,0.0,1.167,2,2,2024,2026,only_secondary,0.2899,0.2443,0.1281,0.4819,0.446
+DA,DA.ML,Machine Learning,Clustering,DA.ML.19,Top-down (divisive) clustering,0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.2899,0.2443,0.1281,0.4819,0.446
+DA,DA.ML,Machine Learning,Clustering,DA.ML.20,Bottom-up (agglomerative) clustering,0.0,0.0,2.0,1.0,2.0,1.833,1,2,2024,2026,asked,0.3607,0.2943,0.177,0.5745,0.5549
+DA,DA.ML,Machine Learning,Clustering,DA.ML.21,Single linkage,2.0,1.0,0.0,2.0,3.0,1.667,0,2,2024,2025,asked,0.4314,0.3409,0.2281,0.665,0.6638
+DA,DA.ML,Machine Learning,Clustering,DA.ML.22,Multiple linkage,0.0,0.0,0.0,0.0,0.0,0.333,1,1,2025,2025,only_secondary,0.2899,0.2443,0.1281,0.4819,0.446
+DA,DA.ML,Machine Learning,Dimensionality reduction,DA.ML.23,Dimensionality reduction (general),0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.2899,0.2443,0.1281,0.4819,0.446
+DA,DA.ML,Machine Learning,Dimensionality reduction,DA.ML.24,Principal component analysis (PCA),0.0,2.0,1.0,2.0,3.0,2.583,1,3,2024,2026,asked,0.4314,0.3409,0.2281,0.665,0.6638
+DA,DA.AI,AI,Search,DA.AI.01,Informed (heuristic) search,1.0,2.0,0.0,2.0,3.0,3.333,1,3,2024,2026,asked,0.7074,0.4879,0.374,1.0903,0.9987
+DA,DA.AI,AI,Search,DA.AI.02,Uninformed search,2.0,0.0,1.0,2.0,3.0,2.0,0,2,2024,2026,asked,0.7074,0.4879,0.374,1.0903,0.9987
+DA,DA.AI,AI,Search,DA.AI.03,Adversarial search (game trees),1.0,2.0,1.0,3.0,4.0,4.0,0,3,2024,2026,asked,0.8234,0.5412,0.4604,1.236,1.1625
+DA,DA.AI,AI,Logic,DA.AI.04,Propositional logic,1.0,1.0,3.0,4.0,5.0,5.0,0,3,2024,2026,asked,0.9394,0.5889,0.5489,1.3795,1.3263
+DA,DA.AI,AI,Logic,DA.AI.05,Predicate (first-order) logic,2.0,0.0,3.0,3.0,5.0,5.0,0,2,2024,2026,asked,0.8234,0.5412,0.4604,1.236,1.1625
+DA,DA.AI,AI,Reasoning under uncertainty,DA.AI.06,Conditional independence (Bayesian networks),3.0,0.0,0.0,2.0,3.0,3.0,0,1,2024,2024,asked,0.7074,0.4879,0.374,1.0903,0.9987
+DA,DA.AI,AI,Reasoning under uncertainty,DA.AI.07,Exact inference: variable elimination,0.0,1.0,0.0,1.0,1.0,0.667,0,1,2025,2025,asked,0.5914,0.4285,0.2902,0.942,0.8349
+DA,DA.AI,AI,Reasoning under uncertainty,DA.AI.08,Approximate inference: sampling,0.0,0.0,0.0,0.0,0.0,0.533,2,2,2025,2026,only_secondary,0.4754,0.3622,0.21,0.7901,0.6711
+GA,GA.VA,Verbal Aptitude,Verbal Aptitude,GA.VA.01,English grammar,0.0,1.0,2.0,2.0,3.0,3.333,1,2,2025,2026,asked,0.3753,0.3129,0.3602,0.3906,0.6568
+GA,GA.VA,Verbal Aptitude,Verbal Aptitude,GA.VA.02,"Vocabulary: words, idioms & phrases",0.0,2.0,0.0,1.0,2.0,3.0,3,3,2024,2026,asked,0.375,0.3126,0.3598,0.3902,0.6562
+GA,GA.VA,Verbal Aptitude,Verbal Aptitude,GA.VA.03,Reading comprehension,2.0,0.0,0.0,1.0,2.0,1.333,0,1,2024,2024,asked,0.375,0.3126,0.3598,0.3902,0.6562
+GA,GA.VA,Verbal Aptitude,Verbal Aptitude,GA.VA.04,Narrative sequencing,0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.3746,0.3124,0.3595,0.3898,0.6555
+GA,GA.QA,Quantitative Aptitude,Quantitative Aptitude,GA.QA.01,"Data interpretation (graphs, plots, maps, tables)",1.0,3.0,0.0,3.0,4.0,3.667,1,2,2024,2025,asked,0.5632,0.4305,0.5406,0.5861,0.8665
+GA,GA.QA,Quantitative Aptitude,Quantitative Aptitude,GA.QA.02,Ratios,0.0,0.0,0.0,0.0,0.0,0.0,0,0,,,never_asked,0.5616,0.4296,0.5389,0.5844,0.8639
+GA,GA.QA,Quantitative Aptitude,Quantitative Aptitude,GA.QA.03,Percentages,2.0,0.0,0.0,1.0,2.0,2.0,2,2,2024,2025,asked,0.5621,0.4299,0.5395,0.585,0.8648
+GA,GA.QA,Quantitative Aptitude,Quantitative Aptitude,GA.QA.04,"Powers, exponents & logarithms",0.0,2.0,1.0,2.0,3.0,3.0,0,2,2025,2026,asked,0.5627,0.4302,0.54,0.5856,0.8657
+GA,GA.QA,Quantitative Aptitude,Quantitative Aptitude,GA.QA.05,Permutations & combinations,1.0,0.0,0.0,1.0,1.0,1.667,1,1,2024,2024,asked,0.5621,0.4299,0.5395,0.585,0.8648
+GA,GA.QA,Quantitative Aptitude,Quantitative Aptitude,GA.QA.06,Series,1.0,0.0,0.0,1.0,1.0,1.0,0,1,2024,2024,asked,0.5621,0.4299,0.5395,0.585,0.8648
+GA,GA.QA,Quantitative Aptitude,Quantitative Aptitude,GA.QA.07,Mensuration & geometry,0.0,3.0,2.0,3.0,5.0,4.667,1,3,2024,2026,asked,0.5632,0.4305,0.5406,0.5861,0.8665
+GA,GA.QA,Quantitative Aptitude,Quantitative Aptitude,GA.QA.08,Elementary statistics & probability,2.0,0.0,2.0,2.0,4.0,4.0,1,3,2024,2026,asked,0.5627,0.4302,0.54,0.5856,0.8657
+GA,GA.AA,Analytical Aptitude,Analytical Aptitude,GA.AA.01,Logic: deduction & induction,0.0,2.0,3.0,3.0,5.0,5.333,1,3,2024,2026,asked,1.0554,0.6517,1.0129,1.0983,1.4072
+GA,GA.AA,Analytical Aptitude,Analytical Aptitude,GA.AA.02,Analogy,1.0,1.0,1.0,3.0,3.0,2.0,0,3,2024,2026,asked,1.0554,0.6517,1.0129,1.0983,1.4072
+GA,GA.AA,Analytical Aptitude,Analytical Aptitude,GA.AA.03,Numerical relations & reasoning,0.0,1.0,3.0,3.0,4.0,3.667,0,2,2025,2026,asked,1.0554,0.6517,1.0129,1.0983,1.4072
+GA,GA.SA,Spatial Aptitude,Spatial Aptitude,GA.SA.01,Transformation of shapes,0.0,0.0,1.0,1.0,1.0,1.667,1,2,2025,2026,asked,0.7491,0.5271,0.7189,0.7796,1.1236
+GA,GA.SA,Spatial Aptitude,Spatial Aptitude,GA.SA.02,"Paper folding, cutting & patterns (2D/3D)",5.0,0.0,0.0,3.0,5.0,4.667,1,2,2024,2025,asked,0.7506,0.5278,0.7204,0.7811,1.1258

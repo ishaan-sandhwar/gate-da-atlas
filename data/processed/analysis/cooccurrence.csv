@@ -1,0 +1,110 @@
+item_a,label_a,item_b,label_b,questions,cross_section
+DA.ML.14,Multi-layer perceptron,DA.ML.15,Feed-forward neural networks,3,False
+DA.PD.14,Graph theory basics,DA.PD.15,Graph traversals (BFS/DFS),3,False
+DA.PS.15,Bernoulli distribution,DA.PS.16,Binomial distribution,3,False
+GA.AA.02,Analogy,GA.VA.02,"Vocabulary: words, idioms & phrases",3,True
+DA.DB.05,Integrity constraints & keys,DA.DB.06,Normal forms,2,False
+DA.DB.14,Multidimensional schemas (star/snowflake),DA.DB.15,Concept hierarchies,2,False
+DA.LA.05,Projection matrix,DA.LA.07,Idempotent matrix,2,False
+DA.LA.05,Projection matrix,DA.LA.12,Eigenvalues & eigenvectors,2,False
+DA.LA.12,Eigenvalues & eigenvectors,DA.LA.14,Rank,2,False
+DA.LA.12,Eigenvalues & eigenvectors,DA.LA.18,Singular value decomposition (SVD),2,False
+DA.ML.18,Hierarchical clustering,DA.ML.20,Bottom-up (agglomerative) clustering,2,False
+DA.PD.01,Programming in Python,DA.PD.02,Stacks,2,False
+DA.PD.10,Bubble sort,DA.PD.11,Insertion sort,2,False
+DA.PS.22,Standard normal distribution,DA.PS.24,Chi-squared distribution,2,False
+GA.QA.01,"Data interpretation (graphs, plots, maps, tables)",GA.QA.03,Percentages,2,False
+DA.AI.01,Informed (heuristic) search,DA.AI.02,Uninformed search,1,False
+DA.AI.02,Uninformed search,DA.PD.15,Graph traversals (BFS/DFS),1,True
+DA.AI.07,Exact inference: variable elimination,DA.AI.08,Approximate inference: sampling,1,False
+DA.AI.08,Approximate inference: sampling,DA.ML.07,Naive Bayes classifier,1,True
+DA.AI.08,Approximate inference: sampling,DA.ML.08,Linear discriminant analysis (LDA),1,True
+DA.AI.08,Approximate inference: sampling,DA.ML.17,k-means / k-medoids,1,True
+DA.CO.01,Functions of a single variable,DA.CO.04,Taylor series,1,False
+DA.CO.01,Functions of a single variable,DA.CO.05,Maxima & minima,1,False
+DA.CO.02,Limits,DA.CO.04,Taylor series,1,False
+DA.CO.02,Limits,DA.PS.20,Poisson distribution,1,True
+DA.CO.02,Limits,DA.PS.27,Central limit theorem,1,True
+DA.CO.03,Continuity & differentiability,DA.CO.05,Maxima & minima,1,False
+DA.CO.03,Continuity & differentiability,DA.ML.15,Feed-forward neural networks,1,True
+DA.DB.01,ER model,DA.DB.06,Normal forms,1,False
+DA.DB.02,Relational algebra,DA.DB.06,Normal forms,1,False
+DA.DB.04,SQL,DA.DB.05,Integrity constraints & keys,1,False
+DA.DB.04,SQL,DA.DB.08,Indexing (incl. B/B+ trees),1,False
+DA.DB.04,SQL,DA.DB.14,Multidimensional schemas (star/snowflake),1,False
+DA.DB.10,Data normalization (scaling),DA.PS.10,"Mean, median, mode & standard deviation",1,True
+DA.LA.01,Vector spaces,DA.LA.03,Linear dependence & independence,1,False
+DA.LA.03,Linear dependence & independence,DA.LA.09,Quadratic forms,1,False
+DA.LA.05,Projection matrix,DA.LA.09,Quadratic forms,1,False
+DA.LA.05,Projection matrix,DA.LA.15,Nullity,1,False
+DA.LA.05,Projection matrix,DA.LA.18,Singular value decomposition (SVD),1,False
+DA.LA.06,Orthogonal matrix,DA.LA.12,Eigenvalues & eigenvectors,1,False
+DA.LA.06,Orthogonal matrix,DA.LA.14,Rank,1,False
+DA.LA.07,Idempotent matrix,DA.LA.15,Nullity,1,False
+DA.LA.09,Quadratic forms,DA.LA.12,Eigenvalues & eigenvectors,1,False
+DA.LA.10,Systems of linear equations,DA.LA.12,Eigenvalues & eigenvectors,1,False
+DA.LA.10,Systems of linear equations,DA.LA.14,Rank,1,False
+DA.LA.10,Systems of linear equations,DA.LA.15,Nullity,1,False
+DA.LA.12,Eigenvalues & eigenvectors,DA.LA.15,Nullity,1,False
+DA.LA.12,Eigenvalues & eigenvectors,DA.ML.08,Linear discriminant analysis (LDA),1,True
+DA.LA.12,Eigenvalues & eigenvectors,DA.ML.24,Principal component analysis (PCA),1,True
+DA.ML.01,Regression vs classification problems,DA.ML.08,Linear discriminant analysis (LDA),1,False
+DA.ML.01,Regression vs classification problems,DA.ML.14,Multi-layer perceptron,1,False
+DA.ML.04,Ridge regression,DA.ML.11,Bias-variance trade-off,1,False
+DA.ML.05,Logistic regression,DA.ML.07,Naive Bayes classifier,1,False
+DA.ML.05,Logistic regression,DA.ML.24,Principal component analysis (PCA),1,False
+DA.ML.07,Naive Bayes classifier,DA.ML.08,Linear discriminant analysis (LDA),1,False
+DA.ML.07,Naive Bayes classifier,DA.ML.17,k-means / k-medoids,1,False
+DA.ML.07,Naive Bayes classifier,DA.ML.24,Principal component analysis (PCA),1,False
+DA.ML.07,Naive Bayes classifier,DA.PS.08,Bayes' theorem,1,True
+DA.ML.08,Linear discriminant analysis (LDA),DA.ML.17,k-means / k-medoids,1,False
+DA.ML.18,Hierarchical clustering,DA.ML.21,Single linkage,1,False
+DA.ML.20,Bottom-up (agglomerative) clustering,DA.ML.21,Single linkage,1,False
+DA.ML.21,Single linkage,DA.ML.22,Multiple linkage,1,False
+DA.PD.01,Programming in Python,DA.PD.05,Trees,1,False
+DA.PD.01,Programming in Python,DA.PD.10,Bubble sort,1,False
+DA.PD.02,Stacks,DA.PD.03,Queues,1,False
+DA.PD.02,Stacks,DA.PD.06,Hash tables,1,False
+DA.PD.03,Queues,DA.PD.06,Hash tables,1,False
+DA.PD.04,Linked lists,DA.PD.08,Binary search,1,False
+DA.PD.09,Selection sort,DA.PD.10,Bubble sort,1,False
+DA.PD.09,Selection sort,DA.PD.11,Insertion sort,1,False
+DA.PD.14,Graph theory basics,DA.PD.16,Shortest paths,1,False
+DA.PS.01,Counting: permutations & combinations,DA.PS.04,Events,1,False
+DA.PS.03,Sample space,DA.PS.06,Mutually exclusive events,1,False
+DA.PS.04,Events,DA.PS.05,Independent events,1,False
+DA.PS.05,Independent events,DA.PS.15,Bernoulli distribution,1,False
+DA.PS.05,Independent events,DA.PS.16,Binomial distribution,1,False
+DA.PS.07,"Marginal, conditional & joint probability",DA.PS.08,Bayes' theorem,1,False
+DA.PS.07,"Marginal, conditional & joint probability",DA.PS.18,Continuous uniform distribution,1,False
+DA.PS.09,Conditional expectation & variance,DA.PS.11,Correlation & covariance,1,False
+DA.PS.09,Conditional expectation & variance,DA.PS.13,Discrete random variables & PMFs,1,False
+DA.PS.09,Conditional expectation & variance,DA.PS.18,Continuous uniform distribution,1,False
+DA.PS.09,Conditional expectation & variance,DA.PS.26,Conditional PDF,1,False
+DA.PS.10,"Mean, median, mode & standard deviation",DA.PS.18,Continuous uniform distribution,1,False
+DA.PS.10,"Mean, median, mode & standard deviation",DA.PS.25,Cumulative distribution function (CDF),1,False
+DA.PS.11,Correlation & covariance,DA.PS.18,Continuous uniform distribution,1,False
+DA.PS.11,Correlation & covariance,DA.PS.22,Standard normal distribution,1,False
+DA.PS.12,Random variables,DA.PS.15,Bernoulli distribution,1,False
+DA.PS.12,Random variables,DA.PS.21,Normal distribution,1,False
+DA.PS.13,Discrete random variables & PMFs,DA.PS.19,Exponential distribution,1,False
+DA.PS.13,Discrete random variables & PMFs,DA.PS.25,Cumulative distribution function (CDF),1,False
+DA.PS.15,Bernoulli distribution,DA.PS.21,Normal distribution,1,False
+DA.PS.15,Bernoulli distribution,DA.PS.27,Central limit theorem,1,False
+DA.PS.16,Binomial distribution,DA.PS.27,Central limit theorem,1,False
+DA.PS.18,Continuous uniform distribution,DA.PS.25,Cumulative distribution function (CDF),1,False
+DA.PS.19,Exponential distribution,DA.PS.22,Standard normal distribution,1,False
+DA.PS.19,Exponential distribution,DA.PS.24,Chi-squared distribution,1,False
+DA.PS.20,Poisson distribution,DA.PS.22,Standard normal distribution,1,False
+DA.PS.20,Poisson distribution,DA.PS.27,Central limit theorem,1,False
+DA.PS.22,Standard normal distribution,DA.PS.23,t-distribution,1,False
+DA.PS.22,Standard normal distribution,DA.PS.25,Cumulative distribution function (CDF),1,False
+DA.PS.23,t-distribution,DA.PS.25,Cumulative distribution function (CDF),1,False
+GA.AA.01,Logic: deduction & induction,GA.VA.01,English grammar,1,True
+GA.AA.01,Logic: deduction & induction,GA.VA.03,Reading comprehension,1,True
+GA.AA.03,Numerical relations & reasoning,GA.SA.02,"Paper folding, cutting & patterns (2D/3D)",1,True
+GA.QA.01,"Data interpretation (graphs, plots, maps, tables)",GA.QA.08,Elementary statistics & probability,1,False
+GA.QA.03,Percentages,GA.QA.07,Mensuration & geometry,1,False
+GA.QA.05,Permutations & combinations,GA.QA.08,Elementary statistics & probability,1,False
+GA.QA.07,Mensuration & geometry,GA.SA.01,Transformation of shapes,1,True
+GA.QA.07,Mensuration & geometry,GA.SA.02,"Paper folding, cutting & patterns (2D/3D)",1,True

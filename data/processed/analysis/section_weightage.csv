@@ -1,0 +1,23 @@
+scheme,part,id,section_id,title,items,marks_2024,marks_2025,marks_2026,questions_2024,questions_2025,questions_2026,marks_total,marks_mean,marks_min,marks_max,share_of_part,trend_marks_per_year,trend
+primary,DA,DA.PS,DA.PS,Probability and Statistics,31,15.0,19.0,21.0,9.0,12.0,13.0,55.0,18.333,15.0,21.0,0.2157,3.0,rising
+primary,DA,DA.PD,DA.PD,"Programming, Data Structures and Algorithms",16,20.0,14.0,14.0,13.0,9.0,9.0,48.0,16.0,14.0,20.0,0.1882,-3.0,falling
+primary,DA,DA.ML,DA.ML,Machine Learning,24,15.0,12.0,13.0,10.0,8.0,8.0,40.0,13.333,12.0,15.0,0.1569,-1.0,stable
+primary,DA,DA.DB,DA.DB,Database Management and Warehousing,16,7.0,11.0,18.0,5.0,7.0,11.0,36.0,12.0,7.0,18.0,0.1412,5.5,rising
+primary,DA,DA.LA,DA.LA,Linear Algebra,18,10.0,12.0,8.0,6.0,8.0,5.0,30.0,10.0,8.0,12.0,0.1176,-1.0,mixed
+primary,DA,DA.AI,DA.AI,AI,8,10.0,6.0,8.0,7.0,4.0,6.0,24.0,8.0,6.0,10.0,0.0941,-1.0,mixed
+primary,DA,DA.CO,DA.CO,Calculus and Optimization,6,8.0,11.0,3.0,5.0,7.0,3.0,22.0,7.333,3.0,11.0,0.0863,-2.5,mixed
+primary,GA,GA.QA,GA.QA,Quantitative Aptitude,8,7.0,8.0,5.0,5.0,5.0,3.0,20.0,6.667,5.0,8.0,0.4444,-1.0,stable
+primary,GA,GA.AA,GA.AA,Analytical Aptitude,3,1.0,4.0,7.0,1.0,3.0,5.0,12.0,4.0,1.0,7.0,0.2667,3.0,rising
+primary,GA,GA.VA,GA.VA,Verbal Aptitude,4,2.0,3.0,2.0,1.0,2.0,1.0,7.0,2.333,2.0,3.0,0.1556,-0.0,stable
+primary,GA,GA.SA,GA.SA,Spatial Aptitude,2,5.0,0.0,1.0,3.0,0.0,1.0,6.0,2.0,0.0,5.0,0.1333,-2.0,mixed
+shared,DA,DA.PS,DA.PS,Probability and Statistics,31,15.333,19.333,20.5,9.333,12.333,12.75,55.166,18.389,15.333,20.5,0.2163,2.58,rising
+shared,DA,DA.PD,DA.PD,"Programming, Data Structures and Algorithms",16,20.667,14.0,14.0,13.333,9.0,9.0,48.667,16.222,14.0,20.667,0.1909,-3.33,falling
+shared,DA,DA.ML,DA.ML,Machine Learning,24,14.667,11.667,12.8,9.667,7.667,7.8,39.134,13.045,11.667,14.667,0.1535,-0.93,stable
+shared,DA,DA.DB,DA.DB,Database Management and Warehousing,16,6.667,11.0,18.0,4.667,7.0,11.0,35.667,11.889,6.667,18.0,0.1399,5.67,rising
+shared,DA,DA.LA,DA.LA,Linear Algebra,18,10.333,12.667,8.0,6.333,8.333,5.0,31.0,10.333,8.0,12.667,0.1216,-1.17,mixed
+shared,DA,DA.AI,DA.AI,AI,8,9.333,6.0,8.2,6.667,4.0,6.2,23.533,7.844,6.0,9.333,0.0923,-0.57,stable
+shared,DA,DA.CO,DA.CO,Calculus and Optimization,6,8.0,10.333,3.5,5.0,6.667,3.25,21.833,7.278,3.5,10.333,0.0856,-2.25,mixed
+shared,GA,GA.QA,GA.QA,Quantitative Aptitude,8,7.667,7.333,5.0,5.333,4.667,3.0,20.0,6.667,5.0,7.667,0.4444,-1.33,stable
+shared,GA,GA.AA,GA.AA,Analytical Aptitude,3,1.333,3.333,6.333,1.0,2.333,4.333,10.999,3.666,1.333,6.333,0.2444,2.5,rising
+shared,GA,GA.VA,GA.VA,Verbal Aptitude,4,1.667,3.333,2.667,1.0,2.333,1.667,7.667,2.556,1.667,3.333,0.1704,0.5,stable
+shared,GA,GA.SA,GA.SA,Spatial Aptitude,2,4.333,1.0,1.0,2.667,0.667,1.0,6.333,2.111,1.0,4.333,0.1407,-1.67,stable

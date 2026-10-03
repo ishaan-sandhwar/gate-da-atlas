@@ -84,6 +84,21 @@ def evaluate_tags() -> int:
     return 0
 
 
+def analyze() -> int:
+    """Run the Phase 3 analysis: tables, charts and ANALYSIS.md."""
+    from gate_atlas.analysis.charts import render_all
+    from gate_atlas.analysis.report import render_report
+    from gate_atlas.analysis.run import ANALYSIS_DIR, run_analysis
+    from gate_atlas.dataset import load_questions
+    from gate_atlas.tagging.text import load_items
+
+    document = run_analysis(load_questions(), load_items())
+    render_all(document, ANALYSIS_DIR / "charts")
+    (PROCESSED_DIR / "ANALYSIS.md").write_text(render_report(document), encoding="utf-8")
+    logging.info("wrote %s", PROCESSED_DIR / "ANALYSIS.md")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     """Parse arguments and run one pipeline command."""
     from gate_atlas.tagging.llm import DEFAULT_MODEL
@@ -101,10 +116,11 @@ def main(argv: list[str] | None = None) -> int:
     llm.add_argument("--force", action="store_true", help="ignore cached responses")
     llm.add_argument("--parts", default="GA,DA", help="comma-separated paper parts to tag (GA, DA)")
     commands.add_parser("evaluate-tags", help="score taggers against reference tags")
+    commands.add_parser("analyze", help="weightage, coverage, trends, forecast -> ANALYSIS.md")
     args = parser.parse_args(argv)
 
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
-    for noisy in ("httpx", "sentence_transformers", "huggingface_hub"):
+    for noisy in ("httpx", "sentence_transformers", "huggingface_hub", "matplotlib"):
         logging.getLogger(noisy).setLevel(logging.WARNING)
 
     if args.command == "fetch":
@@ -122,6 +138,8 @@ def main(argv: list[str] | None = None) -> int:
         return tag_llm(args.model, args.mode, args.limit, args.force, args.parts.split(","))
     elif args.command == "evaluate-tags":
         return evaluate_tags()
+    elif args.command == "analyze":
+        return analyze()
     return 0
 
 
