@@ -1,0 +1,122 @@
+# Planner assumptions per study unit (a syllabus cluster). Editable: the planner reads this file.
+#
+# hours   - focused hours for a BTech CS student to go from scratch to ~86% mastery of the unit,
+#           including worked examples and topic-wise practice (the learning-curve time constant
+#           is hours / 2, because 1 - e^-2 = 0.86). These are editorial estimates, not data.
+# prereqs - units that should be finished before this one starts (only enforced when both
+#           units receive study time in a plan).
+
+[units."DA.PS:Probability foundations"]
+hours = 18
+
+[units."DA.PS:Random variables & expectation"]
+hours = 16
+prereqs = ["DA.PS:Probability foundations"]
+
+[units."DA.PS:Distributions"]
+hours = 22
+prereqs = ["DA.PS:Random variables & expectation"]
+
+[units."DA.PS:Descriptive statistics"]
+hours = 6
+
+[units."DA.PS:Statistical inference"]
+hours = 16
+prereqs = ["DA.PS:Distributions"]
+
+[units."DA.LA:Vector spaces"]
+hours = 10
+
+[units."DA.LA:Matrices"]
+hours = 14
+
+[units."DA.LA:Linear systems"]
+hours = 10
+prereqs = ["DA.LA:Matrices"]
+
+[units."DA.LA:Eigenvalues & decompositions"]
+hours = 16
+prereqs = ["DA.LA:Matrices"]
+
+[units."DA.CO:Calculus"]
+hours = 16
+
+[units."DA.CO:Optimization"]
+hours = 8
+prereqs = ["DA.CO:Calculus"]
+
+[units."DA.PD:Python programming"]
+hours = 20
+
+[units."DA.PD:Data structures"]
+hours = 16
+
+[units."DA.PD:Searching & sorting"]
+hours = 14
+
+[units."DA.PD:Graphs"]
+hours = 14
+prereqs = ["DA.PD:Data structures"]
+
+[units."DA.DB:Relational databases"]
+hours = 26
+
+[units."DA.DB:Storage & indexing"]
+hours = 8
+prereqs = ["DA.DB:Relational databases"]
+
+[units."DA.DB:Data preprocessing"]
+hours = 6
+
+[units."DA.DB:Data warehousing"]
+hours = 8
+prereqs = ["DA.DB:Relational databases"]
+
+[units."DA.ML:Supervised learning setup"]
+hours = 3
+
+[units."DA.ML:Regression"]
+hours = 10
+prereqs = ["DA.LA:Linear systems"]
+
+[units."DA.ML:Classification"]
+hours = 20
+prereqs = ["DA.PS:Probability foundations"]
+
+[units."DA.ML:Model evaluation & selection"]
+hours = 6
+prereqs = ["DA.ML:Supervised learning setup"]
+
+[units."DA.ML:Neural networks"]
+hours = 10
+prereqs = ["DA.CO:Calculus"]
+
+[units."DA.ML:Clustering"]
+hours = 10
+
+[units."DA.ML:Dimensionality reduction"]
+hours = 6
+prereqs = ["DA.LA:Eigenvalues & decompositions"]
+
+[units."DA.AI:Search"]
+hours = 12
+prereqs = ["DA.PD:Graphs"]
+
+[units."DA.AI:Logic"]
+hours = 12
+
+[units."DA.AI:Reasoning under uncertainty"]
+hours = 12
+prereqs = ["DA.PS:Probability foundations"]
+
+[units."GA.VA:Verbal Aptitude"]
+hours = 8
+
+[units."GA.QA:Quantitative Aptitude"]
+hours = 16
+
+[units."GA.AA:Analytical Aptitude"]
+hours = 8
+
+[units."GA.SA:Spatial Aptitude"]
+hours = 5

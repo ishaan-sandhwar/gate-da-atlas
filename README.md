@@ -11,7 +11,7 @@ analysis (weightage, trends, never-asked topics) and an adaptive study planner b
 | 1 | Official sources, syllabus items, question dataset, validation | **done** |
 | 2 | Syllabus tags for every question; ML, LLM and hybrid taggers with evaluation | **done** |
 | 3 | Analysis: weightage, trends, topics never asked, Bayesian forecast per item | **done** |
-| 4 | Adaptive study planner (exam date + daily hours + weak topics → weekly plan) | planned |
+| 4 | Adaptive study planner (exam date + daily hours + weak topics → weekly plan) | **done** |
 | 5 | Web "atlas" to explore the data and run the planner | planned |
 
 ## Quick start
@@ -29,6 +29,7 @@ python -m gate_atlas tag-ml           # ML taggers (downloads BAAI/bge-small-en-
 python -m gate_atlas tag-llm          # LLM tagger on Groq; add --mode hybrid --parts DA for ML+LLM
 python -m gate_atlas evaluate-tags    # score every tagger -> data/processed/TAGGING.md
 python -m gate_atlas analyze          # weightage, coverage, forecast -> data/processed/ANALYSIS.md
+python -m gate_atlas plan --profile examples/profile_gate2027.toml   # weekly plan -> plans/<name>/
 pytest                                # unit tests + dataset invariants
 ```
 
@@ -97,6 +98,30 @@ macro-F1, against 78.2% for TF-IDF and 20.6% for the majority class.
   tests, merge sort, k-fold cross-validation). Each paper touches only half the DA syllabus.
 - A Bayesian forecast beats both naive baselines in a leave-one-paper-out backtest, but only
   slightly. Which section a topic belongs to matters more than its own history.
+
+## What Phase 4 adds
+
+| File | Contents |
+|---|---|
+| `examples/profile_gate2027.toml` | Planner input: exam date, hours per day, study days, self-ratings, optional progress and mock results |
+| `examples/plan_gate2027/plan.md`, `plan.json` | The plan generated from that profile: allocation, strategic skips, 18 weekly schedules |
+| `data/curation/study_hours.toml` | Editable assumptions: base study hours and prerequisites for each of the 33 study units |
+
+Build your own: copy the example profile, edit the ratings and dates, and run
+`python -m gate_atlas plan --profile my_profile.toml` (output goes to `plans/`, which git ignores).
+Log mocks and study hours in the profile and re-run whenever things change.
+
+### Phase 4 headlines (example profile: 3 h/day, 6 days/week, 5 Oct 2026 → 6 Feb 2027)
+
+- 319 hours in 18 weeks become 219 h of learning, 74 h of spaced and targeted revision, and 25 h for
+  five full-length mocks. The 2026 paper is kept unseen as the first mock.
+- Hours go first to units that are weak, heavily weighted and quick to learn. Relational databases
+  (rated weak, ~7.5 marks a paper) gets 21.5 h. Python (rated strong) and eigen/decompositions (rated
+  good, few marks) are strategic skips.
+- Every week lists past-paper questions on the units it finishes.
+- Adaptivity: logging 20 h of database study plus one mock (DB 8/10, PS 3/10) moves DB mastery from
+  0.20 to 0.82. In a 100 h budget, this shifts Probability & Statistics from 20.7 h to 24.1 h and
+  databases from 19.3 h to 6.6 h.
 
 ### Phase 1 numbers
 
@@ -338,6 +363,65 @@ colour scheme. Palettes (an ordinal blue ramp for years; blue/orange for asked/n
 checked with a colour-vision-deficiency validator on both surfaces. Every chart has its table
 beside it in `ANALYSIS.md`.
 
+## Methodology — Phase 4: adaptive planner
+
+### 14. Study units and their expected marks
+
+The planner works on the 33 syllabus clusters (29 DA, 4 GA): items are too fine to plan with, and
+sections too coarse. A unit's expected marks per paper is its section's mean marks (2024–2026) times
+its share of the section, smoothed towards the unit's syllabus breadth with a Dirichlet-multinomial
+prior: `share = (marks_u + α·breadth_u) / (marks_section + α)`. A leave-one-paper-out backtest of unit
+marks chose this estimator and α:
+
+| Estimator of a unit's marks in the held-out paper | RMSE (marks) |
+|---|---|
+| Dirichlet-multinomial, α = 20 / **10** / 5 / 2 / 1 | 2.163 / **2.165** / 2.184 / 2.209 / 2.221 |
+| Unit mean of the other two papers | 2.236 |
+| Phase 3 item-level Gamma–Poisson, summed per unit | 2.358 |
+| Section mean × breadth share only | 2.400 |
+
+The Phase 3 item model treats all items in a section alike, so it under-weights a broad item such as
+"Programming in Python" (16 marks in 3 papers) and over-weights clusters of rarely asked items. α = 10
+sits on the flat optimum (choosing it on three folds makes its score slightly optimistic).
+
+### 15. Hours that maximise expected marks (KKT)
+
+Mastery of unit *u* follows a learning curve `m(h) = 1 − (1 − m₀)e^(−h/T)` with `T` = half its base hours
+(`study_hours.toml`), so each extra hour helps less. The planner maximises `Σ w_u·m_u(h_u)` subject to
+`Σ h_u = B` and `0 ≤ h_u ≤ cap_u`, where `w_u` is the unit's expected marks and the cap stops at 95%
+mastery. This is a concave program, so the KKT conditions characterise the optimum:
+
+* Every funded unit has the same marginal value `w_u(1 − m₀)e^(−h_u/T)/T = λ`.
+* Every skipped unit's first hour is worth less than `λ`.
+* This gives `h_u = clip(T·ln(w_u(1 − m₀)/(λT)), 0, cap)`, with `λ` found by bisection.
+
+`λ` is reported as the marks value of the last planned hour. `test_planner.py` checks these
+conditions numerically.
+
+### 16. The weekly schedule
+
+* Weeks run from the start date to the day before the exam. Capacity = study days × hours per day.
+* The learning budget is the pre-mock capacity ÷ 1.15, keeping 15% for revision.
+* Units are learned at most three at a time, mixing sections. Prerequisites (from
+  `study_hours.toml`) come first; then the best marks per hour.
+* A finished unit is revised in weeks +1, +3 and +7. Revision may take up to 40% of a week, so it is
+  never crowded out.
+* The last four weeks hold 1, 1, 2 and 1 mocks (3 h test + 2 h review each). Reserved official papers
+  come first. The remaining time goes to targeted revision of the six units with the most marks
+  still at risk, re-ranked every week.
+* All blocks are whole half-hours, and no week exceeds its capacity (tested).
+
+### 17. Adaptivity
+
+A self-rating is a Beta prior on mastery, worth 8 answered questions. Logged study hours move it
+along the learning curve. Mock results (`[correct, attempted]` per section or unit) add Beta counts;
+section results are split across the section's units by expected marks. Re-running with a new
+`start_date` replans the remaining weeks with the updated mastery.
+
+**Limits.** The learning curve, base hours and rating levels are assumptions; edit
+`study_hours.toml` and the profile to match yourself. The "marks secured" figure compares plans with
+each other; it is not a score prediction.
+
 ## Record schema (`questions.jsonl`)
 
 ```json
@@ -366,7 +450,7 @@ beside it in `ANALYSIS.md`.
 
 ```
 data/raw/               official PDFs + MANIFEST.json (never edited by hand)
-data/curation/          hand-curated inputs: syllabus.toml, reference_tags.csv
+data/curation/          hand-curated inputs: syllabus.toml, reference_tags.csv, study_hours.toml
 data/processed/         everything generated by the pipeline (tagging/ holds tagger outputs)
 src/gate_atlas/
   sources.py            registry of official URLs (organiser + mirrors)
@@ -389,6 +473,13 @@ src/gate_atlas/
     charts.py           light/dark static charts
     report.py           ANALYSIS.md generator (every number comes from the tables)
     run.py              runs the analysis and writes data/processed/analysis
+  planner/
+    units.py            study units, Dirichlet-multinomial expected marks, estimator backtest
+    profile.py          profile TOML: dates, hours, ratings, progress, mocks
+    allocate.py         learning curve, Bayesian mastery updates, KKT hour allocation
+    schedule.py         weekly calendar: prerequisites, spaced revision, mock phase, PYQs
+    render.py           plan.md and plan.json
+examples/               sample profile and the plan generated from it
 tests/                  unit tests and dataset invariants
 ```
 

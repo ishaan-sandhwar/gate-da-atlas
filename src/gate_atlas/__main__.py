@@ -99,6 +99,28 @@ def analyze() -> int:
     return 0
 
 
+def plan(profile_path: str, out_dir: str | None) -> int:
+    """Build a study plan from a profile TOML."""
+    from pathlib import Path
+
+    from gate_atlas.dataset import load_questions
+    from gate_atlas.planner.allocate import estimate_mastery
+    from gate_atlas.planner.profile import load_profile
+    from gate_atlas.planner.render import write_plan
+    from gate_atlas.planner.schedule import make_plan
+    from gate_atlas.planner.units import load_units
+    from gate_atlas.tagging.text import load_items
+
+    profile = load_profile(Path(profile_path))
+    units = load_units(load_questions(), load_items())
+    mastery, notes = estimate_mastery(units, profile)
+    result = make_plan(units, mastery, profile, notes)
+    target = Path(out_dir) if out_dir else Path("plans") / Path(profile_path).stem
+    write_plan(result, target)
+    logging.info("wrote %s (%d weeks, %.0f learning hours)", target / "plan.md", len(result.weeks), sum(result.hours.values()))
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     """Parse arguments and run one pipeline command."""
     from gate_atlas.tagging.llm import DEFAULT_MODEL
@@ -117,6 +139,9 @@ def main(argv: list[str] | None = None) -> int:
     llm.add_argument("--parts", default="GA,DA", help="comma-separated paper parts to tag (GA, DA)")
     commands.add_parser("evaluate-tags", help="score taggers against reference tags")
     commands.add_parser("analyze", help="weightage, coverage, trends, forecast -> ANALYSIS.md")
+    planner = commands.add_parser("plan", help="adaptive weekly study plan from a profile TOML")
+    planner.add_argument("--profile", required=True, help="profile TOML (see examples/profile_gate2027.toml)")
+    planner.add_argument("--out", default=None, help="output folder (default plans/<profile name>)")
     args = parser.parse_args(argv)
 
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
@@ -140,6 +165,8 @@ def main(argv: list[str] | None = None) -> int:
         return evaluate_tags()
     elif args.command == "analyze":
         return analyze()
+    elif args.command == "plan":
+        return plan(args.profile, args.out)
     return 0
 
 

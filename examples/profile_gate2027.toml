@@ -1,0 +1,21 @@
+# Example planner profile. Copy it, edit the values, then run:
+#   python -m gate_atlas plan --profile examples/profile_gate2027.toml --out examples/plan_gate2027
+# Ratings are self-assessments: not_started | weak | basic | okay | good | strong.
+# The most specific key wins: unit ("DA.PS:Distributions") > section ("DA.PS") > part ("DA") > default.
+
+name = "Sample plan: GATE DA 2027"
+exam_date = 2027-02-06            # first GATE 2027 exam day; update when the DA paper's date is announced
+start_date = 2026-10-05
+hours_per_day = 3.0
+study_days_per_week = 6
+final_weeks = 4
+reserve_papers_for_mocks = [2026]  # solve the 2026 paper only as a timed full-length mock
+
+[ratings]
+default = "basic"
+"DA.LA" = "good"                   # e.g. linear algebra already ~70% done in coursework
+"DA.PD:Python programming" = "strong"
+"DA.ML" = "okay"
+"DA.DB" = "weak"
+"DA.AI" = "not_started"
+"GA" = "okay"
