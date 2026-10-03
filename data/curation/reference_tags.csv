@@ -1,0 +1,196 @@
+id,primary,secondary,fit,confidence,rationale
+DA2024-Q01,GA.AA.02,GA.VA.02,direct,medium,Word-intensity analogy; needs the meaning of 'vain'.
+DA2024-Q02,GA.SA.02,,indirect,medium,Minimum colours for adjacent regions of a 2D figure (map colouring).
+DA2024-Q03,GA.QA.05,,direct,high,Count 4-digit numbers divisible by 3 from given digits without repetition.
+DA2024-Q04,GA.QA.06,,direct,high,Sum of two interleaved geometric series.
+DA2024-Q05,GA.QA.01,GA.QA.03,direct,high,Convert pie-chart vote shares to counts.
+DA2024-Q06,GA.VA.03,GA.AA.01,direct,high,Inference from a short passage.
+DA2024-Q07,GA.QA.08,GA.QA.05,direct,high,Probability of two girls and one boy among three children.
+DA2024-Q08,GA.QA.03,GA.QA.01,direct,high,Annual rate of return from an investment table.
+DA2024-Q09,GA.SA.02,,direct,high,Cube net consistent with three views of a die.
+DA2024-Q10,GA.SA.02,GA.QA.07,direct,medium,Cross-section of two joined cones cut through their vertices.
+DA2024-Q11,DA.PS.20,DA.PS.22,direct,high,Poisson mean equals variance; standard normal moments.
+DA2024-Q12,DA.PS.06,DA.PS.03,direct,high,'At least two heads' and 'at least two tails' cannot co-occur in three tosses.
+DA2024-Q13,DA.LA.12,,direct,high,Eigenvalues of a 2x2 matrix form a complex-conjugate pair.
+DA2024-Q14,DA.PD.15,DA.PD.14,direct,high,DFS edge classification (tree/back/cross).
+DA2024-Q15,DA.CO.05,,direct,high,Second-derivative test for a local minimum.
+DA2024-Q16,DA.PD.02,DA.PD.03;DA.PD.06,direct,medium,Match FIFO/LIFO/lookup to queue/stack/hash table (equal weight).
+DA2024-Q17,DA.ML.09,,direct,high,Support vectors of a hard-margin linear SVM.
+DA2024-Q18,DA.ML.07,DA.ML.05;DA.ML.24,direct,medium,Generative vs discriminative classifiers; PCA as dimensionality reduction.
+DA2024-Q19,DA.ML.17,,direct,high,Which point must share a k-means cluster (convex cluster regions).
+DA2024-Q20,DA.ML.07,,direct,high,Number of parameters of naive Bayes with binary attributes.
+DA2024-Q21,DA.PD.06,,direct,high,Expected probes for insertion with open addressing.
+DA2024-Q22,DA.ML.08,DA.LA.12,direct,high,Fisher LDA criterion leads to a generalized eigenproblem.
+DA2024-Q23,DA.AI.01,,direct,high,Which combination of admissible heuristics remains admissible for A*.
+DA2024-Q24,DA.AI.06,,direct,high,Conditional independences implied by a Bayesian-network factorization.
+DA2024-Q25,DA.AI.03,,direct,high,Meaning of alpha and beta in alpha-beta pruning.
+DA2024-Q26,DA.DB.02,,direct,high,Relational algebra expression checking set containment.
+DA2024-Q27,DA.DB.10,DA.PS.10,direct,high,z-score normalization of an attribute.
+DA2024-Q28,DA.PD.05,,direct,high,Which traversal pairs reconstruct a full binary tree.
+DA2024-Q29,DA.AI.04,,direct,high,Identify propositional tautologies.
+DA2024-Q30,DA.PD.13,,direct,high,Swaps made by quicksort with last-element pivot on sorted input.
+DA2024-Q31,DA.DB.04,,direct,high,Row count of an SQL join with filters.
+DA2024-Q32,DA.PD.03,,direct,high,Trace double-ended queue operations.
+DA2024-Q33,DA.CO.01,,direct,high,Derivative of the sigmoid where f(x)=0.4.
+DA2024-Q34,DA.PS.10,,direct,high,Update a sample mean with a new data point.
+DA2024-Q35,DA.LA.13,,direct,high,Determinant of M^2 + 12M.
+DA2024-Q36,DA.PS.09,DA.PS.13,direct,medium,Expected throws until two consecutive even numbers (condition on the first throw).
+DA2024-Q37,DA.CO.03,,direct,high,Choose a; b; c so a piecewise function is continuous and differentiable.
+DA2024-Q38,DA.PD.01,DA.PD.05,direct,high,Trace a recursive Python function counting tree nodes.
+DA2024-Q39,DA.PD.01,,indirect,medium,Trace array pseudocode (pseudocode rather than Python).
+DA2024-Q40,DA.PD.08,,direct,high,Recurrence for the comparisons of binary search.
+DA2024-Q41,DA.PD.01,,direct,high,Recursive Python function that reverses a list segment.
+DA2024-Q42,DA.ML.21,DA.ML.18;DA.ML.20,direct,high,Dendrogram produced by single-linkage clustering.
+DA2024-Q43,DA.ML.15,DA.ML.14,direct,high,Collapse a ReLU network with positive inputs into one layer.
+DA2024-Q44,DA.AI.02,DA.PD.15,direct,high,States expanded by BFS versus DFS.
+DA2024-Q45,DA.PD.09,DA.PD.10;DA.PD.11,direct,medium,Which sorting algorithm finishes after two passes.
+DA2024-Q46,DA.DB.06,,indirect,medium,Derive functional dependencies with Armstrong's axioms.
+DA2024-Q47,DA.LA.02,,direct,high,Which sets are subspaces of R^3.
+DA2024-Q48,DA.LA.10,DA.LA.14,direct,high,Possible solution counts of linear systems by matrix shape.
+DA2024-Q49,DA.LA.05,DA.LA.07;DA.LA.15,direct,high,Projection matrix: idempotence and null-space dimension.
+DA2024-Q50,DA.CO.05,,direct,high,Local extrema of a quartic.
+DA2024-Q51,DA.PD.15,DA.PD.14,indirect,medium,Valid topological orderings of a DAG.
+DA2024-Q52,DA.PD.05,,direct,high,Bounds relating height and node counts of a binary tree.
+DA2024-Q53,DA.ML.01,,indirect,medium,Linear separability of two-class datasets.
+DA2024-Q54,DA.AI.05,,direct,high,First-order logic encoding of an assertion.
+DA2024-Q55,DA.DB.08,DA.DB.04,direct,high,Choose B+ tree or hash indexes to speed up an SQL query.
+DA2024-Q56,DA.PS.18,DA.PS.07,direct,high,P(X >= Y) for independent uniform random variables.
+DA2024-Q57,DA.PS.19,,direct,high,Exponential distribution mean and variance.
+DA2024-Q58,DA.PS.08,DA.PS.07,direct,high,Posterior P(T|S) with Bayes' theorem.
+DA2024-Q59,DA.PS.09,DA.PS.26,direct,high,Conditional expectation from a joint PDF.
+DA2024-Q60,DA.CO.02,DA.CO.04,direct,high,Limit evaluated through series expansion.
+DA2024-Q61,DA.LA.18,DA.LA.12,direct,high,Singular values of the rank-one matrix uu^T.
+DA2024-Q62,DA.ML.10,,direct,high,Information gain of a decision-tree split.
+DA2024-Q63,DA.ML.06,,direct,high,Smallest odd k that flips a k-NN prediction.
+DA2024-Q64,DA.AI.06,,direct,high,Joint probability from Bayesian-network CPTs.
+DA2024-Q65,DA.PS.11,,direct,high,Covariance of two indicator random variables.
+DA2025-Q01,GA.AA.02,GA.VA.02,direct,medium,Synonym analogy (Yearning : Longing).
+DA2025-Q02,GA.VA.01,,direct,high,Past perfect continuous tense.
+DA2025-Q03,GA.QA.01,,direct,high,Count pixels below a threshold in a 4x4 intensity grid.
+DA2025-Q04,GA.AA.03,GA.SA.02,indirect,medium,Region values of overlapping shapes follow a sum rule.
+DA2025-Q05,GA.QA.07,GA.QA.03,direct,high,Effect of a 10% width increase on perimeter; diagonal and area.
+DA2025-Q06,GA.VA.02,,direct,high,Phrasal verbs (bring up; look up; clear up; take up).
+DA2025-Q07,GA.AA.01,,direct,medium,Deduce ages from an increasing-then-decreasing weight curve.
+DA2025-Q08,GA.QA.07,GA.SA.01,direct,medium,Dodecagon area assembled into squares of side r.
+DA2025-Q09,GA.QA.04,,direct,high,Solve an exponential equation.
+DA2025-Q10,GA.QA.01,GA.QA.08,direct,high,Average earning per shift from a bar chart.
+DA2025-Q11,DA.PS.09,,direct,high,Law of total expectation E[E[X|Y]] = E[X].
+DA2025-Q12,DA.LA.11,,direct,high,Operation count of Gaussian elimination on a triangular matrix.
+DA2025-Q13,DA.LA.10,DA.LA.12;DA.LA.15,direct,medium,Row sums of 1 make Bx = 0 have non-trivial solutions.
+DA2025-Q14,DA.CO.04,DA.CO.01,direct,medium,Higher derivatives of sinh at 0 (Taylor coefficients).
+DA2025-Q15,DA.AI.04,,direct,high,Logical equivalence of propositional formulas.
+DA2025-Q16,DA.DB.06,DA.DB.02,direct,medium,A decomposition that is not dependency-preserving needs joins to check FDs.
+DA2025-Q17,DA.DB.02,,direct,high,Meaning of a relational algebra expression.
+DA2025-Q18,DA.PD.06,,direct,high,Hash table with linear probing.
+DA2025-Q19,DA.PS.25,DA.PS.10;DA.PS.18,direct,high,Find a CDF parameter from the median.
+DA2025-Q20,DA.PS.11,DA.PS.22,direct,medium,Covariance and variance of X = aZ + b with Z standard normal.
+DA2025-Q21,DA.PS.19,,direct,high,Exponential tail probability gives the rate.
+DA2025-Q22,DA.ML.14,DA.ML.01,indirect,medium,Perceptron update rule for a linear classifier.
+DA2025-Q23,DA.PD.01,,direct,high,Python list extend vs append.
+DA2025-Q24,DA.CO.03,,direct,high,Differentiability of sums; products; quotients and compositions.
+DA2025-Q25,DA.LA.03,DA.LA.01,direct,high,Orthonormal vectors and linear independence.
+DA2025-Q26,DA.AI.07,DA.AI.08,direct,medium,Exact (variable elimination) vs approximate (sampling) inference.
+DA2025-Q27,DA.PD.08,DA.PD.04,direct,high,Inputs on which binary search runs in O(log n).
+DA2025-Q28,DA.LA.12,DA.LA.14,direct,high,Eigenvalues and rank of I + xx^T.
+DA2025-Q29,DA.PD.11,,direct,high,Insertion sort swap count.
+DA2025-Q30,DA.ML.21,DA.ML.22,direct,high,Min vs max dissimilarity in single and complete linkage.
+DA2025-Q31,DA.PS.08,,direct,high,Which box a white ball came from (Bayes' theorem).
+DA2025-Q32,DA.CO.02,,direct,high,Limit of sqrt(t^2 + t) - t.
+DA2025-Q33,DA.DB.04,,direct,high,SQL nested query with MAX.
+DA2025-Q34,DA.ML.02,,direct,high,Least-squares slope of y = wx.
+DA2025-Q35,DA.ML.07,DA.PS.08,direct,high,Misclassification probability of naive Bayes.
+DA2025-Q36,DA.PS.24,DA.PS.22,direct,medium,Variance of the square of a standard normal (chi-squared with 1 degree of freedom).
+DA2025-Q37,DA.LA.14,DA.LA.12,direct,high,A^3 = A implies A and A^2 have the same rank.
+DA2025-Q38,DA.LA.09,DA.LA.03,direct,medium,Gram matrix of independent vectors is positive definite.
+DA2025-Q39,DA.PS.25,,direct,high,Probability from a piecewise CDF.
+DA2025-Q40,DA.PS.27,DA.PS.16;DA.PS.15,direct,high,CLT approximation for a sum of Bernoulli variables.
+DA2025-Q41,DA.PS.19,DA.PS.13,direct,high,Floor of an exponential variable is geometric.
+DA2025-Q42,DA.ML.15,DA.ML.14,direct,high,Backpropagated partial derivatives in a ReLU network.
+DA2025-Q43,DA.AI.03,,direct,high,Ranges of leaf values for alpha-beta pruning.
+DA2025-Q44,DA.AI.01,,direct,high,Node expansion order of A*.
+DA2025-Q45,DA.PS.05,DA.PS.04,direct,high,Probability of at least one 1 in 100 independent dice.
+DA2025-Q46,DA.DB.14,DA.DB.04,direct,medium,Tuple count of GROUP BY CUBE over two dimensions.
+DA2025-Q47,DA.PD.01,,direct,high,Trace Python set operations in a loop.
+DA2025-Q48,DA.CO.03,DA.ML.15,direct,high,Continuity and differentiability of ReLU.
+DA2025-Q49,DA.CO.05,,direct,high,Extrema of a cubic on a closed interval.
+DA2025-Q50,DA.LA.05,DA.LA.18;DA.LA.12,direct,medium,Sum of x_i x_i^T over orthonormal vectors is a projection.
+DA2025-Q51,DA.CO.05,DA.CO.03,direct,high,Consequences of f'' > 0 for minima.
+DA2025-Q52,DA.LA.06,DA.LA.14,direct,high,Norm-preserving matrices are orthogonal.
+DA2025-Q53,DA.ML.09,,direct,high,Hard-margin SVM: weights; support vectors and margin.
+DA2025-Q54,DA.PS.15,DA.PS.16,direct,medium,Mean and variance of the sample proportion of Bernoulli trials.
+DA2025-Q55,DA.ML.08,DA.ML.01,indirect,medium,Nearest-class-mean classifier is linear in x.
+DA2025-Q56,DA.DB.05,DA.DB.04,direct,high,Primary and foreign keys and NULLs in an SQL schema.
+DA2025-Q57,DA.DB.06,DA.DB.05,direct,high,Candidate keys and BCNF from functional dependencies.
+DA2025-Q58,DA.PD.16,DA.PD.14,direct,high,Which edges cannot exist given shortest paths.
+DA2025-Q59,DA.CO.03,,direct,high,|f(x) - f(y)| <= (x - y)^2 forces f' = 0.
+DA2025-Q60,DA.ML.24,DA.LA.12,direct,high,Variance along the first principal direction.
+DA2025-Q61,DA.PS.16,,direct,high,Expected count of black balls in draws with replacement.
+DA2025-Q62,DA.DB.02,,direct,high,Relational algebra division.
+DA2025-Q63,DA.PD.01,,direct,high,Trace a recursive Python function.
+DA2025-Q64,DA.PD.02,DA.PD.01,direct,high,Trace stack-based pseudocode.
+DA2025-Q65,DA.PD.15,,direct,high,Vertices discovered by DFS on a directed graph.
+DA2026-Q01,GA.AA.02,GA.VA.02,direct,medium,Antonym analogy (Insolence : Respect).
+DA2026-Q02,GA.AA.03,,direct,medium,Three-digit number from the product of its digits.
+DA2026-Q03,GA.SA.01,,direct,high,Assemble four puzzle pieces into a figure.
+DA2026-Q04,GA.QA.04,,direct,high,n^(log m) equals m^(log n).
+DA2026-Q05,GA.AA.01,GA.VA.01,direct,medium,Deduction from a counterfactual conditional.
+DA2026-Q06,GA.VA.01,,direct,high,Fill in prepositions.
+DA2026-Q07,GA.QA.08,,direct,high,Pick integers with a given mean; median and mode.
+DA2026-Q08,GA.AA.01,,direct,high,Chess-game logic puzzle.
+DA2026-Q09,GA.AA.03,,direct,medium,Digit puzzle with squares of consecutive numbers.
+DA2026-Q10,GA.QA.07,,direct,high,Area of a region inside a circle from angles.
+DA2026-Q11,DA.ML.24,,direct,high,Principal components are mutually orthogonal.
+DA2026-Q12,DA.ML.12,,direct,high,Number of LOOCV splits.
+DA2026-Q13,DA.AI.02,DA.AI.01,direct,high,Which search algorithm is not uninformed.
+DA2026-Q14,DA.AI.05,,direct,high,Truth of first-order logic statements.
+DA2026-Q15,DA.PD.13,,direct,high,Expected-time recurrence of randomized quicksort.
+DA2026-Q16,DA.PD.01,,direct,high,Mutable default argument in Python.
+DA2026-Q17,DA.DB.06,DA.DB.05,indirect,medium,Candidate keys from a set of functional dependencies.
+DA2026-Q18,DA.DB.15,DA.DB.14,direct,high,Drill-down along a location concept hierarchy.
+DA2026-Q19,DA.PS.01,DA.PS.04,direct,high,Probability that a random subset has an even product.
+DA2026-Q20,DA.PS.01,,direct,high,Stars and bars: probability all parts are positive.
+DA2026-Q21,DA.LA.06,DA.LA.12,direct,medium,Powers of a rotation matrix.
+DA2026-Q22,DA.LA.02,,direct,medium,Area of a ball cut by a 2D subspace.
+DA2026-Q23,DA.ML.08,DA.ML.17;DA.ML.07;DA.AI.08,direct,medium,Match ML tasks to algorithms (LDA; k-medoids; naive Bayes; MCMC).
+DA2026-Q24,DA.AI.04,,direct,high,Entailment in propositional logic.
+DA2026-Q25,DA.PD.05,,direct,high,Binary tree from preorder and inorder traversals.
+DA2026-Q26,DA.DB.05,,direct,high,Operations that can violate a foreign key.
+DA2026-Q27,DA.CO.05,DA.CO.01,direct,high,Roots and extrema of a cubic on an interval.
+DA2026-Q28,DA.PS.23,DA.PS.22;DA.PS.25,direct,high,Compare normal and t(1) PDFs and CDFs.
+DA2026-Q29,DA.CO.06,,indirect,medium,One stochastic-gradient-descent update.
+DA2026-Q30,DA.AI.03,,direct,high,Best MAX strategy in a minimax tree.
+DA2026-Q31,DA.PD.08,,direct,high,Maximum comparisons of binary search on 1000 elements.
+DA2026-Q32,DA.DB.08,,direct,high,Fan-out of a B+ tree internal node.
+DA2026-Q33,DA.PS.01,,direct,medium,Count involutions on a 4-element set.
+DA2026-Q34,DA.PS.19,,direct,high,Memorylessness of the exponential distribution.
+DA2026-Q35,DA.CO.04,,outside,low,Double geometric series; infinite series are not in the syllabus (nearest item: Taylor series).
+DA2026-Q36,DA.ML.20,DA.ML.18,direct,high,First merge of agglomerative clustering with Manhattan distance.
+DA2026-Q37,DA.ML.04,DA.ML.11,direct,high,Ridge regularization trades bias for variance.
+DA2026-Q38,DA.AI.04,,direct,high,Formalize a sentence in propositional logic.
+DA2026-Q39,DA.PD.01,DA.PD.02,direct,high,Count recursive calls on the runtime stack.
+DA2026-Q40,DA.PD.15,DA.PD.14,direct,high,Reachability under BFS/DFS in a graph and its reverse.
+DA2026-Q41,DA.DB.08,,direct,high,Root keys after inserting into a B+ tree.
+DA2026-Q42,DA.DB.02,,direct,high,Evaluate a relational algebra expression with joins.
+DA2026-Q43,DA.DB.15,DA.DB.14,direct,high,Number of data cuboids from concept hierarchies.
+DA2026-Q44,DA.PS.12,DA.PS.15;DA.PS.21,direct,medium,Variance of a product of independent random variables.
+DA2026-Q45,DA.PS.27,DA.PS.20;DA.CO.02,direct,medium,Poisson partial sums converge to 1/2 by the CLT.
+DA2026-Q46,DA.LA.12,,direct,high,Eigenvalues of a block rotation matrix.
+DA2026-Q47,DA.ML.01,,outside,medium,Accuracy; precision and recall; classification metrics are not in the syllabus.
+DA2026-Q48,DA.AI.05,,direct,high,Validity of first-order logic statements.
+DA2026-Q49,DA.PD.10,DA.PD.11,direct,medium,Comparisons of bubble vs insertion sort on nearly sorted input.
+DA2026-Q50,DA.PD.01,,direct,high,Python closures sharing a list.
+DA2026-Q51,DA.DB.04,,direct,high,SQL queries computing team size with GROUP BY.
+DA2026-Q52,DA.LA.05,DA.LA.07,direct,high,The centering matrix is a symmetric projection.
+DA2026-Q53,DA.PS.24,DA.PS.22;DA.PS.19,direct,high,Chi-squared distributions of sums of squared normals.
+DA2026-Q54,DA.PS.25,DA.PS.13,direct,high,Properties of the CDF of a discrete random variable.
+DA2026-Q55,DA.ML.04,,direct,high,Ridge-regularized loss for one training step.
+DA2026-Q56,DA.ML.14,DA.ML.15,direct,high,Number of learnable weights in an MLP.
+DA2026-Q57,DA.PS.08,,direct,high,Posterior probability of disease after a positive test.
+DA2026-Q58,DA.PD.10,DA.PD.01,direct,medium,Swaps made by a recursive bubble-sort pass in Python.
+DA2026-Q59,DA.DB.03,,direct,high,Evaluate a tuple relational calculus query.
+DA2026-Q60,DA.DB.04,,direct,high,SQL with correlated COUNT subqueries.
+DA2026-Q61,DA.DB.01,DA.DB.06,direct,high,Minimum 3NF relations for an ER model.
+DA2026-Q62,DA.PS.10,,direct,high,Sample variance from pairwise squared differences.
+DA2026-Q63,DA.PS.11,DA.PS.09;DA.PS.18,direct,high,Correlation of X and Y with Y|X uniform around x^2.
+DA2026-Q64,DA.PS.16,DA.PS.15;DA.PS.05,direct,medium,Row-sum and column-sum probabilities of a random binary matrix.
+DA2026-Q65,DA.LA.09,DA.LA.12;DA.LA.05,direct,high,Maximum of a quadratic form over the unit sphere.

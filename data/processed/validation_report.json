@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T01:49:03+00:00",
+  "generated_at": "2026-10-03T02:40:22+00:00",
   "passed": true,
   "checks": [
     {
@@ -228,6 +228,24 @@
       "name": "GA syllabus identical across editions 2024, 2025, 2026, 2027",
       "passed": true,
       "detail": "changed editions: none",
+      "level": "warning"
+    },
+    {
+      "name": "every question has reference syllabus tags",
+      "passed": true,
+      "detail": "untagged []",
+      "level": "error"
+    },
+    {
+      "name": "reference tags use known ids from the question's own part",
+      "passed": true,
+      "detail": "",
+      "level": "error"
+    },
+    {
+      "name": "tag fit (direct/indirect/outside)",
+      "passed": true,
+      "detail": "{'direct': 183, 'indirect': 10, 'outside': 2}",
       "level": "warning"
     }
   ],

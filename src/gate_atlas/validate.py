@@ -108,6 +108,17 @@ def check_global(records: list[dict], syllabus: dict) -> list[Check]:
     return checks
 
 
+def check_tags(records: list[dict], tag_problems: list[str]) -> list[Check]:
+    """Every question carries valid reference tags from its own part of the syllabus."""
+    untagged = [r["id"] for r in records if not r.get("syllabus_tags")]
+    fits = Counter(r["syllabus_tags"]["fit"] for r in records if r.get("syllabus_tags"))
+    return [
+        Check("every question has reference syllabus tags", not untagged, f"untagged {untagged}"),
+        Check("reference tags use known ids from the question's own part", not tag_problems, "; ".join(tag_problems[:5])),
+        Check("tag fit (direct/indirect/outside)", True, str(dict(fits)), level="warning"),
+    ]
+
+
 def summarize(records: list[dict]) -> dict:
     """Counts by year, type, section, status and review reason."""
     summary = {}

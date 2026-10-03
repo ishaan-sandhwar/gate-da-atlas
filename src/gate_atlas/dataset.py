@@ -101,7 +101,7 @@ def build_record(year: int, question: ParsedQuestion, key: KeyEntry | None) -> d
             ],
         },
         "crop": crop_path.relative_to(ROOT_DIR).as_posix(),
-        "syllabus_tags": [],
+        "syllabus_tags": None,
     }
 
 
@@ -143,6 +143,7 @@ def write_outputs(records: list[dict]) -> None:
 
     columns = [
         "id", "year", "number", "section", "marks", "type", "negative_marks", "answer",
+        "primary_item", "secondary_items", "tag_fit",
         "stem", "option_a", "option_b", "option_c", "option_d", "status", "review_reasons",
         "has_math", "has_code", "has_figure", "has_table", "pages", "crop",
     ]
@@ -151,10 +152,13 @@ def write_outputs(records: list[dict]) -> None:
         writer.writeheader()
         for record in records:
             options = record["options"] or {}
+            tags = record["syllabus_tags"] or {}
             writer.writerow({
                 "id": record["id"], "year": record["year"], "number": record["number"],
                 "section": record["section"], "marks": record["marks"], "type": record["type"],
                 "negative_marks": record["negative_marks"], "answer": answer_text(record["answer"]),
+                "primary_item": tags.get("primary", ""), "secondary_items": ";".join(tags.get("secondary", [])),
+                "tag_fit": tags.get("fit", ""),
                 "stem": record["stem"],
                 **{f"option_{letter.lower()}": options.get(letter, "") for letter in OPTION_LETTERS},
                 "status": record["status"], "review_reasons": ";".join(record["review_reasons"]),
@@ -186,8 +190,14 @@ def build_questions() -> tuple[list[dict], dict[int, tuple[ParsedPaper, list[Key
         records, paper, keys = build_year(year)
         all_records.extend(records)
         artefacts[year] = (paper, keys)
-    write_outputs(all_records)
     return all_records, artefacts
+
+
+def attach_tags(records: list[dict], tags: dict) -> None:
+    """Put each question's reference syllabus tags into its record (in place)."""
+    for record in records:
+        tag = tags.get(record["id"])
+        record["syllabus_tags"] = {**tag.as_dict(), "source": "reference"} if tag else None
 
 
 def load_questions(path: Path = PROCESSED_DIR / "questions.jsonl") -> list[dict]:

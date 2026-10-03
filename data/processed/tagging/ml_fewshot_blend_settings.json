@@ -1,0 +1,27 @@
+[
+  {
+    "fold": 0,
+    "weight": 0.75,
+    "temperature": 0.02
+  },
+  {
+    "fold": 1,
+    "weight": 0.5,
+    "temperature": 0.02
+  },
+  {
+    "fold": 2,
+    "weight": 0.5,
+    "temperature": 0.02
+  },
+  {
+    "fold": 3,
+    "weight": 0.5,
+    "temperature": 0.02
+  },
+  {
+    "fold": 4,
+    "weight": 0.75,
+    "temperature": 0.05
+  }
+]
