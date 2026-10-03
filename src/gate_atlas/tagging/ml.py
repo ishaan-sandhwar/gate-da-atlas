@@ -24,18 +24,16 @@ from sklearn.model_selection import StratifiedKFold, cross_val_predict
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import FunctionTransformer
 
-from gate_atlas.config import PROCESSED_DIR
+from gate_atlas.config import TAGGING_DIR, TOP_K
 from gate_atlas.tagging.reference import Tag
 from gate_atlas.tagging.text import item_text, question_text
 
 log = logging.getLogger(__name__)
 
-TAGGING_DIR = PROCESSED_DIR / "tagging"
 EMBED_MODEL = "BAAI/bge-small-en-v1.5"
 QUERY_PREFIX = "Represent this sentence for searching relevant passages: "  # bge retrieval instruction
 RANDOM_SEED = 42
 CV_FOLDS = 5
-TOP_K = 15
 KNN_NEIGHBOURS = 5
 INNER_FOLDS = 4
 # (weight of item similarity, softmax temperature); picked per outer fold by inner CV.

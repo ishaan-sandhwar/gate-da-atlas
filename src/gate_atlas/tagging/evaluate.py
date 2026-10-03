@@ -7,8 +7,7 @@ from pathlib import Path
 
 from sklearn.metrics import cohen_kappa_score
 
-from gate_atlas.config import PROCESSED_DIR
-from gate_atlas.tagging.ml import TAGGING_DIR
+from gate_atlas.config import PROCESSED_DIR, TAGGING_DIR
 from gate_atlas.tagging.reference import Tag
 
 RANK_CUTOFFS = (1, 3, 5, 10, 15)

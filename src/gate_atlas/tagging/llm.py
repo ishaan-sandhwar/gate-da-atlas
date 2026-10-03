@@ -17,14 +17,13 @@ import os
 import time
 from datetime import datetime, timezone
 
-from gate_atlas.config import ROOT_DIR
-from gate_atlas.tagging.ml import TAGGING_DIR, TOP_K
+from gate_atlas.config import DEFAULT_LLM_MODEL, ROOT_DIR, TAGGING_DIR, TOP_K
 from gate_atlas.tagging.reference import CONFIDENCES, FITS, MAX_SECONDARY, Tag
 from gate_atlas.tagging.text import question_text
 
 log = logging.getLogger(__name__)
 
-DEFAULT_MODEL = "openai/gpt-oss-120b"
+DEFAULT_MODEL = DEFAULT_LLM_MODEL
 REASONING_EFFORT = "low"
 TEMPERATURE = 0.0
 BATCH_SIZE = 10

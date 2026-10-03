@@ -6,7 +6,7 @@ import shutil
 import sys
 
 from gate_atlas import fetch
-from gate_atlas.config import CROPS_DIR, PAPER_YEARS, PROCESSED_DIR
+from gate_atlas.config import CROPS_DIR, DEFAULT_LLM_MODEL, PAPER_YEARS, PROCESSED_DIR, TAGGING_DIR
 
 
 def build() -> int:
@@ -62,7 +62,6 @@ def tag_llm(model: str, mode: str, limit: int | None, force: bool, parts: list[s
     """Run the Groq LLM tagger in full or hybrid mode on the chosen paper parts."""
     from gate_atlas.tagging.evaluate import load_predictions
     from gate_atlas.tagging.llm import run_llm
-    from gate_atlas.tagging.ml import TAGGING_DIR
 
     records, items, _ = tagging_inputs()
     records = [r for r in records if r["section"] in parts]
@@ -131,8 +130,6 @@ def export_web() -> int:
 
 def main(argv: list[str] | None = None) -> int:
     """Parse arguments and run one pipeline command."""
-    from gate_atlas.tagging.llm import DEFAULT_MODEL
-
     parser = argparse.ArgumentParser(prog="gate_atlas", description=__doc__)
     commands = parser.add_subparsers(dest="command", required=True)
     commands.add_parser("fetch", help="download official PDFs into data/raw")
@@ -140,7 +137,7 @@ def main(argv: list[str] | None = None) -> int:
     commands.add_parser("build", help="build syllabus + questions from data/raw, attach tags, validate")
     commands.add_parser("tag-ml", help="run embedding / kNN / classifier taggers")
     llm = commands.add_parser("tag-llm", help="run the Groq LLM tagger (needs GROQ_API_KEY)")
-    llm.add_argument("--model", default=DEFAULT_MODEL)
+    llm.add_argument("--model", default=DEFAULT_LLM_MODEL)
     llm.add_argument("--mode", choices=["full", "hybrid"], default="full")
     llm.add_argument("--limit", type=int, default=None, help="tag at most this many uncached questions")
     llm.add_argument("--force", action="store_true", help="ignore cached responses")

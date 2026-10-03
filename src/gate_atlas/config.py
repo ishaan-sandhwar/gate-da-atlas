@@ -24,3 +24,9 @@ EXPECTED_SECTION_PATTERN = {
     "GA": {1: 5, 2: 5},
     "DA": {1: 25, 2: 30},
 }
+
+# Tagging constants shared by the ML and LLM taggers, the evaluation and the CLI. They live here so
+# that commands which never tag (build, analyze, plan, export-web) do not import scikit-learn or Groq.
+TAGGING_DIR = PROCESSED_DIR / "tagging"
+TOP_K = 15  # ML candidates handed to the LLM in hybrid mode
+DEFAULT_LLM_MODEL = "openai/gpt-oss-120b"
