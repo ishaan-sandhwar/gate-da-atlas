@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="172" viewBox="0 0 1280 172" role="img" aria-label="Key numbers: 195 questions from 3 official papers; 136 syllabus items in official wording; 41/41 validation checks pass; 75.8% exact topic, hybrid tagger (LLM alone 65.5%); 24/119 DA items never asked in 2024–26; 61 automated tests (47 Python, 14 TypeScript)">
+<rect x="0.0" y="0" width="200.0" height="172" rx="14" fill="#0f172a"/>
+<rect x="0.5" y=".5" width="199.0" height="171" rx="13.5" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+<rect x="22.0" y="0" width="156.0" height="4" rx="2" fill="#38bdf8"/>
+<text x="100.0" y="78" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="42" font-weight="800" fill="#ffffff">195</text>
+<text x="100.0" y="110" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15.5" fill="#a8b3c4">questions from 3</text>
+<text x="100.0" y="131" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15.5" fill="#a8b3c4">official papers</text>
+<rect x="216.0" y="0" width="200.0" height="172" rx="14" fill="#0f172a"/>
+<rect x="216.5" y=".5" width="199.0" height="171" rx="13.5" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+<rect x="238.0" y="0" width="156.0" height="4" rx="2" fill="#a78bfa"/>
+<text x="316.0" y="78" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="42" font-weight="800" fill="#ffffff">136</text>
+<text x="316.0" y="110" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15.5" fill="#a8b3c4">syllabus items in</text>
+<text x="316.0" y="131" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15.5" fill="#a8b3c4">official wording</text>
+<rect x="432.0" y="0" width="200.0" height="172" rx="14" fill="#0f172a"/>
+<rect x="432.5" y=".5" width="199.0" height="171" rx="13.5" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+<rect x="454.0" y="0" width="156.0" height="4" rx="2" fill="#34d399"/>
+<text x="532.0" y="78" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="42" font-weight="800" fill="#ffffff">41/41</text>
+<text x="532.0" y="110" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15.5" fill="#a8b3c4">validation checks pass</text>
+<rect x="648.0" y="0" width="200.0" height="172" rx="14" fill="#0f172a"/>
+<rect x="648.5" y=".5" width="199.0" height="171" rx="13.5" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+<rect x="670.0" y="0" width="156.0" height="4" rx="2" fill="#f59e0b"/>
+<text x="748.0" y="78" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="42" font-weight="800" fill="#ffffff">75.8%</text>
+<text x="748.0" y="110" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15.5" fill="#a8b3c4">exact topic, hybrid</text>
+<text x="748.0" y="131" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15.5" fill="#a8b3c4">tagger (LLM alone</text>
+<text x="748.0" y="152" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15.5" fill="#a8b3c4">65.5%)</text>
+<rect x="864.0" y="0" width="200.0" height="172" rx="14" fill="#0f172a"/>
+<rect x="864.5" y=".5" width="199.0" height="171" rx="13.5" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+<rect x="886.0" y="0" width="156.0" height="4" rx="2" fill="#f472b6"/>
+<text x="964.0" y="78" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="42" font-weight="800" fill="#ffffff">24/119</text>
+<text x="964.0" y="110" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15.5" fill="#a8b3c4">DA items never</text>
+<text x="964.0" y="131" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15.5" fill="#a8b3c4">asked in 2024–26</text>
+<rect x="1080.0" y="0" width="200.0" height="172" rx="14" fill="#0f172a"/>
+<rect x="1080.5" y=".5" width="199.0" height="171" rx="13.5" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+<rect x="1102.0" y="0" width="156.0" height="4" rx="2" fill="#60a5fa"/>
+<text x="1180.0" y="78" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="42" font-weight="800" fill="#ffffff">61</text>
+<text x="1180.0" y="110" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15.5" fill="#a8b3c4">automated tests (47</text>
+<text x="1180.0" y="131" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15.5" fill="#a8b3c4">Python, 14 TypeScript)</text>
+</svg>

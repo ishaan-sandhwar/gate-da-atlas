@@ -1,0 +1,43 @@
+{
+  "banner": {
+    "title": "GATE DA Atlas",
+    "subtitle": "Official GATE DA questions, mapped to the syllabus",
+    "chips": ["Official PDFs only", "ML + LLM tagging", "Adaptive planner"],
+    "theme": "ocean",
+    "motif": {"type": "in_out", "in": 3, "out": 195, "in_label": "3 papers", "out_label": "195 tagged questions"}
+  },
+  "stats": [
+    {"value": "195", "label": "questions from 3 official papers"},
+    {"value": "136", "label": "syllabus items in official wording"},
+    {"value": "41/41", "label": "validation checks pass"},
+    {"value": "75.8%", "label": "exact topic, hybrid tagger (LLM alone 65.5%)"},
+    {"value": "24/119", "label": "DA items never asked in 2024–26"},
+    {"value": "61", "label": "automated tests (47 Python, 14 TypeScript)"}
+  ],
+  "architecture": {
+    "alt": "Pipeline in five phases: fetch, parse and validate the official PDFs; tag every question with reference, ML, LLM and hybrid taggers and evaluate them; analyse weightage and forecast; plan study hours; export to the web atlas",
+    "input": "14 official PDFs: 3 papers, 3 answer keys, 8 syllabi",
+    "legend_names": {"det": "deterministic", "model": "model or annotator involved", "data": "dataset"},
+    "rows": [
+      {"band": "Phase 1: dataset", "band_color": "#38bdf8", "steps": [
+        {"n": 1, "title": "Fetch", "kind": "det", "lines": ["Every official mirror; only byte-identical copies are kept (SHA-256)"]},
+        {"n": 2, "title": "Parse", "kind": "det", "lines": ["Glyph positions give questions, options, scripts and a crop of each question"]},
+        {"n": 3, "title": "Validate", "kind": "det", "lines": ["65 questions and 100 marks a paper, 41 checks; lossy text goes to needs_review"]}
+      ]},
+      {"pill": "195 questions  ·  136 syllabus items with their official phrases", "color": "#34d399"},
+      {"band": "Phase 2: syllabus tags", "band_color": "#a78bfa", "steps": [
+        {"n": 4, "title": "Reference", "kind": "model", "lines": ["One annotator (Claude) tags every question; frozen before any tagger runs"]},
+        {"n": 5, "title": "ML", "kind": "model", "lines": ["bge-small embeddings, few-shot kNN with nested cross-validation"]},
+        {"n": 6, "title": "LLM", "kind": "model", "lines": ["gpt-oss-120b on Groq, strict JSON schema; hybrid mode picks from the ML top 15"]},
+        {"n": 7, "title": "Evaluate", "kind": "det", "lines": ["Accuracy, Cohen's kappa and McNemar tests against the reference"]}
+      ]},
+      {"band": "Phases 3 to 5: analysis, planner, web atlas", "band_color": "#34d399", "steps": [
+        {"n": 8, "title": "Weightage", "kind": "det", "lines": ["Marks per item, cluster and section; trends; never-asked items"]},
+        {"n": 9, "title": "Forecast", "kind": "model", "lines": ["Empirical-Bayes Gamma-Poisson per item, backtested paper by paper"]},
+        {"n": 10, "title": "Planner", "kind": "det", "lines": ["KKT hour allocation, spaced revision, mocks, Beta updates"]},
+        {"n": 11, "title": "Web atlas", "kind": "det", "lines": ["Static React app; the planner is a parity-tested TypeScript port"]}
+      ]}
+    ],
+    "output": "questions.jsonl / .csv  ·  ANALYSIS.md  ·  plan.md  ·  web atlas"
+  }
+}

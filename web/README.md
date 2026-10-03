@@ -29,4 +29,4 @@ npm run build    # type-check, then a static site in dist/ with relative paths
 | `src/planner/` | TypeScript port of `gate_atlas.planner` and its parity tests |
 | `src/styles/` | Design tokens for light and dark themes, and the layout |
 
-The methodology is in the main [README](../README.md#methodology--phase-5-web-atlas).
+The methodology is in the main [README](../README.md#methodology-phase-5).

@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="934" viewBox="0 0 1200 934" role="img" aria-label="Pipeline in five phases: fetch, parse and validate the official PDFs; tag every question with reference, ML, LLM and hybrid taggers and evaluate them; analyse weightage and forecast; plan study hours; export to the web atlas">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#94a3b8"/></marker></defs>
+<rect width="1200" height="934" rx="18" fill="#0b1220"/>
+<rect x="1" y="1" width="1198" height="932" rx="17" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+<rect x="418" y="24" width="12" height="12" rx="3" fill="#38bdf8"/><text x="438" y="35" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="13.5" font-weight="500" fill="#d5deea">deterministic</text>
+<rect x="550" y="24" width="12" height="12" rx="3" fill="#a78bfa"/><text x="570" y="35" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="13.5" font-weight="500" fill="#d5deea">model or annotator involved</text>
+<rect x="308" y="60" width="584" height="48" rx="12" fill="#0f172a" stroke="#ffffff" stroke-opacity="0.18"/>
+<text x="600" y="91" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="18" font-weight="700" fill="#ffffff">14 official PDFs: 3 papers, 3 answer keys, 8 syllabi</text>
+<path d="M 600 110 L 600 136" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="30" y="138" width="1140" height="172" rx="16" fill="#38bdf8" fill-opacity="0.05" stroke="#38bdf8" stroke-opacity="0.25" stroke-dasharray="6 6"/>
+<text x="52" y="161" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="13" font-weight="700" fill="#38bdf8">Phase 1: dataset</text>
+<rect x="52" y="172" width="353" height="120" rx="12" fill="#111b2e"/>
+<rect x="52" y="172" width="353" height="120" rx="12" fill="none" stroke="#38bdf8" stroke-opacity="0.75" stroke-width="1.5"/>
+<rect x="60" y="188" width="4" height="88" rx="2" fill="#38bdf8"/>
+<circle cx="90" cy="202" r="14" fill="#38bdf8"/>
+<text x="90" y="208" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15" font-weight="800" fill="#0b1220">1</text>
+<text x="112" y="209" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="20" font-weight="700" fill="#ffffff">Fetch</text>
+<text x="76" y="240" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">Every official mirror; only byte-identical</text>
+<text x="76" y="261" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">copies are kept (SHA-256)</text>
+<path d="M 406 232.0 L 422 232.0" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="423" y="172" width="353" height="120" rx="12" fill="#111b2e"/>
+<rect x="423" y="172" width="353" height="120" rx="12" fill="none" stroke="#38bdf8" stroke-opacity="0.75" stroke-width="1.5"/>
+<rect x="431" y="188" width="4" height="88" rx="2" fill="#38bdf8"/>
+<circle cx="461" cy="202" r="14" fill="#38bdf8"/>
+<text x="461" y="208" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15" font-weight="800" fill="#0b1220">2</text>
+<text x="483" y="209" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="20" font-weight="700" fill="#ffffff">Parse</text>
+<text x="447" y="240" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">Glyph positions give questions, options,</text>
+<text x="447" y="261" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">scripts and a crop of each question</text>
+<path d="M 778 232.0 L 794 232.0" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="795" y="172" width="353" height="120" rx="12" fill="#111b2e"/>
+<rect x="795" y="172" width="353" height="120" rx="12" fill="none" stroke="#38bdf8" stroke-opacity="0.75" stroke-width="1.5"/>
+<rect x="803" y="188" width="4" height="88" rx="2" fill="#38bdf8"/>
+<circle cx="833" cy="202" r="14" fill="#38bdf8"/>
+<text x="833" y="208" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15" font-weight="800" fill="#0b1220">3</text>
+<text x="855" y="209" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="20" font-weight="700" fill="#ffffff">Validate</text>
+<text x="819" y="240" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">65 questions and 100 marks a paper, 41</text>
+<text x="819" y="261" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">checks; lossy text goes to needs_review</text>
+<path d="M 600 312 L 600 338" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="265" y="340" width="669" height="48" rx="24" fill="#0f172a" stroke="#34d399" stroke-opacity="0.6"/>
+<text x="600" y="371" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="17" font-weight="700" fill="#34d399">195 questions  ·  136 syllabus items with their official phrases</text>
+<path d="M 600 390 L 600 416" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="30" y="418" width="1140" height="193" rx="16" fill="#a78bfa" fill-opacity="0.05" stroke="#a78bfa" stroke-opacity="0.25" stroke-dasharray="6 6"/>
+<text x="52" y="441" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="13" font-weight="700" fill="#a78bfa">Phase 2: syllabus tags</text>
+<rect x="52" y="452" width="260" height="141" rx="12" fill="#111b2e"/>
+<rect x="52" y="452" width="260" height="141" rx="12" fill="none" stroke="#a78bfa" stroke-opacity="0.75" stroke-width="1.5"/>
+<rect x="60" y="468" width="4" height="109" rx="2" fill="#a78bfa"/>
+<circle cx="90" cy="482" r="14" fill="#a78bfa"/>
+<text x="90" y="488" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15" font-weight="800" fill="#0b1220">4</text>
+<text x="112" y="489" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="20" font-weight="700" fill="#ffffff">Reference</text>
+<text x="76" y="520" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">One annotator (Claude) tags</text>
+<text x="76" y="541" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">every question; frozen before</text>
+<text x="76" y="562" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">any tagger runs</text>
+<path d="M 314 522.5 L 330 522.5" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="330" y="452" width="260" height="141" rx="12" fill="#111b2e"/>
+<rect x="330" y="452" width="260" height="141" rx="12" fill="none" stroke="#a78bfa" stroke-opacity="0.75" stroke-width="1.5"/>
+<rect x="338" y="468" width="4" height="109" rx="2" fill="#a78bfa"/>
+<circle cx="368" cy="482" r="14" fill="#a78bfa"/>
+<text x="368" y="488" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15" font-weight="800" fill="#0b1220">5</text>
+<text x="390" y="489" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="20" font-weight="700" fill="#ffffff">ML</text>
+<text x="354" y="520" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">bge-small embeddings, few-</text>
+<text x="354" y="541" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">shot kNN with nested cross-</text>
+<text x="354" y="562" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">validation</text>
+<path d="M 592 522.5 L 608 522.5" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="609" y="452" width="260" height="141" rx="12" fill="#111b2e"/>
+<rect x="609" y="452" width="260" height="141" rx="12" fill="none" stroke="#a78bfa" stroke-opacity="0.75" stroke-width="1.5"/>
+<rect x="617" y="468" width="4" height="109" rx="2" fill="#a78bfa"/>
+<circle cx="647" cy="482" r="14" fill="#a78bfa"/>
+<text x="647" y="488" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15" font-weight="800" fill="#0b1220">6</text>
+<text x="669" y="489" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="20" font-weight="700" fill="#ffffff">LLM</text>
+<text x="633" y="520" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">gpt-oss-120b on Groq, strict</text>
+<text x="633" y="541" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">JSON schema; hybrid mode</text>
+<text x="633" y="562" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">picks from the ML top 15</text>
+<path d="M 870 522.5 L 886 522.5" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="888" y="452" width="260" height="141" rx="12" fill="#111b2e"/>
+<rect x="888" y="452" width="260" height="141" rx="12" fill="none" stroke="#38bdf8" stroke-opacity="0.75" stroke-width="1.5"/>
+<rect x="896" y="468" width="4" height="109" rx="2" fill="#38bdf8"/>
+<circle cx="926" cy="482" r="14" fill="#38bdf8"/>
+<text x="926" y="488" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15" font-weight="800" fill="#0b1220">7</text>
+<text x="948" y="489" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="20" font-weight="700" fill="#ffffff">Evaluate</text>
+<text x="912" y="520" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">Accuracy, Cohen&#x27;s kappa and</text>
+<text x="912" y="541" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">McNemar tests against the</text>
+<text x="912" y="562" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">reference</text>
+<path d="M 600 613 L 600 639" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="30" y="641" width="1140" height="193" rx="16" fill="#34d399" fill-opacity="0.05" stroke="#34d399" stroke-opacity="0.25" stroke-dasharray="6 6"/>
+<text x="52" y="664" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="13" font-weight="700" fill="#34d399">Phases 3 to 5: analysis, planner, web atlas</text>
+<rect x="52" y="675" width="260" height="141" rx="12" fill="#111b2e"/>
+<rect x="52" y="675" width="260" height="141" rx="12" fill="none" stroke="#38bdf8" stroke-opacity="0.75" stroke-width="1.5"/>
+<rect x="60" y="691" width="4" height="109" rx="2" fill="#38bdf8"/>
+<circle cx="90" cy="705" r="14" fill="#38bdf8"/>
+<text x="90" y="711" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15" font-weight="800" fill="#0b1220">8</text>
+<text x="112" y="712" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="20" font-weight="700" fill="#ffffff">Weightage</text>
+<text x="76" y="743" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">Marks per item, cluster and</text>
+<text x="76" y="764" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">section; trends; never-asked</text>
+<text x="76" y="785" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">items</text>
+<path d="M 314 745.5 L 330 745.5" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="330" y="675" width="260" height="141" rx="12" fill="#111b2e"/>
+<rect x="330" y="675" width="260" height="141" rx="12" fill="none" stroke="#a78bfa" stroke-opacity="0.75" stroke-width="1.5"/>
+<rect x="338" y="691" width="4" height="109" rx="2" fill="#a78bfa"/>
+<circle cx="368" cy="705" r="14" fill="#a78bfa"/>
+<text x="368" y="711" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15" font-weight="800" fill="#0b1220">9</text>
+<text x="390" y="712" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="20" font-weight="700" fill="#ffffff">Forecast</text>
+<text x="354" y="743" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">Empirical-Bayes Gamma-Poisson</text>
+<text x="354" y="764" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">per item, backtested paper by</text>
+<text x="354" y="785" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">paper</text>
+<path d="M 592 745.5 L 608 745.5" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="609" y="675" width="260" height="141" rx="12" fill="#111b2e"/>
+<rect x="609" y="675" width="260" height="141" rx="12" fill="none" stroke="#38bdf8" stroke-opacity="0.75" stroke-width="1.5"/>
+<rect x="617" y="691" width="4" height="109" rx="2" fill="#38bdf8"/>
+<circle cx="647" cy="705" r="14" fill="#38bdf8"/>
+<text x="647" y="711" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15" font-weight="800" fill="#0b1220">10</text>
+<text x="669" y="712" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="20" font-weight="700" fill="#ffffff">Planner</text>
+<text x="633" y="743" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">KKT hour allocation, spaced</text>
+<text x="633" y="764" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">revision, mocks, Beta updates</text>
+<path d="M 870 745.5 L 886 745.5" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="888" y="675" width="260" height="141" rx="12" fill="#111b2e"/>
+<rect x="888" y="675" width="260" height="141" rx="12" fill="none" stroke="#38bdf8" stroke-opacity="0.75" stroke-width="1.5"/>
+<rect x="896" y="691" width="4" height="109" rx="2" fill="#38bdf8"/>
+<circle cx="926" cy="705" r="14" fill="#38bdf8"/>
+<text x="926" y="711" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="15" font-weight="800" fill="#0b1220">11</text>
+<text x="948" y="712" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="20" font-weight="700" fill="#ffffff">Web atlas</text>
+<text x="912" y="743" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">Static React app; the planner</text>
+<text x="912" y="764" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">is a parity-tested TypeScript</text>
+<text x="912" y="785" text-anchor="start" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="14.5" font-weight="400" fill="#d5deea">port</text>
+<path d="M 600 836 L 600 862" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="247" y="864" width="705" height="48" rx="12" fill="#0f172a" stroke="#ffffff" stroke-opacity="0.18"/>
+<text x="600" y="895" text-anchor="middle" font-family='"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif' font-size="18" font-weight="700" fill="#ffffff">questions.jsonl / .csv  ·  ANALYSIS.md  ·  plan.md  ·  web atlas</text>
+</svg>
