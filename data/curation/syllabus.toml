@@ -1,0 +1,231 @@
+# Curated split of the official GATE syllabus into taggable items.
+#
+# Rules (enforced by `python -m gate_atlas build`):
+#   * every `source` is copied verbatim from the official syllabus PDF (canonical edition 2027);
+#   * parts are listed in official order; `heading` parts are official sub-headings, not items;
+#   * together the parts must cover the whole official section text, leaving only punctuation
+#     and the word "and" uncovered.
+# `label` and `cluster` are editorial (for readability and roll-up analysis), never official.
+
+[paper.DA]
+title = "Data Science and Artificial Intelligence"
+
+[[paper.DA.section]]
+id = "DA.PS"
+title = "Probability and Statistics"
+parts = [
+  { item = "01", source = "Counting (permutation and combinations)", label = "Counting: permutations & combinations", cluster = "Probability foundations" },
+  { item = "02", source = "probability axioms", label = "Probability axioms", cluster = "Probability foundations" },
+  { item = "03", source = "Sample space", label = "Sample space", cluster = "Probability foundations" },
+  { item = "04", source = "events", label = "Events", cluster = "Probability foundations" },
+  { item = "05", source = "independent events", label = "Independent events", cluster = "Probability foundations" },
+  { item = "06", source = "mutually exclusive events", label = "Mutually exclusive events", cluster = "Probability foundations" },
+  { item = "07", source = "marginal, conditional and joint probability", label = "Marginal, conditional & joint probability", cluster = "Probability foundations" },
+  { item = "08", source = "Bayes Theorem", label = "Bayes' theorem", cluster = "Probability foundations" },
+  { item = "09", source = "conditional expectation and variance", label = "Conditional expectation & variance", cluster = "Random variables & expectation" },
+  { item = "10", source = "mean, median, mode and standard deviation", label = "Mean, median, mode & standard deviation", cluster = "Descriptive statistics" },
+  { item = "11", source = "correlation, and covariance", label = "Correlation & covariance", cluster = "Descriptive statistics" },
+  { item = "12", source = "random variables", label = "Random variables", cluster = "Random variables & expectation" },
+  { item = "13", source = "discrete random variables and probability mass functions", label = "Discrete random variables & PMFs", cluster = "Random variables & expectation" },
+  { item = "14", source = "uniform", label = "Discrete uniform distribution", cluster = "Distributions", note = "First 'uniform' of the official text, listed with the discrete distributions." },
+  { item = "15", source = "Bernoulli", label = "Bernoulli distribution", cluster = "Distributions" },
+  { item = "16", source = "binomial distribution", label = "Binomial distribution", cluster = "Distributions" },
+  { item = "17", source = "Continuous random variables and probability distribution function", label = "Continuous random variables & PDFs", cluster = "Random variables & expectation" },
+  { item = "18", source = "uniform", label = "Continuous uniform distribution", cluster = "Distributions", note = "Second 'uniform' of the official text, listed with the continuous distributions." },
+  { item = "19", source = "exponential", label = "Exponential distribution", cluster = "Distributions" },
+  { item = "20", source = "Poisson", label = "Poisson distribution", cluster = "Distributions", note = "The official text lists Poisson among the continuous distributions, although it is discrete." },
+  { item = "21", source = "normal", label = "Normal distribution", cluster = "Distributions" },
+  { item = "22", source = "standard normal", label = "Standard normal distribution", cluster = "Distributions" },
+  { item = "23", source = "t-distribution", label = "t-distribution", cluster = "Distributions" },
+  { item = "24", source = "chi-squared distributions", label = "Chi-squared distribution", cluster = "Distributions" },
+  { item = "25", source = "cumulative distribution function", label = "Cumulative distribution function (CDF)", cluster = "Random variables & expectation" },
+  { item = "26", source = "Conditional PDF", label = "Conditional PDF", cluster = "Random variables & expectation" },
+  { item = "27", source = "Central limit theorem", label = "Central limit theorem", cluster = "Statistical inference" },
+  { item = "28", source = "confidence interval", label = "Confidence intervals", cluster = "Statistical inference" },
+  { item = "29", source = "z-test", label = "z-test", cluster = "Statistical inference" },
+  { item = "30", source = "t-test", label = "t-test", cluster = "Statistical inference" },
+  { item = "31", source = "chi-squared test", label = "Chi-squared test", cluster = "Statistical inference" },
+]
+
+[[paper.DA.section]]
+id = "DA.LA"
+title = "Linear Algebra"
+parts = [
+  { item = "01", source = "Vector space", label = "Vector spaces", cluster = "Vector spaces" },
+  { item = "02", source = "subspaces", label = "Subspaces", cluster = "Vector spaces" },
+  { item = "03", source = "linear dependence and independence of vectors", label = "Linear dependence & independence", cluster = "Vector spaces" },
+  { item = "04", source = "matrices", label = "Matrices (general)", cluster = "Matrices" },
+  { item = "05", source = "projection matrix", label = "Projection matrix", cluster = "Matrices" },
+  { item = "06", source = "orthogonal matrix", label = "Orthogonal matrix", cluster = "Matrices" },
+  { item = "07", source = "idempotent matrix", label = "Idempotent matrix", cluster = "Matrices" },
+  { item = "08", source = "partition matrix and their properties", label = "Partitioned matrices & properties", cluster = "Matrices" },
+  { item = "09", source = "quadratic forms", label = "Quadratic forms", cluster = "Matrices" },
+  { item = "10", source = "systems of linear equations and solutions", label = "Systems of linear equations", cluster = "Linear systems" },
+  { item = "11", source = "Gaussian elimination", label = "Gaussian elimination", cluster = "Linear systems" },
+  { item = "12", source = "eigenvalues and eigenvectors", label = "Eigenvalues & eigenvectors", cluster = "Eigenvalues & decompositions" },
+  { item = "13", source = "determinant", label = "Determinant", cluster = "Matrices" },
+  { item = "14", source = "rank", label = "Rank", cluster = "Linear systems" },
+  { item = "15", source = "nullity", label = "Nullity", cluster = "Linear systems" },
+  { item = "16", source = "projections", label = "Projections", cluster = "Vector spaces" },
+  { item = "17", source = "LU decomposition", label = "LU decomposition", cluster = "Eigenvalues & decompositions" },
+  { item = "18", source = "singular value decomposition", label = "Singular value decomposition (SVD)", cluster = "Eigenvalues & decompositions" },
+]
+
+[[paper.DA.section]]
+id = "DA.CO"
+title = "Calculus and Optimization"
+parts = [
+  { item = "01", source = "Functions of a single variable", label = "Functions of a single variable", cluster = "Calculus" },
+  { item = "02", source = "limit", label = "Limits", cluster = "Calculus" },
+  { item = "03", source = "continuity and differentiability", label = "Continuity & differentiability", cluster = "Calculus" },
+  { item = "04", source = "Taylor series", label = "Taylor series", cluster = "Calculus" },
+  { item = "05", source = "maxima and minima", label = "Maxima & minima", cluster = "Optimization" },
+  { item = "06", source = "optimization involving a single variable", label = "Single-variable optimization", cluster = "Optimization" },
+]
+
+[[paper.DA.section]]
+id = "DA.PD"
+title = "Programming, Data Structures and Algorithms"
+parts = [
+  { item = "01", source = "Programming in Python", label = "Programming in Python", cluster = "Python programming" },
+  { heading = true, source = "basic data structures" },
+  { item = "02", source = "stacks", label = "Stacks", cluster = "Data structures" },
+  { item = "03", source = "queues", label = "Queues", cluster = "Data structures" },
+  { item = "04", source = "linked lists", label = "Linked lists", cluster = "Data structures" },
+  { item = "05", source = "trees", label = "Trees", cluster = "Data structures" },
+  { item = "06", source = "hash tables", label = "Hash tables", cluster = "Data structures" },
+  { heading = true, source = "Search algorithms" },
+  { item = "07", source = "linear search", label = "Linear search", cluster = "Searching & sorting" },
+  { item = "08", source = "binary search", label = "Binary search", cluster = "Searching & sorting" },
+  { heading = true, source = "basic sorting algorithms" },
+  { item = "09", source = "selection sort", label = "Selection sort", cluster = "Searching & sorting" },
+  { item = "10", source = "bubble sort", label = "Bubble sort", cluster = "Searching & sorting" },
+  { item = "11", source = "insertion sort", label = "Insertion sort", cluster = "Searching & sorting" },
+  { heading = true, source = "divide and conquer" },
+  { item = "12", source = "mergesort", label = "Merge sort", cluster = "Searching & sorting" },
+  { item = "13", source = "quicksort", label = "Quicksort", cluster = "Searching & sorting" },
+  { item = "14", source = "introduction to graph theory", label = "Graph theory basics", cluster = "Graphs" },
+  { heading = true, source = "basic graph algorithms" },
+  { item = "15", source = "traversals", label = "Graph traversals (BFS/DFS)", cluster = "Graphs" },
+  { item = "16", source = "shortest path", label = "Shortest paths", cluster = "Graphs" },
+]
+
+[[paper.DA.section]]
+id = "DA.DB"
+title = "Database Management and Warehousing"
+parts = [
+  { item = "01", source = "ER-model", label = "ER model", cluster = "Relational databases" },
+  { heading = true, source = "relational model" },
+  { item = "02", source = "relational algebra", label = "Relational algebra", cluster = "Relational databases" },
+  { item = "03", source = "tuple calculus", label = "Tuple relational calculus", cluster = "Relational databases" },
+  { item = "04", source = "SQL", label = "SQL", cluster = "Relational databases" },
+  { item = "05", source = "integrity constraints", label = "Integrity constraints & keys", cluster = "Relational databases" },
+  { item = "06", source = "normal form", label = "Normal forms", cluster = "Relational databases" },
+  { item = "07", source = "file organization", label = "File organization", cluster = "Storage & indexing" },
+  { item = "08", source = "indexing", label = "Indexing (incl. B/B+ trees)", cluster = "Storage & indexing" },
+  { item = "09", source = "data types", label = "Data (attribute) types", cluster = "Data preprocessing" },
+  { heading = true, source = "data transformation such as" },
+  { item = "10", source = "normalization", label = "Data normalization (scaling)", cluster = "Data preprocessing", note = "Data-transformation sense (feature scaling), not relational normal forms (see DA.DB.06)." },
+  { item = "11", source = "discretization", label = "Discretization", cluster = "Data preprocessing" },
+  { item = "12", source = "sampling", label = "Sampling", cluster = "Data preprocessing" },
+  { item = "13", source = "compression", label = "Compression", cluster = "Data preprocessing" },
+  { heading = true, source = "data warehouse modelling" },
+  { item = "14", source = "schema for multidimensional data models", label = "Multidimensional schemas (star/snowflake)", cluster = "Data warehousing" },
+  { item = "15", source = "concept hierarchies", label = "Concept hierarchies", cluster = "Data warehousing" },
+  { item = "16", source = "measures: categorization and computations", label = "Measures: categorization & computation", cluster = "Data warehousing" },
+]
+
+[[paper.DA.section]]
+id = "DA.ML"
+title = "Machine Learning"
+parts = [
+  { heading = true, source = "Supervised Learning" },
+  { item = "01", source = "regression and classification problems", label = "Regression vs classification problems", cluster = "Supervised learning setup" },
+  { item = "02", source = "simple linear regression", label = "Simple linear regression", cluster = "Regression" },
+  { item = "03", source = "multiple linear regression", label = "Multiple linear regression", cluster = "Regression" },
+  { item = "04", source = "ridge regression", label = "Ridge regression", cluster = "Regression" },
+  { item = "05", source = "logistic regression", label = "Logistic regression", cluster = "Classification" },
+  { item = "06", source = "k-nearest neighbour", label = "k-nearest neighbours", cluster = "Classification" },
+  { item = "07", source = "naive Bayes classifier", label = "Naive Bayes classifier", cluster = "Classification" },
+  { item = "08", source = "linear discriminant analysis", label = "Linear discriminant analysis (LDA)", cluster = "Classification" },
+  { item = "09", source = "support vector machine", label = "Support vector machines", cluster = "Classification" },
+  { item = "10", source = "decision trees", label = "Decision trees", cluster = "Classification" },
+  { item = "11", source = "bias-variance trade-off", label = "Bias-variance trade-off", cluster = "Model evaluation & selection" },
+  { heading = true, source = "cross-validation methods such as" },
+  { item = "12", source = "leave-one-out (LOO) cross-validation", label = "Leave-one-out cross-validation", cluster = "Model evaluation & selection" },
+  { item = "13", source = "k-folds cross-validation", label = "k-fold cross-validation", cluster = "Model evaluation & selection" },
+  { item = "14", source = "multi-layer perceptron", label = "Multi-layer perceptron", cluster = "Neural networks" },
+  { item = "15", source = "feed-forward neural network", label = "Feed-forward neural networks", cluster = "Neural networks" },
+  { heading = true, source = "Unsupervised Learning" },
+  { item = "16", source = "clustering algorithms", label = "Clustering algorithms (general)", cluster = "Clustering" },
+  { item = "17", source = "k-means/k-medoid", label = "k-means / k-medoids", cluster = "Clustering" },
+  { item = "18", source = "hierarchical clustering", label = "Hierarchical clustering", cluster = "Clustering" },
+  { item = "19", source = "top-down", label = "Top-down (divisive) clustering", cluster = "Clustering" },
+  { item = "20", source = "bottom-up", label = "Bottom-up (agglomerative) clustering", cluster = "Clustering" },
+  { item = "21", source = "single-linkage", label = "Single linkage", cluster = "Clustering" },
+  { item = "22", source = "multiple-linkage", label = "Multiple linkage", cluster = "Clustering", note = "Official wording. Questions on complete or average linkage are tagged here." },
+  { item = "23", source = "dimensionality reduction", label = "Dimensionality reduction (general)", cluster = "Dimensionality reduction" },
+  { item = "24", source = "principal component analysis", label = "Principal component analysis (PCA)", cluster = "Dimensionality reduction" },
+]
+
+[[paper.DA.section]]
+id = "DA.AI"
+title = "AI"
+parts = [
+  { heading = true, source = "Search" },
+  { item = "01", source = "informed", label = "Informed (heuristic) search", cluster = "Search" },
+  { item = "02", source = "uninformed", label = "Uninformed search", cluster = "Search" },
+  { item = "03", source = "adversarial", label = "Adversarial search (game trees)", cluster = "Search" },
+  { heading = true, source = "logic" },
+  { item = "04", source = "propositional", label = "Propositional logic", cluster = "Logic" },
+  { item = "05", source = "predicate", label = "Predicate (first-order) logic", cluster = "Logic" },
+  { heading = true, source = "reasoning under uncertainty topics" },
+  { item = "06", source = "conditional independence representation", label = "Conditional independence (Bayesian networks)", cluster = "Reasoning under uncertainty" },
+  { item = "07", source = "exact inference through variable elimination", label = "Exact inference: variable elimination", cluster = "Reasoning under uncertainty" },
+  { item = "08", source = "approximate inference through sampling", label = "Approximate inference: sampling", cluster = "Reasoning under uncertainty" },
+]
+
+[paper.GA]
+title = "General Aptitude"
+
+[[paper.GA.section]]
+id = "GA.VA"
+title = "Verbal Aptitude"
+parts = [
+  { item = "01", source = "Basic English grammar: tenses, articles, adjectives, prepositions, conjunctions, verb-noun agreement, and other parts of speech", label = "English grammar" },
+  { item = "02", source = "Basic vocabulary: words, idioms, and phrases in context", label = "Vocabulary: words, idioms & phrases" },
+  { item = "03", source = "Reading and comprehension", label = "Reading comprehension" },
+  { item = "04", source = "Narrative sequencing", label = "Narrative sequencing" },
+]
+
+[[paper.GA.section]]
+id = "GA.QA"
+title = "Quantitative Aptitude"
+parts = [
+  { item = "01", source = "Data interpretation: data graphs (bar graphs, pie charts, and other graphs representing data), 2-and 3-dimensional plots, maps, and tables", label = "Data interpretation (graphs, plots, maps, tables)" },
+  { heading = true, source = "Numerical computation and estimation" },
+  { item = "02", source = "ratios", label = "Ratios" },
+  { item = "03", source = "percentages", label = "Percentages" },
+  { item = "04", source = "powers, exponents and logarithms", label = "Powers, exponents & logarithms" },
+  { item = "05", source = "permutations and combinations", label = "Permutations & combinations" },
+  { item = "06", source = "series", label = "Series" },
+  { item = "07", source = "Mensuration and geometry", label = "Mensuration & geometry" },
+  { item = "08", source = "Elementary statistics and probability", label = "Elementary statistics & probability" },
+]
+
+[[paper.GA.section]]
+id = "GA.AA"
+title = "Analytical Aptitude"
+parts = [
+  { item = "01", source = "Logic: deduction and induction", label = "Logic: deduction & induction" },
+  { item = "02", source = "Analogy", label = "Analogy" },
+  { item = "03", source = "Numerical relations and reasoning", label = "Numerical relations & reasoning" },
+]
+
+[[paper.GA.section]]
+id = "GA.SA"
+title = "Spatial Aptitude"
+parts = [
+  { item = "01", source = "Transformation of shapes: translation, rotation, scaling, mirroring, assembling, and grouping", label = "Transformation of shapes" },
+  { item = "02", source = "paper folding, cutting, and patterns in 2 and 3 dimensions", label = "Paper folding, cutting & patterns (2D/3D)" },
+]

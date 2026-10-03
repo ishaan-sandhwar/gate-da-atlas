@@ -1,0 +1,1246 @@
+id,year,number,section,marks,type,negative_marks,answer,stem,option_a,option_b,option_c,option_d,status,review_reasons,has_math,has_code,has_figure,has_table,pages,crop
+DA2024-Q01,2024,1,GA,1,MCQ,0.3333,D,"If ‘→’ denotes increasing order of intensity, then the meaning of the words
+[sick → infirm → moribund] is analogous to [silly → _______ → daft].
+Which one of the given options is appropriate to fill the blank?",frown,fawn,vein,vain,clean,,False,False,False,False,1,data/processed/crops/2024/DA2024-Q01.png
+DA2024-Q02,2024,2,GA,1,MCQ,0.3333,A,"The 15 parts of the given figure are to be painted such that no two adjacent parts
+with shared boundaries (excluding corners) have the same color. The minimum
+number of colors required is",4,3,5,6,needs_review,figure,False,False,True,False,2,data/processed/crops/2024/DA2024-Q02.png
+DA2024-Q03,2024,3,GA,1,MCQ,0.3333,B,"How many 4-digit positive integers divisible by 3 can be formed using only the
+digits {1, 3,4, 6, 7}, such that no digit appears more than once in a number?",24,48,72,12,clean,,True,False,False,False,3,data/processed/crops/2024/DA2024-Q03.png
+DA2024-Q04,2024,4,GA,1,MCQ,0.3333,B,"The sum of the following infinite series is
+2 + 12 + 13 + 14 + 18 + 19 + 116 + 217 + ⋯",11/3,7/2,13/4,9/2,needs_review,display_math,True,False,False,False,3,data/processed/crops/2024/DA2024-Q04.png
+DA2024-Q05,2024,5,GA,1,MCQ,0.3333,B,"In an election, the share of valid votes received by the four candidates A, B, C, and
+D is represented by the pie chart shown. The total number of votes cast in the
+election were 1,15,000, out of which 5,000 were invalid.
+Share of valid votes
+D
+15%
+A
+C 40%
+20%
+B
+25%
+Based on the data provided, the total number of valid votes received by the
+candidates B and C is","45,000","49,500","51,750","54,000",needs_review,figure,False,False,True,False,4,data/processed/crops/2024/DA2024-Q05.png
+DA2024-Q06,2024,6,GA,2,MCQ,0.6667,D,"Thousands of years ago, some people began dairy farming. This coincided with a
+number of mutations in a particular gene that resulted in these people developing
+the ability to digest dairy milk.
+Based on the given passage, which of the following can be inferred?",All human beings can digest dairy milk.,No human being can digest dairy milk.,Digestion of dairy milk is essential for human beings.,"In human beings, digestion of dairy milk resulted from a mutated gene.",clean,,False,False,False,False,5,data/processed/crops/2024/DA2024-Q06.png
+DA2024-Q07,2024,7,GA,2,MCQ,0.6667,A,"The probability of a boy or a girl being born is 1/2. For a family having only
+three children, what is the probability of having two girls and one boy?",3/8,1/8,1/4,1/2,clean,,False,False,False,False,5,data/processed/crops/2024/DA2024-Q07.png
+DA2024-Q08,2024,8,GA,2,MCQ,0.6667,B,"Person 1 and Person 2 invest in three mutual funds A, B, and C. The amounts they
+invest in each of these mutual funds are given in the table.
+Mutual fund A Mutual fund B Mutual fund C
+Person 1 ₹10,000 ₹20,000 ₹20,000
+Person 2 ₹20,000 ₹15,000 ₹15,000
+At the end of one year, the total amount that Person 1 gets is ₹500 more than
+Person 2. The annual rate of return for the mutual funds B and C is 15% each. What
+is the annual rate of return for the mutual fund A?",7.5%,10%,15%,20%,needs_review,table,False,False,False,True,6,data/processed/crops/2024/DA2024-Q08.png
+DA2024-Q09,2024,9,GA,2,MCQ,0.6667,A,"Three different views of a dice are shown in the figure below.
+The piece of paper that can be folded to make this dice is",,,,,needs_review,empty_text;figure,False,False,True,False,7,data/processed/crops/2024/DA2024-Q09.png
+DA2024-Q10,2024,10,GA,2,MCQ,0.6667,A,"Visualize two identical right circular cones such that one is inverted over the other
+and they share a common circular base. If a cutting plane passes through the vertices
+of the assembled cones, what shape does the outer boundary of the
+resulting cross-section make?",A rhombus,A triangle,An ellipse,A hexagon,clean,,False,False,False,False,8,data/processed/crops/2024/DA2024-Q10.png
+DA2024-Q11,2024,11,DA,1,MCQ,0.3333,A,"Consider the following statements:
+(i) The mean and variance of a Poisson random variable are equal.
+(ii) For a standard normal random variable, the mean is zero and the
+variance is one.
+Which ONE of the following options is correct?",Both (i) and (ii) are true,(i) is true and (ii) is false,(ii) is true and (i) is false,Both (i) and (ii) are false,clean,,False,False,False,False,9,data/processed/crops/2024/DA2024-Q11.png
+DA2024-Q12,2024,12,DA,1,MCQ,0.3333,A,"Three fair coins are tossed independently. T is the event that two or more tosses
+result in heads. S is the event that two or more tosses result in tails.
+What is the probability of the event T∩S ?",0,0.5,0.25,1,clean,,True,False,False,False,9,data/processed/crops/2024/DA2024-Q12.png
+DA2024-Q13,2024,13,DA,1,MCQ,0.3333,B,"Consider the matrix M = [2 −1
+3 1 ].
+Which ONE of the following statements is TRUE?",The eigenvalues of M are non-negative and real.,The eigenvalues of M are complex conjugate pairs.,"One eigenvalue of M is positive and real, and another eigenvalue of M is zero.","One eigenvalue of M is non-negative and real, and another eigenvalue of M is
+negative and real.",needs_review,display_math,True,False,False,False,10,data/processed/crops/2024/DA2024-Q13.png
+DA2024-Q14,2024,14,DA,1,MCQ,0.3333,A,"Consider performing depth-first search (DFS) on an undirected and unweighted
+graph G starting at vertex s. For any vertex u in G, d[u] is the length of the shortest
+path from s to u. Let (u, v) be an edge in G such that d[u] < d[v]. If the edge
+(u, v) is explored first in the direction from u to v during the above DFS, then (u, v)
+becomes a ______ edge.",tree,cross,back,gray,clean,,True,False,False,False,10,data/processed/crops/2024/DA2024-Q14.png
+DA2024-Q15,2024,15,DA,1,MCQ,0.3333,A,"For any twice differentiable function f: ℝ → ℝ, if at some x^{∗} ∈ ℝ, f^{′}(x^{∗}) = 0
+and f^{′′}(x^{∗}) > 0, then the function f necessarily has a ______ at x = x^{∗}.
+Note: ℝ denotes the set of real numbers.",local minimum,global minimum,local maximum,global maximum,clean,,True,False,False,False,11,data/processed/crops/2024/DA2024-Q15.png
+DA2024-Q16,2024,16,DA,1,MCQ,0.3333,A,"Match the items in Column 1 with the items in Column 2 in the following table:
+Column 1 Column 2
+(p) First In First Out (i) Stacks
+(q) Lookup Operation (ii) Queues
+(r) Last In First Out (iii) Hash Tables","(p) − (ii), (q) − (iii), (r) − (i)","(p) − (ii), (q) − (i), (r) − (iii)","(p) − (i), (q) − (ii), (r) − (iii)","(p) − (i), (q) − (iii), (r) − (ii)",needs_review,table,True,False,False,True,11,data/processed/crops/2024/DA2024-Q16.png
+DA2024-Q17,2024,17,DA,1,MCQ,0.3333,D,"Consider the dataset with six datapoints: {(x_1, y_1),(x_2,y_2),… , (x_6,y_6)},
+where x_1 = [10], x_2 = [01], x_3 = [ −01] , x_4 = [−01 ], x_5 = [22] , x_6 = [−−22]
+and the labels are given by y_1 = y_2 = y_5 = 1, and y_3 = y_4 = y_6 = −1. A hard
+margin linear support vector machine is trained on the above dataset.
+Which ONE of the following sets is a possible set of support vectors?","{x_1, x_2,x_5}","{x_3, x_4,x_5}","{x_4, x_5}","{x_1, x_2,x_3, x_4}",needs_review,display_math,True,False,False,False,12,data/processed/crops/2024/DA2024-Q17.png
+DA2024-Q18,2024,18,DA,1,MCQ,0.3333,C,"Match the items in Column 1 with the items in Column 2 in the following table:
+Column 1 Column 2
+(p) Principal Component Analysis (i) Discriminative Model
+(q) Naïve Bayes Classification (ii) Dimensionality Reduction
+(r) Logistic Regression (iii) Generative Model","(p) − (iii), (q) − (i), (r) − (ii)","(p) − (ii), (q) − (i), (r) − (iii)","(p) − (ii), (q) − (iii), (r) − (i)","(p) − (iii), (q) − (ii), (r) − (i)",needs_review,table,True,False,False,True,12,data/processed/crops/2024/DA2024-Q18.png
+DA2024-Q19,2024,19,DA,1,MCQ,0.3333,D,"Euclidean distance based k-means clustering algorithm was run on a dataset of 100
+points with k = 3. If the points [11] and [−11 ] are both part of cluster 3, then which
+ONE of the following points is necessarily also part of cluster 3?",[00],[02],[20],[01],needs_review,display_math,True,False,False,False,13,data/processed/crops/2024/DA2024-Q19.png
+DA2024-Q20,2024,20,DA,1,MCQ,0.3333,B,"Given a dataset with K binary-valued attributes (where K > 2) for a two-class
+classification task, the number of parameters to be estimated for learning a naïve
+Bayes classifier is",2^K + 1,2K + 1,2^{K+1} + 1,K^2 + 1,clean,,True,False,False,False,13,data/processed/crops/2024/DA2024-Q20.png
+DA2024-Q21,2024,21,DA,1,MCQ,0.3333,B,"Consider performing uniform hashing on an open address hash table with load
+factor α =_m^n < 1, where n elements are stored in the table with m slots. The
+1
+expected number of probes in an unsuccessful search is at most _{1−α} .
+Inserting an element in this hash table requires at most ______ probes, on average.","1
+ln (1 − α)","1
+1 − α","1 + α
+2","1
+1 + α",needs_review,display_math,True,False,False,False,14,data/processed/crops/2024/DA2024-Q21.png
+DA2024-Q22,2024,22,DA,1,MCQ,0.3333,A,"For any binary classification dataset, let S_B ∈ ℝ^{d×d} and S_W ∈ ℝ^{d×d} be the
+between-class and within-class scatter (covariance) matrices, respectively. The
+Fisher linear discriminant is defined by u^{∗} ∈ ℝ^d, that maximizes
+J(u) = u^TS^Bu
+u^TS_Wu
+If λ = J(u^{∗}), S_W is non-singular and S_B ≠ 0, then (u^{∗}, λ) must satisfy which ONE
+of the following equations?
+Note: ℝ denotes the set of real numbers.",S_W^{−1} S_Bu^{∗} = λu^{∗},S_Wu^{∗} = λS_Bu^{∗},S_BS_Wu^{∗} = λu^{∗},u^{∗T}u^{∗} = λ^2,needs_review,display_math,True,False,False,False,14,data/processed/crops/2024/DA2024-Q22.png
+DA2024-Q23,2024,23,DA,1,MCQ,0.3333,D,"Let h_1 and h_2 be two admissible heuristics used in A^{∗} search.
+Which ONE of the following expressions is always an admissible heuristic?",h_1 + h_2,h_1 × h_2,"h_1/h_2, (h_2 ≠ 0)",|h_1 − h_2|,clean,,True,False,False,False,15,data/processed/crops/2024/DA2024-Q23.png
+DA2024-Q24,2024,24,DA,1,MCQ,0.3333,C,"Consider five random variables U, V, W, X, and Y whose joint distribution
+satisfies:
+P(U, V, W, X, Y) = P(U)P(V)P(W|U, V)P(X|W)P(Y|W)
+Which ONE of the following statements is FALSE?",Y is conditionally independent of V given W,X is conditionally independent of U given W,U and V are conditionally independent given W,Y and X are conditionally independent given W,clean,,True,False,False,False,15,data/processed/crops/2024/DA2024-Q24.png
+DA2024-Q25,2024,25,DA,1,MCQ,0.3333,C,"Consider the following statement:
+In adversarial search, α– β pruning can be applied to game trees of any depth where
+α is the (m) value choice we have formed so far at any choice point along the
+path for the MAX player and β is the (n) value choice we have formed so far
+at any choice point along the path for the MIN player.
+Which ONE of the following choices of (m) and (n) makes the above statement
+valid?","(m) = highest, (n) = highest","(m) = lowest, (n) = highest","(m) = highest, (n) = lowest","(m) = lowest, (n) = lowest",clean,,True,False,False,False,16,data/processed/crops/2024/DA2024-Q25.png
+DA2024-Q26,2024,26,DA,1,MCQ,0.3333,C,"Consider a database that includes the following relations:
+Defender(name, rating, side, goals)
+Forward(name, rating, assists, goals)
+Team(name, club, price)
+Which ONE of the following relational algebra expressions checks that every name
+occurring in Team appears in either Defender or Forward, where φ denotes the
+empty set?",Π_{name}(Team) ∖ (Π_{name}(Defender)∩Π_{name}(Forward)) = φ,(Π_{name}(Defender)∩Π_{name}(Forward))∖Π_{name}(Team) = φ,Π_{name}(Team) ∖ (Π_{name}(Defender)∪Π_{name}(Forward)) = φ,(Π_{name}(Defender)∪ Π_{name}(Forward)) ∖ Π_{name}(Team) = φ,clean,,True,False,False,False,16,data/processed/crops/2024/DA2024-Q26.png
+DA2024-Q27,2024,27,DA,1,MCQ,0.3333,B,"Let the minimum, maximum, mean and standard deviation values for the attribute
+income of data scientists be ₹46000, ₹170000, ₹96000, and ₹21000, respectively.
+The z-score normalized income value of ₹106000 is closest to which ONE of the
+following options?",0.217,0.476,0.623,2.304,clean,,False,False,False,False,17,data/processed/crops/2024/DA2024-Q27.png
+DA2024-Q28,2024,28,DA,1,MSQ,0.0,A;B;C,"Consider the following tree traversals on a full binary tree:
+(i) Preorder
+(ii) Inorder
+(iii) Postorder
+Which of the following traversal options is/are sufficient to uniquely reconstruct
+the full binary tree?",(i) and (ii),(ii) and (iii),(i) and (iii),(ii) only,clean,,False,False,False,False,17,data/processed/crops/2024/DA2024-Q28.png
+DA2024-Q29,2024,29,DA,1,MSQ,0.0,B;C;D,"Let x and y be two propositions. Which of the following statements is a tautology
+/are tautologies?",(¬x∧ y ) ⟹ (y ⟹ x),(x ∧ ¬y ) ⟹ (¬x ⟹ y),(¬x∧ y ) ⟹ (¬x ⟹ y),(x ∧ ¬y ) ⟹ (y ⟹ x),clean,,True,False,False,False,18,data/processed/crops/2024/DA2024-Q29.png
+DA2024-Q30,2024,30,DA,1,NAT,0.0,0 to 0,"Consider sorting the following array of integers in ascending order using an in-place
+Quicksort algorithm that uses the last element as the pivot.
+60 70 80 90 100
+The minimum number of swaps performed during this Quicksort is ______.",,,,,needs_review,table,False,False,False,True,18,data/processed/crops/2024/DA2024-Q30.png
+DA2024-Q31,2024,31,DA,1,NAT,0.0,3 to 3,"Consider the following two tables named Raider and Team in a relational database
+maintained by a Kabaddi league. The attribute ID in table Team references the
+primary key of the Raider table, ID.
+                         Raider
+                ID Name Raids RaidPoints
+                1 Arjun 200 250
+                2 Ankush 190 219
+                3 Sunil 150 200
+                4 Reza 150 190
+                5 Pratham 175 220
+                6 Gopal 193 215
+                         Team
+                  City ID BidPoints
+                  Jaipur 2 200
+                  Patna 3 195
+                  Hyderabad 5 175
+                  Jaipur 1 250
+                  Patna 4 200
+                  Jaipur 6 200
+The SQL query described below is executed on this database:
+SELECT *
+FROM Raider, Team
+WHERE Raider.ID=Team.ID AND City=“Jaipur” AND
+RaidPoints > 200;
+The number of rows returned by this query is ______.",,,,,needs_review,table,False,True,False,True,19,data/processed/crops/2024/DA2024-Q31.png
+DA2024-Q32,2024,32,DA,1,NAT,0.0,17 to 17,"The fundamental operations in a double-ended queue D are:
+insertFirst(e) – Insert a new element e at the beginning of D.
+insertLast(e) – Insert a new element e at the end of D.
+removeFirst() – Remove and return the first element of D.
+removeLast() – Remove and return the last element of D.
+In an empty double-ended queue, the following operations are performed:
+insertFirst(10)
+insertLast(32)
+a ←removeFirst()
+insertLast(28)
+insertLast(17)
+a ←removeFirst()
+a ← removeLast()
+The value of a is ______.",,,,,clean,,True,True,False,False,20,data/processed/crops/2024/DA2024-Q32.png
+DA2024-Q33,2024,33,DA,1,NAT,0.0,0.24 to 0.24,"Let f:ℝ → ℝ be the function f(x) =^1
+1+e^{−x} .
+The value of the derivative of f at x where f(x) = 0.4 is ______
+(rounded off to two decimal places).
+Note: ℝ denotes the set of real numbers.",,,,,needs_review,display_math,True,False,False,False,20,data/processed/crops/2024/DA2024-Q33.png
+DA2024-Q34,2024,34,DA,1,NAT,0.0,42 to 42,"The sample average of 50 data points is 40. The updated sample average after
+including a new data point taking the value of 142 is ______.",,,,,clean,,False,False,False,False,21,data/processed/crops/2024/DA2024-Q34.png
+DA2024-Q35,2024,35,DA,1,NAT,0.0,0 to 0,"1 2 3
+Consider the 3 × 3 matrix M = [3 1 3].
+4 3 6
+The determinant of (M^2 + 12M) is ______.",,,,,needs_review,display_math,True,False,False,False,21,data/processed/crops/2024/DA2024-Q35.png
+DA2024-Q36,2024,36,DA,2,MCQ,0.6667,C,"A fair six-sided die (with faces numbered 1, 2, 3, 4, 5, 6) is repeatedly thrown
+independently.
+What is the expected number of times the die is thrown until two consecutive throws
+of even numbers are seen?",2,4,6,8,clean,,False,False,False,False,21,data/processed/crops/2024/DA2024-Q36.png
+DA2024-Q37,2024,37,DA,2,MCQ,0.6667,A,"Let f:ℝ → ℝ be a function. Note: ℝ denotes the set of real numbers.
+−x, if x < −2
+f(x) = {ax^2 + bx+ c, if x∈ [−2,2]
+x, if x > 2
+Which ONE of the following choices gives the values of a, b, c that make the
+function f continuous and differentiable?","a = 14 , b = 0, c = 1","a = 12 , b = 0, c = 0","a = 0, b = 0, c = 0","a = 1, b = 1, c = −4",needs_review,display_math,True,False,False,False,22,data/processed/crops/2024/DA2024-Q37.png
+DA2024-Q38,2024,38,DA,2,MCQ,0.6667,D,"Consider the following Python code:
+def count(child_dict, i):
+    if i not in child_dict.keys():
+         return 1
+    ans = 1
+    for j in child_dict[i]:
+        ans += count(child_dict, j)
+    return ans
+child_dict = dict()
+child_dict[0] = [1,2]
+child_dict[1] = [3,4,5]
+child_dict[2] = [6,7,8]
+print(count(child_dict,0))
+Which ONE of the following is the output of this code?",6,1,8,9,clean,,False,True,False,False,23,data/processed/crops/2024/DA2024-Q38.png
+DA2024-Q39,2024,39,DA,2,MCQ,0.6667,C,"Consider the function computeS(X) whose pseudocode is given below:
+     computeS(X)
+     S[1] ← 1
+     for i ←2 to length(X)
+       S[i] ← 1
+       if X[i− 1] ≤ X[i]
+           S[i] ← S[i] + S[i −1]
+       end if
+     end for
+     return S
+Which ONE of the following values is returned by the function computeS(X)
+for X = [6, 3, 5, 4, 10]?","[1, 1, 2, 3, 4]","[1, 1, 2, 3, 3]","[1, 1, 2, 1, 2]","[1, 1, 2, 1, 5]",needs_review,display_math;formatting_semantics,True,True,False,False,24,data/processed/crops/2024/DA2024-Q39.png
+DA2024-Q40,2024,40,DA,2,MCQ,0.6667,A,"Let F(n) denote the maximum number of comparisons made while searching for
+an entry in a sorted array of size n using binary search.
+Which ONE of the following options is TRUE?",F(n) = F(⌊n/2⌋) + 1,F(n) = F(⌊n/2⌋) + F(⌈n/2⌉),F(n) = F(⌊n/2⌋),F(n) = F(n − 1) + 1,clean,,True,False,False,False,25,data/processed/crops/2024/DA2024-Q40.png
+DA2024-Q41,2024,41,DA,2,MCQ,0.6667,C,"Consider the following Python function:
+def fun(D, s1, s2):
+       if s1 < s2:
+          D[s1], D[s2] = D[s2], D[s1]
+          fun(D, s1+1, s2-1)
+What does this Python function fun() do? Select the ONE appropriate option
+below.","It finds the smallest element in D from index s1 to s2, both inclusive.","It performs a merge sort in-place on this list D between indices s1 and s2, both
+inclusive.","It reverses the list D between indices s1 and s2, both inclusive.","It swaps the elements in D at indices s1 and s2, and leaves the remaining elements
+unchanged.",clean,,False,True,False,False,25,data/processed/crops/2024/DA2024-Q41.png
+DA2024-Q42,2024,42,DA,2,MCQ,0.6667,A,"Consider the table below, where the (i, j)^{th} element of the table is the distance
+between points x_i and x_j. Single linkage clustering is performed on data points,
+x_1,x_2, x_3,x_4, x_5.
+x_1 x_2 x_3 x_4 x_5
+x_1 0 1 4 3 6
+x_2 1 0 3 5 3
+x_3 4 3 0 2 5
+x_4 3 5 2 0 1
+x_5 6 3 5 1 0
+Which ONE of the following is the correct representation of the clusters produced?",,,,,needs_review,empty_text;figure;table;display_math,True,False,True,True,26,data/processed/crops/2024/DA2024-Q42.png
+DA2024-Q43,2024,43,DA,2,MCQ,0.6667,A,"Consider the two neural networks (NNs) shown in Figures 1 and 2, with ReLU
+activation (ReLU(z) = max{0, z} , ∀z ∈ ℝ). ℝ denotes the set of real numbers. The
+connections and their corresponding weights are shown in the Figures. The biases
+at every neuron are set to 0. For what values of p, q, r in Figure 2 are the two NNs
+equivalent, when x_1,x_2, x_3 are positive?
+Figure 1
+Figure 2","p = 36, q = 24,r = 24","p = 24, q = 24,r = 36","p = 18, q = 36,r = 24","p = 36, q = 36,r = 36",needs_review,figure,True,False,True,False,27,data/processed/crops/2024/DA2024-Q43.png
+DA2024-Q44,2024,44,DA,2,MCQ,0.6667,C,"Consider a state space where the start state is number 1. The successor function for
+the state numbered n returns two states numbered n+1 and n+2. Assume that the
+states in the unexpanded state list are expanded in the ascending order of numbers
+and the previously expanded states are not added to the unexpanded state list.
+Which ONE of the following statements about breadth-first search (BFS) and
+depth-first search (DFS) is true, when reaching the goal state number 6?",BFS expands more states than DFS.,DFS expands more states than BFS.,Both BFS and DFS expand equal number of states.,Both BFS and DFS do not reach the goal state number 6.,clean,,False,False,False,False,28,data/processed/crops/2024/DA2024-Q44.png
+DA2024-Q45,2024,45,DA,2,MCQ,0.6667,B,"Consider the following sorting algorithms:
+(i) Bubble sort
+(ii) Insertion sort
+(iii) Selection sort
+Which ONE among the following choices of sorting algorithms sorts the numbers
+in the array [4, 3, 2, 1, 5] in increasing order after exactly two passes over the array?",(i) only,(iii) only,(i) and (iii) only,(ii) and (iii) only,clean,,False,False,False,False,28,data/processed/crops/2024/DA2024-Q45.png
+DA2024-Q46,2024,46,DA,2,MSQ,0.0,A;B;D,"Given the relational schema R = (U,V, W, X, Y, Z) and the set of functional
+dependencies:
+{U → V, U → W, WX → Y, WX → Z, V → X}
+Which of the following functional dependencies can be derived from the above
+set?",VW → YZ,WX → YZ,VW → U,VW → Y,clean,,True,False,False,False,29,data/processed/crops/2024/DA2024-Q46.png
+DA2024-Q47,2024,47,DA,2,MSQ,0.0,A;C,"Select all choices that are subspaces of ℝ^3.
+Note: ℝ denotes the set of real numbers.","x1 1 1
+{x = [x2] ∈ ℝ^3: x = α[1] + β[0] ,α, β ∈ ℝ}
+x3 0 0","x1 1 1
+{x = [x2] ∈ ℝ^3: x = α^2 [2] + β^2 [0] , α, β ∈ ℝ}
+x3 0 1","x_1
+{x = [x2] ∈ ℝ^3: 5x_1 + 2x_3 = 0, 4x_1 −2x_2 + 3x_3 = 0}
+x_3","x_1
+{x = [x2] ∈ ℝ^3: 5x_1 + 2x_3 + 4 = 0}
+x_3",needs_review,display_math,True,False,False,False,30,data/processed/crops/2024/DA2024-Q47.png
+DA2024-Q48,2024,48,DA,2,MSQ,0.0,B;D,"Which of the following statements is/are TRUE?
+Note: ℝ denotes the set of real numbers.","There exist M ∈ ℝ^{3×3}, p ∈ ℝ^3, and q∈ ℝ^3 such that Mx = p has a unique
+solution and Mx = q has infinite solutions.","There exist M ∈ ℝ^{3×3}, p ∈ ℝ^3, and q∈ ℝ^3 such that Mx = p has no solutions
+and Mx = q has infinite solutions.","There exist M ∈ ℝ^{2×3}, p ∈ ℝ^2, and q∈ ℝ^2 such that Mx = p has a unique
+solution and Mx = q has infinite solutions.","There exist M ∈ ℝ^{3×2}, p ∈ ℝ^3, and q∈ ℝ^3 such that Mx = p has a unique
+solution and Mx = q has no solutions.",clean,,True,False,False,False,31,data/processed/crops/2024/DA2024-Q48.png
+DA2024-Q49,2024,49,DA,2,MSQ,0.0,B;C;D,"Let ℝ be the set of real numbers, U be a subspace of ℝ^3 and M ∈ ℝ^{3×3} be the
+matrix corresponding to the projection on to the subspace U.
+Which of the following statements is/are TRUE?","If U is a 1-dimensional subspace of ℝ^3, then the null space of M is a
+1-dimensional subspace.","If U is a 2-dimensional subspace of ℝ^3, then the null space of M is a
+1-dimensional subspace.",M^2 = M,M^3 = M,clean,,True,False,False,False,32,data/processed/crops/2024/DA2024-Q49.png
+DA2024-Q50,2024,50,DA,2,MSQ,0.0,A;B,"Consider the function f: ℝ → ℝ where ℝ is the set of all real numbers.
+f(x) = x4^4 −23x ^3 − 32x ^2 + 1
+Which of the following statements is/are TRUE?",x = 0 is a local maximum of f,x = 3 is a local minimum of f,x = −1 is a local maximum of f,x = 0 is a local minimum of f,needs_review,display_math,True,False,False,False,32,data/processed/crops/2024/DA2024-Q50.png
+DA2024-Q51,2024,51,DA,2,MSQ,0.0,B;D,"Consider the directed acyclic graph (DAG) below:
+Which of the following is/are valid vertex orderings that can be obtained from a
+topological sort of the DAG?",P Q R S T U V,P R Q V S U T,P Q R S V U T,P R Q S V T U,needs_review,figure,False,False,True,False,33,data/processed/crops/2024/DA2024-Q51.png
+DA2024-Q52,2024,52,DA,2,MSQ,0.0,A;B;C,"Let H, I, L, and N represent height, number of internal nodes, number of leaf nodes,
+and the total number of nodes respectively in a rooted binary tree.
+Which of the following statements is/are always TRUE?",L ≤ I + 1,H + 1 ≤ N ≤ 2^{H+1} −1,H ≤ I ≤ 2^H − 1,H ≤ L ≤ 2^{H−1},clean,,True,False,False,False,34,data/processed/crops/2024/DA2024-Q52.png
+DA2024-Q53,2024,53,DA,2,MSQ,0.0,A;D,"Consider the following figures representing datasets consisting of
+two-dimensional features with two classes denoted by circles and squares.
+(i) (ii)
+(iii) (iv)
+Which of the following is/are TRUE?",(i) is linearly separable.,(ii) is linearly separable.,(iii) is linearly separable.,(iv) is linearly separable.,needs_review,figure;table,False,False,True,True,35,data/processed/crops/2024/DA2024-Q53.png
+DA2024-Q54,2024,54,DA,2,MSQ,0.0,A;C,"Let game(ball, rugby) be true if the ball is used in rugby and false otherwise.
+Let shape(ball, round) be true if the ball is round and false otherwise.
+Consider the following logical sentences:
+s1: ∀ball ¬ game(ball, rugby) ⟹shape(ball, round)
+s2: ∀ball ¬ shape(ball, round) ⟹game(ball, rugby)
+s3: ∀ball game(ball, rugby) ⟹ ¬ shape(ball, round)
+s4: ∀ball shape(ball, round) ⟹ ¬ game(ball, rugby)
+Which of the following choices is/are logical representations of the assertion,
+“All balls are round except balls used in rugby”?",s1 ∧ s3,s1 ∧ s2,s2 ∧ s3,s3 ∧ s4,clean,,True,False,False,False,36,data/processed/crops/2024/DA2024-Q54.png
+DA2024-Q55,2024,55,DA,2,MSQ,0.0,A;B,"An OTT company is maintaining a large disk-based relational database of different
+movies with the following schema:
+Movie(ID, CustomerRating)
+Genre(ID, Name)
+Movie_Genre(MovieID, GenreID)
+Consider the following SQL query on the relation database above:
+SELECT *
+FROM Movie, Genre, Movie_Genre
+WHERE
+     Movie.CustomerRating > 3.4 AND
+     Genre.Name = “Comedy” AND
+     Movie_Genre.MovieID = Movie.ID AND
+     Movie_Genre.GenreID = Genre.ID;
+This SQL query can be sped up using which of the following indexing options?",B^{+} tree on all the attributes.,Hash index on Genre.Name and B^{+} tree on the remaining attributes.,"Hash index on Movie.CustomerRating and B^{+} tree on the remaining
+attributes.",Hash index on all the attributes.,needs_review,formatting_semantics,True,True,False,False,37,data/processed/crops/2024/DA2024-Q55.png
+DA2024-Q56,2024,56,DA,2,NAT,0.0,0.125 to 0.125,"Let X be a random variable uniformly distributed in the interval [1, 3] and Y be a
+random variable uniformly distributed in the interval [2, 4]. If X and Y are
+independent of each other, the probability P(X ≥ Y) is ______ (rounded off to
+three decimal places).",,,,,clean,,True,False,False,False,37,data/processed/crops/2024/DA2024-Q56.png
+DA2024-Q57,2024,57,DA,2,NAT,0.0,0.2 to 0.2,"Let X be a random variable exponentially distributed with parameter λ > 0. The
+probability density function of X is given by:
+f_X(x) = {λ e^{−λx}, x ≥ 0
+0, otherwise
+If 5E(X) = Var(X), where E(X) and Var(X) indicate the expectation and variance
+of X, respectively, the value of λ is ______ (rounded off to one decimal place).",,,,,needs_review,display_math,True,False,False,False,38,data/processed/crops/2024/DA2024-Q57.png
+DA2024-Q58,2024,58,DA,2,NAT,0.0,0.25 to 0.25,"Consider two events T and S. Let T̅ denote the complement of the event T. The
+probability associated with different events are given as follows:
+P(T̅ ) = 0.6, P(S|T) = 0.3, P(S|T̅ ) = 0.6
+Then, P(T|S) is ______ (rounded off to two decimal places).",,,,,clean,,True,False,False,False,38,data/processed/crops/2024/DA2024-Q58.png
+DA2024-Q59,2024,59,DA,2,NAT,0.0,MTA,"Consider a joint probability density function of two random variables X and Y
+f_{X,Y}(x, y) = {2xy, 0 < x < 2, 0 < y < x
+0, otherwise
+Then, E[Y|X = 1.5] is ______.",,,,,needs_review,display_math,True,False,False,False,38,data/processed/crops/2024/DA2024-Q59.png
+DA2024-Q60,2024,60,DA,2,NAT,0.0,0.5 to 0.5,"Evaluate the following limit:
+ln ((x2+1) cos x)
+lim = ______.
+x→0 x2",,,,,needs_review,display_math,True,False,False,False,38,data/processed/crops/2024/DA2024-Q60.png
+DA2024-Q61,2024,61,DA,2,NAT,0.0,55 to 55,"1
+2
+Let u = 3 , and let σ_1, σ_2,σ_3, σ_4, σ_5 be the singular values of the matrix
+4
+[5 ]
+M= uu^T (where u^T is the transpose of u). The value of ∑^5 σ_i is ______.
+i=1",,,,,needs_review,display_math,True,False,False,False,39,data/processed/crops/2024/DA2024-Q61.png
+DA2024-Q62,2024,62,DA,2,NAT,0.0,0.12 to 0.13,"Details of ten international cricket games between two teams “Green” and “Blue”
+are given in Table C. This table consists of matches played on different pitches,
+across formats along with their winners. The attribute Pitch can take one of two
+values: spin-friendly (represented as S) or pace-friendly (represented as F). The
+attribute Format can take one of two values: one-day match (represented as O) or
+test match (represented as T).
+A cricket organization would like to use the information given in Table C to develop
+a decision-tree model to predict outcomes of future games between these two teams.
+To develop such a model, the computed InformationGain(C, Pitch) with respect to
+the Target is ______ (rounded off to two decimal places).
+Table C
+Match Pitch Format Winner (Target)
+Number
+1 S T Green
+2 S T Blue
+3 F O Blue
+4 S O Blue
+5 F T Green
+6 F O Blue
+7 S O Green
+8 F T Blue
+9 F O Blue
+10 S O Green",,,,,needs_review,table;display_math,True,False,False,True,39,data/processed/crops/2024/DA2024-Q62.png
+DA2024-Q63,2024,63,DA,2,NAT,0.0,5 to 5,"Given the two-dimensional dataset consisting of 5 data points from two classes
+(circles and squares) and assume that the Euclidean distance is used to measure the
+distance between two points. The minimum odd value of k in k-nearest neighbor
+algorithm for which the diamond (⋄) shaped data point is assigned the label square
+is ______.",,,,,needs_review,figure,True,False,True,False,40,data/processed/crops/2024/DA2024-Q63.png
+DA2024-Q64,2024,64,DA,2,NAT,0.0,0.125 to 0.125,"Given the following Bayesian Network consisting of four Bernoulli random
+variables and the associated conditional probability tables:
+P(⋅)
+U = 0 0.5
+U = 1 0.5
+P(V = 0| ⋅) P(V = 1| ⋅)
+U = 0 0.5 0.5
+U = 1 0.5 0.5
+P(W = 0| ⋅) P(W = 1| ⋅)
+U = 0 1 0
+U = 1 0 1
+P(Z = 0| ⋅) P(Z = 1| ⋅)
+V = 0 W = 0 0.5 0.5
+V = 0 W = 1 1 0
+V = 1 W = 0 1 0
+V = 1 W = 1 0.5 0.5
+The value of P(U = 1, V = 1, W = 1,Z = 1) = ______ (rounded off to three
+decimal places).",,,,,needs_review,figure;table;display_math,True,False,True,True,41,data/processed/crops/2024/DA2024-Q64.png
+DA2024-Q65,2024,65,DA,2,NAT,0.0,0.062 to 0.063,"Two fair coins are tossed independently. X is a random variable that takes a value
+of 1 if both tosses are heads and 0 otherwise. Y is a random variable that takes a
+value of 1 if at least one of the tosses is heads and 0 otherwise.
+The value of the covariance of X and Y is ______ (rounded off to three decimal
+places).",,,,,clean,,False,False,False,False,41,data/processed/crops/2024/DA2024-Q65.png
+DA2025-Q01,2025,1,GA,1,MCQ,0.3333,A,"Courage : Bravery :: Yearning : __________
+Select the most appropriate option to complete the analogy.",Longing,Yelling,Yawning,Glaring,clean,,False,False,False,False,1,data/processed/crops/2025/DA2025-Q01.png
+DA2025-Q02,2025,2,GA,1,MCQ,0.3333,B,"We __________ tennis in the lawn when it suddenly started to rain.
+Select the most appropriate option to complete the above sentence.",have been playing,had been playing,would have been playing,could be playing,clean,,False,False,False,False,1,data/processed/crops/2025/DA2025-Q02.png
+DA2025-Q03,2025,3,GA,1,MCQ,0.3333,C,"A 4 × 4 digital image has pixel intensities (U) as shown in the figure. The number of
+pixels with U ≤ 4 is:",3,8,11,9,needs_review,figure;table,True,False,True,True,2,data/processed/crops/2025/DA2025-Q03.png
+DA2025-Q04,2025,4,GA,1,MCQ,0.3333,A,"In the given figure, the numbers associated with the rectangle, triangle, and ellipse
+are 1, 2, and 3, respectively. Which one among the given options is the most
+appropriate combination of P, Q, and R ?
+2
+R
+4
+Q
+1 P
+3",P = 6; Q = 5; R = 3,P = 5; Q = 6; R = 3,P = 3; Q = 6; R = 6,P = 5; Q = 3; R = 6,needs_review,figure,False,False,True,False,3,data/processed/crops/2025/DA2025-Q04.png
+DA2025-Q05,2025,5,GA,1,MCQ,0.3333,C,"A rectangle has a length L and a width W, where L > W. If the width, W, is increased
+by 10%, which one of the following statements is correct for all values of L and W?",Perimeter increases by 10%.,Length of the diagonals increases by 10%.,Area increases by 10%.,The rectangle becomes a square.,clean,,False,False,False,False,4,data/processed/crops/2025/DA2025-Q05.png
+DA2025-Q06,2025,6,GA,2,MCQ,0.6667,B,"Column-I has statements made by Shanthala; and, Column-II has responses given
+by Kanishk.
+Column-I Column-II
+P. This house is in a mess. 1. Alright, I won’t bring it up during
+our conversations.
+Q. I am not happy with the marks 2. Well, you can easily look it up.
+given to me.
+R. Politics is a subject I avoid talking 3. No problem, let me clear it up for
+about. you.
+S. I don’t know what this word 4. Don’t worry, I will take it up with
+means. your teacher.
+Identify the option that has the correct match between Column-I and Column-II.",P – 2; Q – 3; R – 1; S – 4,P – 3; Q – 4; R – 1; S – 2,P – 4; Q – 1; R – 2; S – 3,P – 1; Q – 2; R – 4; S – 3,needs_review,table,False,False,False,True,5,data/processed/crops/2025/DA2025-Q06.png
+DA2025-Q07,2025,7,GA,2,MCQ,0.6667,B,"Weight of a person can be expressed as a function of their age. The function usually
+varies from person to person. Suppose this function is identical for two brothers,
+and it monotonically increases till the age of 50 years and then it monotonically
+decreases. Let a_1 and a_2 (in years) denote the ages of the brothers and a_1 < a_2.
+Which one of the following statements is correct about their age on the day when
+they attain the same weight?",a_1 < a_2 < 50,a_1 < 50 < a_2,50 < a_1 < a_2,Either a_1 = 50 or a_2 = 50,clean,,True,False,False,False,6,data/processed/crops/2025/DA2025-Q07.png
+DA2025-Q08,2025,8,GA,2,MCQ,0.6667,A,"A regular dodecagon (12-sided regular polygon) is inscribed in a circle of radius r
+cm as shown in the figure. The side of the dodecagon is d cm. All the triangles
+(numbered 1 to 12) in the figure are used to form squares of side r cm and each
+numbered triangle is used only once to form a square.
+The number of squares that can be formed and the number of triangles required to
+form each square, respectively, are:
+Note: The figure shown is representative.",3; 4,4; 3,3; 3,3; 2,needs_review,figure,False,False,True,False,7,data/processed/crops/2025/DA2025-Q08.png
+DA2025-Q09,2025,9,GA,2,MCQ,0.6667,C,"2x2
+If a real variable x satisfies 3^{x2} = 27 × 9^x, then the value of (2_x)_2 is:",2−1,2^0,2^3,215,needs_review,display_math,True,False,False,False,8,data/processed/crops/2025/DA2025-Q09.png
+DA2025-Q10,2025,10,GA,2,MCQ,0.6667,A,"The number of patients per shift (X) consulting Dr. Gita in her past 100 shifts is
+shown in the figure. If the amount she earns is ₹ 1000(X − 0.2), what is the average
+amount (in ₹) she has earned per shift in the past 100 shifts?
+Note: The figure shown is representative.
+50
+40
+40
+30
+Number of shifts 30
+20
+20
+10
+10
+0
+5 6 7 8
+Number of patients per shift (X)","6,100","6,300","6,000","6,500",needs_review,figure;display_math,True,False,True,False,9,data/processed/crops/2025/DA2025-Q10.png
+DA2025-Q11,2025,11,DA,1,MCQ,0.3333,C,"Suppose X and Y are random variables. The conditional expectation of X given Y is
+denoted by E[X|Y ]. Then E[E[X|Y ]] equals",E[X|Y ],"E[X]
+E[Y ]",E[X],E[Y ],needs_review,display_math,True,False,False,False,10,data/processed/crops/2025/DA2025-Q11.png
+DA2025-Q12,2025,12,DA,1,MCQ,0.3333,B,"The number of additions and multiplications involved in performing Gaussian elimina-
+tion on any n × n upper triangular matrix is of the order",O(n),O(n^2),O(n^3),O(n^4),clean,,True,False,False,False,10,data/processed/crops/2025/DA2025-Q12.png
+DA2025-Q13,2025,13,DA,1,MCQ,0.3333,C,"The sum of the elements in each row of A ∈ R^{n×n} is 1. If B = A^3 − 2A^2 + A, which
+one of the following statements is correct (for x ∈ R^n)?",The equation Bx = 0 has no solution,The equation Bx = 0 has exactly two solutions,The equation Bx = 0 has infinitely many solutions,The equation Bx = 0 has a unique solution,clean,,True,False,False,False,10,data/processed/crops/2025/DA2025-Q13.png
+DA2025-Q14,2025,14,DA,1,MCQ,0.3333,A,"Let f(x) = e^x − e^{−x}, x ∈ R. Let f ^{(k)}(a) denote the k^{th} derivative of f evaluated at a.
+2
+What is the value of f ^{(10)}(0)? (Note: ! denotes factorial)",0,1,"1
+10!","2
+10!",needs_review,display_math,True,False,False,False,11,data/processed/crops/2025/DA2025-Q14.png
+DA2025-Q15,2025,15,DA,1,MCQ,0.3333,A,"Let p and q be any two propositions. Consider the following propositional statements.
+S_1 : p → q, S_2 : ¬p ∧ q, S_3 : ¬p ∨ q, S_4 : ¬p ∨ ¬q,
+where ∧ denotes conjunction (AND operation), ∨ denotes disjunction (OR operation),
+and ¬ denotes negation (NOT operation). Which one of the following options is correct?
+(Note: ≡ denotes logical equivalence)",S_1 ≡ S_3,S_2 ≡ S_3,S_2 ≡ S_4,S_1 ≡ S_4,clean,,True,False,False,False,11,data/processed/crops/2025/DA2025-Q15.png
+DA2025-Q16,2025,16,DA,1,MCQ,0.3333,C,"If a relational decomposition is not dependency-preserving, which one of the following
+relational operators will be executed more frequently in order to maintain the depen-
+dencies?",Selection,Projection,Join,Set union,clean,,False,False,False,False,11,data/processed/crops/2025/DA2025-Q16.png
+DA2025-Q17,2025,17,DA,1,MCQ,0.3333,C,"Consider the following three relations:
+     Car (model, year, serial, color)
+     Make (maker, model)
+     Own (owner, serial)
+A tuple in Car represents a specific car of a given model, made in a given year, with
+a serial number and a color. A tuple in Make specifies that a maker company
+makes cars of a certain model. A tuple in Own specifies that an owner owns the car
+with a given serial number. Keys are underlined; (owner, serial) together
+form key for Own. (▷◁ denotes natural join)
+     π_{owner}(Own ▷◁ (σ_{color=“red”}(Car ▷◁ (σ_{maker=“ABC”} Make))))
+Which one of the following options describes what the above expression computes?","All owners of a red car, a car made by ABC, or a red car made by ABC","All owners of more than one car, where at least one car is red and made by ABC",All owners of a red car made by ABC,All red cars made by ABC,needs_review,formatting_semantics,True,True,False,False,12,data/processed/crops/2025/DA2025-Q17.png
+DA2025-Q18,2025,18,DA,1,MCQ,0.3333,D,"Consider a hash table of size 10 with indices {0, 1, . . . , 9}, with the hash function
+h(x) = 3x (mod 10),
+where linear probing is used to handle collisions. The hash table is initially empty and
+then the following sequence of keys is inserted into the hash table: 1, 4, 5, 6, 14, 15. The
+indices where the keys 14 and 15 are stored are, respectively",2 and 5,2 and 6,4 and 5,4 and 6,clean,,True,False,False,False,12,data/processed/crops/2025/DA2025-Q18.png
+DA2025-Q19,2025,19,DA,1,MCQ,0.3333,A,"Let X be a continuous random variable whose cumulative distribution function (CDF)
+F_X(x), for some t, is given as follows:
+ 0 x ≤ t
+
+ x − t
+F_X(x) = t ≤ x ≤ 4
+4 − t
+
+ 1 x ≥ 4
+If the median of X is 3, then what is the value of t?",2,1,−1,0,needs_review,display_math;unmapped_glyphs,True,False,False,False,13,data/processed/crops/2025/DA2025-Q19.png
+DA2025-Q20,2025,20,DA,1,MCQ,0.3333,A,"Let X = aZ + b, where Z is a standard normal random variable, and a, b are two
+unknown constants. It is given that
+E[X] = 1, E[(X − E[X])Z] = −2, E[(X − E[X])^2] = 4,
+where E[X] denotes the expectation of random variable X. The values of a, b are:","a = −2, b = 1","a = 2, b = −1","a = −2, b = −1","a = 1, b = 1",clean,,True,False,False,False,13,data/processed/crops/2025/DA2025-Q20.png
+DA2025-Q21,2025,21,DA,1,MCQ,0.3333,A,"It is given that P(X ≥ 2) = 0.25 for an exponentially distributed random variable X
+with E[X] = λ1, where E[X] denotes the expectation of X. What is the value of λ?
+(ln denotes natural logarithm)",ln 2,ln 4,ln 3,ln 0.25,needs_review,display_math,True,False,False,False,14,data/processed/crops/2025/DA2025-Q21.png
+DA2025-Q22,2025,22,DA,1,MCQ,0.3333,A,"Consider designing a linear classifier
+y = sign(f(x; w, b)), f(x; w, b) = w^{⊤}x + b
+on a dataset D = {(x_1, y_1), (x_2, y_2), . . . , (x_N, y_N)}, x_i ∈ R^d, y_i ∈ {+1, −1}, i =
+1, 2, . . . , N. Recall that the sign function outputs +1 if the argument is positive, and −1
+if the argument is non-positive. The parameters w and b are updated as per the following
+training algorithm:
+w_{new} = w_{old} + y_nx_n, b_{new} = b_{old} + y_n
+whenever sign(f(x_n; w_{old}, b_{old})) ≠ y_n. In other words, whenever the classifier wrongly
+predicts a sample (x_n, y_n) from the dataset, w_{old} gets updated to w_{new}, and likewise b_{old}
+gets updated to b_{new}. Consider the case (x_n, +1), f(x_n; w_{old}, b_{old}) < 0. Then","f(x_n; w_{new}, b_{new}) > f(x_n; w_{old}, b_{old})","f(x_n; w_{new}, b_{new}) < f(x_n; w_{old}, b_{old})","f(x_n; w_{new}, b_{new}) = f(x_n; w_{old}, b_{old})","y_nf(x_n; w_{old}, b_{old}) > 1",clean,,True,False,False,False,14,data/processed/crops/2025/DA2025-Q22.png
+DA2025-Q23,2025,23,DA,1,MCQ,0.3333,A,"Consider the following Python declarations of two lists.
+A=[1,2,3]
+B=[4,5,6]
+Which one of the following statements results in A= [1, 2, 3, 4, 5, 6]?",A.extend(B),A.append(B),A.update(B),A.insert(B),clean,,True,True,False,False,15,data/processed/crops/2025/DA2025-Q23.png
+DA2025-Q24,2025,24,DA,1,MSQ,0.0,A;B;C,"Consider two functions f : R → R and g : R → (1, ∞). Both functions are differen-
+tiable at a point c. Which of the following functions is/are ALWAYS differentiable at
+c? The symbol · denotes product and the symbol ◦ denotes composition of functions.",f ± g,f · g,"f
+g",f ◦ g + g ◦ f,needs_review,display_math,True,False,False,False,15,data/processed/crops/2025/DA2025-Q24.png
+DA2025-Q25,2025,25,DA,1,MSQ,0.0,B;D,Which of the following statements is/are correct?,R^n has a unique set of orthonormal basis vectors,R^n does not have a unique set of orthonormal basis vectors,Linearly independent vectors in R^n are orthonormal,Orthonormal vectors R^n are linearly independent,clean,,True,False,False,False,15,data/processed/crops/2025/DA2025-Q25.png
+DA2025-Q26,2025,26,DA,1,MSQ,0.0,C;D,Which of the following statements is/are correct in a Bayesian network?,Variable elimination is an approximate inference algorithm,Gibbs sampling is an exact inference algorithm,Variable elimination is used to determine conditional probabilities,Rejection sampling is an approximate inference algorithm,clean,,False,False,False,False,16,data/processed/crops/2025/DA2025-Q26.png
+DA2025-Q27,2025,27,DA,1,MSQ,0.0,C,"For which of the following inputs does binary search take time O(log n) in the worst
+case?",An array of n integers in any order,A linked list of n integers in any order,An array of n integers in increasing order,A linked list of n integers in increasing order,clean,,True,False,False,False,16,data/processed/crops/2025/DA2025-Q27.png
+DA2025-Q28,2025,28,DA,1,MSQ,0.0,A;B,"Let A = I_n + xx^{⊤}, where I_n is the n × n identity matrix and x ∈ R^n, x^{⊤}x = 1. Which
+of the following options is/are correct?",Rank of A is n,A is invertible,0 is an eigenvalue of A,A^{−1} has a negative eigenvalue,clean,,True,False,False,False,16,data/processed/crops/2025/DA2025-Q28.png
+DA2025-Q29,2025,29,DA,1,MSQ,0.0,A;C,"Suppose that insertion sort is applied to the array [1, 3, 5, 7, 9, 11, x, 15, 13] and it takes
+exactly two swaps to sort the array. Select all possible values of x.",10,12,14,16,clean,,True,False,False,False,16,data/processed/crops/2025/DA2025-Q29.png
+DA2025-Q30,2025,30,DA,1,MSQ,0.0,B;D,"Let C_1 and C_2 be two sets of objects. Let D(x, y) be a measure of dissimilarity between
+two objects x and y. Consider the following definitions of dissimilarity between C_1 and
+C_2.
+DIS-1(C_1, C_2) =_{x∈C} m_{1,} a _y x_{∈C2}D(x, y)
+DIS-2(C_1, C_2) =_{x∈C} m_{1,} i _y n_{∈C2}D(x, y)
+Which of the following statements is/are correct?",Single Linkage Clustering uses DIS-1,Single Linkage Clustering uses DIS-2,Complete Linkage Clustering uses DIS-2,Complete Linkage Clustering uses DIS-1,needs_review,display_math,True,False,False,False,17,data/processed/crops/2025/DA2025-Q30.png
+DA2025-Q31,2025,31,DA,1,NAT,0.0,0.25 to 0.25,"There are three boxes containing white balls and black balls.
+Box-1 contains 2 black and 1 white balls.
+Box-2 contains 1 black and 2 white balls.
+Box-3 contains 3 black and 3 white balls.
+In a random experiment, one of these boxes is selected, where the probability of choos-
+ing Box-1 is 12, Box-2 is 61, and Box-3 is 13. A ball is drawn at random from the selected
+box. Given that the ball drawn is white, the probability that it is drawn from Box-2 is
+(Round off to two decimal places)",,,,,needs_review,display_math,True,False,False,False,17,data/processed/crops/2025/DA2025-Q31.png
+DA2025-Q32,2025,32,DA,1,NAT,0.0,0.5 to 0.5,"√
+lim t^2 + t − t =
+t→+∞
+(Round off to one decimal place)",,,,,needs_review,display_math,True,False,False,False,17,data/processed/crops/2025/DA2025-Q32.png
+DA2025-Q33,2025,33,DA,1,NAT,0.0,3 to 3,"On a relation named Loan of a bank:
+                           Loan
+               loan number branch name amount
+                  L11 Banjara Hills 90000
+                  L14 Kondapur 50000
+                  L15 SR Nagar 40000
+                  L22 SR Nagar 25000
+                  L23 Balanagar 80000
+                  L25 Kondapur 70000
+                  L19 SR Nagar 65000
+the following SQL query is executed.
+SELECT L1.loan number
+FROM Loan L1
+WHERE L1.amount > (SELECT MAX (L2.amount)
+                    FROM Loan L2
+                    WHERE L2.branch name = ’SR Nagar’);
+The number of rows returned by the query is (Answer in integer)",,,,,needs_review,table,True,True,False,True,18,data/processed/crops/2025/DA2025-Q33.png
+DA2025-Q34,2025,34,DA,1,NAT,0.0,0.285 to 0.287,"Given data {(−1, 1), (2, −5), (3, 5)} of the form (x, y), we fit a model y = wx using
+linear least-squares regression. The optimal value of w is
+(Round off to three decimal places)",,,,,clean,,True,False,False,False,18,data/processed/crops/2025/DA2025-Q34.png
+DA2025-Q35,2025,35,DA,1,NAT,0.0,0.39 to 0.41,"The naive Bayes classifier is used to solve a two-class classification problem with class-
+labels y_1, y_2. Suppose the prior probabilities are P(y_1) = 13 and P(y_2) = 23. Assuming
+a discrete feature space with
+P(x|y_1) = 3 and P(x|y_2) = 1
+4 4
+for a specific feature vector x. The probability of misclassifying x is
+(Round off to two decimal places)",,,,,needs_review,display_math,True,False,False,False,18,data/processed/crops/2025/DA2025-Q35.png
+DA2025-Q36,2025,36,DA,2,MCQ,0.6667,B,"Let Y = Z^2, Z = X − µ, where X is a normal random variable with mean µ and
+σ
+variance σ^2. The variance of Y is",1,2,3,4,needs_review,display_math,True,False,False,False,19,data/processed/crops/2025/DA2025-Q36.png
+DA2025-Q37,2025,37,DA,2,MCQ,0.6667,D,"Let A ∈ R^{n×n} be such that A^3 = A. Which one of the following statements is ALWAYS
+correct?",A is invertible,Determinant of A is 0,The sum of the diagonal elements of A is 1,A and A^2 have the same rank,clean,,True,False,False,False,19,data/processed/crops/2025/DA2025-Q37.png
+DA2025-Q38,2025,38,DA,2,MCQ,0.6667,A,"Let {x_1, x_2, . . . , x_n} be a set of linearly independent vectors in R^n. Let the (i, j)-th
+element of matrix A ∈ R^{n×n} be given by A_{ij} = x^{⊤}_i x_j, 1 ≤ i, j ≤ n. Which one of the
+following statements is correct?",A is invertible,0 is a singular value of A,Determinant of A is 0,z^{⊤}Az = 0 for some non-zero z ∈ R^n,clean,,True,False,False,False,19,data/processed/crops/2025/DA2025-Q38.png
+DA2025-Q39,2025,39,DA,2,MCQ,0.6667,C,"Consider the cumulative distribution function (CDF) of a random variable X:
+
+0 x ≤ −1
+
+1
+FX(x) = 4(x + 1)^2 −1 ≤ x ≤ 1
+
+1 x ≥ 1
+
+The value of P(X^2 ≤ 0.25) is",0.625,0.25,0.5,0.5625,needs_review,display_math;unmapped_glyphs,True,False,False,False,20,data/processed/crops/2025/DA2025-Q39.png
+DA2025-Q40,2025,40,DA,2,MCQ,0.6667,A,"A random variable X is said to be distributed as Bernoulli(θ), denoted by X ∼
+Bernoulli(θ), if
+P(X = 1) = θ, P(X = 0) = 1 − θ
+300
+for 0 < θ < 1. Let Y = XX_i, where X_i ∼ Bernoulli(θ), i = 1, 2, . . . , 300 be
+i=1
+independent and identically distributed random variables with θ = 0.25. The value of
+P(60 ≤ Y ≤ 90), after approximation through Central Limit Theorem, is given by
+1 Z ^x e_{−}t^2
+ Recall that φ(x) = √^2 dt
+2π −∞",φ(2) − φ(−2),φ(1) − φ(−1),φ(3) − φ(−3),φ(90) − φ(60),needs_review,display_math,True,False,False,False,20,data/processed/crops/2025/DA2025-Q40.png
+DA2025-Q41,2025,41,DA,2,MCQ,0.6667,A,"For x ∈ R, the floor function is denoted by f(x) = ⌊x⌋ and defined as follows
+⌊x⌋ = k, k ≤ x < k + 1,
+where k is an integer. Let Y = ⌊X⌋, where X is an exponentially distributed random
+1
+variable with mean ln 10, where ln denotes natural logarithm. For any positive integer
+ℓ, one can write the probability of the event Y = ℓ as follows
+P(Y = ℓ) = q^ℓ(1 − q)
+The value of q is",0.1,0.01,0.5,0.434,needs_review,display_math,True,False,False,False,21,data/processed/crops/2025/DA2025-Q41.png
+DA2025-Q42,2025,42,DA,2,MCQ,0.6667,A,"Consider the neural network shown in the figure with
+inputs: u, v
+weights: a, b, c, d, e, f
+output: y
+R denotes the ReLU function, R(x) = max(0, x).
+a
+u R
+b e
+R y
+c
+d f
+v R
+Given u = 2, v = 3,
+a = 1, b = 1, c = 1, d = −1, e = 4, f = −1,
+which one of the following is correct?","∂∂ay = 8, ∂y
+∂f = 0","∂∂ay = 1, ∂y
+∂f = 0","∂∂ay = 1, ∂y
+∂f = −1","∂∂ay = 2, ∂y
+∂f = −1",needs_review,figure;display_math,True,False,True,False,22,data/processed/crops/2025/DA2025-Q42.png
+DA2025-Q43,2025,43,DA,2,MCQ,0.6667,C,"Consider game trees Tree-1 and Tree-2 as shown. The first level is a MAX agent and
+the second level is a MIN agent. The value in the square node is the output of the utility
+function.
+MAX A C
+MIN 2 B D E
+x 1 5 y 2
+Tree-1 Tree-2
+For what ranges of x and y, the right child of node B and the right child of node E will
+be pruned by alpha-beta pruning algorithm?","x ∈ [1, ∞) and y ∈ (−∞, 2]","x ∈ (−∞, 2] and y ∈ (−∞, 5]","x ∈ (−∞, 2] and y ∈ [2, ∞)","x ∈ [1, ∞) and y ∈ (−∞, 5]",needs_review,figure,True,False,True,False,23,data/processed/crops/2025/DA2025-Q43.png
+DA2025-Q44,2025,44,DA,2,MCQ,0.6667,C,"The state graph shows the action cost along the edges and the heuristic function h asso-
+ciated with each state.
+h=2 h=2 h=6
+2 2
+A B C
+4 3
+h=2 h=0
+2 3
+S E D G
+1
+h=6
+Suppose A^{∗} algorithm is applied on this state graph using priority queue to store the
+frontier. In what sequence are the nodes expanded?","S,A,E,C,B,D,G","S,E,A,C,B,D,G","S,A,E,B,C,D,G","S,A,B,E,C,D,G",needs_review,figure,True,False,True,False,24,data/processed/crops/2025/DA2025-Q44.png
+DA2025-Q45,2025,45,DA,2,MCQ,0.6667,C,"A random experiment consists of throwing 100 fair dice, each die having six faces
+numbered 1 to 6. An event A represents the set of all outcomes where at least one of
+the dice shows a 1. Then, P(A) =",0,1,"5_{100}
+1 −
+6","5_{100}
+6",needs_review,display_math,True,False,False,False,24,data/processed/crops/2025/DA2025-Q45.png
+DA2025-Q46,2025,46,DA,2,MCQ,0.6667,D,"Consider a fact table in an OLAP application: Facts(D1, D2, val), where D1
+and D2 are its dimension attributes and val is a dependent attribute. Suppose attribute
+D1 takes 3 values and D2 takes 2 values, and all combinations of these values are present
+in the table Facts. How many tuples are there in the result of the following query?
+      SELECT D1, D2, sum(val)
+      FROM Facts
+      GROUP BY CUBE (D1, D2);",1,6,9,12,clean,,False,True,False,False,25,data/processed/crops/2025/DA2025-Q46.png
+DA2025-Q47,2025,47,DA,2,MCQ,0.6667,B,"Consider the following Python code snippet.
+A={""this"",""that""}
+B={""that"",""other""}
+C={""other"",""this""}
+while ""other"" in C:
+   if ""this"" in A:
+      A,B,C=A-B,B-C,C-A
+   if ""that"" in B:
+      A,B,C=C|A,A|B,B|C
+When the above program is executed, at the end, which of the following sets contains
+""this""?",Only A,Only B,Only C,"A, C",clean,,True,True,False,False,26,data/processed/crops/2025/DA2025-Q47.png
+DA2025-Q48,2025,48,DA,2,MSQ,0.0,A;C,"Which of the following statements is/are correct about the rectified linear unit (ReLU)
+activation function defined as ReLU(x) = max(x, 0), where x ∈ R?",ReLU is continuous everywhere,ReLU is differentiable everywhere,ReLU is not differentiable at x = 0,"ReLU(x) = ReLU(ax), for all a ∈ R",clean,,True,False,False,False,26,data/processed/crops/2025/DA2025-Q48.png
+DA2025-Q49,2025,49,DA,2,MSQ,0.0,C;D,"Consider the function f(x) = x3^3 + 72x^2 + 10 x + 123 3, x ∈ [−8, 0]. Which of the
+following statements is/are correct?",The maximum value of f is attained at x = −5,The minimum value of f is attained at x = −2,"The maximum value of f is 133
+2","The minimum value of the derivative of f is attained at x = −7
+2",needs_review,display_math,True,False,False,False,27,data/processed/crops/2025/DA2025-Q49.png
+DA2025-Q50,2025,50,DA,2,MSQ,0.0,A;B,"Let x_1, x_2, x_3, x_4, x_5 be a system of orthonormal vectors in R^{10}. Consider the matrix
+A = x_1x^{⊤}_1 + . . . + x_5x^{⊤}_5 . Which of the following statements is/are correct?",Singular values of A are also its eigenvalues,Singular values of A are either 0 or 1,Determinant of A is 1,A is invertible,clean,,True,False,False,False,27,data/processed/crops/2025/DA2025-Q50.png
+DA2025-Q51,2025,51,DA,2,MSQ,0.0,B;C;D,"Let f : R → R be a twice-differentiable function and suppose its second derivative
+satisfies f ^{′′}(x) > 0 for all x ∈ R. Which of the following statements is/are ALWAYS
+correct?",f has a local minima,"There does not exist x and y, x ≠ y, such that f ^{′}(x) = f ^{′}(y) = 0",f has at most one global minimum,f has at most one local minimum,clean,,True,False,False,False,27,data/processed/crops/2025/DA2025-Q51.png
+DA2025-Q52,2025,52,DA,2,MSQ,0.0,A;D,"An n × n matrix A with real entries satisfies the property: ∥Ax∥^2 = ∥x∥^2, for all
+x ∈ R^n, where ∥ · ∥ denotes the Euclidean norm. Which of the following statements
+is/are ALWAYS correct?",A must be orthogonal,"A = I, where I denotes the identity matrix, is the only solution",The eigenvalues of A are either +1 or −1,A has full rank,clean,,True,False,False,False,28,data/processed/crops/2025/DA2025-Q52.png
+DA2025-Q53,2025,53,DA,2,MSQ,0.0,B;C,"Consider designing a linear binary classifier f(x) = sign(w^{⊤}x + b), x ∈ R^2 on the
+following training data:
+         
+  2  0  2   0 
+Class-1: , ,
+ , Class-2: 
+ 0 2 2  0 
+Hard-margin support vector machine (SVM) formulation is solved to obtain w and b.
+Which of the following options is/are correct?
+ ","w =  4  and b = 1
+4",The number of support vectors is 3,"√
+The margin is 2",Training accuracy is 98%,needs_review,display_math;unmapped_glyphs,True,False,False,False,28,data/processed/crops/2025/DA2025-Q53.png
+DA2025-Q54,2025,54,DA,2,MSQ,0.0,A;C,"Consider a coin-toss experiment where the probability of head showing up is p. In the
+i^{th} coin toss, let X_i = 1 if head appears, and X_i = 0 if tail appears. Consider
+n
+pb = 1 XX_i
+n
+i=1
+where n is the total number of independent coin tosses.
+Which of the following statements is/are correct?",E[ pb ] = p,E[ pb ] = np,"As n increases, variance of pb decreases",Variance of pb does not depend on n,needs_review,display_math,True,False,False,False,29,data/processed/crops/2025/DA2025-Q54.png
+DA2025-Q55,2025,55,DA,2,MSQ,0.0,B;C,"Consider a two-class problem in R^d with class labels red and green. Let µred and
+µgreen be the means of the two classes. Given test sample x ∈ R^d, a classifier calculates
+the squared Euclidean distance (denoted by ∥ · ∥^2) between x and the means of the two
+classes and assigns the class label that the sample x is closest to. That is, the classifier
+computes
+f(x) = ∥µred − x∥^2 − ∥µgreen − x∥^2
+and assigns the label red to x if f(x) < 0, and green otherwise. Which of the following
+statements is/are correct?",The sample x = 0 is assigned the label green if ∥µred∥ < ∥µgreen∥,f is a linear function of x,"f(x) = w^{⊤}x + b, where w and b are functions of µred and µgreen",f is a quadratic polynomial in x,clean,,True,False,False,False,29,data/processed/crops/2025/DA2025-Q55.png
+DA2025-Q56,2025,56,DA,2,MSQ,0.0,B;C,"Consider the following two relations, named Customer and Person, in a database:
+Person (
+      aadhaar CHAR(12) PRIMARY KEY,
+      name VARCHAR(32));
+Customer (
+      name VARCHAR(32),
+      email VARCHAR(32) PRIMARY KEY,
+      phone CHAR(10),
+      aadhaar CHAR(12),
+         FOREIGN KEY (aadhaar) REFERENCES Person(aadhaar));
+Which of the following statements is/are correct?",aadhaar is a candidate key in the Customer relation,phone can be NULL in the Customer relation,aadhaar is a candidate key in the Person relation,aadhaar can be NULL in the Person relation,clean,,False,True,False,False,30,data/processed/crops/2025/DA2025-Q56.png
+DA2025-Q57,2025,57,DA,2,MSQ,0.0,B;D,"Consider a database relation R with attributes ABCDEFG, and having the following
+functional dependencies:
+A → BCEF E → DG BC → A
+Which of the following statements is/are correct?",A is the only candidate key of R,"A, BC are the candidate keys of R","A, BC, E are the candidate keys of R",Relation R is not in Boyce-Codd Normal Form (BCNF),clean,,True,False,False,False,31,data/processed/crops/2025/DA2025-Q57.png
+DA2025-Q58,2025,58,DA,2,MSQ,0.0,A;C;D,"Let G be a simple, unweighted, and undirected graph. A subset of the vertices and
+edges of G are shown below.
+a b c d
+e f g h
+It is given that a − b − c − d is a shortest path between a and d; e − f − g − h is a
+shortest path between e and h; a −f −c −h is a shortest path between a and h. Which
+of the following is/are NOT the edges of G?","(b, d)","(b, g)","(b, h)","(e, g)",needs_review,figure,True,False,True,False,31,data/processed/crops/2025/DA2025-Q58.png
+DA2025-Q59,2025,59,DA,2,NAT,0.0,0 to 0,"Let f : R → R be such that |f(x) − f(y)| ≤ (x − y)^2 for all x, y ∈ R. Then
+f(1) − f(0) = (Answer in integer)",,,,,clean,,True,False,False,False,31,data/processed/crops/2025/DA2025-Q59.png
+DA2025-Q60,2025,60,DA,2,NAT,0.0,100 to 100,"Let D = {x^{(1)}, . . . , x^{(n)}} be a dataset of n observations where each x^{(i)} ∈ R^{100}. It
+n
+is given that Xx^{(i)} = 0. The covariance matrix computed from D has eigenvalues
+i=1
+λ_i = 100^{2−i}, 1 ≤ i ≤ 100. Let u ∈ R^{100} be the direction of maximum variance with
+u^{⊤}u = 1.
+The value of
+n
+1 X u⊤x(i)^2 =
+ 
+n
+i=1
+(Answer in integer)",,,,,needs_review,display_math,True,False,False,False,32,data/processed/crops/2025/DA2025-Q60.png
+DA2025-Q61,2025,61,DA,2,NAT,0.0,66.6 to 66.7,"A bag contains 5 white balls and 10 black balls. In a random experiment, n balls are
+drawn from the bag one at a time with replacement. Let S_n denote the total number of
+black balls drawn in the experiment.
+The expectation of S_{100} denoted by E[S_{100}] =
+(Round off to one decimal place)",,,,,clean,,True,False,False,False,32,data/processed/crops/2025/DA2025-Q61.png
+DA2025-Q62,2025,62,DA,2,NAT,0.0,1 to 1,"Consider the following tables, Loan and Borrower, of a bank.
+Borrower
+Loan customer name loan num
+loan num branch name amount Anand L11
+L11 Banjara Hills 90000 Karteek L11
+L14 Kondapur 50000 Karteek L14
+L15 SR Nagar 40000 Ankita L15
+L22 SR Nagar 25000 Gopal L19
+L23 Balanagar 80000 Karteek L22
+L25 Kondapur 70000 Karteek L23
+L19 SR Nagar 65000 Sunil L23
+Sunil L25
+Query: π_{branch name, customer name}(Loan ▷◁ Borrower) ÷ π_{branch name}(Loan)
+where ▷◁ denotes natural join.
+The number of tuples returned by the above relational algebra query is
+(Answer in integer)",,,,,needs_review,table,True,False,False,True,32,data/processed/crops/2025/DA2025-Q62.png
+DA2025-Q63,2025,63,DA,2,NAT,0.0,160 to 160,"Consider the following Python code snippet.
+  def f(a,b):
+      if (a==0):
+          return b
+      if (a%2==1):
+          return 2*f((a-1)/2,b)
+      return b+f(a-1,b)
+  print(f(15,10))
+The value printed by the code snippet is (Answer in integer)",,,,,clean,,False,True,False,False,33,data/processed/crops/2025/DA2025-Q63.png
+DA2025-Q64,2025,64,DA,2,NAT,0.0,24 to 24,"Consider the following pseudocode.
+  Create empty stack S
+  Set x=0, flag=0, sum=0
+  Push x onto S
+  while (S is not empty){
+     if (flag equals 0){
+       Set x = x+1
+       Push x onto S}
+     if (x equals 8):
+       Set flag=1
+     if (flag equals 1){
+       x = Pop(S)
+       if (x is odd):
+          Pop(S)
+       Set sum = sum + x}
+   }
+   Output sum
+The value of sum output by a program executing the above pseudocode is
+(Answer in integer)",,,,,clean,,True,True,False,False,34,data/processed/crops/2025/DA2025-Q64.png
+DA2025-Q65,2025,65,DA,2,NAT,0.0,75 to 75,"Consider a directed graph G = (V, E), where V = {0, 1, 2, . . . , 100} and
+E = {(i, j) : 0 < j − i ≤ 2, for all i, j ∈ V }. Suppose the adjacency list of each
+vertex is in decreasing order of vertex number, and depth-first search (DFS) is per-
+formed at vertex 0. The number of vertices that will be discovered after vertex 50 is
+(Answer in integer)",,,,,clean,,True,False,False,False,34,data/processed/crops/2025/DA2025-Q65.png
+DA2026-Q01,2026,1,GA,1,MCQ,0.3333,B,"Verbosity : Brevity :: Insolence :___________
+Choose the word that best fills the blank.",Innocence,Respect,Solace,Wealth,clean,,False,False,False,False,1,data/processed/crops/2026/DA2026-Q01.png
+DA2026-Q02,2026,2,GA,1,MCQ,0.3333,B,"The product of the digits of a three-digit number is 70. The sum of the digits of
+this three-digit number is _____",12,14,16,18,clean,,True,False,False,False,1,data/processed/crops/2026/DA2026-Q02.png
+DA2026-Q03,2026,3,GA,1,MCQ,0.3333,A,"The four pieces of a puzzle are shown in the figure below.
+Which one of the figures labelled as P, Q, R, and S can be constructed by using
+each of the four pieces only once without overlaps?
+P Q
+R S",P,Q,R,S,needs_review,figure,False,False,True,False,2,data/processed/crops/2026/DA2026-Q03.png
+DA2026-Q04,2026,4,GA,1,MCQ,0.3333,C,"Consider two distinct positive real numbers m, n, with m > n.
+Let x = n^{log10(m)} and y = m^{log10(n)}. The relation between x and y is _______.",x > y,x < y,x = y,x = log_{10}(y),clean,,True,False,False,False,3,data/processed/crops/2026/DA2026-Q04.png
+DA2026-Q05,2026,5,GA,1,MCQ,0.3333,D,"‘If his latest movie had been a commercial success, the actor would have made
+enough money to sponsor his next movie.’
+Based only on the above sentence, which one of the following statements is true?",The actor will certainly sponsor his next movie.,His latest movie was a commercial success.,The actor made enough money from his latest movie.,His latest movie was not commercially successful.,clean,,False,False,False,False,3,data/processed/crops/2026/DA2026-Q05.png
+DA2026-Q06,2026,6,GA,2,MCQ,0.6667,A,"‘My friend and I parted __ the door __ the cabin that I had rented __ the night.’
+Choose the option with the correct sequence of words to fill the blanks.",at; of; for,for; at; of,of; for; in,in; of; for,clean,,False,False,False,False,4,data/processed/crops/2026/DA2026-Q06.png
+DA2026-Q07,2026,7,GA,2,MCQ,0.6667,B,"Five integers are picked from 0 to 20, with possible repetitions, such that their
+mean is 12, median is 18, and they have a single mode of 20.
+Ignoring permutations, the number of ways to pick these five integers is _____",0,1,2,3,clean,,False,False,False,False,4,data/processed/crops/2026/DA2026-Q07.png
+DA2026-Q08,2026,8,GA,2,MCQ,0.6667,D,"Rishi and Swathi are students of Class 5. Pavan and Tanvi are students of Class 4.
+Rishi and Pavan are boys. Swathi and Tanvi are girls. The four students played a
+total of three games of chess. The games were played one after another. A player
+who lost a game did not participate in any more games. It was observed that:
+(i) the first game was the only game where two students of the same class
+played against each other,
+(ii) the students of Class 5 won more games than the students of Class 4,
+and
+(iii) the boys won two games and the girls won one game.
+The student who did not lose any game is __________.",Pavan,Rishi,Swathi,Tanvi,clean,,False,False,False,False,5,data/processed/crops/2026/DA2026-Q08.png
+DA2026-Q09,2026,9,GA,2,MCQ,0.6667,C,"P, Q, R, S, X, and Y are distinct single-digit whole numbers taking values from
+0 to 9.
+PQ is a two-digit number with Q being in the units place and P in the tens place.
+Similarly, RS is a two-digit number.
+It is known that PQ and RS are consecutive numbers and
+(PQ)^2 + (RS)^2 = XYP, with XYP being a three-digit number.
+The value of Y is __________",4,5,6,7,clean,,True,False,False,False,6,data/processed/crops/2026/DA2026-Q09.png
+DA2026-Q10,2026,10,GA,2,MCQ,0.6667,C,"In the given figure, P, Q, and R are three points on a circle of radius 10 cm
+with O as its center, PQ̅̅̅̅ = RQ̅̅̅̅, and ∠PQR = 45°. The figure is representative.
+The area of the shaded region PQRO is ______________ cm^2.",50,25√2,50√2,100,needs_review,figure;display_math,True,False,True,False,7,data/processed/crops/2026/DA2026-Q10.png
+DA2026-Q11,2026,11,DA,1,MCQ,0.3333,B,"For a classification problem, Principal Component Analysis (PCA) has been used
+to reduce the dimensionality of a feature space from 100 to 10.
+Which of the following options is true about the angle θ between the first and the
+tenth principal components?",θ = 0°,θ = 90°,90° < θ ≤ 180°,0 < θ < 90°,clean,,True,False,False,False,8,data/processed/crops/2026/DA2026-Q11.png
+DA2026-Q12,2026,12,DA,1,MCQ,0.3333,C,"Consider that you are training a classifier for a 10-class classification problem.
+Each input is represented as a 512-dimensional vector. There are 1000 samples,
+out of which first 100 will be used for testing. Let Leave-One-Out-Cross-
+Validation (LOOCV) be used for selection of the classifier model before testing.
+Which of the following options is the correct number of validation splits that will
+be generated?",10,512,900,1000,clean,,False,False,False,False,8,data/processed/crops/2026/DA2026-Q12.png
+DA2026-Q13,2026,13,DA,1,MCQ,0.3333,C,Which of the following algorithms is NOT an example of uninformed search?,Breadth First Search,Depth First Search,A* Search,Depth-limited Search,clean,,False,False,False,False,9,data/processed/crops/2026/DA2026-Q13.png
+DA2026-Q14,2026,14,DA,1,MCQ,0.3333,C,"Which of the following statements is NOT true?
+(The names of the predicates are intuitive.)","∀x ∀y Classmate(x, y) ⇒ Classmate(y, x)","∀x Likes(x, Icecream) ⇒ ¬∃x ¬Likes(x, Icecream)",“Each king is a person” is equivalent to ∀x IsKing(x) ⋀ IsPerson(x),“All humans are mortal” is equivalent to ∀x IsHuman(x) ⇒ IsMortal(x),clean,,True,False,False,False,9,data/processed/crops/2026/DA2026-Q14.png
+DA2026-Q15,2026,15,DA,1,MCQ,0.3333,D,"Consider that the quick sort algorithm is used to sort an array of n distinct
+randomly ordered elements. In every call, the pivot is chosen as the first element
+of the current subarray.
+Let T(n) denote the expected time to sort the array. Assume that the time to
+partition is linear in the size of the current subarray.
+Which of the following recurrence relations correctly represents T(n) in this
+scenario?",T(n) = T(1) + T(n − 1) + O(n),"n 3n
+T(n) = T(_4) + T(_4 ) + O(n)","n
+T(n) = 2T(_2) + O(n)","1 n−1
+T(n) =_n ∑_{k=0}[T(k) + T(n − k − 1)]+ O(n)",needs_review,display_math,True,False,False,False,10,data/processed/crops/2026/DA2026-Q15.png
+DA2026-Q16,2026,16,DA,1,MCQ,0.3333,B,"Consider the given Python program.
+ def append_to_lst(val, lst=[]):
+      lst.append(val)
+      return lst
+ print(append_to_lst(1))
+ print(append_to_lst(2))
+ print(append_to_lst(3, []))
+Which of the following is the correct output of this program?","[1]
+[2]
+[3]","[1]
+[1, 2]
+[3]","[1]
+[2]
+[1, 2, 3]","[1]
+[1, 2]
+[1, 3]",clean,,False,True,False,False,11,data/processed/crops/2026/DA2026-Q16.png
+DA2026-Q17,2026,17,DA,1,MCQ,0.3333,A,"Let R(A,B,C,D,E) be a relational schema with functional dependency set
+F={A→BC, CD→E, E→A}.
+Which of the following statements is correct?","AD, ED and CD are the only candidate keys of R.",AD and ED are the only candidate keys of R.,"A, E and CD are the only candidate keys of R.",A and CD are the only candidate keys of R.,clean,,False,True,False,False,12,data/processed/crops/2026/DA2026-Q17.png
+DA2026-Q18,2026,18,DA,1,MCQ,0.3333,D,"Consider that the visualization of a 3-dimensional data cube is showing Sales
+Quantity for each combination of the attributes Product Type, Month and Country.
+From this, if we want to further visualize the Sales Quantity for each combination
+of Product Type, Month and State, which of the following OLAP operations
+should be performed?",Slicing,Dicing,Roll-up,Drill-down,clean,,False,False,False,False,12,data/processed/crops/2026/DA2026-Q18.png
+DA2026-Q19,2026,19,DA,1,MCQ,0.3333,C,"Let M be a randomly chosen non-empty subset of S = {1,2,3, … ,2026}.
+Which of the following is the probability that the product of all the elements of M
+is even?",2^{1013}(2^{1013} −1)/2^{2026},2^{1013}/2^{2026},2^{1013}(2^{1013} −1)/(2^{2026} −1),1/(2^{2026} − 1),clean,,True,False,False,False,13,data/processed/crops/2026/DA2026-Q19.png
+DA2026-Q20,2026,20,DA,1,MCQ,0.3333,A,"Suppose that a computer program provides a non-negative and integer-valued
+random solution to the equation n_1 + n_2 + n_3 + n_4 = 20.
+Which of the following is the probability that all of n_1, n_2, n_3, n_4 in the provided
+solution are positive?",(^1_3^9 )/(^2_3^3 ),(^2_4^0 )/(^2_4^4 ),(^2_3^0 )/(^2_3^3 ),(^1_4^9 )/(^2_4^4 ),needs_review,display_math,True,False,False,False,13,data/processed/crops/2026/DA2026-Q20.png
+DA2026-Q21,2026,21,DA,1,MCQ,0.3333,B,"Let M = (cosθ −sinθ^2_5^π , and
+sinθ cosθ) be a 2 × 2 matrix, where θ =
+I_2 = (1 0
+0 1).
+Which of the following options is equal to M^{2026} ?",M^2,M,M−1,I_2,needs_review,display_math,True,False,False,False,14,data/processed/crops/2026/DA2026-Q21.png
+DA2026-Q22,2026,22,DA,1,MCQ,0.3333,A,"Consider a set S_1 = {x = (x_1, x_2, x_3)^T ∈ ℝ^3 | x^Tx ≤ 16}. Let S_2 be another set
+which is a subspace of ℝ^3 with dimension two.
+Which of the following gives the area of S_1 ∩S_2?",16π,4π,4π^2,16π^2,clean,,True,False,False,False,14,data/processed/crops/2026/DA2026-Q22.png
+DA2026-Q23,2026,23,DA,1,MSQ,0.0,B,"In the following table, the Task column lists a few tasks related to machine
+learning. The Algorithm column lists a few algorithms.
+Each entry “t” from the Task column is to be matched with an appropriate entry
+“a” from the Algorithm column such that the task “t” can be solved using the
+algorithm “a”. Denote such a match as t:a
+     Task Algorithm
+     T1 – Clustering A1 – Markov Chain Monte Carlo
+     T2 – Classification A2 – K-Medoid
+     T3 – Sampling A3 – Linear Discriminant Analysis
+     T4 – Feature Extraction A4 – Naive Bayes
+Which of the following options is/are the correct matching(s)?","T1:A4, T2:A3, T3:A1, T4:A2","T1:A2, T2:A4, T3:A1, T4:A3","T1:A3, T2:A4, T3:A1, T4:A2","T1:A4, T2:A2, T3:A1, T4:A3",needs_review,table,False,True,False,True,15,data/processed/crops/2026/DA2026-Q23.png
+DA2026-Q24,2026,24,DA,1,MSQ,0.0,A;B;C,"Sentence X is said to entail Sentence Y if whenever X is TRUE, Y also must hold
+TRUE.
+Which of the following statements is/are correct if X entails Y?",X ⇒ Y,X ⋀¬Y is FALSE,if X then Y,if Y then X,clean,,True,False,False,False,16,data/processed/crops/2026/DA2026-Q24.png
+DA2026-Q25,2026,25,DA,1,MSQ,0.0,A;B,"You are given the following Pre-order and In-order traversals of a Binary Tree T
+with nodes E, F, G, P, Q, R, S.
+Pre-order: P Q S E R F G
+In-order: S Q E P F R G
+Which of the following statements is/are true about the Binary Tree T?",Node P is the root of T,"The Post-order traversal of T is:
+     S E Q F G R P",Node Q has only one child,The left subtree of node R contains the node G,clean,,False,True,False,False,17,data/processed/crops/2026/DA2026-Q25.png
+DA2026-Q26,2026,26,DA,1,MSQ,0.0,A;B,"Consider two relations r and s defined on the relational schemas R(A,B) and
+S(E,C), respectively. A is the primary key of R and E is a foreign key of S
+referencing A in R.
+Which of the following operations will NEVER violate the foreign key
+constraint?",Inserting records into relation r,Deleting records from relation s,Deleting records from relation r,Inserting records into relation s,clean,,False,True,False,False,18,data/processed/crops/2026/DA2026-Q26.png
+DA2026-Q27,2026,27,DA,1,MSQ,0.0,B;D,"Let f(x) = x^3 − 3x^2 + 2 be a function defined on (−1, 3].
+Which of the following statements is/are correct?","f(x) has exactly two roots in [−0.9, 0].",f(x) has a minimum at 2 only.,f(x) has maximum at 0 only.,f(x) has a root at 1.,clean,,True,False,False,False,18,data/processed/crops/2026/DA2026-Q27.png
+DA2026-Q28,2026,28,DA,1,MSQ,0.0,A;C,"Suppose a random variable Z follows Normal(μ = 0, σ^2 = 1) distribution with
+probability density function g(z) and cumulative distribution function G(z).
+Another random variable Y follows t_1 distribution with probability density
+function h(y) and cumulative distribution function H(y). Let c be the positive
+real number for which g(c) = h(c).
+Which of the following statements is/are correct?",G(0) = H(0),G(c) < H(c),G(−c) < H(−c),g(0) = h(0),clean,,True,False,False,False,19,data/processed/crops/2026/DA2026-Q28.png
+DA2026-Q29,2026,29,DA,1,NAT,0.0,8.9 to 9.1,"Consider that for a supervised learning task, the objective function being
+minimized is f_w(x) = wx, where x ∈ ℝ is the input and w ∈ ℝ is the parameter.
+Stochastic Gradient Descent with learning rate of 0.10 is used for parameter
+updates.
+Suppose that at the end of iteration i, the value of w becomes 10.00.
+Let x = 10.00 be the input for iteration (i + 1).
+The value of w at the end of iteration (i + 1) is __________ . (Rounded off to
+two decimal places)",,,,,clean,,True,False,False,False,20,data/processed/crops/2026/DA2026-Q29.png
+DA2026-Q30,2026,30,DA,1,NAT,0.0,2 to 2,"Consider the game tree for a two-player turn-taking minimax game as shown in
+the figure. The value of a terminal node represents the utility of the game state if
+the game ends there. The numbers written next to the edges denote the strategies.
+There are two players MAX and MIN. At any particular state of the game, MAX
+prefers to move to a state of maximum value. On the other hand, MIN prefers to
+move to a state of minimum value.
+Suppose MAX starts the game at the root and has three strategies: 1, 2 and 3.
+Next, MIN plays and also has three strategies: 1, 2 and 3. The game ends there.
+Both players always take optimal strategies throughout the game.
+At the root, the best strategy for MAX is ___________ . (Answer in integer)",,,,,needs_review,figure,False,False,True,False,20,data/processed/crops/2026/DA2026-Q30.png
+DA2026-Q31,2026,31,DA,1,NAT,0.0,10 to 10,"Let A be a sorted array containing 1000 distinct integers. You perform a recursive
+binary search on A to find an element y. Suppose each comparison checks whether
+the middle element computed during the current recursive step is equal to, less
+than, or greater than y.
+The maximum number of comparisons that may have to be performed if y is not
+an element of A is _______ . (Answer in integer)",,,,,clean,,False,True,False,False,20,data/processed/crops/2026/DA2026-Q31.png
+DA2026-Q32,2026,32,DA,1,NAT,0.0,195 to 195,"In a relational database, a B+ Tree Index is to be constructed for a relation on a
+key field. In a B+ Tree, a Node Pointer points to a sub-tree and a Data Record
+Pointer points to a block of database records.
+Let, Node size = 4096 bytes, Node Pointer size = 10 bytes, Search Key Field size
+= 11 bytes and Data Record Pointer size = 12 bytes.
+The maximum number of Node Pointers that can be present in a non-leaf node of
+the B+ Tree is ________ . (Answer in integer)",,,,,clean,,False,False,False,False,21,data/processed/crops/2026/DA2026-Q32.png
+DA2026-Q33,2026,33,DA,1,NAT,0.0,10 to 10,"The number of bijections f(⋅) from the set S = {1, 2, 3, 4} to itself such that
+f(f(n)) = n, for all n ∈ S, is __________ . (Answer in integer)",,,,,clean,,True,False,False,False,21,data/processed/crops/2026/DA2026-Q33.png
+DA2026-Q34,2026,34,DA,1,NAT,0.0,0.34 to 0.36,"Let X be an exponentially distributed random variable with mean λ(> 0). If
+P(X > 5) = 0.35, then the conditional probability P(X > 10|X > 5) is
+___________ . (Rounded off to two decimal places)",,,,,clean,,True,False,False,False,21,data/processed/crops/2026/DA2026-Q34.png
+DA2026-Q35,2026,35,DA,1,NAT,0.0,1 to 1,"The value of ∑^{∞}_{i=0} ∑^{∞} 2^{−i} 3^{−j} is ______________ . (Answer in integer)
+j=1",,,,,needs_review,display_math,True,False,False,False,21,data/processed/crops/2026/DA2026-Q35.png
+DA2026-Q36,2026,36,DA,2,MCQ,0.6667,D,"Let four points in three-dimensional space be:
+P1: [2, 3, −1], P2: [3, 1, 1], P3: [5, −2, 3] and P4: [3, 3, 3].
+Hierarchical Agglomerative Clustering is used to cluster the above points. If
+Manhattan Distance is used as the distance metric during clustering, which of the
+following options indicates the two points that will be merged first?","P1, P2","P2, P3","P3, P4","P2, P4",clean,,True,False,False,False,22,data/processed/crops/2026/DA2026-Q36.png
+DA2026-Q37,2026,37,DA,2,MCQ,0.6667,D,Which of the following statements is true for Ridge Regression?,"The regularizer in the objective function of Ridge Regression is used to guard
+against scenarios where the model works well for the test data, but poorly for the
+training data.",The regularizer of Ridge Regression uses L_1 norm.,"Ridge Regression aims to reduce the number of parameters that have negative
+values.","The regularizer of Ridge Regression may increase the bias of the model, but it
+helps in reducing the variance in predictions.",clean,,True,False,False,False,23,data/processed/crops/2026/DA2026-Q37.png
+DA2026-Q38,2026,38,DA,2,MCQ,0.6667,B,"Assume that a Creative (C) person will Succeed (S) if the person is also
+Disciplined (D), but will not succeed otherwise. Now, consider the following
+statements:
+(i) C ⋀ S ⇔ D
+(ii) C ⇒ (S ⟺ D)
+(iii) C ⇔ ((D ⇒ S) ∨ ¬S)
+Which of the following options is correct?",Both (i) and (ii) are TRUE,Only (ii) is TRUE,Both (ii) and (iii) are TRUE,Only (iii) is TRUE,needs_review,display_math,True,False,False,False,23,data/processed/crops/2026/DA2026-Q38.png
+DA2026-Q39,2026,39,DA,2,MCQ,0.6667,C,"A recursive function in Python is given.
+ def mystery(n):
+      if n <= 0:
+            return 1
+      else:
+            return mystery(n-1) + mystery(n-2)
+Now, consider the following function call:
+     mystery(4)
+Assume that a typical runtime stack is used to manage function calls. Each
+function call is pushed onto the stack and removed only after it finishes execution.
+Which of the following options denotes the total number of function calls (i.e., the
+total number of stack activations), including the initial call, to compute
+mystery(4)?",5,9,15,17,clean,,False,True,False,False,24,data/processed/crops/2026/DA2026-Q39.png
+DA2026-Q40,2026,40,DA,2,MCQ,0.6667,D,"Consider a directed graph G = (V, E), where V is the finite set of vertices and E is
+the set of directed edges between the vertices. G may contain cycles but there is no
+self-loop. Further, G may not be strongly connected.
+Let G^R be the graph obtained by reversing the directions of all the edges in G
+without changing the set of vertices.
+Assume that Breadth First Search (BFS) or Depth First Search (DFS) from any
+given vertex v of a graph visits only the reachable vertices from v in that graph.
+Which of the following statements must always be true, regardless of the structure
+of G?","If u is a reachable vertex in the BFS of G^R from v, then u is also a reachable
+vertex in the DFS of G from v.","In G^R, the BFS traversal from v will visit exactly the same set of vertices as the
+DFS from v in G.","The order of vertices visited in the BFS of G^R from v is the reverse of the order of
+vertices visited in the DFS of G from v.","If u is a reachable vertex in the DFS of G from v, then v is also a reachable vertex
+in the BFS of G^R from u.",clean,,True,False,False,False,25,data/processed/crops/2026/DA2026-Q40.png
+DA2026-Q41,2026,41,DA,2,MCQ,0.6667,A,"Consider a B+ Tree where the maximum number of key values in each leaf node
+is 2 and the maximum number of pointers in each non-leaf node is 3. Let the
+content of the B+ Tree be as shown in the figure.
+Which of the following options denotes the key value(s) stored in the root node
+after inserting a key value 3 in the given B+ Tree?",5,8,3 and 5,"3, 5 and 8",needs_review,figure,False,False,True,False,26,data/processed/crops/2026/DA2026-Q41.png
+DA2026-Q42,2026,42,DA,2,MCQ,0.6667,D,"Consider the given relations X, Y and Z. The relation X has three columns P, Q
+and R. The relation Y has three columns P, Q and S. The relation Z has two
+columns P and T.
+X Y Z
+P Q R P Q S P T
+P1 Q1 R1 P1 Q1 2 P1 T1
+P2 Q2 R2 P1 Q2 5 P3 T2
+P3 Q3 R2 P2 Q1 6 P4 T3
+P3 Q3 1 P4 NULL
+Consider the relational algebra expression
+∏_{PRS}[(σ_{(Q = Q3 ∨ R = R2)}[X ⨝ Y])⨝(σ_{(S > 1)}[Y ⨝ Z])]
+where ⨝ denotes natural join operation.
+Which of the following options is the correct output for the given expression?","Two rows (P1, R1, 2) and (P1, R1, 5)","Three rows (P1, R1, 2), (P1, R1, 5) and (P2, R2, 6)","One row (P1, R1, 2)",Zero rows,needs_review,table;display_math,True,False,False,True,27,data/processed/crops/2026/DA2026-Q42.png
+DA2026-Q43,2026,43,DA,2,MCQ,0.6667,A,"Consider the concept hierarchies as shown in the figure.
+Which of the following options denotes the total number of possible data cuboids
+from these concept hierarchies?",4^3,2^3,2!,4!,needs_review,figure,True,False,True,False,28,data/processed/crops/2026/DA2026-Q43.png
+DA2026-Q44,2026,44,DA,2,MCQ,0.6667,A,"Let X and Y be two independent random variables. X follows Bernoulli(p = 0.3)
+distribution and Y follows Normal(μ = 0, σ^2 = 100) distribution.
+Which of the following options is the variance of (2X − 1)Y ?",100,90,49,21,clean,,True,False,False,False,29,data/processed/crops/2026/DA2026-Q44.png
+DA2026-Q45,2026,45,DA,2,MCQ,0.6667,A,"Let
+n
+L = _nli_{→}m_{∞} ∑e^{−}k^n!n^k
+k=0
+Which of the following is the value of L?",0.5,1.0,0,e−1,needs_review,display_math,True,False,False,False,29,data/processed/crops/2026/DA2026-Q45.png
+DA2026-Q46,2026,46,DA,2,MCQ,0.6667,C,"1 0 0
+Let γ_1, γ_2, γ_3 be the eigenvalues of the matrix [0 cos t sin t],
+0 −sin t cos t
+where t ∈ [−π, π] is in radians.
+Which one of the following options lists all the possible values of t satisfying
+γ_1 + γ_2 + γ_3 = 1 + √2 ?","π π
+{_3 , −_4}","π π
+{_4 , −_3}","π π
+{_4 , −_4}","π π
+{_3 , −_3}",needs_review,display_math,True,False,False,False,30,data/processed/crops/2026/DA2026-Q46.png
+DA2026-Q47,2026,47,DA,2,MSQ,0.0,A;B,"Consider that 20 stories of Author X and 10 stories of Author Y were kept together
+without mentioning the names of the authors. A classifier was then asked to
+predict the author (X or Y) of each of these stories. Let, out of X’s stories, 6 were
+classified as that of Y. On the other hand, out of Y’s stories, 2 were classified as
+that of X.
+Considering X and Y as two classes, which of the following statements is/are true?",Accuracy of the classifier is 11/15.,Precision of Class X is higher than the Precision of Class Y.,Recall of Class X is higher than the Recall of Class Y.,Accuracy of the classifier is 14/15.,clean,,False,True,False,False,31,data/processed/crops/2026/DA2026-Q47.png
+DA2026-Q48,2026,48,DA,2,MSQ,0.0,B;C;D,"Let P(x) be a predicate.
+Which of the following statements is/are NOT valid in first-order logic?",∀x P(x) ⇒ ∃x P(x),∃x P(x) ⇒ ∀x P(x),∃x P(x) ⇔ ∀x P(x),∀x P(x) ⇒ ∃x ¬P(x),clean,,True,False,False,False,31,data/processed/crops/2026/DA2026-Q48.png
+DA2026-Q49,2026,49,DA,2,MSQ,0.0,B;C;D,"Consider the problem of sorting the given array in ascending order:
+     P = [1, 2, 3, 5, 4]
+Consider two sorting algorithms Bubble Sort (BS) and Insertion Sort (IS).
+Let N1 be the total number of comparisons done by BS on the elements of P and
+N2 be the total number of comparisons done by IS on the elements of P.
+Which of the following options is/are correct?","N1 = 10, N2 = 4",N1 > N2,IS on P will perform only one swap,"Both BS and IS on P will make at least one unnecessary comparison (i.e.,
+comparing elements that are already in correct order)",clean,,False,True,False,False,32,data/processed/crops/2026/DA2026-Q49.png
+DA2026-Q50,2026,50,DA,2,MSQ,0.0,B;D,"Consider the given Python program.
+ def outer():
+      x = []
+      def inner(val):
+            x.append(val)
+            return x
+      return inner
+ f1 = outer()
+ f2 = outer()
+ print(f1(10)) # Line P
+ print(f1(20)) # Line Q
+ print(f2(30)) # Line R
+ print(f1(40)) # Line S
+Which of the following options is/are correct?",f1 and f2 share the same list x,"Output of Line Q is [10, 20]","Output of Line R is [10, 20, 30]","Output of Line S is [10, 20, 40]",clean,,False,True,False,False,33,data/processed/crops/2026/DA2026-Q50.png
+DA2026-Q51,2026,51,DA,2,MSQ,0.0,A,"Consider a table Employee(EmpID, TeamID), where the column EmpID (ID of
+an employee) is the primary key. The column TeamID denotes the team ID of the
+team of which the employee is a member. TeamID is a NOT NULL column.
+We want to display the size of the team (denoted as TeamSize) in which each
+employee is a member by using SQL. As an example, the desired output for the
+given Employee table is also shown in tabular form.
+Which of the following is/are correct?
+     Employee Output
+  EmpID TeamID EmpID TeamSize
+    1 8 1 3
+    2 8 2 3
+    3 8 3 3
+    4 7 4 2
+    5 7 5 2
+    6 9 6 1","SELECT E.EmpID, B.TeamSize
+FROM Employee AS E, (SELECT TeamID, COUNT(TeamID) AS
+TeamSize FROM Employee GROUP BY TeamID) AS B
+WHERE E.TeamID = B.TeamID","SELECT A.EmpID, COUNT(B.TeamID) AS TeamSize
+FROM Employee AS A, Employee AS B
+WHERE A.TeamID = B.TeamID AND A.EmpID = B.EmpID
+GROUP BY A.EmpID","SELECT B.EmpID, B.TeamSize
+FROM (SELECT EmpID, COUNT(TeamID) AS TeamSize
+FROM Employee GROUP BY EmpID) AS B","SELECT A.EmpID, B.TeamSize
+FROM Employee AS A, (SELECT COUNT(TeamID) AS TeamSize FROM
+Employee GROUP BY TeamID) AS B
+WHERE A.TeamID = B.TeamID",needs_review,table,False,True,False,True,34,data/processed/crops/2026/DA2026-Q51.png
+DA2026-Q52,2026,52,DA,2,MSQ,0.0,A;D,"Let M = (I_n −_n^1 11^T) be a matrix, where 1 = (1,1,1, … ,1)^T ∈ ℝ^n and I_n is the
+identity matrix of order n.
+Which of the following options is/are correct?",M^T = M,M^2 = I_n,Trace(M) = n,M is a projection matrix,needs_review,display_math,True,False,False,False,35,data/processed/crops/2026/DA2026-Q52.png
+DA2026-Q53,2026,53,DA,2,MSQ,0.0,A;B;C,"Let X_1, X_2, … . , X_n be n independent random variables. Each of the random
+variables follows Normal(μ = 0, σ^2 = 1) distribution. Define X̅ =^{1 n} .
+_n ∑_{i=1} X_i
+Which of the following statements is/are correct?","∑^n X_i^2 follows Chi-square distribution with n degrees of freedom.
+i=1","∑^n (X_i − X̅)^2 follows Chi-square distribution with (n − 1) degrees of freedom.
+i=1",X_1^2 + X_n^2 follows exponential distribution with mean 2.,(√n X̅)^2 follows Chi-square distribution with 2 degrees of freedom.,needs_review,display_math,True,False,False,False,35,data/processed/crops/2026/DA2026-Q53.png
+DA2026-Q54,2026,54,DA,2,MSQ,0.0,B;C,"Let X be a discrete valued random variable with cumulative distribution function
+F(x).
+Which of the following statements is/are correct?",F(x) is always a positive function.,F(x) is a non-decreasing function.,F(x) has jump discontinuity.,F(x) is a left continuous function.,clean,,True,False,False,False,36,data/processed/crops/2026/DA2026-Q54.png
+DA2026-Q55,2026,55,DA,2,NAT,0.0,6.9 to 7.1,"Consider that Linear Ridge Regression is being used to learn a prediction function
+y_{pred} = w^Tx, where w, x ∈ ℝ^2 and Mean Absolute Error (MAE) is used to
+measure the prediction error. A weight of 0.20 is associated with the regularizer.
+At an intermediate step of the training process, assume that the parameter w =
+[−3.00, 4.00]^T. In the next step, for the input x = [1.00, 2.00]^T, the predicted
+value of y is noted. Let the relation between x = [x_1, x_2]^T and the true value of y
+be y_{true} = x_1 + x_2.
+The value of the overall regularized loss function for this instance is _______ .
+(Rounded off to two decimal places)",,,,,clean,,True,False,False,False,36,data/processed/crops/2026/DA2026-Q55.png
+DA2026-Q56,2026,56,DA,2,NAT,0.0,135 to 135,"Consider a fully-connected feed-forward multi-layer perceptron. It has 30 neurons
+in the input layer, followed by two hidden layers and an output layer. The first
+hidden layer has 4 neurons and the second hidden layer has 3 neurons. The output
+layer has only one neuron. Assume that no bias parameters are used.
+The number of learnable parameters in the multi-layer perceptron is __________ .
+(Answer in integer)",,,,,clean,,False,False,False,False,37,data/processed/crops/2026/DA2026-Q56.png
+DA2026-Q57,2026,57,DA,2,NAT,0.0,0.76 to 0.78,"A clinic specializes in testing for a disease D. The result of the test can be either
+positive or negative.
+A study revealed that if a person suffers from the disease D, the test result in that
+clinic comes out positive 80% of the time, and negative 20% of the time. If a
+person is not suffering from the disease D, the test comes out positive 10% of the
+time and negative 90% of the time. It is also known that among the general
+population, the disease D occurs in 30% of the individuals.
+If a person tests positive for D in that clinic, the probability that he/she actually
+suffers from the disease D is __________ . (Rounded off to two decimal places)",,,,,clean,,False,True,False,False,37,data/processed/crops/2026/DA2026-Q57.png
+DA2026-Q58,2026,58,DA,2,NAT,0.0,8 to 8,"Consider the given Python program.
+ def fun(L, i=0):
+      if i >= len(L)-1:
+            return 0
+      if L[i] > L[i+1]:
+            L[i+1], L[i] = L[i], L[i+1]
+            return 1+fun(L, i+1)
+      else:
+            return fun(L, i+1)
+ data = [5, 3, 4, 1, 2]
+ count = 0
+ for _ in range(len(data)):
+      count += fun(data)
+ print(count)
+The output of the program is __________ . (Answer in integer)",,,,,clean,,False,True,False,False,37,data/processed/crops/2026/DA2026-Q58.png
+DA2026-Q59,2026,59,DA,2,NAT,0.0,2 to 3,"Let there be two relations X and Y as shown. X has three columns P, Q and R. Y
+has two columns P and S.
+X Y
+P Q R P S
+P1 Q1 R1 P1 10
+P2 Q2 R2 P1 15
+P3 Q3 R2 P2 20
+P3 1
+Consider that the following tuple relational calculus expression is evaluated.
+{t|t ∈ X ⋀ ∃z ∈ X(t[P] = z[P]) ⋀ ∃m ∈ Y (m[P] = t[P] ⋀ m[S] > 1)}
+The number of tuples that will be returned is __________ . (Answer in integer)",,,,,needs_review,table;display_math,True,False,False,True,38,data/processed/crops/2026/DA2026-Q59.png
+DA2026-Q60,2026,60,DA,2,NAT,0.0,3 to 3,"Let Account be a relation as shown.
+                           Account
+                       AccNo Balance
+                        A1 5000
+                        A2 5000
+                        A3 10000
+                        A4 15000
+                        A5 18000
+Consider the given SQL query.
+SELECT AccNo FROM Account AS A
+WHERE (SELECT COUNT(*) FROM Account AS B
+WHERE A.Balance < B.Balance) >= (SELECT COUNT(*)
+FROM Account AS C WHERE A.Balance > C.Balance)
+The number of rows returned by the SQL query is __________ . (Answer in
+integer)",,,,,needs_review,table;display_math,False,True,False,True,38,data/processed/crops/2026/DA2026-Q60.png
+DA2026-Q61,2026,61,DA,2,NAT,0.0,4 to 4,"Consider an ER model with the entities E1(A11,A12,A13) and E2(A21,A22,A23),
+where, A11, A12, A13 are the attributes of E1, and A21, A22, A23 are the attributes of
+E2. Let A22 be a multi-valued attribute. A11 and A21 are the primary keys of E1 and
+E2, respectively.
+Let R12 be a many-to-many relationship between E1 and E2. Participation of both
+E1 and E2 in R12 is total.
+The minimum number of relations required to convert the ER model into
+relational model (assuming there is no other functional dependency) where each
+relation is in third normal form (3NF) is __________ . (Answer in integer)",,,,,clean,,False,True,False,False,39,data/processed/crops/2026/DA2026-Q61.png
+DA2026-Q62,2026,62,DA,2,NAT,0.0,10 to 10,"For a given data set {x_1, x_2, … . , x_n}, where n = 100, it is known that
+n n
+1
+2000 ∑∑(x_i − x_j)^2 = 99
+i=1 j=1
+Let us denote x̅ =^{1 n}
+_n ∑_{i=1} x_i
+The value of ^{1 n} (x_i − x̅)^2 is __________ . (Answer in integer)
+99 ∑i=1",,,,,needs_review,display_math,True,False,False,False,39,data/processed/crops/2026/DA2026-Q62.png
+DA2026-Q63,2026,63,DA,2,NAT,0.0,0 to 0,"Let X be a random variable that follows Uniform(−1,1) distribution. The
+conditional distribution of the random variable Y given X = x is the
+Uniform(x^2 − 0.1, x^2 + 0.1) distribution.
+The value of correlation(X, Y) is __________ . (Answer in integer)",,,,,clean,,True,False,False,False,39,data/processed/crops/2026/DA2026-Q63.png
+DA2026-Q64,2026,64,DA,2,NAT,0.0,0.08 to 0.12,"Let A_{5×5} be a matrix such that each of its elements follows Bernoulli(p = 0.50)
+distribution independently.
+The probability that the row-sum of the second row and the column-sum of the
+third column are both equal to 3 is ________ . (Rounded off to two decimal
+places)",,,,,clean,,True,False,False,False,39,data/processed/crops/2026/DA2026-Q64.png
+DA2026-Q65,2026,65,DA,2,NAT,0.0,1 to 1,"Let A = (I_n −_n^1 11^T) be a matrix, where 1 = (1,1,1, … ,1)^T ∈ ℝ^n and I_n is the
+identity matrix of order n.
+The value of maxx^TAx , where S = {x ∈ ℝ^n| x^Tx = 1}, is __________ .
+S
+(Answer in integer)",,,,,needs_review,display_math,True,False,False,False,39,data/processed/crops/2026/DA2026-Q65.png

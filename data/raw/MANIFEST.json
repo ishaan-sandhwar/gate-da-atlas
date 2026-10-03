@@ -1,0 +1,329 @@
+{
+  "fetched_at": "2026-10-03T01:15:41+00:00",
+  "documents": [
+    {
+      "filename": "2024_DA_paper.pdf",
+      "kind": "paper",
+      "year": 2024,
+      "subject": "DA",
+      "sha256": "8ba7f11014fc63413961cde0592da1ac67babf0bb0b488db33b5b86ade1db27b",
+      "bytes": 991009,
+      "primary_url": "https://gate2024.iisc.ac.in/wp-content/uploads/2024/DA24S1.pdf",
+      "url_checks": [
+        {
+          "url": "https://gate2024.iisc.ac.in/wp-content/uploads/2024/DA24S1.pdf",
+          "ok": true,
+          "sha256": "8ba7f11014fc63413961cde0592da1ac67babf0bb0b488db33b5b86ade1db27b",
+          "bytes": 991009
+        },
+        {
+          "url": "https://gate2025.iitr.ac.in/doc/download/2024/DA24S1.pdf",
+          "ok": true,
+          "sha256": "8ba7f11014fc63413961cde0592da1ac67babf0bb0b488db33b5b86ade1db27b",
+          "bytes": 991009
+        },
+        {
+          "url": "https://gate2026.iitg.ac.in/doc/download/2024/DA24S1.pdf",
+          "ok": true,
+          "sha256": "8ba7f11014fc63413961cde0592da1ac67babf0bb0b488db33b5b86ade1db27b",
+          "bytes": 991009
+        },
+        {
+          "url": "https://gate2027.iitm.ac.in/static/doc/download/2024/DA24S1.pdf",
+          "ok": true,
+          "sha256": "8ba7f11014fc63413961cde0592da1ac67babf0bb0b488db33b5b86ade1db27b",
+          "bytes": 991009
+        }
+      ],
+      "note": ""
+    },
+    {
+      "filename": "2025_DA_paper.pdf",
+      "kind": "paper",
+      "year": 2025,
+      "subject": "DA",
+      "sha256": "69ba28fc60e64338113d99c90533025049b7c6e0c99c4f03d76d5ce9d70478c6",
+      "bytes": 7897137,
+      "primary_url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
+      "url_checks": [
+        {
+          "url": "https://gate2025.iitr.ac.in/doc/2025/2025_QP/DA.pdf",
+          "ok": true,
+          "sha256": "69ba28fc60e64338113d99c90533025049b7c6e0c99c4f03d76d5ce9d70478c6",
+          "bytes": 7897137
+        },
+        {
+          "url": "https://gate2026.iitg.ac.in/doc/download/2025/DA2025.pdf",
+          "ok": true,
+          "sha256": "69ba28fc60e64338113d99c90533025049b7c6e0c99c4f03d76d5ce9d70478c6",
+          "bytes": 7897137
+        },
+        {
+          "url": "https://gate2027.iitm.ac.in/static/doc/download/2025/DA2025.pdf",
+          "ok": true,
+          "sha256": "69ba28fc60e64338113d99c90533025049b7c6e0c99c4f03d76d5ce9d70478c6",
+          "bytes": 7897137
+        }
+      ],
+      "note": ""
+    },
+    {
+      "filename": "2026_DA_paper.pdf",
+      "kind": "paper",
+      "year": 2026,
+      "subject": "DA",
+      "sha256": "4adb2f713433ec93748ff96bc04891dc10d877e8e4fb5fe7797e36ba87f298f3",
+      "bytes": 2116753,
+      "primary_url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+      "url_checks": [
+        {
+          "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/DA.pdf",
+          "ok": true,
+          "sha256": "4adb2f713433ec93748ff96bc04891dc10d877e8e4fb5fe7797e36ba87f298f3",
+          "bytes": 2116753
+        },
+        {
+          "url": "https://gate2027.iitm.ac.in/static/doc/download/2026/QPs/DA.pdf",
+          "ok": true,
+          "sha256": "4adb2f713433ec93748ff96bc04891dc10d877e8e4fb5fe7797e36ba87f298f3",
+          "bytes": 2116753
+        }
+      ],
+      "note": ""
+    },
+    {
+      "filename": "2024_DA_key.pdf",
+      "kind": "key",
+      "year": 2024,
+      "subject": "DA",
+      "sha256": "3dc72f5afde9eb2e87607c98d9e057a61ccd9ff798b6fe1ad831d1cee3cdb69d",
+      "bytes": 312215,
+      "primary_url": "https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf",
+      "url_checks": [
+        {
+          "url": "https://gate2024.iisc.ac.in/wp-content/uploads/2024/DAFinalAnswerKey.pdf",
+          "ok": true,
+          "sha256": "3dc72f5afde9eb2e87607c98d9e057a61ccd9ff798b6fe1ad831d1cee3cdb69d",
+          "bytes": 312215
+        },
+        {
+          "url": "https://gate2025.iitr.ac.in/doc/download/2024/DAFinalAnswerKey.pdf",
+          "ok": true,
+          "sha256": "3dc72f5afde9eb2e87607c98d9e057a61ccd9ff798b6fe1ad831d1cee3cdb69d",
+          "bytes": 312215
+        },
+        {
+          "url": "https://gate2026.iitg.ac.in/doc/download/2024/DAFinalAnswerKey.pdf",
+          "ok": true,
+          "sha256": "3dc72f5afde9eb2e87607c98d9e057a61ccd9ff798b6fe1ad831d1cee3cdb69d",
+          "bytes": 312215
+        },
+        {
+          "url": "https://gate2027.iitm.ac.in/static/doc/download/2024/DAFinalAnswerKey.pdf",
+          "ok": true,
+          "sha256": "3dc72f5afde9eb2e87607c98d9e057a61ccd9ff798b6fe1ad831d1cee3cdb69d",
+          "bytes": 312215
+        }
+      ],
+      "note": "Final answer key (released 2024-03-14)."
+    },
+    {
+      "filename": "2025_DA_key.pdf",
+      "kind": "key",
+      "year": 2025,
+      "subject": "DA",
+      "sha256": "081f108d4a2d617895b6859a9e715504391c87f9a6f13593548869d71b33dc40",
+      "bytes": 208959,
+      "primary_url": "https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf",
+      "url_checks": [
+        {
+          "url": "https://gate2025.iitr.ac.in/doc/2025/2025_Key/DA_Keys.pdf",
+          "ok": true,
+          "sha256": "081f108d4a2d617895b6859a9e715504391c87f9a6f13593548869d71b33dc40",
+          "bytes": 208959
+        },
+        {
+          "url": "https://gate2026.iitg.ac.in/doc/download/2025_Key/DA_Keys.pdf",
+          "ok": true,
+          "sha256": "081f108d4a2d617895b6859a9e715504391c87f9a6f13593548869d71b33dc40",
+          "bytes": 208959
+        },
+        {
+          "url": "https://gate2027.iitm.ac.in/static/doc/download/2025_Key/DA_Keys.pdf",
+          "ok": true,
+          "sha256": "081f108d4a2d617895b6859a9e715504391c87f9a6f13593548869d71b33dc40",
+          "bytes": 208959
+        }
+      ],
+      "note": ""
+    },
+    {
+      "filename": "2026_DA_key.pdf",
+      "kind": "key",
+      "year": 2026,
+      "subject": "DA",
+      "sha256": "f94cf2caf46e84cd06cc1591f375403b04466f8fa71e64ca87b49804d1e8dceb",
+      "bytes": 516882,
+      "primary_url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf",
+      "url_checks": [
+        {
+          "url": "https://gate2026.iitg.ac.in/doc/download/2026/Keys/DA_Keys.pdf",
+          "ok": true,
+          "sha256": "f94cf2caf46e84cd06cc1591f375403b04466f8fa71e64ca87b49804d1e8dceb",
+          "bytes": 516882
+        },
+        {
+          "url": "https://gate2027.iitm.ac.in/static/doc/download/2026/Keys/DA_Keys.pdf",
+          "ok": true,
+          "sha256": "f94cf2caf46e84cd06cc1591f375403b04466f8fa71e64ca87b49804d1e8dceb",
+          "bytes": 516882
+        }
+      ],
+      "note": ""
+    },
+    {
+      "filename": "2024_DA_syllabus.pdf",
+      "kind": "syllabus",
+      "year": 2024,
+      "subject": "DA",
+      "sha256": "af13df8105b778f31c09e2c70b046d89ffc9a363726863e90c2c478df0ebe747",
+      "bytes": 470784,
+      "primary_url": "https://gate2024.iisc.ac.in/wp-content/uploads/2023/08/GATE2024DataScienceAIsyllabus.pdf",
+      "url_checks": [
+        {
+          "url": "https://gate2024.iisc.ac.in/wp-content/uploads/2023/08/GATE2024DataScienceAIsyllabus.pdf",
+          "ok": true,
+          "sha256": "af13df8105b778f31c09e2c70b046d89ffc9a363726863e90c2c478df0ebe747",
+          "bytes": 470784
+        }
+      ],
+      "note": ""
+    },
+    {
+      "filename": "2025_DA_syllabus.pdf",
+      "kind": "syllabus",
+      "year": 2025,
+      "subject": "DA",
+      "sha256": "dec9c2ef4e1d846d6b893fb3ee48823f86a8d282b622acb62023136c5b10cb97",
+      "bytes": 173970,
+      "primary_url": "https://gate2025.iitr.ac.in/doc/2025/GATE%20_DA_2025_Syllabus.pdf",
+      "url_checks": [
+        {
+          "url": "https://gate2025.iitr.ac.in/doc/2025/GATE%20_DA_2025_Syllabus.pdf",
+          "ok": true,
+          "sha256": "dec9c2ef4e1d846d6b893fb3ee48823f86a8d282b622acb62023136c5b10cb97",
+          "bytes": 173970
+        }
+      ],
+      "note": ""
+    },
+    {
+      "filename": "2026_DA_syllabus.pdf",
+      "kind": "syllabus",
+      "year": 2026,
+      "subject": "DA",
+      "sha256": "4edfb576740e3dbaca8bad7895285a851e0a9193c274bf91be3af40aca127962",
+      "bytes": 535659,
+      "primary_url": "https://gate2026.iitg.ac.in/doc/GATE2026_Syllabus/DA_2026_Syllabus.pdf",
+      "url_checks": [
+        {
+          "url": "https://gate2026.iitg.ac.in/doc/GATE2026_Syllabus/DA_2026_Syllabus.pdf",
+          "ok": true,
+          "sha256": "4edfb576740e3dbaca8bad7895285a851e0a9193c274bf91be3af40aca127962",
+          "bytes": 535659
+        }
+      ],
+      "note": ""
+    },
+    {
+      "filename": "2027_DA_syllabus.pdf",
+      "kind": "syllabus",
+      "year": 2027,
+      "subject": "DA",
+      "sha256": "2e9fed7ac0f70331c8777852ed8a1d880d2206b1dac8f741a5c925ea24bc8b0e",
+      "bytes": 135687,
+      "primary_url": "https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/DA_GATE2027_Syllabus.pdf",
+      "url_checks": [
+        {
+          "url": "https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/DA_GATE2027_Syllabus.pdf",
+          "ok": true,
+          "sha256": "2e9fed7ac0f70331c8777852ed8a1d880d2206b1dac8f741a5c925ea24bc8b0e",
+          "bytes": 135687
+        }
+      ],
+      "note": ""
+    },
+    {
+      "filename": "2024_GA_syllabus.pdf",
+      "kind": "syllabus",
+      "year": 2024,
+      "subject": "GA",
+      "sha256": "88ede3d82fdfa45ea7a7f984348709b8ade87226d2e7676f2cb146e03e0bcf3e",
+      "bytes": 50158,
+      "primary_url": "https://gate2024.iisc.ac.in/wp-content/uploads/2023/08/GA2024Syllabus.pdf",
+      "url_checks": [
+        {
+          "url": "https://gate2024.iisc.ac.in/wp-content/uploads/2023/08/GA2024Syllabus.pdf",
+          "ok": true,
+          "sha256": "88ede3d82fdfa45ea7a7f984348709b8ade87226d2e7676f2cb146e03e0bcf3e",
+          "bytes": 50158
+        }
+      ],
+      "note": ""
+    },
+    {
+      "filename": "2025_GA_syllabus.pdf",
+      "kind": "syllabus",
+      "year": 2025,
+      "subject": "GA",
+      "sha256": "6422562629e7aa8f1422bd5c3b0f83ca756ffad705344206d14c21c4fded0221",
+      "bytes": 44884,
+      "primary_url": "https://gate2025.iitr.ac.in/doc/2024/GATE%20_GA_2025_Syllabus.pdf",
+      "url_checks": [
+        {
+          "url": "https://gate2025.iitr.ac.in/doc/2024/GATE%20_GA_2025_Syllabus.pdf",
+          "ok": true,
+          "sha256": "6422562629e7aa8f1422bd5c3b0f83ca756ffad705344206d14c21c4fded0221",
+          "bytes": 44884
+        }
+      ],
+      "note": ""
+    },
+    {
+      "filename": "2026_GA_syllabus.pdf",
+      "kind": "syllabus",
+      "year": 2026,
+      "subject": "GA",
+      "sha256": "8556714f0cd441b10c533b4fde8b9f4ce0df300168b16dcd23f54b2d08b38820",
+      "bytes": 465486,
+      "primary_url": "https://gate2026.iitg.ac.in/doc/GATE2026_Syllabus/GA_2026_Syllabus.pdf",
+      "url_checks": [
+        {
+          "url": "https://gate2026.iitg.ac.in/doc/GATE2026_Syllabus/GA_2026_Syllabus.pdf",
+          "ok": true,
+          "sha256": "8556714f0cd441b10c533b4fde8b9f4ce0df300168b16dcd23f54b2d08b38820",
+          "bytes": 465486
+        }
+      ],
+      "note": ""
+    },
+    {
+      "filename": "2027_GA_syllabus.pdf",
+      "kind": "syllabus",
+      "year": 2027,
+      "subject": "GA",
+      "sha256": "3708769a165e5019d4fa0d2af95786dee8fbf239976d7d403d810bd54b9d7603",
+      "bytes": 134210,
+      "primary_url": "https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/GA_GATE2027_Syllabus.pdf",
+      "url_checks": [
+        {
+          "url": "https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/GA_GATE2027_Syllabus.pdf",
+          "ok": true,
+          "sha256": "3708769a165e5019d4fa0d2af95786dee8fbf239976d7d403d810bd54b9d7603",
+          "bytes": 134210
+        }
+      ],
+      "note": ""
+    }
+  ]
+}

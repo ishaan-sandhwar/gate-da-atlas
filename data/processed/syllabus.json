@@ -1,0 +1,1092 @@
+{
+  "papers": {
+    "DA": {
+      "title": "Data Science and Artificial Intelligence",
+      "canonical_edition": 2027,
+      "editions": {
+        "2024": {
+          "identical_to_canonical": true,
+          "differences": []
+        },
+        "2025": {
+          "identical_to_canonical": true,
+          "differences": []
+        },
+        "2026": {
+          "identical_to_canonical": true,
+          "differences": []
+        },
+        "2027": {
+          "identical_to_canonical": true,
+          "differences": []
+        }
+      },
+      "sections": [
+        {
+          "id": "DA.PS",
+          "number": 1,
+          "title": "Probability and Statistics",
+          "official_text": "Counting (permutation and combinations), probability axioms, Sample space, events, independent events, mutually exclusive events, marginal, conditional and joint probability, Bayes Theorem, conditional expectation and variance, mean, median, mode and standard deviation, correlation, and covariance, random variables, discrete random variables and probability mass functions, uniform, Bernoulli, binomial distribution, Continuous random variables and probability distribution function, uniform, exponential, Poisson, normal, standard normal, t-distribution, chi-squared distributions, cumulative distribution function, Conditional PDF, Central limit theorem, confidence interval, z-test, t-test, chi-squared test",
+          "items": [
+            {
+              "id": "DA.PS.01",
+              "label": "Counting: permutations & combinations",
+              "cluster": "Probability foundations",
+              "official_text": "Counting (permutation and combinations)",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.02",
+              "label": "Probability axioms",
+              "cluster": "Probability foundations",
+              "official_text": "probability axioms",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.03",
+              "label": "Sample space",
+              "cluster": "Probability foundations",
+              "official_text": "Sample space",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.04",
+              "label": "Events",
+              "cluster": "Probability foundations",
+              "official_text": "events",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.05",
+              "label": "Independent events",
+              "cluster": "Probability foundations",
+              "official_text": "independent events",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.06",
+              "label": "Mutually exclusive events",
+              "cluster": "Probability foundations",
+              "official_text": "mutually exclusive events",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.07",
+              "label": "Marginal, conditional & joint probability",
+              "cluster": "Probability foundations",
+              "official_text": "marginal, conditional and joint probability",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.08",
+              "label": "Bayes' theorem",
+              "cluster": "Probability foundations",
+              "official_text": "Bayes Theorem",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.09",
+              "label": "Conditional expectation & variance",
+              "cluster": "Random variables & expectation",
+              "official_text": "conditional expectation and variance",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.10",
+              "label": "Mean, median, mode & standard deviation",
+              "cluster": "Descriptive statistics",
+              "official_text": "mean, median, mode and standard deviation",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.11",
+              "label": "Correlation & covariance",
+              "cluster": "Descriptive statistics",
+              "official_text": "correlation, and covariance",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.12",
+              "label": "Random variables",
+              "cluster": "Random variables & expectation",
+              "official_text": "random variables",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.13",
+              "label": "Discrete random variables & PMFs",
+              "cluster": "Random variables & expectation",
+              "official_text": "discrete random variables and probability mass functions",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.14",
+              "label": "Discrete uniform distribution",
+              "cluster": "Distributions",
+              "official_text": "uniform",
+              "note": "First 'uniform' of the official text, listed with the discrete distributions."
+            },
+            {
+              "id": "DA.PS.15",
+              "label": "Bernoulli distribution",
+              "cluster": "Distributions",
+              "official_text": "Bernoulli",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.16",
+              "label": "Binomial distribution",
+              "cluster": "Distributions",
+              "official_text": "binomial distribution",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.17",
+              "label": "Continuous random variables & PDFs",
+              "cluster": "Random variables & expectation",
+              "official_text": "Continuous random variables and probability distribution function",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.18",
+              "label": "Continuous uniform distribution",
+              "cluster": "Distributions",
+              "official_text": "uniform",
+              "note": "Second 'uniform' of the official text, listed with the continuous distributions."
+            },
+            {
+              "id": "DA.PS.19",
+              "label": "Exponential distribution",
+              "cluster": "Distributions",
+              "official_text": "exponential",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.20",
+              "label": "Poisson distribution",
+              "cluster": "Distributions",
+              "official_text": "Poisson",
+              "note": "The official text lists Poisson among the continuous distributions, although it is discrete."
+            },
+            {
+              "id": "DA.PS.21",
+              "label": "Normal distribution",
+              "cluster": "Distributions",
+              "official_text": "normal",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.22",
+              "label": "Standard normal distribution",
+              "cluster": "Distributions",
+              "official_text": "standard normal",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.23",
+              "label": "t-distribution",
+              "cluster": "Distributions",
+              "official_text": "t-distribution",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.24",
+              "label": "Chi-squared distribution",
+              "cluster": "Distributions",
+              "official_text": "chi-squared distributions",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.25",
+              "label": "Cumulative distribution function (CDF)",
+              "cluster": "Random variables & expectation",
+              "official_text": "cumulative distribution function",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.26",
+              "label": "Conditional PDF",
+              "cluster": "Random variables & expectation",
+              "official_text": "Conditional PDF",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.27",
+              "label": "Central limit theorem",
+              "cluster": "Statistical inference",
+              "official_text": "Central limit theorem",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.28",
+              "label": "Confidence intervals",
+              "cluster": "Statistical inference",
+              "official_text": "confidence interval",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.29",
+              "label": "z-test",
+              "cluster": "Statistical inference",
+              "official_text": "z-test",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.30",
+              "label": "t-test",
+              "cluster": "Statistical inference",
+              "official_text": "t-test",
+              "note": ""
+            },
+            {
+              "id": "DA.PS.31",
+              "label": "Chi-squared test",
+              "cluster": "Statistical inference",
+              "official_text": "chi-squared test",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "DA.LA",
+          "number": 2,
+          "title": "Linear Algebra",
+          "official_text": "Vector space, subspaces, linear dependence and independence of vectors, matrices, projection matrix, orthogonal matrix, idempotent matrix, partition matrix and their properties, quadratic forms, systems of linear equations and solutions; Gaussian elimination, eigenvalues and eigenvectors, determinant, rank, nullity, projections, LU decomposition, singular value decomposition",
+          "items": [
+            {
+              "id": "DA.LA.01",
+              "label": "Vector spaces",
+              "cluster": "Vector spaces",
+              "official_text": "Vector space",
+              "note": ""
+            },
+            {
+              "id": "DA.LA.02",
+              "label": "Subspaces",
+              "cluster": "Vector spaces",
+              "official_text": "subspaces",
+              "note": ""
+            },
+            {
+              "id": "DA.LA.03",
+              "label": "Linear dependence & independence",
+              "cluster": "Vector spaces",
+              "official_text": "linear dependence and independence of vectors",
+              "note": ""
+            },
+            {
+              "id": "DA.LA.04",
+              "label": "Matrices (general)",
+              "cluster": "Matrices",
+              "official_text": "matrices",
+              "note": ""
+            },
+            {
+              "id": "DA.LA.05",
+              "label": "Projection matrix",
+              "cluster": "Matrices",
+              "official_text": "projection matrix",
+              "note": ""
+            },
+            {
+              "id": "DA.LA.06",
+              "label": "Orthogonal matrix",
+              "cluster": "Matrices",
+              "official_text": "orthogonal matrix",
+              "note": ""
+            },
+            {
+              "id": "DA.LA.07",
+              "label": "Idempotent matrix",
+              "cluster": "Matrices",
+              "official_text": "idempotent matrix",
+              "note": ""
+            },
+            {
+              "id": "DA.LA.08",
+              "label": "Partitioned matrices & properties",
+              "cluster": "Matrices",
+              "official_text": "partition matrix and their properties",
+              "note": ""
+            },
+            {
+              "id": "DA.LA.09",
+              "label": "Quadratic forms",
+              "cluster": "Matrices",
+              "official_text": "quadratic forms",
+              "note": ""
+            },
+            {
+              "id": "DA.LA.10",
+              "label": "Systems of linear equations",
+              "cluster": "Linear systems",
+              "official_text": "systems of linear equations and solutions",
+              "note": ""
+            },
+            {
+              "id": "DA.LA.11",
+              "label": "Gaussian elimination",
+              "cluster": "Linear systems",
+              "official_text": "Gaussian elimination",
+              "note": ""
+            },
+            {
+              "id": "DA.LA.12",
+              "label": "Eigenvalues & eigenvectors",
+              "cluster": "Eigenvalues & decompositions",
+              "official_text": "eigenvalues and eigenvectors",
+              "note": ""
+            },
+            {
+              "id": "DA.LA.13",
+              "label": "Determinant",
+              "cluster": "Matrices",
+              "official_text": "determinant",
+              "note": ""
+            },
+            {
+              "id": "DA.LA.14",
+              "label": "Rank",
+              "cluster": "Linear systems",
+              "official_text": "rank",
+              "note": ""
+            },
+            {
+              "id": "DA.LA.15",
+              "label": "Nullity",
+              "cluster": "Linear systems",
+              "official_text": "nullity",
+              "note": ""
+            },
+            {
+              "id": "DA.LA.16",
+              "label": "Projections",
+              "cluster": "Vector spaces",
+              "official_text": "projections",
+              "note": ""
+            },
+            {
+              "id": "DA.LA.17",
+              "label": "LU decomposition",
+              "cluster": "Eigenvalues & decompositions",
+              "official_text": "LU decomposition",
+              "note": ""
+            },
+            {
+              "id": "DA.LA.18",
+              "label": "Singular value decomposition (SVD)",
+              "cluster": "Eigenvalues & decompositions",
+              "official_text": "singular value decomposition",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "DA.CO",
+          "number": 3,
+          "title": "Calculus and Optimization",
+          "official_text": "Functions of a single variable, limit, continuity and differentiability, Taylor series, maxima and minima, optimization involving a single variable",
+          "items": [
+            {
+              "id": "DA.CO.01",
+              "label": "Functions of a single variable",
+              "cluster": "Calculus",
+              "official_text": "Functions of a single variable",
+              "note": ""
+            },
+            {
+              "id": "DA.CO.02",
+              "label": "Limits",
+              "cluster": "Calculus",
+              "official_text": "limit",
+              "note": ""
+            },
+            {
+              "id": "DA.CO.03",
+              "label": "Continuity & differentiability",
+              "cluster": "Calculus",
+              "official_text": "continuity and differentiability",
+              "note": ""
+            },
+            {
+              "id": "DA.CO.04",
+              "label": "Taylor series",
+              "cluster": "Calculus",
+              "official_text": "Taylor series",
+              "note": ""
+            },
+            {
+              "id": "DA.CO.05",
+              "label": "Maxima & minima",
+              "cluster": "Optimization",
+              "official_text": "maxima and minima",
+              "note": ""
+            },
+            {
+              "id": "DA.CO.06",
+              "label": "Single-variable optimization",
+              "cluster": "Optimization",
+              "official_text": "optimization involving a single variable",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "DA.PD",
+          "number": 4,
+          "title": "Programming, Data Structures and Algorithms",
+          "official_text": "Programming in Python, basic data structures: stacks, queues, linked lists, trees, hash tables; Search algorithms: linear search and binary search, basic sorting algorithms: selection sort, bubble sort and insertion sort; divide and conquer: mergesort, quicksort; introduction to graph theory; basic graph algorithms: traversals and shortest path",
+          "items": [
+            {
+              "id": "DA.PD.01",
+              "label": "Programming in Python",
+              "cluster": "Python programming",
+              "official_text": "Programming in Python",
+              "note": ""
+            },
+            {
+              "id": "DA.PD.02",
+              "label": "Stacks",
+              "cluster": "Data structures",
+              "official_text": "stacks",
+              "note": ""
+            },
+            {
+              "id": "DA.PD.03",
+              "label": "Queues",
+              "cluster": "Data structures",
+              "official_text": "queues",
+              "note": ""
+            },
+            {
+              "id": "DA.PD.04",
+              "label": "Linked lists",
+              "cluster": "Data structures",
+              "official_text": "linked lists",
+              "note": ""
+            },
+            {
+              "id": "DA.PD.05",
+              "label": "Trees",
+              "cluster": "Data structures",
+              "official_text": "trees",
+              "note": ""
+            },
+            {
+              "id": "DA.PD.06",
+              "label": "Hash tables",
+              "cluster": "Data structures",
+              "official_text": "hash tables",
+              "note": ""
+            },
+            {
+              "id": "DA.PD.07",
+              "label": "Linear search",
+              "cluster": "Searching & sorting",
+              "official_text": "linear search",
+              "note": ""
+            },
+            {
+              "id": "DA.PD.08",
+              "label": "Binary search",
+              "cluster": "Searching & sorting",
+              "official_text": "binary search",
+              "note": ""
+            },
+            {
+              "id": "DA.PD.09",
+              "label": "Selection sort",
+              "cluster": "Searching & sorting",
+              "official_text": "selection sort",
+              "note": ""
+            },
+            {
+              "id": "DA.PD.10",
+              "label": "Bubble sort",
+              "cluster": "Searching & sorting",
+              "official_text": "bubble sort",
+              "note": ""
+            },
+            {
+              "id": "DA.PD.11",
+              "label": "Insertion sort",
+              "cluster": "Searching & sorting",
+              "official_text": "insertion sort",
+              "note": ""
+            },
+            {
+              "id": "DA.PD.12",
+              "label": "Merge sort",
+              "cluster": "Searching & sorting",
+              "official_text": "mergesort",
+              "note": ""
+            },
+            {
+              "id": "DA.PD.13",
+              "label": "Quicksort",
+              "cluster": "Searching & sorting",
+              "official_text": "quicksort",
+              "note": ""
+            },
+            {
+              "id": "DA.PD.14",
+              "label": "Graph theory basics",
+              "cluster": "Graphs",
+              "official_text": "introduction to graph theory",
+              "note": ""
+            },
+            {
+              "id": "DA.PD.15",
+              "label": "Graph traversals (BFS/DFS)",
+              "cluster": "Graphs",
+              "official_text": "traversals",
+              "note": ""
+            },
+            {
+              "id": "DA.PD.16",
+              "label": "Shortest paths",
+              "cluster": "Graphs",
+              "official_text": "shortest path",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "DA.DB",
+          "number": 5,
+          "title": "Database Management and Warehousing",
+          "official_text": "ER-model, relational model: relational algebra, tuple calculus, SQL, integrity constraints, normal form, file organization, indexing, data types, data transformation such as normalization, discretization, sampling, compression; data warehouse modelling: schema for multidimensional data models, concept hierarchies, measures: categorization and computations",
+          "items": [
+            {
+              "id": "DA.DB.01",
+              "label": "ER model",
+              "cluster": "Relational databases",
+              "official_text": "ER-model",
+              "note": ""
+            },
+            {
+              "id": "DA.DB.02",
+              "label": "Relational algebra",
+              "cluster": "Relational databases",
+              "official_text": "relational algebra",
+              "note": ""
+            },
+            {
+              "id": "DA.DB.03",
+              "label": "Tuple relational calculus",
+              "cluster": "Relational databases",
+              "official_text": "tuple calculus",
+              "note": ""
+            },
+            {
+              "id": "DA.DB.04",
+              "label": "SQL",
+              "cluster": "Relational databases",
+              "official_text": "SQL",
+              "note": ""
+            },
+            {
+              "id": "DA.DB.05",
+              "label": "Integrity constraints & keys",
+              "cluster": "Relational databases",
+              "official_text": "integrity constraints",
+              "note": ""
+            },
+            {
+              "id": "DA.DB.06",
+              "label": "Normal forms",
+              "cluster": "Relational databases",
+              "official_text": "normal form",
+              "note": ""
+            },
+            {
+              "id": "DA.DB.07",
+              "label": "File organization",
+              "cluster": "Storage & indexing",
+              "official_text": "file organization",
+              "note": ""
+            },
+            {
+              "id": "DA.DB.08",
+              "label": "Indexing (incl. B/B+ trees)",
+              "cluster": "Storage & indexing",
+              "official_text": "indexing",
+              "note": ""
+            },
+            {
+              "id": "DA.DB.09",
+              "label": "Data (attribute) types",
+              "cluster": "Data preprocessing",
+              "official_text": "data types",
+              "note": ""
+            },
+            {
+              "id": "DA.DB.10",
+              "label": "Data normalization (scaling)",
+              "cluster": "Data preprocessing",
+              "official_text": "normalization",
+              "note": "Data-transformation sense (feature scaling), not relational normal forms (see DA.DB.06)."
+            },
+            {
+              "id": "DA.DB.11",
+              "label": "Discretization",
+              "cluster": "Data preprocessing",
+              "official_text": "discretization",
+              "note": ""
+            },
+            {
+              "id": "DA.DB.12",
+              "label": "Sampling",
+              "cluster": "Data preprocessing",
+              "official_text": "sampling",
+              "note": ""
+            },
+            {
+              "id": "DA.DB.13",
+              "label": "Compression",
+              "cluster": "Data preprocessing",
+              "official_text": "compression",
+              "note": ""
+            },
+            {
+              "id": "DA.DB.14",
+              "label": "Multidimensional schemas (star/snowflake)",
+              "cluster": "Data warehousing",
+              "official_text": "schema for multidimensional data models",
+              "note": ""
+            },
+            {
+              "id": "DA.DB.15",
+              "label": "Concept hierarchies",
+              "cluster": "Data warehousing",
+              "official_text": "concept hierarchies",
+              "note": ""
+            },
+            {
+              "id": "DA.DB.16",
+              "label": "Measures: categorization & computation",
+              "cluster": "Data warehousing",
+              "official_text": "measures: categorization and computations",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "DA.ML",
+          "number": 6,
+          "title": "Machine Learning",
+          "official_text": "Supervised Learning: regression and classification problems, simple linear regression, multiple linear regression, ridge regression, logistic regression, k-nearest neighbour, naive Bayes classifier, linear discriminant analysis, support vector machine, decision trees, bias-variance trade-off, cross-validation methods such as leave-one-out (LOO) cross-validation, k-folds cross-validation, multi-layer perceptron, feed-forward neural network; Unsupervised Learning: clustering algorithms, k-means/k-medoid, hierarchical clustering, top-down, bottom-up: single-linkage, multiple-linkage, dimensionality reduction, principal component analysis",
+          "items": [
+            {
+              "id": "DA.ML.01",
+              "label": "Regression vs classification problems",
+              "cluster": "Supervised learning setup",
+              "official_text": "regression and classification problems",
+              "note": ""
+            },
+            {
+              "id": "DA.ML.02",
+              "label": "Simple linear regression",
+              "cluster": "Regression",
+              "official_text": "simple linear regression",
+              "note": ""
+            },
+            {
+              "id": "DA.ML.03",
+              "label": "Multiple linear regression",
+              "cluster": "Regression",
+              "official_text": "multiple linear regression",
+              "note": ""
+            },
+            {
+              "id": "DA.ML.04",
+              "label": "Ridge regression",
+              "cluster": "Regression",
+              "official_text": "ridge regression",
+              "note": ""
+            },
+            {
+              "id": "DA.ML.05",
+              "label": "Logistic regression",
+              "cluster": "Classification",
+              "official_text": "logistic regression",
+              "note": ""
+            },
+            {
+              "id": "DA.ML.06",
+              "label": "k-nearest neighbours",
+              "cluster": "Classification",
+              "official_text": "k-nearest neighbour",
+              "note": ""
+            },
+            {
+              "id": "DA.ML.07",
+              "label": "Naive Bayes classifier",
+              "cluster": "Classification",
+              "official_text": "naive Bayes classifier",
+              "note": ""
+            },
+            {
+              "id": "DA.ML.08",
+              "label": "Linear discriminant analysis (LDA)",
+              "cluster": "Classification",
+              "official_text": "linear discriminant analysis",
+              "note": ""
+            },
+            {
+              "id": "DA.ML.09",
+              "label": "Support vector machines",
+              "cluster": "Classification",
+              "official_text": "support vector machine",
+              "note": ""
+            },
+            {
+              "id": "DA.ML.10",
+              "label": "Decision trees",
+              "cluster": "Classification",
+              "official_text": "decision trees",
+              "note": ""
+            },
+            {
+              "id": "DA.ML.11",
+              "label": "Bias-variance trade-off",
+              "cluster": "Model evaluation & selection",
+              "official_text": "bias-variance trade-off",
+              "note": ""
+            },
+            {
+              "id": "DA.ML.12",
+              "label": "Leave-one-out cross-validation",
+              "cluster": "Model evaluation & selection",
+              "official_text": "leave-one-out (LOO) cross-validation",
+              "note": ""
+            },
+            {
+              "id": "DA.ML.13",
+              "label": "k-fold cross-validation",
+              "cluster": "Model evaluation & selection",
+              "official_text": "k-folds cross-validation",
+              "note": ""
+            },
+            {
+              "id": "DA.ML.14",
+              "label": "Multi-layer perceptron",
+              "cluster": "Neural networks",
+              "official_text": "multi-layer perceptron",
+              "note": ""
+            },
+            {
+              "id": "DA.ML.15",
+              "label": "Feed-forward neural networks",
+              "cluster": "Neural networks",
+              "official_text": "feed-forward neural network",
+              "note": ""
+            },
+            {
+              "id": "DA.ML.16",
+              "label": "Clustering algorithms (general)",
+              "cluster": "Clustering",
+              "official_text": "clustering algorithms",
+              "note": ""
+            },
+            {
+              "id": "DA.ML.17",
+              "label": "k-means / k-medoids",
+              "cluster": "Clustering",
+              "official_text": "k-means/k-medoid",
+              "note": ""
+            },
+            {
+              "id": "DA.ML.18",
+              "label": "Hierarchical clustering",
+              "cluster": "Clustering",
+              "official_text": "hierarchical clustering",
+              "note": ""
+            },
+            {
+              "id": "DA.ML.19",
+              "label": "Top-down (divisive) clustering",
+              "cluster": "Clustering",
+              "official_text": "top-down",
+              "note": ""
+            },
+            {
+              "id": "DA.ML.20",
+              "label": "Bottom-up (agglomerative) clustering",
+              "cluster": "Clustering",
+              "official_text": "bottom-up",
+              "note": ""
+            },
+            {
+              "id": "DA.ML.21",
+              "label": "Single linkage",
+              "cluster": "Clustering",
+              "official_text": "single-linkage",
+              "note": ""
+            },
+            {
+              "id": "DA.ML.22",
+              "label": "Multiple linkage",
+              "cluster": "Clustering",
+              "official_text": "multiple-linkage",
+              "note": "Official wording. Questions on complete or average linkage are tagged here."
+            },
+            {
+              "id": "DA.ML.23",
+              "label": "Dimensionality reduction (general)",
+              "cluster": "Dimensionality reduction",
+              "official_text": "dimensionality reduction",
+              "note": ""
+            },
+            {
+              "id": "DA.ML.24",
+              "label": "Principal component analysis (PCA)",
+              "cluster": "Dimensionality reduction",
+              "official_text": "principal component analysis",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "DA.AI",
+          "number": 7,
+          "title": "AI",
+          "official_text": "Search: informed, uninformed, adversarial; logic, propositional, predicate; reasoning under uncertainty topics — conditional independence representation, exact inference through variable elimination, and approximate inference through sampling",
+          "items": [
+            {
+              "id": "DA.AI.01",
+              "label": "Informed (heuristic) search",
+              "cluster": "Search",
+              "official_text": "informed",
+              "note": ""
+            },
+            {
+              "id": "DA.AI.02",
+              "label": "Uninformed search",
+              "cluster": "Search",
+              "official_text": "uninformed",
+              "note": ""
+            },
+            {
+              "id": "DA.AI.03",
+              "label": "Adversarial search (game trees)",
+              "cluster": "Search",
+              "official_text": "adversarial",
+              "note": ""
+            },
+            {
+              "id": "DA.AI.04",
+              "label": "Propositional logic",
+              "cluster": "Logic",
+              "official_text": "propositional",
+              "note": ""
+            },
+            {
+              "id": "DA.AI.05",
+              "label": "Predicate (first-order) logic",
+              "cluster": "Logic",
+              "official_text": "predicate",
+              "note": ""
+            },
+            {
+              "id": "DA.AI.06",
+              "label": "Conditional independence (Bayesian networks)",
+              "cluster": "Reasoning under uncertainty",
+              "official_text": "conditional independence representation",
+              "note": ""
+            },
+            {
+              "id": "DA.AI.07",
+              "label": "Exact inference: variable elimination",
+              "cluster": "Reasoning under uncertainty",
+              "official_text": "exact inference through variable elimination",
+              "note": ""
+            },
+            {
+              "id": "DA.AI.08",
+              "label": "Approximate inference: sampling",
+              "cluster": "Reasoning under uncertainty",
+              "official_text": "approximate inference through sampling",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    "GA": {
+      "title": "General Aptitude",
+      "canonical_edition": 2027,
+      "editions": {
+        "2024": {
+          "identical_to_canonical": true,
+          "differences": []
+        },
+        "2025": {
+          "identical_to_canonical": true,
+          "differences": []
+        },
+        "2026": {
+          "identical_to_canonical": true,
+          "differences": []
+        },
+        "2027": {
+          "identical_to_canonical": true,
+          "differences": []
+        }
+      },
+      "sections": [
+        {
+          "id": "GA.VA",
+          "number": 1,
+          "title": "Verbal Aptitude",
+          "official_text": "Basic English grammar: tenses, articles, adjectives, prepositions, conjunctions, verb-noun agreement, and other parts of speech. Basic vocabulary: words, idioms, and phrases in context. Reading and comprehension, Narrative sequencing",
+          "items": [
+            {
+              "id": "GA.VA.01",
+              "label": "English grammar",
+              "cluster": "Verbal Aptitude",
+              "official_text": "Basic English grammar: tenses, articles, adjectives, prepositions, conjunctions, verb-noun agreement, and other parts of speech",
+              "note": ""
+            },
+            {
+              "id": "GA.VA.02",
+              "label": "Vocabulary: words, idioms & phrases",
+              "cluster": "Verbal Aptitude",
+              "official_text": "Basic vocabulary: words, idioms, and phrases in context",
+              "note": ""
+            },
+            {
+              "id": "GA.VA.03",
+              "label": "Reading comprehension",
+              "cluster": "Verbal Aptitude",
+              "official_text": "Reading and comprehension",
+              "note": ""
+            },
+            {
+              "id": "GA.VA.04",
+              "label": "Narrative sequencing",
+              "cluster": "Verbal Aptitude",
+              "official_text": "Narrative sequencing",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "GA.QA",
+          "number": 2,
+          "title": "Quantitative Aptitude",
+          "official_text": "Data interpretation: data graphs (bar graphs, pie charts, and other graphs representing data), 2-and 3-dimensional plots, maps, and tables. Numerical computation and estimation: ratios, percentages, powers, exponents and logarithms, permutations and combinations, and series. Mensuration and geometry, Elementary statistics and probability",
+          "items": [
+            {
+              "id": "GA.QA.01",
+              "label": "Data interpretation (graphs, plots, maps, tables)",
+              "cluster": "Quantitative Aptitude",
+              "official_text": "Data interpretation: data graphs (bar graphs, pie charts, and other graphs representing data), 2-and 3-dimensional plots, maps, and tables",
+              "note": ""
+            },
+            {
+              "id": "GA.QA.02",
+              "label": "Ratios",
+              "cluster": "Quantitative Aptitude",
+              "official_text": "ratios",
+              "note": ""
+            },
+            {
+              "id": "GA.QA.03",
+              "label": "Percentages",
+              "cluster": "Quantitative Aptitude",
+              "official_text": "percentages",
+              "note": ""
+            },
+            {
+              "id": "GA.QA.04",
+              "label": "Powers, exponents & logarithms",
+              "cluster": "Quantitative Aptitude",
+              "official_text": "powers, exponents and logarithms",
+              "note": ""
+            },
+            {
+              "id": "GA.QA.05",
+              "label": "Permutations & combinations",
+              "cluster": "Quantitative Aptitude",
+              "official_text": "permutations and combinations",
+              "note": ""
+            },
+            {
+              "id": "GA.QA.06",
+              "label": "Series",
+              "cluster": "Quantitative Aptitude",
+              "official_text": "series",
+              "note": ""
+            },
+            {
+              "id": "GA.QA.07",
+              "label": "Mensuration & geometry",
+              "cluster": "Quantitative Aptitude",
+              "official_text": "Mensuration and geometry",
+              "note": ""
+            },
+            {
+              "id": "GA.QA.08",
+              "label": "Elementary statistics & probability",
+              "cluster": "Quantitative Aptitude",
+              "official_text": "Elementary statistics and probability",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "GA.AA",
+          "number": 3,
+          "title": "Analytical Aptitude",
+          "official_text": "Logic: deduction and induction, Analogy, Numerical relations and reasoning",
+          "items": [
+            {
+              "id": "GA.AA.01",
+              "label": "Logic: deduction & induction",
+              "cluster": "Analytical Aptitude",
+              "official_text": "Logic: deduction and induction",
+              "note": ""
+            },
+            {
+              "id": "GA.AA.02",
+              "label": "Analogy",
+              "cluster": "Analytical Aptitude",
+              "official_text": "Analogy",
+              "note": ""
+            },
+            {
+              "id": "GA.AA.03",
+              "label": "Numerical relations & reasoning",
+              "cluster": "Analytical Aptitude",
+              "official_text": "Numerical relations and reasoning",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "GA.SA",
+          "number": 4,
+          "title": "Spatial Aptitude",
+          "official_text": "Transformation of shapes: translation, rotation, scaling, mirroring, assembling, and grouping paper folding, cutting, and patterns in 2 and 3 dimensions",
+          "items": [
+            {
+              "id": "GA.SA.01",
+              "label": "Transformation of shapes",
+              "cluster": "Spatial Aptitude",
+              "official_text": "Transformation of shapes: translation, rotation, scaling, mirroring, assembling, and grouping",
+              "note": ""
+            },
+            {
+              "id": "GA.SA.02",
+              "label": "Paper folding, cutting & patterns (2D/3D)",
+              "cluster": "Spatial Aptitude",
+              "official_text": "paper folding, cutting, and patterns in 2 and 3 dimensions",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

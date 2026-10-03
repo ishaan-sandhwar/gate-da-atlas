@@ -1,0 +1,300 @@
+{
+  "generated_at": "2026-10-03T01:49:03+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "2024: 65 question numbers found in order",
+      "passed": true,
+      "detail": "found 65",
+      "level": "error"
+    },
+    {
+      "name": "2024: answer key has one row per question",
+      "passed": true,
+      "detail": "65 rows",
+      "level": "error"
+    },
+    {
+      "name": "2024: total marks = 100",
+      "passed": true,
+      "detail": "total 100",
+      "level": "error"
+    },
+    {
+      "name": "2024: GA has {1: 5, 2: 5} (marks: count)",
+      "passed": true,
+      "detail": "found {1: 5, 2: 5}",
+      "level": "error"
+    },
+    {
+      "name": "2024: DA has {1: 25, 2: 30} (marks: count)",
+      "passed": true,
+      "detail": "found {1: 25, 2: 30}",
+      "level": "error"
+    },
+    {
+      "name": "2024: Q1-Q10 are GA and the rest DA",
+      "passed": true,
+      "detail": "misplaced []",
+      "level": "error"
+    },
+    {
+      "name": "2024: mark headings printed in the paper agree with the key",
+      "passed": true,
+      "detail": "headings cover 35/65 questions; conflicts []",
+      "level": "error"
+    },
+    {
+      "name": "2024: every key answer is well-formed for its type",
+      "passed": true,
+      "detail": "malformed []",
+      "level": "error"
+    },
+    {
+      "name": "2024: keyed options exist in the parsed question",
+      "passed": true,
+      "detail": "questions []",
+      "level": "error"
+    },
+    {
+      "name": "2024: every question has a crop image",
+      "passed": true,
+      "detail": "missing []",
+      "level": "error"
+    },
+    {
+      "name": "2024: questions with marks-to-all (MTA)",
+      "passed": true,
+      "detail": "[59]",
+      "level": "warning"
+    },
+    {
+      "name": "2025: 65 question numbers found in order",
+      "passed": true,
+      "detail": "found 65",
+      "level": "error"
+    },
+    {
+      "name": "2025: answer key has one row per question",
+      "passed": true,
+      "detail": "65 rows",
+      "level": "error"
+    },
+    {
+      "name": "2025: total marks = 100",
+      "passed": true,
+      "detail": "total 100",
+      "level": "error"
+    },
+    {
+      "name": "2025: GA has {1: 5, 2: 5} (marks: count)",
+      "passed": true,
+      "detail": "found {1: 5, 2: 5}",
+      "level": "error"
+    },
+    {
+      "name": "2025: DA has {1: 25, 2: 30} (marks: count)",
+      "passed": true,
+      "detail": "found {1: 25, 2: 30}",
+      "level": "error"
+    },
+    {
+      "name": "2025: Q1-Q10 are GA and the rest DA",
+      "passed": true,
+      "detail": "misplaced []",
+      "level": "error"
+    },
+    {
+      "name": "2025: mark headings printed in the paper agree with the key",
+      "passed": true,
+      "detail": "headings cover 65/65 questions; conflicts []",
+      "level": "error"
+    },
+    {
+      "name": "2025: every key answer is well-formed for its type",
+      "passed": true,
+      "detail": "malformed []",
+      "level": "error"
+    },
+    {
+      "name": "2025: keyed options exist in the parsed question",
+      "passed": true,
+      "detail": "questions []",
+      "level": "error"
+    },
+    {
+      "name": "2025: every question has a crop image",
+      "passed": true,
+      "detail": "missing []",
+      "level": "error"
+    },
+    {
+      "name": "2025: questions with marks-to-all (MTA)",
+      "passed": true,
+      "detail": "none",
+      "level": "warning"
+    },
+    {
+      "name": "2026: 65 question numbers found in order",
+      "passed": true,
+      "detail": "found 65",
+      "level": "error"
+    },
+    {
+      "name": "2026: answer key has one row per question",
+      "passed": true,
+      "detail": "65 rows",
+      "level": "error"
+    },
+    {
+      "name": "2026: total marks = 100",
+      "passed": true,
+      "detail": "total 100",
+      "level": "error"
+    },
+    {
+      "name": "2026: GA has {1: 5, 2: 5} (marks: count)",
+      "passed": true,
+      "detail": "found {1: 5, 2: 5}",
+      "level": "error"
+    },
+    {
+      "name": "2026: DA has {1: 25, 2: 30} (marks: count)",
+      "passed": true,
+      "detail": "found {1: 25, 2: 30}",
+      "level": "error"
+    },
+    {
+      "name": "2026: Q1-Q10 are GA and the rest DA",
+      "passed": true,
+      "detail": "misplaced []",
+      "level": "error"
+    },
+    {
+      "name": "2026: mark headings printed in the paper agree with the key",
+      "passed": true,
+      "detail": "headings cover 65/65 questions; conflicts []",
+      "level": "error"
+    },
+    {
+      "name": "2026: every key answer is well-formed for its type",
+      "passed": true,
+      "detail": "malformed []",
+      "level": "error"
+    },
+    {
+      "name": "2026: keyed options exist in the parsed question",
+      "passed": true,
+      "detail": "questions []",
+      "level": "error"
+    },
+    {
+      "name": "2026: every question has a crop image",
+      "passed": true,
+      "detail": "missing []",
+      "level": "error"
+    },
+    {
+      "name": "2026: questions with marks-to-all (MTA)",
+      "passed": true,
+      "detail": "none",
+      "level": "warning"
+    },
+    {
+      "name": "raw PDFs match MANIFEST.json checksums",
+      "passed": true,
+      "detail": "",
+      "level": "error"
+    },
+    {
+      "name": "question ids are unique",
+      "passed": true,
+      "detail": "195 ids",
+      "level": "error"
+    },
+    {
+      "name": "syllabus curation covers every official phrase (checked during build)",
+      "passed": true,
+      "detail": "136 items",
+      "level": "error"
+    },
+    {
+      "name": "DA syllabus identical across editions 2024, 2025, 2026, 2027",
+      "passed": true,
+      "detail": "changed editions: none",
+      "level": "warning"
+    },
+    {
+      "name": "GA syllabus identical across editions 2024, 2025, 2026, 2027",
+      "passed": true,
+      "detail": "changed editions: none",
+      "level": "warning"
+    }
+  ],
+  "summary": {
+    "2024": {
+      "questions": 65,
+      "marks": 100,
+      "by_type": {
+        "MCQ": 37,
+        "MSQ": 12,
+        "NAT": 16
+      },
+      "by_section": {
+        "GA": 10,
+        "DA": 55
+      },
+      "clean": 33,
+      "needs_review": 32,
+      "review_reasons": {
+        "figure": 9,
+        "display_math": 19,
+        "table": 9,
+        "empty_text": 2,
+        "formatting_semantics": 2
+      }
+    },
+    "2025": {
+      "questions": 65,
+      "marks": 100,
+      "by_type": {
+        "MCQ": 35,
+        "MSQ": 18,
+        "NAT": 12
+      },
+      "by_section": {
+        "GA": 10,
+        "DA": 55
+      },
+      "clean": 34,
+      "needs_review": 31,
+      "review_reasons": {
+        "figure": 8,
+        "table": 4,
+        "display_math": 21,
+        "formatting_semantics": 1,
+        "unmapped_glyphs": 3
+      }
+    },
+    "2026": {
+      "questions": 65,
+      "marks": 100,
+      "by_type": {
+        "MCQ": 33,
+        "MSQ": 14,
+        "NAT": 18
+      },
+      "by_section": {
+        "GA": 10,
+        "DA": 55
+      },
+      "clean": 44,
+      "needs_review": 21,
+      "review_reasons": {
+        "figure": 5,
+        "display_math": 15,
+        "table": 5
+      }
+    }
+  }
+}
