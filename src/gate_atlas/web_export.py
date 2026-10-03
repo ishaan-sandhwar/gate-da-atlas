@@ -211,13 +211,15 @@ def export_web(out_dir: Path = PUBLIC_DIR) -> None:
     units = load_units(records, items)
     data_dir = WEB_DIR / "src" / "data"  # imported by the app, so the first frame needs no fetch
     data_dir.mkdir(parents=True, exist_ok=True)
-    (data_dir / "atlas.json").write_text(json.dumps(atlas_document(records, items, units), ensure_ascii=False), encoding="utf-8")
-    (data_dir / "questions.json").write_text(json.dumps(question_rows(records), ensure_ascii=False), encoding="utf-8")
+    atlas = json.dumps(atlas_document(records, items, units), ensure_ascii=False)
+    (data_dir / "atlas.json").write_text(atlas, encoding="utf-8", newline="\n")
+    questions = json.dumps(question_rows(records), ensure_ascii=False)
+    (data_dir / "questions.json").write_text(questions, encoding="utf-8", newline="\n")
     crops_out = out_dir / "crops"
     shutil.rmtree(crops_out, ignore_errors=True)
     shutil.copytree(CROPS_DIR, crops_out)
     FIXTURES_DIR.mkdir(parents=True, exist_ok=True)
     fixtures = {"units": [_unit_json(u) for u in units], "cases": planner_fixtures(units)}
-    (FIXTURES_DIR / "plans.json").write_text(json.dumps(fixtures, indent=1) + "\n", encoding="utf-8")
+    (FIXTURES_DIR / "plans.json").write_text(json.dumps(fixtures, indent=1) + "\n", encoding="utf-8", newline="\n")
     log.info("exported %d questions, %d units and %d crops to %s", len(records), len(units),
              sum(1 for _ in crops_out.rglob("*.png")), out_dir)
